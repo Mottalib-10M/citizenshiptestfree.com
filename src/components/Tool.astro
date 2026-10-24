@@ -41,3 +41,6 @@ for (const [k, v] of Object.entries(props)) if (typeof v === 'number') numDefaul
 {kind === 'date' && <ResidenceDate client:load lang={lang} country={country} idPrefix={idPrefix ?? 'd'} />}
 {kind === 'cost' && <CostTool client:load lang={lang} country={country} idPrefix={idPrefix ?? 'c'} />}
 {mini && <MiniSim client:load kind={mini} lang={lang} href={href} defaults={numDefaults} primary={primary} idPrefix={idPrefix ?? (primary ? 'p' : 'm')} />}
+{(kind === 'quiz' || kind === 'bank') && (country === 'au' || props.countrySelect) && lang === 'en' && (
+  <p class="mt-2 text-xs text-navy-600" data-attribution-au>Australian questions adapted from Australian Citizenship: Our Common Bond, © Commonwealth of Australia, <a class="underline" href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>, adapted by Radif Partners.</p>
+)}

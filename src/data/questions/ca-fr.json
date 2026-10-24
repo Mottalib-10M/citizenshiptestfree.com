@@ -54,7 +54,7 @@
     "8 provinces et 2 territoires"
    ],
    "answer": 0,
-   "explain": "Le Canada compte dix provinces et trois territoires : le Yukon, les Territoires du Nord-Ouest et le Nunavut. Chacun possède sa propre capitale, et le guide invite chaque nouvel arrivant à connaître celle de sa province ou de son territoire.",
+   "explain": "Le pays se compose de dix provinces auxquelles s’ajoutent trois territoires : le Yukon, les Territoires du Nord-Ouest et le Nunavut. Chacun a sa capitale, et tout nouvel arrivant devrait savoir nommer celle de l’endroit où il habite.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Les régions du Canada : Les provinces et les territoires",
@@ -114,7 +114,7 @@
     "Gens du pays"
    ],
    "answer": 2,
-   "explain": "Ô Canada a été proclamé hymne national en 1980. Francophones et anglophones le chantent sur la même musique, mais avec des paroles différentes ; on l’entend notamment lors des cérémonies officielles, des cérémonies de citoyenneté et des événements sportifs.",
+   "explain": "C’est en 1980 qu’Ô Canada est devenu officiellement l’hymne national. La musique est la même en français et en anglais, mais les paroles diffèrent d’une langue à l’autre ; on le chante entre autres aux cérémonies officielles, aux cérémonies de citoyenneté et lors des compétitions sportives.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Les symboles canadiens : L’hymne national",
@@ -174,7 +174,7 @@
     "La Proclamation royale"
    ],
    "answer": 1,
-   "explain": "Signée en 1215, la Magna Carta, aussi appelée Grande Charte des libertés, est à l’origine d’une tradition de huit siècles dont les Canadiens ont hérité : liberté de conscience et de religion, liberté d’expression, de réunion pacifique et d’association.",
+   "explain": "La Magna Carta, ou Grande Charte des libertés, signée en 1215, a lancé une tradition vieille de huit cents ans que le Canada a reçue en héritage : liberté de conscience et de religion, liberté d’expression, de se réunir pacifiquement et de s’associer.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Les droits et responsabilités liés à la citoyenneté : Les libertés fondamentales",
@@ -226,7 +226,7 @@
    "country": "ca",
    "lang": "fr",
    "chapter": "Les droits et responsabilités liés à la citoyenneté",
-   "q": "Que recouvre la responsabilité de « répondre à ses propres besoins et à ceux de sa famille » ?",
+   "q": "Que signifie, pour un citoyen, l’obligation de subvenir à ses besoins et à ceux de ses proches ?",
    "options": [
     "Avoir un emploi, prendre soin de sa famille et travailler selon ses capacités",
     "Vivre uniquement de l’aide sociale",
@@ -250,11 +250,11 @@
    "options": [
     "Comme une règle qui interdit les langues non officielles",
     "Comme une politique réservée aux grandes villes",
-    "Comme une caractéristique fondamentale de l’identité et du patrimoine canadiens",
+    "Comme un trait essentiel de l’identité canadienne et de son patrimoine",
     "Comme une exception tolérée à la culture officielle"
    ],
    "answer": 2,
-   "explain": "Le multiculturalisme figure parmi les éléments clés présentés avec la Charte. Les Canadiens s’efforcent de respecter le pluralisme et de vivre en harmonie, en voyant dans la présence de chacun une richesse pour tous.",
+   "explain": "Le multiculturalisme compte parmi les éléments clés mis en avant aux côtés de la Charte. Les Canadiens cherchent à vivre ensemble dans le respect de la diversité, en considérant que chaque personne enrichit la collectivité.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Les droits et responsabilités liés à la citoyenneté : La Charte canadienne des droits et libertés",
@@ -334,7 +334,7 @@
     "L’obligation d’adhérer à un parti"
    ],
    "answer": 1,
-   "explain": "Les libertés fondamentales des Canadiens comprennent la liberté de pensée, de croyance, d’opinion et d’expression, y compris la liberté de presse. Les médias peuvent ainsi informer la population et critiquer les gouvernements.",
+   "explain": "Parmi les libertés fondamentales figurent la liberté de pensée et de croyance, la liberté d’opinion et d’expression, et la liberté de la presse. Grâce à elle, les médias peuvent informer le public et critiquer les gouvernants.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Les droits et responsabilités liés à la citoyenneté : Les libertés fondamentales",
@@ -368,7 +368,7 @@
    "chapter": "Les droits et responsabilités liés à la citoyenneté",
    "q": "La primauté du droit, l’un des principes fondateurs du Canada, signifie que :",
    "options": [
-    "Les individus et les gouvernements sont régis par des lois, et non par des décisions arbitraires",
+    "Les citoyens comme les gouvernements doivent obéir aux lois, et non à l’arbitraire",
     "Chaque province peut ignorer la Constitution",
     "Les lois s’appliquent seulement aux nouveaux arrivants",
     "Le premier ministre peut suspendre les lois à sa guise"
@@ -474,7 +474,7 @@
     "La Grande Paix"
    ],
    "answer": 2,
-   "explain": "Pendant la guerre entre la Grande-Bretagne et la France, plus des deux tiers des Acadiens ont été chassés de leurs terres. Malgré cette épreuve, appelée le Grand Dérangement, les Acadiens ont préservé leur identité, et leur culture est aujourd’hui florissante.",
+   "explain": "Entre 1755 et 1763, alors que Britanniques et Français étaient en guerre, plus des deux tiers de la population acadienne ont été expulsés. Ce drame porte le nom de Grand Dérangement ; les Acadiens ont pourtant su garder leur identité, et leur culture est bien vivante aujourd’hui.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Qui sommes-nous ? : Les Français et les Anglais",
@@ -488,13 +488,13 @@
    "chapter": "Qui sommes-nous ?",
    "q": "Qu’a reconnu la Chambre des communes en 2006 ?",
    "options": [
-    "Que les Québécois forment une nation au sein d’un Canada uni",
+    "Que les Québécois constituent une nation à l’intérieur d’un Canada uni",
     "Que le Québec devient un pays indépendant",
     "Que Montréal devient la capitale fédérale",
     "Que le français est la seule langue officielle du Canada"
    ],
    "answer": 0,
-   "explain": "En 2006, la Chambre des communes a reconnu que les Québécois forment une nation au sein d’un Canada uni. La grande majorité des Québécois parlent français et conservent une identité, une culture et une langue qui leur sont propres.",
+   "explain": "La Chambre des communes a reconnu en 2006 que les Québécois constituent une nation à l’intérieur d’un Canada uni. La plupart des Québécois sont francophones et ont su garder une culture, une langue et une identité bien à eux.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Qui sommes-nous ? : Les Français et les Anglais",
@@ -554,7 +554,7 @@
     "Le chiac"
    ],
    "answer": 0,
-   "explain": "Les Métis forment un peuple distinct d’ascendance mixte, autochtone et européenne. Issus de milieux à la fois francophones et anglophones, ils parlent leur propre dialecte, le michif, et leur histoire est étroitement liée à l’Ouest canadien.",
+   "explain": "Les Métis sont un peuple à part entière, aux ancêtres à la fois autochtones et européens. Certains sont de langue française, d’autres de langue anglaise ; ils ont aussi leur propre dialecte, le michif, et leur histoire est intimement liée à l’Ouest canadien.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Qui sommes-nous ? : Les peuples autochtones",
@@ -574,7 +574,7 @@
     "Les années 1970"
    ],
    "answer": 3,
-   "explain": "Le terme « Indiens » désignait autrefois tous les Autochtones qui ne sont ni Inuits ni Métis. L’expression « Premières Nations » est entrée en usage dans les années 1970 ; environ la moitié des membres des Premières Nations vivent dans des réserves.",
+   "explain": "Le terme « Indiens » désignait autrefois tous les Autochtones qui ne sont ni Inuits ni Métis. L’expression « Premières Nations » est entrée en usage dans les années 1970 ; environ une personne sur deux appartenant aux Premières Nations habite dans une réserve.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Qui sommes-nous ? : Les peuples autochtones",
@@ -634,7 +634,7 @@
     "Parce que des millions de nouveaux arrivants ont aidé à bâtir et à défendre le pays depuis 200 ans"
    ],
    "answer": 3,
-   "explain": "Depuis le XIXe siècle, la majorité des Canadiens sont nés au pays. Le Canada est pourtant appelé terre d’immigrants, car au cours des deux derniers siècles, des millions de nouveaux arrivants ont contribué à bâtir et à défendre son mode de vie.",
+   "explain": "Depuis le XIXe siècle, la majorité des Canadiens sont nés au pays. Le Canada est pourtant appelé terre d’immigrants, car au cours des deux derniers siècles, des millions de personnes venues d’ailleurs ont aidé à le bâtir et à défendre son mode de vie.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Qui sommes-nous ? : La diversité au Canada",
@@ -714,7 +714,7 @@
     "Des États-Unis et du Mexique"
    ],
    "answer": 1,
-   "explain": "Des centaines de milliers de colons, de soldats et de migrants anglais, gallois, écossais et irlandais, arrivés du XVIIe au XXe siècle, ont établi le mode de vie des régions anglophones. C’est pourquoi on appelle souvent les anglophones des Canadiens anglais.",
+   "explain": "Du XVIIe au XXe siècle, des centaines de milliers d’Anglais, de Gallois, d’Écossais et d’Irlandais, colons, militaires ou migrants, ont façonné le mode de vie des régions de langue anglaise. Voilà pourquoi on parle souvent de Canadiens anglais pour désigner les anglophones.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Qui sommes-nous ? : Les Français et les Anglais",
@@ -734,7 +734,7 @@
     "Grande rivière"
    ],
    "answer": 1,
-   "explain": "Lors de ses trois voyages, entre 1534 et 1542, Jacques Cartier a entendu deux guides prononcer le mot iroquoien « kanata », qui signifie « village ». Dès les années 1550, le nom Canada figurait sur les cartes.",
+   "explain": "Lors de ses trois voyages, entre 1534 et 1542, Jacques Cartier a entendu deux guides prononcer le mot iroquoien « kanata », c’est-à-dire « village ». Dès les années 1550, des cartes portaient le nom Canada.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "L’histoire du Canada : Un fleuve est exploré, le Canada trouve son nom",
@@ -754,7 +754,7 @@
     "James Wolfe et le marquis de Montcalm"
    ],
    "answer": 3,
-   "explain": "En 1759, les Britanniques ont vaincu les Français sur les plaines d’Abraham, à Québec, ce qui a marqué la fin de l’empire français en Amérique. Les deux commandants, le brigadier James Wolfe et le marquis de Montcalm, sont morts à la tête de leurs troupes.",
+   "explain": "En 1759, la victoire britannique sur les Français aux plaines d’Abraham, à Québec, a mis fin à l’empire français en Amérique. Les deux chefs, James Wolfe du côté britannique et Montcalm du côté français, ont été tués en menant leurs soldats au combat.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "L’histoire du Canada : La lutte pour un continent",
@@ -774,7 +774,7 @@
     "Gabriel Dumont"
    ],
    "answer": 1,
-   "explain": "Après la déclaration d’indépendance des États-Unis en 1776, plus de 40 000 loyalistes, fidèles à la Couronne, se sont réfugiés en Nouvelle-Écosse et au Québec. Joseph Brant a conduit au Canada des milliers de Mohawks loyalistes.",
+   "explain": "Après la déclaration d’indépendance des États-Unis en 1776, plus de 40 000 loyalistes restés fidèles à la Couronne ont trouvé refuge en Nouvelle-Écosse et dans la province de Québec. Des milliers de Mohawks loyalistes sont aussi venus au Canada sous la conduite de Joseph Brant.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "L’histoire du Canada : Les loyalistes de l’Empire-Uni",
@@ -794,7 +794,7 @@
     "Thérèse Casgrain"
    ],
    "answer": 0,
-   "explain": "Pendant la guerre de 1812, Laura Secord, mère de cinq enfants, a fait un périlleux trajet d’environ 30 km pour avertir le lieutenant James FitzGibbon d’une attaque prévue. Son courage a contribué à la victoire de Beaver Dams, et elle reste une héroïne.",
+   "explain": "Pendant la guerre de 1812, Laura Secord, mère de cinq enfants, a fait un périlleux trajet d’environ 30 km pour prévenir le lieutenant James FitzGibbon qu’une attaque se préparait. Son courage a contribué à la victoire de Beaver Dams, et elle reste une héroïne.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "L’histoire du Canada : La guerre de 1812",
@@ -808,7 +808,7 @@
    "chapter": "L’histoire du Canada",
    "q": "Après les rébellions de 1837-1838, qu’a recommandé Lord Durham ?",
    "options": [
-    "Unir le Haut-Canada et le Bas-Canada et leur accorder un gouvernement responsable",
+    "Réunir les deux colonies, Haut-Canada et Bas-Canada, et leur accorder un gouvernement responsable",
     "Rendre le Bas-Canada indépendant",
     "Annexer le Canada aux États-Unis",
     "Abolir les assemblées élues"
@@ -854,7 +854,7 @@
     "Terre-Neuve"
    ],
    "answer": 2,
-   "explain": "Sous la direction de son lieutenant-gouverneur John Graves Simcoe, le Haut-Canada a pris en 1793 des mesures en vue d’abolir l’esclavage. Le Parlement britannique a ensuite interdit la traite en 1807, puis aboli l’esclavage dans tout l’Empire en 1833.",
+   "explain": "Sous la direction de son lieutenant-gouverneur John Graves Simcoe, le Haut-Canada a pris en 1793 des mesures en vue d’abolir l’esclavage. Le Parlement britannique a ensuite interdit la traite en 1807, puis mis fin à l’esclavage dans l’ensemble de l’Empire en 1833.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "L’histoire du Canada : Abolition de l’esclavage",
@@ -874,7 +874,7 @@
     "À Québec"
    ],
    "answer": 1,
-   "explain": "Les institutions démocratiques se sont développées graduellement et pacifiquement. La première assemblée représentative a été élue à Halifax en 1758 ; l’Île-du-Prince-Édouard a suivi en 1773 et le Nouveau-Brunswick en 1785.",
+   "explain": "La démocratie s’est construite peu à peu et sans violence. Une première assemblée représentative a été élue à Halifax en 1758 ; il a fallu attendre 1773 pour l’Île-du-Prince-Édouard, et 1785 pour le Nouveau-Brunswick.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "L’histoire du Canada : Les débuts de la démocratie",
@@ -914,7 +914,7 @@
     "D’un traité avec les États-Unis"
    ],
    "answer": 2,
-   "explain": "Sir Leonard Tilley, Père de la Confédération venu du Nouveau-Brunswick, s’est inspiré du psaume 72, qui évoque une domination « d’une mer à l’autre ». Ce titre exprimait le rêve d’un pays uni, prospère et libre, s’étendant sur tout un continent.",
+   "explain": "Sir Leonard Tilley, Père de la Confédération venu du Nouveau-Brunswick, s’est inspiré du psaume 72, qui évoque une domination « d’une mer à l’autre ». Ce nom traduisait l’ambition d’un pays libre, uni et prospère, d’un océan à l’autre.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "L’histoire du Canada : La Confédération",
@@ -934,7 +934,7 @@
     "La Milice du Pacifique"
    ],
    "answer": 0,
-   "explain": "Après le premier soulèvement métis, Macdonald a fondé la Police à cheval du Nord-Ouest pour pacifier l’Ouest et faciliter les négociations avec les Premières Nations. Elle est devenue la Gendarmerie royale du Canada, la police nationale et l’un des symboles les plus connus du pays.",
+   "explain": "Après le premier soulèvement métis, Macdonald a fondé la Police à cheval du Nord-Ouest pour pacifier l’Ouest et faciliter les négociations avec les Premières Nations. Elle est devenue la Gendarmerie royale du Canada, la police nationale, aujourd’hui l’un des emblèmes les mieux connus du pays.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "L’histoire du Canada : Contestation dans l’Ouest",
@@ -946,7 +946,7 @@
    "country": "ca",
    "lang": "fr",
    "chapter": "L’histoire du Canada",
-   "q": "Quelle province a été la première à accorder le droit de vote aux femmes, en 1916 ?",
+   "q": "En 1916, quelle province a donné la première le droit de vote aux femmes ?",
    "options": [
     "Le Manitoba",
     "Le Québec",
@@ -969,12 +969,12 @@
    "q": "Quelle mesure discriminatoire a visé les immigrants chinois après la construction du chemin de fer du Canadien Pacifique ?",
    "options": [
     "L’interdiction de parler chinois en public",
-    "Une taxe d’entrée fondée sur la race",
+    "Une taxe d’entrée imposée en raison de leur origine",
     "Le service militaire obligatoire",
     "La confiscation de leurs passeports à l’arrivée"
    ],
    "answer": 1,
-   "explain": "Des travailleurs chinois ont participé à la construction du Canadien Pacifique, achevé en 1885. Ils ont ensuite été victimes de discrimination, notamment d’une taxe d’entrée fondée sur la race. Le gouvernement du Canada a présenté ses excuses pour cette politique en 2006.",
+   "explain": "Des travailleurs chinois ont participé à la construction du Canadien Pacifique, achevé en 1885. Ils ont ensuite subi de la discrimination, en particulier une taxe d’entrée imposée en raison de leur origine. En 2006, Ottawa a présenté des excuses officielles pour cette taxe.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "L’histoire du Canada : Un chemin de fer d’un océan à l’autre",
@@ -1034,7 +1034,7 @@
     "Le vaccin contre la variole"
    ],
    "answer": 2,
-   "explain": "Sir Frederick Banting, de Toronto, et Charles Best ont découvert l’insuline, une hormone qui permet de traiter le diabète. Cette découverte majeure a sauvé des millions de vies dans le monde et fait la fierté de la recherche médicale canadienne.",
+   "explain": "Sir Frederick Banting, de Toronto, a découvert l’insuline avec Charles Best ; cette hormone permet de soigner le diabète. Leur découverte a sauvé des millions de vies dans le monde et fait la fierté de la recherche médicale canadienne.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Le Canada moderne : Les arts et la culture au Canada",
@@ -1054,7 +1054,7 @@
     "Le Commonwealth"
    ],
    "answer": 1,
-   "explain": "En 1970, le Canada a participé à la fondation de la Francophonie, une association internationale de pays de langue française. La culture québécoise, notamment le cinéma, la musique et la littérature, y occupe une place de premier plan.",
+   "explain": "En 1970, le Canada a compté parmi les fondateurs de la Francophonie, qui regroupe des pays de langue française. La culture québécoise, notamment le cinéma, la musique et la littérature, y occupe une place de premier plan.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Le Canada moderne : Le Canada et le Québec",
@@ -1074,7 +1074,7 @@
     "La Hongrie"
    ],
    "answer": 3,
-   "explain": "Le Canada a accueilli des milliers de réfugiés fuyant l’oppression communiste, dont environ 37 000 Hongrois qui ont échappé à la tyrannie soviétique en 1956. Cet accueil illustre la tradition canadienne d’asile envers les victimes de régimes autoritaires.",
+   "explain": "Le Canada a ouvert ses portes à des milliers de personnes qui fuyaient les régimes communistes, notamment quelque 37 000 Hongrois qui ont échappé à la répression soviétique en 1956. Cet accueil illustre la tradition canadienne d’asile envers les victimes de régimes autoritaires.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Le Canada moderne : Une société en évolution",
@@ -1146,7 +1146,7 @@
    "country": "ca",
    "lang": "fr",
    "chapter": "Le Canada moderne",
-   "q": "En quelle année le Régime de pensions du Canada et le Régime de rentes du Québec ont-ils été créés ?",
+   "q": "En quelle année sont nés le Régime de pensions du Canada et, au Québec, le Régime de rentes ?",
    "options": [
     "1982",
     "1940",
@@ -1154,7 +1154,7 @@
     "1965"
    ],
    "answer": 3,
-   "explain": "Le Régime de pensions du Canada et le Régime de rentes du Québec datent de 1965, alors que la Sécurité de la vieillesse avait été conçue dès 1927. Ces programmes font partie du filet social bâti à mesure que le pays s’enrichissait.",
+   "explain": "Le Régime de pensions du Canada et, au Québec, son équivalent provincial, le Régime de rentes, existent depuis 1965 ; la Sécurité de la vieillesse, elle, date de 1927. Ces programmes font partie du filet social bâti à mesure que le pays s’enrichissait.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Le Canada moderne : Commerce et croissance économique",
@@ -1186,7 +1186,7 @@
    "country": "ca",
    "lang": "fr",
    "chapter": "Le Canada moderne",
-   "q": "Qui a été une pionnière de l’art inuit moderne, avec ses gravures, ses estampes et ses sculptures en stéatite ?",
+   "q": "Quelle artiste a posé les bases de l’art inuit moderne avec ses gravures, ses estampes et des sculptures en stéatite ?",
    "options": [
     "Emily Carr",
     "Chantal Petitclerc",
@@ -1214,7 +1214,7 @@
     "Mark Tewksbury"
    ],
    "answer": 1,
-   "explain": "Cinq ans après la course de Terry Fox, un autre Britanno-Colombien, Rick Hansen, a entrepris en 1985 un tour du monde en fauteuil roulant afin de recueillir des fonds pour la recherche sur les lésions de la moelle épinière.",
+   "explain": "Cinq ans après la course de Terry Fox, un autre Britanno-Colombien, Rick Hansen, a entrepris en 1985 un tour du monde en fauteuil roulant pour amasser de l’argent au profit de la recherche sur les lésions de la moelle épinière.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Le Canada moderne : Les arts et la culture au Canada",
@@ -1254,7 +1254,7 @@
     "Sandford Fleming"
    ],
    "answer": 1,
-   "explain": "Reginald Fessenden a contribué à l’invention de la radio en réalisant la première transmission sans fil de la voix humaine. Les Canadiens ont fait de nombreuses découvertes qui ont changé la façon dont le monde communique.",
+   "explain": "Reginald Fessenden a joué un rôle dans l’invention de la radio en réalisant la première transmission sans fil de la voix humaine. Les Canadiens ont fait de nombreuses découvertes qui ont changé la façon dont le monde communique.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Le Canada moderne : Grandes découvertes et inventions canadiennes",
@@ -1314,7 +1314,7 @@
     "La deuxième lecture"
    ],
    "answer": 1,
-   "explain": "Un projet de loi doit être adopté par la Chambre des communes et par le Sénat, puis recevoir la sanction royale, accordée par le gouverneur général au nom du souverain. Ce n’est qu’à ce moment qu’il devient loi.",
+   "explain": "Un projet de loi doit être adopté par la Chambre des communes et par le Sénat, puis recevoir la sanction royale, que le gouverneur général donne au nom du souverain. Ce n’est qu’à ce moment qu’il devient loi.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Le mode de gouvernement canadien : Adoption des lois",
@@ -1346,7 +1346,7 @@
    "country": "ca",
    "lang": "fr",
    "chapter": "Le mode de gouvernement canadien",
-   "q": "Quels domaines le gouvernement fédéral et les provinces se partagent-ils ?",
+   "q": "Quels domaines relèvent à la fois du fédéral et des provinces ?",
    "options": [
     "L’éducation et les routes",
     "Le droit criminel et la citoyenneté",
@@ -1374,7 +1374,7 @@
     "La sanction royale"
    ],
    "answer": 2,
-   "explain": "À la première lecture, le projet de loi est réputé lu une première fois et il est imprimé. À la deuxième lecture, les députés débattent de son principe, avant que le texte soit étudié article par article en comité.",
+   "explain": "À la première lecture, le projet de loi est considéré comme lu et on en fait imprimer le texte. À la deuxième lecture, les députés débattent de son principe, avant que le texte soit étudié article par article en comité.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Le mode de gouvernement canadien : Adoption des lois",
@@ -1434,7 +1434,7 @@
     "Le Conseil législatif"
    ],
    "answer": 2,
-   "explain": "Chaque province et territoire a une assemblée élue qui adopte ses lois. Au Québec, elle porte le nom d’Assemblée nationale ; ailleurs, on parle d’assemblée législative, de parlement provincial ou de chambre d’assemblée, selon la province ou le territoire.",
+   "explain": "Chaque province et territoire a une assemblée élue qui adopte ses lois. Au Québec, elle porte le nom d’Assemblée nationale ; ailleurs, on parle d’assemblée législative, de parlement provincial ou de chambre d’assemblée, suivant les endroits.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Le mode de gouvernement canadien : La monarchie constitutionnelle",
@@ -1448,7 +1448,7 @@
    "chapter": "Le mode de gouvernement canadien",
    "q": "Que dit le guide au sujet des trois territoires du Nord ?",
    "options": [
-    "Ils n’ont pas le statut de province, mais leurs gouvernements remplissent bon nombre des mêmes fonctions",
+    "Ce ne sont pas des provinces, mais leurs gouvernements exercent une bonne partie des mêmes fonctions",
     "Ils relèvent du gouvernement de l’Ontario",
     "Ils sont administrés directement par la Cour suprême",
     "Ils n’ont aucune assemblée élue"
@@ -1488,7 +1488,7 @@
    "chapter": "Le mode de gouvernement canadien",
    "q": "De quoi se compose une législature provinciale ?",
    "options": [
-    "Du lieutenant-gouverneur et de l’assemblée élue",
+    "De l’assemblée élue et du lieutenant-gouverneur",
     "Des juges de la cour d’appel",
     "Des maires de la province",
     "Du premier ministre du Canada et des sénateurs"
@@ -1534,7 +1534,7 @@
     "La Norvège"
    ],
    "answer": 3,
-   "explain": "Le Canada partage ce régime avec d’autres pays, dont le Danemark, la Norvège, la Suède, l’Australie, la Nouvelle-Zélande, les Pays-Bas, l’Espagne, le Japon et le Maroc. Dans chacun, le monarque règne conformément à une constitution.",
+   "explain": "D’autres pays vivent sous ce même régime, par exemple le Danemark, la Suède, la Norvège, les Pays-Bas, l’Espagne, l’Australie, la Nouvelle-Zélande, le Japon et le Maroc. Dans chacun, le monarque règne conformément à une constitution.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Le mode de gouvernement canadien : La monarchie constitutionnelle",
@@ -1554,7 +1554,7 @@
     "Le premier ministre de la province, seul"
    ],
    "answer": 1,
-   "explain": "Dans chacune des dix provinces, le souverain est représenté par un lieutenant-gouverneur. Celui-ci est nommé par le gouverneur général sur l’avis du premier ministre du Canada, normalement pour cinq ans.",
+   "explain": "Le souverain a un représentant dans chaque province : le lieutenant-gouverneur. Celui-ci est nommé par le gouverneur général sur l’avis du premier ministre du Canada, normalement pour cinq ans.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Le mode de gouvernement canadien : La monarchie constitutionnelle",
@@ -1574,7 +1574,7 @@
     "Les ressources naturelles"
    ],
    "answer": 3,
-   "explain": "Les provinces sont notamment responsables de l’administration municipale, de l’éducation, de la santé, des ressources naturelles, de la propriété et des droits civils, ainsi que des routes. Ce partage des compétences a été établi en 1867.",
+   "explain": "Les provinces ont notamment la charge de la santé, de l’éducation, des municipalités, des ressources naturelles, des routes, ainsi que de la propriété et des droits civils. Ce partage des compétences a été établi en 1867.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Le mode de gouvernement canadien : L’État fédéral",
@@ -1606,7 +1606,7 @@
    "country": "ca",
    "lang": "fr",
    "chapter": "Les élections fédérales",
-   "q": "Un parti au pouvoir qui détient moins de la moitié des sièges à la Chambre des communes forme :",
+   "q": "Un parti au pouvoir qui ne détient pas la moitié des sièges aux Communes forme :",
    "options": [
     "Un gouvernement majoritaire",
     "Un gouvernement de transition",
@@ -1614,7 +1614,7 @@
     "L’Opposition officielle"
    ],
    "answer": 2,
-   "explain": "Si le parti au pouvoir détient au moins la moitié des sièges à la Chambre des communes, on parle de gouvernement majoritaire. S’il en détient moins de la moitié, il forme un gouvernement minoritaire et doit compter sur l’appui d’autres partis.",
+   "explain": "Un parti qui obtient la moitié des sièges des Communes ou davantage forme un gouvernement majoritaire. S’il en a moins de la moitié, il forme un gouvernement minoritaire et doit compter sur l’appui d’autres partis.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Les élections fédérales : Après une élection",
@@ -1634,7 +1634,7 @@
     "Une municipalité régionale"
    ],
    "answer": 0,
-   "explain": "Le Canada est divisé en circonscriptions électorales. Les électeurs de chacune élisent un député qui siège à la Chambre des communes et qui représente à la fois sa circonscription et l’ensemble des Canadiens.",
+   "explain": "Le Canada est divisé en circonscriptions électorales. Dans chacune, les électeurs choisissent un député, qui représente aux Communes à la fois sa circonscription et l’ensemble des Canadiens.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Les élections fédérales : Les circonscriptions",
@@ -1674,7 +1674,7 @@
     "Le moment et l’endroit où vous pouvez voter"
    ],
    "answer": 3,
-   "explain": "Une fois l’élection déclenchée, Élections Canada envoie par la poste une carte à chaque électeur inscrit. Elle indique quand et où voter, ainsi qu’un numéro à composer si vous avez besoin d’un interprète ou d’autres services.",
+   "explain": "Dès que l’élection est lancée, chaque électeur inscrit reçoit d’Élections Canada une carte par la poste. On y trouve la date et le lieu du vote, ainsi qu’un numéro de téléphone pour obtenir un interprète ou un autre service.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Les élections fédérales : Voter",
@@ -1689,12 +1689,12 @@
    "q": "Vous n’avez pas reçu de carte d’information de l’électeur. Pouvez-vous quand même voter ?",
    "options": [
     "Oui, mais seulement à l’élection suivante",
-    "Oui, on peut se faire inscrire sur la liste électorale en tout temps, même le jour de l’élection",
+    "Oui, on peut s’inscrire sur la liste électorale à tout moment, y compris le jour du vote",
     "Non, il faut d’abord obtenir une nouvelle carte de citoyenneté",
     "Non, il est trop tard une fois l’élection déclenchée"
    ],
    "answer": 1,
-   "explain": "Même sans carte d’information, ou si vous avez choisi de ne pas figurer au Registre national des électeurs, vous pouvez faire ajouter votre nom à la liste électorale à tout moment, y compris le jour du scrutin.",
+   "explain": "Même sans carte d’information, ou si vous avez choisi de ne pas figurer au Registre national des électeurs, vous pouvez vous inscrire sur la liste électorale à tout moment, y compris le jour du scrutin.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Les élections fédérales : Voter",
@@ -1714,7 +1714,7 @@
     "La politique monétaire"
    ],
    "answer": 0,
-   "explain": "Les administrations municipales s’occupent généralement de l’urbanisme, des rues et des routes, de la collecte des ordures, du déneigement, de la lutte contre les incendies, des services d’urgence, des loisirs et du transport en commun.",
+   "explain": "Les municipalités prennent en général en charge l’urbanisme, les rues et les routes, le ramassage des déchets, l’enlèvement de la neige, les pompiers, les services d’urgence, les loisirs et le transport en commun.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Les élections fédérales : Les autres ordres de gouvernement au Canada",
@@ -1754,7 +1754,7 @@
     "Les lieutenants-gouverneurs"
    ],
    "answer": 2,
-   "explain": "Les Premières Nations ont des chefs de bande et des conseillers qui exercent d’importantes responsabilités dans les réserves, notamment le logement, les écoles et d’autres services. Diverses organisations autochtones représentent aussi les Premières Nations, les Métis et les Inuits auprès des gouvernements.",
+   "explain": "Dans les réserves, les chefs de bande et les conseillers des Premières Nations assument d’importantes responsabilités, notamment le logement, les écoles et d’autres services. Diverses organisations autochtones représentent aussi les Premières Nations, les Inuits et les Métis auprès des gouvernements.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Les élections fédérales : Les autres ordres de gouvernement au Canada",
@@ -1794,7 +1794,7 @@
     "Le gouverneur général rédige un nouveau budget"
    ],
    "answer": 0,
-   "explain": "Le vote sur le budget est une question de confiance. Si une majorité de députés rejette une décision majeure du gouvernement, le parti au pouvoir est défait ; le premier ministre demande alors habituellement au gouverneur général de déclencher une élection.",
+   "explain": "Le vote sur le budget est une question de confiance. Si une majorité de députés rejette une décision majeure du gouvernement, celui-ci est défait ; le premier ministre demande alors habituellement au gouverneur général de déclencher une élection.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Les élections fédérales : Après une élection",
@@ -1810,11 +1810,11 @@
    "options": [
     "Votre passeport et votre acte de naissance",
     "Votre avis de cotisation fiscale",
-    "Votre carte d’information de l’électeur et une preuve de votre identité et de votre adresse",
+    "Votre carte d’information de l’électeur et des pièces prouvant votre identité et votre adresse",
     "Une lettre de votre employeur"
    ],
    "answer": 2,
-   "explain": "Le jour du scrutin, rendez-vous au bureau de vote indiqué sur votre carte. Apportez cette carte ainsi qu’une preuve de votre identité et de votre adresse ; derrière l’isoloir, vous marquerez votre bulletin d’un X avant de le déposer dans l’urne.",
+   "explain": "Le jour du scrutin, présentez-vous au bureau de vote inscrit sur votre carte, avec cette carte et des pièces prouvant votre identité et votre adresse. Dans l’isoloir, vous marquez votre bulletin d’un X avant de le déposer dans l’urne.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Les élections fédérales : La procédure de vote en période électorale",
@@ -1826,7 +1826,7 @@
    "country": "ca",
    "lang": "fr",
    "chapter": "Les élections fédérales",
-   "q": "Malgré la loi sur les élections à date fixe, qui peut demander au gouverneur général de déclencher une élection plus tôt ?",
+   "q": "Même avec des élections à date fixe, qui peut demander au gouverneur général de dissoudre le Parlement et d’appeler les électeurs aux urnes avant la date prévue ?",
    "options": [
     "Le juge en chef",
     "Le directeur général des élections",
@@ -1834,7 +1834,7 @@
     "Le président du Sénat"
    ],
    "answer": 2,
-   "explain": "La loi fixe la date des élections fédérales, mais le premier ministre peut demander au gouverneur général de déclencher une élection avant cette date. C’est aussi ce qui se produit en général lorsqu’un gouvernement perd la confiance de la Chambre.",
+   "explain": "La loi fixe la date des élections fédérales, mais le premier ministre peut obtenir du gouverneur général une élection anticipée. C’est aussi ce qui se produit en général lorsqu’un gouvernement perd la confiance de la Chambre.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Les élections fédérales : Les élections à date fixe",
@@ -1854,7 +1854,7 @@
     "Elles suivent exactement les mêmes règles que les élections fédérales"
    ],
    "answer": 1,
-   "explain": "Les élections provinciales, territoriales et municipales se tiennent au scrutin secret, mais leurs règles ne sont pas les mêmes qu’au fédéral. Il vaut donc la peine de se renseigner sur les règles propres à chaque palier pour exercer son droit de vote.",
+   "explain": "Aux échelons provincial, territorial et municipal, le vote se fait aussi au scrutin secret, mais les règles diffèrent de celles du fédéral. Il vaut donc la peine de se renseigner sur les règles propres à chaque palier pour exercer son droit de vote.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Les élections fédérales : Les autres ordres de gouvernement au Canada",
@@ -1951,10 +1951,10 @@
     "La révision obligatoire des lois tous les dix ans",
     "Le droit des policiers de fouiller sans motif",
     "L’obligation de payer ses contraventions à temps",
-    "Le principe selon lequel le gouvernement doit respecter toutes les garanties juridiques d’une personne"
+    "Le principe qui oblige l’État à respecter l’ensemble des garanties juridiques d’une personne"
    ],
    "answer": 3,
-   "explain": "L’application régulière de la loi oblige l’État à respecter l’ensemble des droits juridiques reconnus à chaque personne. Le système juridique canadien repose sur cet héritage, avec la primauté du droit, la liberté prévue par la loi et les principes démocratiques.",
+   "explain": "L’application régulière de la loi oblige l’État à respecter l’ensemble des droits juridiques reconnus à chaque personne. Le système juridique canadien repose sur cet héritage, avec la primauté du droit, une liberté encadrée par les lois et les principes démocratiques.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Le système judiciaire : Introduction",
@@ -2074,7 +2074,7 @@
     "Des représentants élus"
    ],
    "answer": 3,
-   "explain": "Les lois canadiennes sont des règles écrites adoptées par les représentants que les citoyens élisent au Parlement et dans les assemblées provinciales et territoriales. Les tribunaux règlent les conflits et la police veille au respect des lois.",
+   "explain": "Les lois canadiennes sont des règles écrites adoptées par les représentants que les citoyens élisent au Parlement et dans les assemblées provinciales et territoriales. Les tribunaux tranchent les litiges, et les policiers font respecter les lois.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Le système judiciaire : Introduction",
@@ -2114,7 +2114,7 @@
     "Protéger uniquement les intérêts du gouvernement"
    ],
    "answer": 0,
-   "explain": "Les lois sont des règles écrites destinées à guider la vie en société. Elles visent à maintenir l’ordre, à offrir un moyen pacifique de régler les différends et à exprimer les valeurs et les croyances des Canadiens.",
+   "explain": "Les lois sont des règles écrites destinées à guider la vie en société. Elles visent à maintenir l’ordre, à offrir un moyen pacifique de régler les différends et à traduire ce à quoi les Canadiens tiennent et croient.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Le système judiciaire : Introduction",
@@ -2134,7 +2134,7 @@
     "Seulement au Québec"
    ],
    "answer": 1,
-   "explain": "Il existe plusieurs types de police au Canada : des polices provinciales en Ontario et au Québec, la GRC, et des services de police municipaux dans toutes les provinces. La plupart des grands centres urbains ont leur propre police.",
+   "explain": "Il existe plusieurs types de police au Canada : des polices provinciales en Ontario et au Québec, la GRC, et des corps policiers municipaux partout au pays. La plupart des grands centres urbains ont leur propre police.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Le système judiciaire : La police",
@@ -2154,7 +2154,7 @@
     "La Cour des petites créances"
    ],
    "answer": 2,
-   "explain": "Dans la plupart des provinces, on trouve une cour d’appel et une cour de première instance. Selon la province, cette dernière porte parfois le nom de Cour du Banc du Roi, ou de Cour du Banc de la Reine lorsque le souverain est une reine.",
+   "explain": "La plupart des provinces ont une cour de première instance et, au-dessus, une cour d’appel. Selon la province, la première porte parfois le nom de Cour du Banc du Roi, ou de Cour du Banc de la Reine lorsque le souverain est une reine.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Le système judiciaire : Les tribunaux",
@@ -2166,7 +2166,7 @@
    "country": "ca",
    "lang": "fr",
    "chapter": "Les symboles canadiens",
-   "q": "Le drapeau canadien à feuille d’érable a été hissé pour la première fois en quelle année ?",
+   "q": "En quelle année le drapeau canadien à feuille d’érable a-t-il flotté pour la première fois ?",
    "options": [
     "1965",
     "1867",
@@ -2174,7 +2174,7 @@
     "1982"
    ],
    "answer": 0,
-   "explain": "Le drapeau unifolié a été hissé pour la première fois en 1965. Son motif rouge-blanc-rouge s’inspire du drapeau du Collège militaire royal de Kingston, et il est vite devenu un symbole reconnu partout dans le monde.",
+   "explain": "L’unifolié a flotté pour la première fois en 1965. Son dessin rouge, blanc et rouge reprend celui du drapeau du Collège militaire royal, à Kingston, et il est vite devenu un symbole reconnu partout dans le monde.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Les symboles canadiens : Les drapeaux au Canada",
@@ -2251,7 +2251,7 @@
     "Le drapeau de Carillon",
     "Le drapeau de la Nouvelle-France",
     "Le Red Ensign canadien",
-    "Le drapeau de la Compagnie de la Baie d’Hudson"
+    "Le pavillon de la Compagnie de la Baie d’Hudson"
    ],
    "answer": 2,
    "explain": "Le Red Ensign canadien a tenu lieu de drapeau national pendant environ cent ans. Depuis 2005, les anciens combattants le portent officiellement, tandis que l’Union Jack demeure le drapeau royal officiel du Canada.",
@@ -2274,7 +2274,7 @@
     "Le rouge et le blanc"
    ],
    "answer": 3,
-   "explain": "Le rouge et le blanc, couleurs de la France et de l’Angleterre depuis le Moyen Âge, sont devenus les couleurs nationales du Canada en 1921, sous le roi George V. Ce sont aussi les couleurs du drapeau actuel.",
+   "explain": "Associés à la France et à l’Angleterre depuis le Moyen Âge, le rouge et le blanc sont devenus les couleurs nationales du Canada en 1921, sous le roi George V. Ce sont aussi les couleurs du drapeau actuel.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Les symboles canadiens : Les drapeaux au Canada",
@@ -2294,7 +2294,7 @@
     "Il a été bombardé pendant la guerre"
    ],
    "answer": 0,
-   "explain": "L’édifice du Centre a été détruit par un incendie accidentel en 1916, puis reconstruit en 1922. Seule la bibliothèque subsiste du bâtiment d’origine, achevé dans les années 1860 dans le style néogothique de l’époque victorienne.",
+   "explain": "En 1916, un incendie accidentel a ravagé l’édifice du Centre, qui a été reconstruit en 1922. Seule la bibliothèque subsiste du bâtiment d’origine, achevé dans les années 1860 dans le style néogothique de l’époque victorienne.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Les symboles canadiens : Les édifices du Parlement",
@@ -2314,7 +2314,7 @@
     "Le texte de toutes les lois fédérales"
    ],
    "answer": 0,
-   "explain": "La Chapelle du Souvenir, dans la tour de la Paix, abrite les Livres du Souvenir, où sont inscrits les noms des soldats, des marins et des aviateurs morts en servant le Canada, en temps de guerre ou en service commandé.",
+   "explain": "La Chapelle du Souvenir, dans la tour de la Paix, abrite les Livres du Souvenir, où figurent les noms des militaires de l’armée de terre, de la marine et de l’aviation morts au service du Canada, en temps de guerre ou en service commandé.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Les symboles canadiens : Les édifices du Parlement",
@@ -2374,7 +2374,7 @@
     "La Ligue nationale de hockey"
    ],
    "answer": 2,
-   "explain": "Il y a des siècles, la Compagnie de la Baie d’Hudson a fait du castor son emblème. La Société Saint-Jean-Baptiste, association patriotique canadienne-française, l’a adopté en 1834, et on le voit aujourd’hui sur la pièce de cinq cents.",
+   "explain": "Il y a des siècles, la Compagnie de la Baie d’Hudson a fait du castor son emblème. La Société Saint-Jean-Baptiste, une association patriotique des Canadiens français, l’a adopté à son tour en 1834, et on le voit aujourd’hui sur la pièce de cinq cents.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Les symboles canadiens : Le castor",
@@ -2394,7 +2394,7 @@
     "L’Allemagne, les Pays-Bas et la Belgique"
    ],
    "answer": 0,
-   "explain": "Adoptées après la Première Guerre mondiale par fierté nationale, les armoiries du Canada réunissent des symboles de l’Angleterre, de la France, de l’Écosse et de l’Irlande ainsi que des feuilles d’érable rouges. On les voit sur les billets de banque et les édifices publics.",
+   "explain": "Adoptées après la Première Guerre mondiale par fierté nationale, les armoiries du Canada réunissent des feuilles d’érable rouges et des symboles de l’Angleterre, de l’Écosse, de l’Irlande et de la France. On les voit sur les billets de banque et les édifices publics.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Les symboles canadiens : Les armoiries et la devise",
@@ -2454,7 +2454,7 @@
     "1988"
    ],
    "answer": 3,
-   "explain": "Le Canada a toujours été une nation commerçante, et le commerce reste le moteur de sa croissance. En 1988, il a instauré le libre-échange avec les États-Unis, un accord élargi par la suite au Mexique.",
+   "explain": "Le commerce a toujours été au cœur de l’économie canadienne, et il demeure le principal moteur de la croissance. En 1988, le Canada et les États-Unis ont conclu un accord de libre-échange, élargi par la suite au Mexique.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "L’économie canadienne : Une nation commerçante",
@@ -2534,7 +2534,7 @@
     "Le Brésil"
    ],
    "answer": 1,
-   "explain": "Après l’accord canado-américain de 1988, le Mexique est devenu partenaire en 1994 dans le cadre de l’Accord de libre-échange nord-américain (ALENA). Cet accord a depuis été remplacé par un nouvel accord entre les trois mêmes pays.",
+   "explain": "Après l’accord canado-américain de 1988, le Mexique s’est joint aux deux pays en 1994 avec l’ALENA, l’Accord de libre-échange nord-américain. Cet accord a depuis été remplacé par un nouvel accord entre les trois mêmes pays.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "L’économie canadienne : Une nation commerçante",
@@ -2566,7 +2566,7 @@
    "country": "ca",
    "lang": "fr",
    "chapter": "L’économie canadienne",
-   "q": "Quelle province est le principal producteur de pâtes et papiers du Canada ?",
+   "q": "Quelle province produit le plus de pâtes et papiers au Canada ?",
    "options": [
     "Le Manitoba",
     "Le Québec",
@@ -2574,7 +2574,7 @@
     "Le Nouveau-Brunswick"
    ],
    "answer": 1,
-   "explain": "Grâce aux ressources du Bouclier canadien, le Québec a développé d’importantes industries forestières, énergétiques et minières. La province est le principal producteur de pâtes et papiers au pays et se distingue aussi dans l’aéronautique et l’industrie pharmaceutique.",
+   "explain": "Grâce aux ressources du Bouclier canadien, le Québec a développé d’importantes industries forestières, énergétiques et minières. Aucune autre province ne produit autant de pâtes et papiers, et le Québec se distingue aussi dans l’aéronautique et l’industrie pharmaceutique.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "L’économie canadienne : Québec",
@@ -2594,7 +2594,7 @@
     "L’Ontario"
    ],
    "answer": 1,
-   "explain": "La Saskatchewan, longtemps appelée « le grenier du monde » et « la province du blé », possède environ 40 % des terres arables du Canada. Elle est le plus grand producteur canadien de céréales et d’oléagineux.",
+   "explain": "La Saskatchewan a longtemps porté deux surnoms, « la province du blé » et « le grenier du monde ». Elle détient environ 40 % des terres arables du pays, et aucune province ne produit plus de céréales et d’oléagineux.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "L’économie canadienne : Saskatchewan",
@@ -2634,7 +2634,7 @@
     "La Bourse de Montréal"
    ],
    "answer": 3,
-   "explain": "Les premières institutions financières du pays sont apparues à la fin du XVIIIe et au début du XIXe siècle, et la Bourse de Montréal a été créée en 1832. Pendant des siècles, l’économie a surtout reposé sur l’agriculture et l’exportation de fourrures, de poisson et de bois.",
+   "explain": "Les premières institutions financières du pays sont apparues à la fin du XVIIIe et au début du XIXe siècle, et la Bourse de Montréal a ouvert ses portes en 1832. Durant des siècles, l’économie a surtout reposé sur l’agriculture et l’exportation de fourrures, de poisson et de bois.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "L’économie canadienne : Une économie en croissance",
@@ -2674,7 +2674,7 @@
     "Le Nouveau-Brunswick"
    ],
    "answer": 0,
-   "explain": "En plus d’être le plus grand producteur de pétrole et de gaz, l’Alberta est réputée pour son agriculture, en particulier ses immenses ranchs de bovins, qui font du Canada l’un des principaux producteurs de bœuf du monde.",
+   "explain": "En plus d’être le plus grand producteur de pétrole et de gaz, l’Alberta est réputée pour son agriculture, en particulier ses immenses ranchs de bovins, qui placent le Canada parmi les grands producteurs mondiaux de bœuf.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "L’économie canadienne : Alberta",
@@ -2690,11 +2690,11 @@
    "options": [
     "Ses pêcheries de homard",
     "Ses mines de diamants",
-    "Ses vignobles, ses vins et ses cultures fruitières",
+    "Ses vignes, ses vins et ses vergers",
     "Ses sables bitumineux"
    ],
    "answer": 2,
-   "explain": "La région du Niagara est connue pour ses vignobles, ses vins, dont le vin de glace, et ses fruits. Ailleurs en Ontario, les agriculteurs élèvent des bovins laitiers et de boucherie et de la volaille, et cultivent légumes et céréales.",
+   "explain": "La région du Niagara est réputée pour ses vignes, ses vins, dont le vin de glace, et ses fruits. Ailleurs en Ontario, les agriculteurs élèvent des bovins laitiers et de boucherie et de la volaille, et cultivent légumes et céréales.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "L’économie canadienne : Ontario",
@@ -2734,7 +2734,7 @@
     "Sudbury"
    ],
    "answer": 2,
-   "explain": "Yellowknife, capitale des Territoires du Nord-Ouest, est surnommée la capitale des diamants de l’Amérique du Nord. Le Nord compte aussi des mines d’or, de plomb, de cuivre et de zinc, et ses gisements de pétrole et de gaz sont en développement.",
+   "explain": "Yellowknife, capitale des Territoires du Nord-Ouest, est surnommée la capitale des diamants de l’Amérique du Nord. On exploite aussi dans le Nord de l’or, du plomb, du cuivre et du zinc, et l’exploitation de son pétrole et de son gaz progresse.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "L’économie canadienne : Les Territoires du Nord",
@@ -2754,7 +2754,7 @@
     "Le premier"
    ],
    "answer": 1,
-   "explain": "Avec environ 10 millions de kilomètres carrés, le Canada est le deuxième pays du monde par sa superficie. Il est bordé par trois océans, le Pacifique, l’Atlantique et l’Arctique, et partage au sud sa frontière avec les États-Unis.",
+   "explain": "Avec environ 10 millions de kilomètres carrés, le Canada arrive au deuxième rang mondial pour la superficie. Il est bordé par trois océans, le Pacifique, l’Atlantique et l’Arctique, et partage au sud sa frontière avec les États-Unis.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Les régions du Canada : Introduction",
@@ -2814,7 +2814,7 @@
     "Anne… la maison aux pignons verts"
    ],
    "answer": 3,
-   "explain": "Le roman de Lucy Maud Montgomery raconte les aventures d’une petite orpheline aux cheveux roux et se déroule à l’Île-du-Prince-Édouard. Cette histoire très aimée a fait connaître l’île bien au-delà du Canada.",
+   "explain": "Le roman de Lucy Maud Montgomery suit une jeune orpheline rousse et se déroule à l’Île-du-Prince-Édouard. Cette histoire très aimée a fait connaître l’île bien au-delà du Canada.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Les régions du Canada : Île-du-Prince-Édouard",
@@ -2826,7 +2826,7 @@
    "country": "ca",
    "lang": "fr",
    "chapter": "Les régions du Canada",
-   "q": "Quelle ville, plus grand port de la côte Est du Canada, abrite la plus importante base navale du pays ?",
+   "q": "Quelle ville, premier port de l’Est canadien, accueille la plus grande base navale du pays ?",
    "options": [
     "St. John’s",
     "Québec",
@@ -2894,7 +2894,7 @@
     "Regina"
    ],
    "answer": 3,
-   "explain": "Regina, capitale de la Saskatchewan, abrite l’école de formation de la GRC. La ville était déjà le quartier général de la Police à cheval du Nord-Ouest, l’ancêtre de la GRC.",
+   "explain": "Regina, capitale de la Saskatchewan, abrite l’école de formation de la GRC. La ville était déjà le quartier général de l’ancêtre de la GRC, un corps appelé Police à cheval du Nord-Ouest.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Les régions du Canada : Saskatchewan",
@@ -2914,7 +2914,7 @@
     "D’un ministre britannique des Colonies"
    ],
    "answer": 0,
-   "explain": "L’Alberta et le célèbre lac Louise, dans les Rocheuses, doivent leur nom à la princesse Louise Caroline Alberta, quatrième fille de la reine Victoria. La province compte cinq parcs nationaux, dont celui de Banff, créé en 1885.",
+   "explain": "L’Alberta et le célèbre lac Louise, dans les Rocheuses, tiennent leur nom de Louise Caroline Alberta, l’une des filles de la reine Victoria (la quatrième). La province compte cinq parcs nationaux, dont celui de Banff, créé en 1885.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Les régions du Canada : Alberta",
@@ -2934,7 +2934,7 @@
     "La découverte de pétrole"
    ],
    "answer": 1,
-   "explain": "Des milliers de chercheurs d’or ont afflué au Yukon pendant la ruée vers l’or des années 1890, célébrée par les poèmes de Robert W. Service. L’exploitation minière demeure importante pour l’économie du territoire.",
+   "explain": "Des milliers de chercheurs d’or ont afflué au Yukon à la fin du XIXe siècle, lors de la ruée vers l’or du Klondike, célébrée par les poèmes de Robert W. Service. L’exploitation minière demeure importante pour l’économie du territoire.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Les régions du Canada : Yukon",
@@ -2954,7 +2954,7 @@
     "Le fleuve Mackenzie"
    ],
    "answer": 3,
-   "explain": "Long de 4 200 kilomètres, le Mackenzie forme le deuxième réseau fluvial d’Amérique du Nord après le Mississippi. Il draine un immense bassin dans les Territoires du Nord-Ouest, dont plus de la moitié de la population est autochtone.",
+   "explain": "Long de 4 200 kilomètres, le Mackenzie forme le deuxième réseau fluvial d’Amérique du Nord après le Mississippi. Il draine un immense bassin dans les Territoires du Nord-Ouest, dont les Autochtones forment plus de la moitié des habitants.",
    "ref": {
     "doc": "Découvrir le Canada (faits seulement, questions rédigées par Radif Partners)",
     "section": "Les régions du Canada : Territoires du Nord-Ouest",

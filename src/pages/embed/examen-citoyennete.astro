@@ -2,6 +2,7 @@
 /** Embeddable tool (iframe): no navigation, noindex, out of the sitemap (astro.config). */
 import '../../styles/global.css';
 import Tool from '../../components/Tool.astro';
+import LicenceNotice from '../../components/LicenceNotice.astro';
 import { SITE_URL, SITE_NAMES } from '../../data/site-config';
 import { route } from '../../i18n/routes';
 ---
@@ -16,5 +17,6 @@ import { route } from '../../i18n/routes';
   <body class="bg-white p-2 text-navy-900">
     <Tool tool={{ kind: 'quiz', props: { country: 'ca', mode: 'exam' } }} lang="fr" primary={true} seedKey="embed-examen-citoyennete" />
     <p class="mt-2 text-center text-xs text-navy-600"><a href={`${SITE_URL}${route('home', 'fr')}`} target="_blank" rel="noopener" class="underline">{SITE_NAMES.fr}</a></p>
+    <LicenceNotice lang="fr" class="mt-2 text-center text-[11px] text-navy-600" />
   </body>
 </html>

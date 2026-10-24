@@ -14,7 +14,7 @@
     "1982"
    ],
    "answer": 2,
-   "explain": "The British North America Act, passed by the British Parliament, created the Dominion of Canada on July 1, 1867. The first four provinces were Ontario, Quebec, Nova Scotia and New Brunswick, and July 1 is now celebrated as Canada Day.",
+   "explain": "Confederation took effect on July 1, 1867, when the British North America Act, a law of the British Parliament, brought the Dominion of Canada into being. Ontario, Quebec, Nova Scotia and New Brunswick were the four founding provinces, and the anniversary is marked every year as Canada Day.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canada's History: Confederation",
@@ -34,7 +34,7 @@
     "Québec City"
    ],
    "answer": 1,
-   "explain": "Ottawa, on the Ottawa River in Ontario, was chosen as the capital in 1857 by Queen Victoria. The National Capital Region that surrounds the city preserves and enhances the area's built heritage and its natural environment.",
+   "explain": "Queen Victoria picked Ottawa, a city on the Ottawa River in Ontario, as the capital in 1857. Around it, the National Capital Region protects both the historic buildings and the natural setting of the area.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canada's Regions: The National Capital",
@@ -54,7 +54,7 @@
     "8 provinces and 2 territories"
    ],
    "answer": 0,
-   "explain": "Canada has ten provinces and three territories: Yukon, the Northwest Territories and Nunavut. Each province and territory has its own capital city, and newcomers are encouraged to know theirs as well as Ottawa.",
+   "explain": "Canada is made up of ten provinces plus three territories: Yukon, the Northwest Territories and Nunavut. Every one of them has a capital, and newcomers should be able to name the capital of their own province or territory, along with Ottawa.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canada's Regions: Provinces and Territories",
@@ -74,7 +74,7 @@
     "1982"
    ],
    "answer": 3,
-   "explain": "In 1982 the Constitution of Canada was amended to entrench the Canadian Charter of Rights and Freedoms. Because it is part of the Constitution, the Charter sets out freedoms and rights that every government and every law must respect.",
+   "explain": "The Canadian Charter of Rights and Freedoms was written into the Constitution in 1982. Since it now forms part of the supreme law, every government in Canada and every law it passes has to respect the rights and freedoms it lists.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Rights and Responsibilities of Citizenship: The Canadian Charter of Rights and Freedoms",
@@ -191,7 +191,7 @@
     "The right to vote in secret",
     "The right to a free lawyer in every case",
     "The right to own property",
-    "The right to challenge unlawful detention by the state"
+    "The right to contest being held unlawfully by the state"
    ],
    "answer": 3,
    "explain": "Habeas corpus comes from English common law. It lets a person who is held by the authorities ask a court to decide whether the detention is lawful, so that nobody can be imprisoned arbitrarily.",
@@ -214,7 +214,7 @@
     "Roman military law and Dutch merchant law"
    ],
    "answer": 0,
-   "explain": "Canadian law comes from several sources: statutes passed by Parliament and the provincial legislatures, English common law, the civil code of France and the unwritten constitutional tradition inherited from Great Britain.",
+   "explain": "Canadian law draws on several roots: laws adopted by Parliament and by the provincial legislatures, the common law of England, France's civil code, and the unwritten constitutional customs that Canada received from Great Britain.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Rights and Responsibilities of Citizenship: Sources of Canadian law",
@@ -310,7 +310,7 @@
    "options": [
     "Police may act without legal limits",
     "The Prime Minister can overrule any court",
-    "No person or group is above the law",
+    "Everyone, including leaders and officials, must obey the law",
     "Each community writes its own criminal code"
    ],
    "answer": 2,
@@ -329,12 +329,12 @@
    "q": "The Charter of Rights and Freedoms opens by stating that Canada is founded upon principles that recognize what?",
    "options": [
     "The equality of all political parties",
-    "The supremacy of God and the rule of law",
+    "The rule of law and the supremacy of God",
     "The primacy of the English language",
     "The authority of the provinces over Parliament"
    ],
    "answer": 1,
-   "explain": "The Charter's first words refer to the supremacy of God and the rule of law. This opening underlines the importance of religious traditions in Canadian society and the dignity and worth of every human person.",
+   "explain": "The Charter begins by recognizing two founding principles: the rule of law and the supremacy of God. These first words reflect the place of religious traditions in Canada and the respect owed to the dignity and worth of each person.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Rights and Responsibilities of Citizenship: The Canadian Charter of Rights and Freedoms",
@@ -374,7 +374,7 @@
     "Joining a political party"
    ],
    "answer": 1,
-   "explain": "Citizens are expected to avoid waste and pollution and to help protect the country's natural, cultural and architectural heritage for future generations. Other responsibilities include obeying the law, serving on a jury and voting.",
+   "explain": "Citizens have a duty to limit waste and pollution and to protect Canada's natural, cultural and architectural heritage so that it can be passed on. Obeying the law, serving on a jury when called and voting are other responsibilities.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Rights and Responsibilities of Citizenship: Citizenship responsibilities",
@@ -414,7 +414,7 @@
     "English has priority"
    ],
    "answer": 2,
-   "explain": "The Charter protects official language rights and minority language educational rights. English and French have equal status in Parliament and throughout the Government of Canada, and education in the minority official language is also protected.",
+   "explain": "Two kinds of language rights are protected by the Charter: the rights attached to the official languages and the right to be educated in the minority official language. In Parliament and across the federal government, English and French stand on an equal footing.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Rights and Responsibilities of Citizenship: The Canadian Charter of Rights and Freedoms",
@@ -434,7 +434,7 @@
     "Charter rights do not take away from Aboriginal treaty and other rights"
    ],
    "answer": 3,
-   "explain": "The Charter states that the rights it guarantees will not adversely affect any treaty or other rights or freedoms of Aboriginal peoples. Aboriginal and treaty rights are also recognized elsewhere in the Constitution.",
+   "explain": "According to the Charter, the rights it guarantees cannot be used to weaken the treaty rights or any other rights and freedoms held by Aboriginal peoples. The Constitution also recognizes Aboriginal and treaty rights in a separate provision.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Rights and Responsibilities of Citizenship: The Canadian Charter of Rights and Freedoms",
@@ -449,12 +449,12 @@
    "q": "Who are the Métis?",
    "options": [
     "An Inuit community of the eastern Arctic",
-    "A distinct people of mixed Aboriginal and European ancestry",
+    "A distinct people with both Aboriginal and European ancestors",
     "Loyalists who came north after 1776",
     "The first French settlers of Acadia"
    ],
    "answer": 1,
-   "explain": "The Métis are a distinct people of mixed Aboriginal and European ancestry. They come from both French-speaking and English-speaking backgrounds, and they form one of the three groups that the term Aboriginal peoples covers today.",
+   "explain": "The Métis are a people in their own right, descended from both Aboriginal and European ancestors. Some of their communities are French-speaking and others English-speaking, and they are one of the three groups covered today by the term Aboriginal peoples.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Who We Are: Aboriginal Peoples",
@@ -474,7 +474,7 @@
     "Life, liberty and the pursuit of happiness"
    ],
    "answer": 1,
-   "explain": "Peace, order and good government is a key phrase of the British North America Act of 1867, Canada's original constitutional document. Canadian institutions still uphold this commitment, along with ordered liberty, enterprise, hard work and fair play.",
+   "explain": "The phrase peace, order and good government comes from the British North America Act of 1867, the founding constitutional text. Canadian institutions remain attached to it, as they are to liberty within the law, enterprise, hard work and fairness.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Who We Are: Introduction",
@@ -554,7 +554,7 @@
     "Northern sky"
    ],
    "answer": 1,
-   "explain": "Inuit means the people in Inuktitut. The Inuit live in small, scattered communities across the Arctic, and their knowledge of the land, sea and wildlife let them adapt to one of the harshest environments on earth.",
+   "explain": "In Inuktitut, the word Inuit means the people. Inuit communities are small and spread out across the Arctic, and a deep understanding of the land, the sea and the animals allowed them to live in one of the world's most demanding climates.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Who We Are: Aboriginal Peoples",
@@ -594,7 +594,7 @@
     "Their deportation from their homeland between 1755 and 1763"
    ],
    "answer": 3,
-   "explain": "During the war between Britain and France, more than two thirds of the Acadians were deported from their homeland between 1755 and 1763. Despite this ordeal, the Acadians kept their identity, and their culture remains a lively part of French-speaking Canada.",
+   "explain": "Between 1755 and 1763, while Britain and France were at war, over two thirds of the Acadian population was expelled from its homeland. The Acadians nonetheless kept their identity, and their culture is still very much alive within French-speaking Canada.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Who We Are: English and French",
@@ -610,11 +610,11 @@
    "options": [
     "That Quebec is an independent country",
     "That Quebec no longer sends members to Parliament",
-    "That they form a nation within a united Canada",
+    "That they are a nation inside a united Canada",
     "That French is Canada's only official language"
    ],
    "answer": 2,
-   "explain": "In 2006 the House of Commons recognized that the Québécois form a nation within a united Canada. Most Quebecers speak French and keep a distinct identity, culture and language rooted in the French settlement of the 1600s and 1700s.",
+   "explain": "In 2006 the House of Commons recognized the Québécois as a nation inside a united Canada. Most Quebecers speak French and keep a distinct identity, culture and language rooted in the French settlement of the 1600s and 1700s.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Who We Are: English and French",
@@ -634,7 +634,7 @@
     "Western Europe"
    ],
    "answer": 0,
-   "explain": "Since the 1970s, most newcomers to Canada have come from Asian countries. They join the many ethnic and religious groups who live and work in peace as proud Canadians, a diversity that is especially visible in large cities.",
+   "explain": "Asian countries have been the main source of immigrants to Canada since the 1970s. Newcomers join a population made of many ethnic and religious groups living side by side peacefully, a variety that stands out most in the big cities.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Who We Are: Diversity in Canada",
@@ -654,7 +654,7 @@
     "Muslim"
    ],
    "answer": 1,
-   "explain": "Among religious affiliations, Catholics form the largest group, followed by various Protestant churches. Canada is also home to growing numbers of Muslims, Jews, Hindus, Sikhs and members of other faiths, and to many people who report no religion.",
+   "explain": "Catholics are the largest religious group in Canada, ahead of the various Protestant churches. The number of Muslims, Jews, Hindus, Sikhs and followers of other faiths is rising, and so is the number of people who say they have no religion.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Who We Are: Diversity in Canada",
@@ -674,7 +674,7 @@
     "Asia, many thousands of years ago"
    ],
    "answer": 3,
-   "explain": "The ancestors of Aboriginal peoples are believed to have migrated from Asia many thousands of years ago. Their societies were well established long before European explorers arrived, with cultures rooted in their relationship to the Creator, the land and one another.",
+   "explain": "Aboriginal peoples are thought to descend from people who came from Asia many thousands of years ago. Their societies were firmly in place long before the first European explorers, with cultures grounded in their bond with the Creator, the land and each other.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Who We Are: Aboriginal Peoples",
@@ -694,7 +694,7 @@
     "Ontario"
    ],
    "answer": 0,
-   "explain": "Most people whose first language is French live in Quebec. Sizeable French-speaking communities also live in Ontario, New Brunswick and Manitoba, with smaller ones in the other provinces and territories.",
+   "explain": "Quebec is home to most Canadians whose mother tongue is French. Large francophone communities also exist in Ontario, New Brunswick and Manitoba, and smaller ones are found in the remaining provinces and in the territories.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Who We Are: English and French",
@@ -714,7 +714,7 @@
     "Political parties"
    ],
    "answer": 2,
-   "explain": "The Canadian state has traditionally worked with faith communities to promote social welfare, harmony and mutual respect, to provide schools and health care, to resettle refugees and to uphold freedom of religion and conscience.",
+   "explain": "Governments in Canada have a long history of partnership with religious communities: together they have promoted social welfare, harmony and mutual respect, run schools and hospitals, helped refugees settle, and defended freedom of religion and of conscience.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Who We Are: Diversity in Canada",
@@ -754,7 +754,7 @@
     "Jacques Cartier"
    ],
    "answer": 1,
-   "explain": "John Cabot, an Italian who had settled in England, reached Newfoundland or Cape Breton Island in 1497 and claimed the land for England. He was the first to map Canada's east coast, although English settlement only began in 1610.",
+   "explain": "John Cabot, an Italian who had moved to England, landed in 1497 on Newfoundland or Cape Breton Island and claimed it for the English Crown. He drew the first map of Canada's Atlantic coast, but English settlers only arrived in 1610.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canada's History: The First Europeans",
@@ -774,7 +774,7 @@
     "Land of the north"
    ],
    "answer": 0,
-   "explain": "On his three voyages between 1534 and 1542, Jacques Cartier heard two Aboriginal guides use the Iroquoian word kanata, meaning village. By the 1550s the name Canada was appearing on maps.",
+   "explain": "Jacques Cartier crossed the Atlantic three times between 1534 and 1542. Two Aboriginal guides used the Iroquoian word kanata, which means village, in front of him, and maps started to show the name Canada in the 1550s.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canada's History: Exploring a River, Naming Canada",
@@ -794,7 +794,7 @@
     "Trois-Rivières"
    ],
    "answer": 0,
-   "explain": "Champlain built a fortress in 1608 at what is now Québec City. The colonists struggled against a harsh climate, and Champlain allied the colony with the Algonquin, Montagnais and Huron, long-time enemies of the Iroquois.",
+   "explain": "In 1608 Champlain built a fortress on the site of today's Québec City. The settlers had to cope with a very harsh climate, and Champlain formed alliances with the Algonquin, Montagnais and Huron nations, who had long been at war with the Iroquois.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canada's History: Royal New France",
@@ -806,7 +806,7 @@
    "country": "ca",
    "lang": "en",
    "chapter": "Canada's History",
-   "q": "In 1670, King Charles II of England granted exclusive trading rights over the lands draining into Hudson Bay to which company?",
+   "q": "Which company received from King Charles II of England, in 1670, exclusive trading rights over the lands draining into Hudson Bay?",
    "options": [
     "The North West Company",
     "The Canadian Pacific Railway",
@@ -826,7 +826,7 @@
    "country": "ca",
    "lang": "en",
    "chapter": "Canada's History",
-   "q": "Which 1759 battle at Québec City marked the end of France's empire in America?",
+   "q": "Which 1759 battle at Québec City brought France's empire in America to an end?",
    "options": [
     "The Battle of the Plains of Abraham",
     "The Battle of Châteauguay",
@@ -866,7 +866,7 @@
    "country": "ca",
    "lang": "en",
    "chapter": "Canada's History",
-   "q": "The Constitutional Act of 1791 divided the Province of Quebec into which two colonies?",
+   "q": "In 1791, the Constitutional Act split the Province of Quebec into which two colonies?",
    "options": [
     "Rupert's Land and Quebec",
     "Upper Canada and Lower Canada",
@@ -874,7 +874,7 @@
     "Nova Scotia and New Brunswick"
    ],
    "answer": 1,
-   "explain": "The Constitutional Act of 1791 created Upper Canada, mainly Loyalist, Protestant and English-speaking, and Lower Canada, mostly Catholic and French-speaking. It also gave both colonies legislative assemblies elected by the people for the first time.",
+   "explain": "The Constitutional Act of 1791 set up two colonies: Upper Canada, with a largely Loyalist, Protestant, English-speaking population, and Lower Canada, largely Catholic and French-speaking. For the first time, both had legislative assemblies chosen by voters.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canada's History: The Beginnings of Democracy",
@@ -914,7 +914,7 @@
     "Sir Robert Borden"
    ],
    "answer": 1,
-   "explain": "Sir John Alexander Macdonald, a Father of Confederation born in Scotland, became Canada's first Prime Minister in 1867. He had been a lawyer in Kingston, Ontario, and Parliament recognizes his birthday, January 11, as Sir John A. Macdonald Day.",
+   "explain": "Born in Scotland and a lawyer in Kingston, Ontario, Sir John Alexander Macdonald was one of the Fathers of Confederation and became the first Prime Minister of Canada in 1867. His birthday, January 11, is recognized by Parliament as Sir John A. Macdonald Day.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canada's History: Canada's First Prime Minister",
@@ -934,7 +934,7 @@
     "Tecumseh"
    ],
    "answer": 1,
-   "explain": "When Canada took over the northwest from the Hudson's Bay Company in 1869, the Métis of Red River were not consulted. Louis Riel led an armed uprising and seized Fort Garry. Many see him as a defender of Métis rights and the father of Manitoba.",
+   "explain": "In 1869 Canada acquired the northwest from the Hudson's Bay Company without asking the Métis of Red River. Louis Riel then led an armed rising and took Fort Garry. Many Canadians regard him as a champion of Métis rights and as the father of Manitoba.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canada's History: Challenge in the West",
@@ -974,7 +974,7 @@
     "Juno Beach"
    ],
    "answer": 3,
-   "explain": "On D-Day, 15,000 Canadian troops stormed and captured Juno Beach in Normandy as part of the Allied invasion of Nazi-occupied Europe. About one in ten Allied soldiers that day was Canadian, and the Canadian Army went on to liberate the Netherlands.",
+   "explain": "On D-Day, June 6, 1944, 15,000 Canadian soldiers landed on Juno Beach in Normandy and took it from the German Army, during the Allied invasion of occupied Europe. Roughly one Allied soldier in ten on that day was Canadian, and the Canadian Army later freed the Netherlands.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canada's History: The Second World War",
@@ -986,7 +986,7 @@
    "country": "ca",
    "lang": "en",
    "chapter": "Modern Canada",
-   "q": "The discovery of oil in which province in 1947 began Canada's modern energy industry?",
+   "q": "In 1947, oil found in which province launched Canada's modern energy industry?",
    "options": [
     "Saskatchewan",
     "Newfoundland and Labrador",
@@ -994,7 +994,7 @@
     "Ontario"
    ],
    "answer": 2,
-   "explain": "Oil was discovered in Alberta in 1947, the start of Canada's modern energy industry. The discovery came during a postwar period of record prosperity, when Canada had one of the strongest economies among industrialized nations.",
+   "explain": "Alberta's oil strike of 1947 launched Canada's modern energy sector. It happened in the years of record growth after the war, when the Canadian economy ranked among the strongest of the industrialized world.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Modern Canada: Trade and Economic Growth",
@@ -1014,7 +1014,7 @@
     "NATO, the North Atlantic Treaty Organization"
    ],
    "answer": 3,
-   "explain": "After the Second World War, much of Eastern Europe fell under a Communist bloc controlled by the Soviet Union. Canada responded by joining other democratic countries of the West to form the North Atlantic Treaty Organization, a military alliance.",
+   "explain": "After 1945 much of Eastern Europe came under Communist rule directed by the Soviet Union. In response, Canada and other Western democracies founded a military alliance, the North Atlantic Treaty Organization (NATO).",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Modern Canada: International Engagement",
@@ -1054,7 +1054,7 @@
     "Greece"
    ],
    "answer": 2,
-   "explain": "Canada took part in the UN operation that defended South Korea during the Korean War of 1950-53, with about 500 dead and 1,000 wounded. Canada has since served in many UN peacekeeping missions, from Egypt and Cyprus to Haiti.",
+   "explain": "During the Korean War of 1950-53, Canada served in the United Nations force that defended South Korea; about 500 Canadians were killed and 1,000 wounded. Since then Canadian troops have taken part in many UN peacekeeping missions, in places such as Egypt, Cyprus and Haiti.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Modern Canada: International Engagement",
@@ -1114,7 +1114,7 @@
     "1980 and 1995"
    ],
    "answer": 3,
-   "explain": "The movement for Quebec sovereignty was defeated in provincial referendums in 1980 and again in 1995. The autonomy of Quebec within Canada remains a lively topic that continues to shape the country.",
+   "explain": "Quebec voters rejected sovereignty in two provincial referendums, in 1980 and 1995. The question of Quebec's autonomy inside Canada is still widely debated and continues to influence the country.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Modern Canada: Canada and Quebec",
@@ -1126,7 +1126,7 @@
    "country": "ca",
    "lang": "en",
    "chapter": "Modern Canada",
-   "q": "In which year were Aboriginal people granted the right to vote in federal elections?",
+   "q": "In which year did Aboriginal people obtain the right to vote in federal elections?",
    "options": [
     "1948",
     "1918",
@@ -1214,7 +1214,7 @@
     "The pacemaker"
    ],
    "answer": 2,
-   "explain": "Frederick Banting of Toronto and Charles Best discovered insulin, a hormone used to treat diabetes. Their discovery has saved millions of lives around the world and is one of Canada's best-known contributions to medicine.",
+   "explain": "Insulin, the hormone used to treat diabetes, was discovered by Frederick Banting of Toronto and Charles Best. It has saved millions of lives worldwide and is among the most famous Canadian contributions to medicine.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Modern Canada: Arts and Culture in Canada",
@@ -1334,7 +1334,7 @@
     "Highways"
    ],
    "answer": 0,
-   "explain": "The federal government handles matters of national and international concern, such as defence, foreign policy, interprovincial trade and communications, currency, navigation, criminal law and citizenship. Education, highways and municipal government belong to the provinces.",
+   "explain": "Ottawa deals with questions that concern the whole country or other nations: national defence, foreign affairs, trade and communications between provinces, money, navigation, criminal law and citizenship. Education, highways and municipal government are provincial matters.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "How Canadians Govern Themselves: Federal State",
@@ -1354,7 +1354,7 @@
     "Citizenship"
    ],
    "answer": 1,
-   "explain": "The provinces are responsible for health, education, municipal government, property and civil rights, and highways. Every province has its own elected legislative assembly to pass laws in these areas, much as the House of Commons does in Ottawa.",
+   "explain": "Health, education, municipal government, property and civil rights, and highways fall under provincial responsibility. Each province elects a legislative assembly that makes laws in those fields, in the same way the House of Commons does at the federal level.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "How Canadians Govern Themselves: Federal State",
@@ -1409,12 +1409,12 @@
    "q": "How are senators chosen, and until what age may they serve?",
    "options": [
     "They are elected by the House of Commons and serve until 70",
-    "They are appointed by the Governor General on the Prime Minister's advice and serve until 75",
+    "The Governor General appoints them on the Prime Minister's advice, and they serve until 75",
     "They are elected by voters for four years",
     "They are appointed by the provinces for life"
    ],
    "answer": 1,
-   "explain": "Senators are not elected. The Governor General appoints them on the advice of the Prime Minister, and they may serve until age 75. The Senate considers and reviews bills, just as the House of Commons does.",
+   "explain": "Senators are not chosen by voters. They are appointed by the Governor General, who acts on the Prime Minister's advice, and they can sit until age 75. Like the House of Commons, the Senate studies and reviews bills.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "How Canadians Govern Themselves: Parliamentary Democracy",
@@ -1434,7 +1434,7 @@
     "The Speaker of the Senate"
    ],
    "answer": 1,
-   "explain": "Royal assent is the final step in making a federal law. It is granted by the Governor General on behalf of the Sovereign, and only after the bill has been passed by both the House of Commons and the Senate.",
+   "explain": "Royal assent is the last step before a bill becomes federal law. The Governor General gives it in the Sovereign's name, once the bill has been adopted by the House of Commons and by the Senate.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "How Canadians Govern Themselves: Parliamentary Democracy",
@@ -1474,7 +1474,7 @@
     "The Governor General"
    ],
    "answer": 0,
-   "explain": "Canada's head of state is a hereditary Sovereign who reigns in accordance with the Constitution. The Prime Minister is the head of government and actually directs the governing of the country, a clear distinction in the Canadian system.",
+   "explain": "The head of state is the Sovereign, who inherits the position and reigns within the limits set by the Constitution. The head of government is the Prime Minister, who actually runs the country, and Canada keeps these two roles clearly separate.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "How Canadians Govern Themselves: Constitutional Monarchy",
@@ -1506,7 +1506,7 @@
    "country": "ca",
    "lang": "en",
    "chapter": "How Canadians Govern Themselves",
-   "q": "In the three territories, who represents the federal government and plays a ceremonial role?",
+   "q": "In each of the three territories, who acts as the federal government's representative and has a ceremonial role?",
    "options": [
     "The Premier",
     "The Governor General",
@@ -1534,7 +1534,7 @@
     "Senate, House of Commons and Cabinet"
    ],
    "answer": 1,
-   "explain": "The executive, legislative and judicial branches work together, and sometimes in creative tension, to secure the rights and freedoms of Canadians. Their interplay keeps any single part of government from holding all power.",
+   "explain": "The executive, the legislature and the courts cooperate, sometimes with a healthy tension between them, to protect the rights and freedoms of Canadians. This balance prevents any one branch of government from holding all the power.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "How Canadians Govern Themselves: Constitutional Monarchy",
@@ -1574,7 +1574,7 @@
     "Resign"
    ],
    "answer": 3,
-   "explain": "Cabinet ministers are responsible to the elected House of Commons and must keep its confidence. If they are defeated in a non-confidence vote, they must resign. This rule, known as responsible government, keeps the government accountable to voters' representatives.",
+   "explain": "Cabinet ministers answer to the elected House of Commons and need its confidence to stay in office. When they lose a vote of non-confidence, they have to resign. This principle, called responsible government, keeps the government accountable to the people's representatives.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "How Canadians Govern Themselves: Parliamentary Democracy",
@@ -1630,11 +1630,11 @@
    "options": [
     "Be a permanent resident who has lived in Canada for one year",
     "Be a citizen and a member of a political party",
-    "Be a Canadian citizen, at least 18 on voting day and on the voters' list",
+    "Be a Canadian citizen, aged 18 or over on election day, and registered on the voters' list",
     "Be at least 21 and own property"
    ],
    "answer": 2,
-   "explain": "To vote in a federal election or referendum, you must be a Canadian citizen, be at least 18 years old on voting day and be on the voters' list. Voting is one of the main privileges of citizenship.",
+   "explain": "Three conditions apply to vote in a federal election or referendum: Canadian citizenship, an age of 18 or more on election day, and registration on the voters' list. Voting is one of the key privileges of being a citizen.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Federal Elections: Voting",
@@ -1690,11 +1690,11 @@
    "options": [
     "The governing party won more than half of all votes cast",
     "Two parties share power equally",
-    "The governing party holds at least half of the seats in the House of Commons",
+    "The governing party has half or more of all Commons seats",
     "The Senate supports the government"
    ],
    "answer": 2,
-   "explain": "If the party in power holds at least half of the seats in the House of Commons, it forms a majority government. With fewer than half of the seats, it forms a minority government and needs support from other parties.",
+   "explain": "A party that wins half or more of all Commons seats forms a majority government. A party with fewer than half the seats forms a minority government and has to rely on the support of other parties.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Federal Elections: After an Election",
@@ -1709,7 +1709,7 @@
    "q": "What is the Official Opposition?",
    "options": [
     "A group of independent MPs",
-    "The opposition party with the most seats in the House of Commons",
+    "The opposition party that won the largest number of Commons seats",
     "The party that finished second in the popular vote",
     "All senators who vote against a bill"
    ],
@@ -1749,7 +1749,7 @@
    "q": "How do you mark a federal ballot?",
    "options": [
     "Write the candidate's full name",
-    "Put an X in the circle next to the candidate you choose",
+    "Mark an X in the circle beside your chosen candidate",
     "Rank all the candidates in order",
     "Sign the back of the ballot"
    ],
@@ -1814,7 +1814,7 @@
     "The Chief Justice"
    ],
    "answer": 2,
-   "explain": "Ordinarily the Governor General invites the leader of the party with the most seats in the House of Commons to form the government. Once appointed, that leader becomes Prime Minister and governs as long as the House maintains its confidence.",
+   "explain": "As a rule, the Governor General asks the leader of the party that won the largest number of seats in the House to form the government. That leader then becomes Prime Minister and stays in office for as long as the House keeps its confidence in the government.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Federal Elections: After an Election",
@@ -1834,7 +1834,7 @@
     "18"
    ],
    "answer": 3,
-   "explain": "Any Canadian citizen aged 18 or older may run in a federal election. There can be many candidates in a single electoral district, some representing political parties and others running as independents.",
+   "explain": "Every Canadian citizen who is 18 or over can be a candidate in a federal election. A single electoral district often has several candidates, some standing for a political party and others running as independents.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Federal Elections: Introduction",
@@ -1854,7 +1854,7 @@
     "Elections Canada"
    ],
    "answer": 0,
-   "explain": "The Prime Minister chooses the ministers of the Crown, most of them from among the members of the House of Commons. Together they form the Cabinet, which runs the federal departments and makes key decisions about how the country is governed.",
+   "explain": "The ministers of the Crown are selected by the Prime Minister, usually from the members of the House of Commons. As the Cabinet, they run the federal departments and take the main decisions on how Canada is governed.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Federal Elections: After an Election",
@@ -1874,7 +1874,7 @@
     "An accused person must prove their innocence"
    ],
    "answer": 0,
-   "explain": "Canada's justice system rests on the presumption of innocence in criminal matters: a person accused of a crime is treated as innocent until proven guilty in court. It is part of the due process guaranteed to everyone.",
+   "explain": "In criminal cases, Canada's justice system starts from the presumption of innocence: anyone charged with a crime is considered innocent until a court finds them guilty. This is one element of the due process to which everyone is entitled.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "The Justice System: Introduction",
@@ -1890,7 +1890,7 @@
    "options": [
     "The method used to appoint judges",
     "A fee charged to start a court case",
-    "The principle that the government must respect all the legal rights a person is entitled to",
+    "The rule that the state has to respect every legal right a person holds",
     "A rule that every trial must last a set time"
    ],
    "answer": 2,
@@ -2014,7 +2014,7 @@
     "Nothing; you must represent yourself"
    ],
    "answer": 0,
-   "explain": "Lawyers can help with legal problems and act for you in court. If you cannot pay for one, most communities offer legal aid services free of charge or at a low cost, so people with limited means can still get legal help.",
+   "explain": "A lawyer can advise you on a legal problem and represent you before a court. People who cannot afford one can usually turn to legal aid, offered in most communities for free or at a reduced cost.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "The Justice System: Getting Legal Help",
@@ -2030,7 +2030,7 @@
    "options": [
     "Only to adults over 18",
     "Only to citizens",
-    "To everyone, including judges, politicians and the police",
+    "To everyone, judges, politicians and police officers included",
     "To everyone except elected officials"
    ],
    "answer": 2,
@@ -2074,7 +2074,7 @@
     "To elect the government"
    ],
    "answer": 1,
-   "explain": "Under Canada's organized system of laws, elected representatives make the laws, the courts settle disputes and the police enforce the law. This division of roles gives society a peaceful way to resolve conflicts.",
+   "explain": "Canada's legal system divides the work: elected representatives write the laws, judges resolve disputes and the police make sure laws are respected. This division gives society a peaceful way to settle conflicts.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "The Justice System: Introduction",
@@ -2114,7 +2114,7 @@
     "When someone you know has gone missing"
    ],
    "answer": 3,
-   "explain": "The police are there to keep people safe and to enforce the law. You can turn to them after an accident, a theft or an assault, when you see a crime taking place, or when someone you know has gone missing.",
+   "explain": "The role of the police is to protect people and make sure the law is obeyed. You can call on them after an accident, a theft or an assault, when you witness a crime, or when a person you know has disappeared.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "The Justice System: Police",
@@ -2174,7 +2174,7 @@
     "1921"
    ],
    "answer": 1,
-   "explain": "The red and white maple leaf flag was raised for the first time in 1965. Red and white had been colours of France and England since the Middle Ages, and the flag quickly became one of the country's best-known symbols.",
+   "explain": "Canada's red and white maple leaf flag flew for the first time in 1965. Since the Middle Ages, red and white had been colours associated with both France and England, and the flag soon became one of the most recognized symbols of the country.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canadian Symbols: Flags in Canada",
@@ -2194,7 +2194,7 @@
     "McGill University"
    ],
    "answer": 2,
-   "explain": "The flag's red-white-red pattern comes from the flag of the Royal Military College in Kingston, Ontario, founded in 1876. The college still trains officers for Canada's armed forces, and its colours became a lasting part of the national identity.",
+   "explain": "The red, white and red design of the flag is borrowed from the banner of Kingston's Royal Military College, founded in 1876 in Ontario. The college still trains officers for the Canadian Armed Forces, and its colours became a lasting part of the national identity.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canadian Symbols: Flags in Canada",
@@ -2234,7 +2234,7 @@
     "The Stanley Cup"
    ],
    "answer": 3,
-   "explain": "Lord Stanley, then Governor General, donated the Stanley Cup in 1892. Ice hockey was developed in Canada in the 1800s and is both the national winter sport and the most popular spectator sport.",
+   "explain": "The Stanley Cup was given in 1892 by Lord Stanley, who was Governor General at the time. Hockey took shape in Canada during the 19th century; it is the national winter sport and draws the largest crowds of spectators.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canadian Symbols: Popular Sports",
@@ -2274,7 +2274,7 @@
     "The polar bear"
    ],
    "answer": 0,
-   "explain": "The beaver, an industrious rodent, has long been a Canadian symbol. It appears on the five-cent coin and on the coats of arms of Saskatchewan and Alberta, as well as those of cities such as Montreal and Toronto.",
+   "explain": "The beaver, a hard-working rodent, has been a Canadian emblem for a long time. You can see it on the 5-cent piece, on the provincial arms of Alberta and Saskatchewan, and on the arms of cities such as Montreal and Toronto.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canadian Symbols: The Beaver",
@@ -2286,7 +2286,7 @@
    "country": "ca",
    "lang": "en",
    "chapter": "Canadian Symbols",
-   "q": "In which year did Canada create its own honours system with the Order of Canada?",
+   "q": "In which year did Canada start its own system of honours by creating the Order of Canada?",
    "options": [
     "1867",
     "1982",
@@ -2294,7 +2294,7 @@
     "1917"
    ],
    "answer": 2,
-   "explain": "After using British honours for many years, Canada established the Order of Canada in 1967, the hundredth anniversary of Confederation. Honours recognize outstanding citizens, and anyone may nominate a fellow citizen they consider worthy.",
+   "explain": "Canada relied on British honours for a long time before founding the Order of Canada in 1967, a hundred years after Confederation. Honours reward exceptional citizens, and any person can put forward the name of a fellow citizen who deserves one.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canadian Symbols: The Order of Canada and Other Honours",
@@ -2314,7 +2314,7 @@
     "The Victoria Cross"
    ],
    "answer": 3,
-   "explain": "The Victoria Cross is awarded for the most conspicuous bravery, a daring act of valour or self-sacrifice, or extreme devotion to duty in the presence of the enemy. Close to a hundred Canadians have received it since 1854.",
+   "explain": "The Victoria Cross rewards exceptional courage, a bold act of valour or self-sacrifice, or outstanding devotion to duty while facing the enemy. It is the highest honour open to Canadians, and close to a hundred of them have received it since 1854.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canadian Symbols: The Victoria Cross",
@@ -2346,7 +2346,7 @@
    "country": "ca",
    "lang": "en",
    "chapter": "Canadian Symbols",
-   "q": "Which symbol of French royalty for more than a thousand years appears on Quebec's flag?",
+   "q": "Which emblem, used by the French monarchy for over a thousand years, appears on Quebec's flag?",
    "options": [
     "The rose",
     "The maple leaf",
@@ -2354,7 +2354,7 @@
     "The thistle"
    ],
    "answer": 2,
-   "explain": "The lily flower, or fleur-de-lys, is said to have been adopted by the French king in 496 and symbolized French royalty, including New France. Quebec's flag, adopted in 1948, is based on the cross and the fleur-de-lys.",
+   "explain": "Tradition holds that the French king adopted the lily flower, or fleur-de-lys, in 496; it went on to stand for the French monarchy, New France included. The flag Quebec adopted in 1948 combines a cross with four fleurs-de-lys.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canadian Symbols: The Fleur-de-lys",
@@ -2394,7 +2394,7 @@
     "The trillium"
    ],
    "answer": 1,
-   "explain": "Every November 11, Canadians remember veterans and those who died in war. They wear a red poppy and observe a moment of silence at the 11th hour of the 11th day of the 11th month, and the poem In Flanders Fields is often recited.",
+   "explain": "On November 11 each year, Canadians honour veterans and the people who died in war. They wear a red poppy and keep a minute of silence at 11 a.m., the eleventh hour of the eleventh day of the eleventh month, and the poem In Flanders Fields is often read.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canadian Symbols: Remembrance Day",
@@ -2434,7 +2434,7 @@
     "The 1920s"
    ],
    "answer": 0,
-   "explain": "The maple leaf is Canada's best-known symbol. French Canadians adopted it as an emblem in the 1700s, it has appeared on uniforms and insignia since the 1850s, and it is carved on the headstones of Canada's fallen soldiers.",
+   "explain": "No Canadian symbol is better known than the maple leaf. French Canadians took it as an emblem in the 1700s, soldiers have worn it on uniforms and badges since the 1850s, and it is engraved on the gravestones of Canada's war dead.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canadian Symbols: The Maple Leaf",
@@ -2494,7 +2494,7 @@
     "More than 75%"
    ],
    "answer": 3,
-   "explain": "More than three quarters of working Canadians are employed in service industries. These include transportation, education, health care, construction, banking, communications, retail services, tourism and government. Services are by far the largest source of employment in the country.",
+   "explain": "Over three quarters of Canadian workers have jobs in the service sector, which covers fields such as transport, education, health care, construction, banking, communications, retail, tourism and public administration. No other sector employs as many people.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canada's Economy: Three Main Types of Industries",
@@ -2534,7 +2534,7 @@
     "Tourism"
    ],
    "answer": 0,
-   "explain": "Natural resources industries include forestry, fishing, agriculture, mining and energy. They played a major part in Canada's history, many regions still depend on them, and resource commodities make up a large share of the country's exports.",
+   "explain": "Forestry, fishing, farming, mining and energy are the natural resources industries. They shaped Canada's history, many regions still rely on them, and resource products account for a large part of what the country exports.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canada's Economy: Three Main Types of Industries",
@@ -2554,7 +2554,7 @@
     "Tourism services"
    ],
    "answer": 2,
-   "explain": "Manufacturing industries make products sold in Canada and around the world, such as paper, high-technology equipment, aerospace technology, automobiles, machinery, food and clothing. Many of these goods are exported, a large share to the United States.",
+   "explain": "Canadian factories produce goods for the home market and for export, for example paper, high-tech equipment, aerospace products, cars, machinery, food and clothing. A large part of these goods is sold to the United States.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canada's Economy: Three Main Types of Industries",
@@ -2574,7 +2574,7 @@
     "In Halifax harbour"
    ],
    "answer": 2,
-   "explain": "The Peace Arch stands on the Canada-United States border at Blaine, in Washington State. Its inscriptions, children of a common mother and brethren dwelling together in unity, express the close ties and shared interests of the two countries.",
+   "explain": "The Peace Arch sits on the border between Canada and the United States at Blaine, Washington. One of its inscriptions reads children of a common mother; the other reads brethren dwelling together in unity. The monument stands for the close links and common interests of the two neighbours.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canada's Economy: A Trading Nation",
@@ -2614,7 +2614,7 @@
     "British Columbia"
    ],
    "answer": 0,
-   "explain": "Quebec's abundant fresh water has made it Canada's largest producer of hydro-electricity. The province also draws on the resources of the Canadian Shield for forestry, energy and mining, and is a leader in aeronautics and pharmaceuticals.",
+   "explain": "Thanks to its huge reserves of fresh water, Quebec generates more hydro-electricity than any other province. It also uses the resources of the Canadian Shield for forestry, energy and mining, and it stands out in aeronautics and pharmaceuticals.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canada's Economy: Quebec",
@@ -2634,7 +2634,7 @@
     "British Columbia"
    ],
    "answer": 0,
-   "explain": "Alberta is the country's largest producer of oil and gas, and the oil sands in the north have been developed as a major energy source. Energy has made the province one of the main drivers of Canada's economy.",
+   "explain": "No province produces more oil and gas than Alberta, where the northern oil sands have become a major source of energy. This energy wealth makes Alberta one of the engines of the Canadian economy.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canada's Economy: Alberta",
@@ -2654,7 +2654,7 @@
     "The Atlantic provinces"
    ],
    "answer": 0,
-   "explain": "Central Canada, the cities and towns near the Great Lakes and the St. Lawrence River in southern Ontario and Quebec, is the country's industrial and manufacturing heartland. More than half of all Canadians live there.",
+   "explain": "Central Canada, meaning the urban areas of southern Ontario and Quebec along the Great Lakes and the St. Lawrence, is the industrial and manufacturing core of the country. Over half of the population lives there.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canada's Economy: Central Canada",
@@ -2706,7 +2706,7 @@
    "country": "ca",
    "lang": "en",
    "chapter": "Canada's Economy",
-   "q": "Which institution was created in 1934 to manage the money supply and bring stability to the financial system?",
+   "q": "Which institution, founded in 1934, was set up to control the money supply and make the financial system more stable?",
    "options": [
     "The Montreal Stock Exchange",
     "The Canada Revenue Agency",
@@ -2714,7 +2714,7 @@
     "The Royal Bank of Canada"
    ],
    "answer": 2,
-   "explain": "During the Great Depression, Canadians called for more economic stability and a social safety net. The Bank of Canada was created in 1934 as a central bank to manage the money supply and bring stability to the financial system.",
+   "explain": "In the Great Depression, Canadians wanted a steadier economy and better social protection. The Bank of Canada, a central bank, was founded in 1934 to control the money supply and keep the financial system stable.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canada's Economy: Between the Wars",
@@ -2730,11 +2730,11 @@
    "options": [
     "The Treaty of Paris",
     "The Statute of Westminster",
-    "The General Agreement on Tariffs and Trade (GATT)",
+    "GATT, the General Agreement on Tariffs and Trade",
     "The North American Free Trade Agreement"
    ],
    "answer": 2,
-   "explain": "The restrictive trade policies of the Depression era were opened up after the war by treaties such as the General Agreement on Tariffs and Trade, now the World Trade Organization. Freer trade helped Canada enjoy record postwar prosperity.",
+   "explain": "After the war, the protectionist trade policies of the Depression gave way to agreements such as GATT, the General Agreement on Tariffs and Trade, which later became the World Trade Organization. More open trade contributed to Canada's record postwar prosperity.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canada's Economy: Trade and Economic Growth",
@@ -2794,7 +2794,7 @@
     "The West Coast"
    ],
    "answer": 0,
-   "explain": "Canada is usually described as having five regions: the Atlantic Provinces, Central Canada, the Prairie Provinces, the West Coast and the Northern Territories. Each has its own landscapes, climate and economy.",
+   "explain": "Canada is commonly divided into five regions: the Atlantic Provinces, Central Canada, the Prairies, the West Coast and the North. Each region has its own geography, climate and economy.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canada's Regions: The Regions of Canada",
@@ -2834,7 +2834,7 @@
     "Whitehorse"
    ],
    "answer": 1,
-   "explain": "Iqaluit is the capital of Nunavut, the territory created in 1999 from the eastern part of the Northwest Territories. Most of Nunavut's residents are Inuit, and Inuktitut is one of its official languages.",
+   "explain": "Iqaluit is Nunavut's capital. Nunavut was carved out of the eastern Northwest Territories in 1999; most of its people are Inuit, and Inuktitut is one of the territory's official languages.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canada's Regions: Nunavut",
@@ -2854,7 +2854,7 @@
     "Prince Albert"
    ],
    "answer": 0,
-   "explain": "Regina is the capital of Saskatchewan. Saskatoon, the province's largest city, is the headquarters of its mining industry and an important centre for education, research and technology. Each province and territory has its own capital city.",
+   "explain": "The capital of Saskatchewan is Regina. Saskatoon, the biggest city in the province, is where the mining industry has its headquarters and is a major centre of education, research and technology.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canada's Regions: Saskatchewan",
@@ -2894,7 +2894,7 @@
     "Nova Scotia"
    ],
    "answer": 0,
-   "explain": "Prince Edward Island is the smallest province, known for its beaches, red soil and farming, especially potatoes. It is also known as the birthplace of Confederation, because the talks that led to the creation of Canada began there.",
+   "explain": "Prince Edward Island is Canada's smallest province, famous for its beaches, its red earth and its farms, potatoes above all. It is called the birthplace of Confederation, since the discussions that led to the creation of Canada started there.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canada's Regions: Prince Edward Island",
@@ -2954,7 +2954,7 @@
     "Alberta"
    ],
    "answer": 0,
-   "explain": "Mount Logan, in Yukon, is the highest mountain in Canada. It is named after Sir William Logan, a Montreal-born geologist who founded the Geological Survey of Canada and is considered one of the country's greatest scientists.",
+   "explain": "The highest peak in Canada is Mount Logan, in Yukon. It bears the name of Sir William Logan, a geologist born in Montreal who founded the Geological Survey of Canada and is counted among the country's greatest scientists.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canada's Regions: Yukon",
@@ -2989,12 +2989,12 @@
    "q": "Why is Canada's North often called the Land of the Midnight Sun?",
    "options": [
     "Because the sun never sets at any time of year",
-    "Because summer daylight can last up to 24 hours",
+    "Because in summer the sun can shine for up to 24 hours a day",
     "Because it lies close to the equator",
     "Because the northern lights look like a sun"
    ],
    "answer": 1,
-   "explain": "At the height of summer in the North, daylight can last up to 24 hours, while in winter the sun disappears and darkness sets in for long periods. The territories have long cold winters and short cool summers.",
+   "explain": "In the northern summer, the sun can stay up for as long as 24 hours, while in winter it vanishes and long periods of darkness follow. Winters in the territories are long and cold, and summers are short and cool.",
    "ref": {
     "doc": "Discover Canada (facts only, questions written by Radif Partners)",
     "section": "Canada's Regions: The Northern Territories",

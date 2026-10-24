@@ -29,6 +29,6 @@ ${h.table(['Part', 'Questions in our bank', 'What it covers'], [[h.chapters.au[0
 <h2>Correction as you go or at the end</h2>
 <p>By default the answer is checked as soon as you choose it, which is the fastest way to learn. Switch the option to "At the end" when you want to test yourself without help, closer to the real test where you only see the result once you finish. In both modes, the review lists each question with your answer and the right one.</p>
 <h2>Why we do not copy questions</h2>
-<p>Apps and books sometimes present "real test questions". The test questions are not published, so no one can give them. Every question here was written by us from facts in the booklet, which Home Affairs publishes under a Creative Commons Attribution 4.0 licence (the Coat of Arms excepted). The ${h.a('au-questions', 'questions page')} lists them all with their answers.</p>`,
+<p>Apps and books sometimes present "real test questions". The test questions are not published, so no one can give them. Every question here was prepared by us from the booklet, which Home Affairs publishes under a Creative Commons Attribution 4.0 licence (the Coat of Arms excepted); our questions are adapted from it, with attribution. The ${h.a('au-questions', 'questions page')} lists them all with their answers.</p>`,
   },
 });

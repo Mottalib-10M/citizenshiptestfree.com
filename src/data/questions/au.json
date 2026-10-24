@@ -14,7 +14,7 @@
         "Brisbane"
       ],
       "answer": 2,
-      "explain": "Canberra, in the Australian Capital Territory, is Australia's capital city. It is home to several national institutions, including Parliament House and the High Court of Australia, and lies between Sydney and Melbourne.",
+      "explain": "Canberra, in the Australian Capital Territory, is the nation's capital. Parliament House, the High Court of Australia and several other national institutions are located there, roughly midway between Sydney and Melbourne.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 1: Australia's states and territories",
@@ -34,7 +34,7 @@
         "Eight states"
       ],
       "answer": 1,
-      "explain": "The Commonwealth of Australia is a federation made up of six states and two mainland territories. Canberra is the national capital, and each state and mainland territory also has its own capital city.",
+      "explain": "Australia, officially the Commonwealth of Australia, is a federation formed by six states plus two territories on the mainland. Canberra serves as the national capital, and every state and mainland territory has a capital city of its own.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 1: Australia's states and territories",
@@ -54,7 +54,7 @@
         "1 July"
       ],
       "answer": 1,
-      "explain": "Australia Day is celebrated on 26 January each year and is a public holiday in every state and territory. It marks the anniversary of the arrival of the First Fleet from Great Britain in 1788.",
+      "explain": "Australia Day falls on 26 January every year, and all states and territories observe it as a public holiday. The date recalls the landing of the First Fleet, which sailed from Great Britain and arrived in 1788.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 1: Important days for Australians",
@@ -74,7 +74,7 @@
         "3 September"
       ],
       "answer": 2,
-      "explain": "Anzac Day is commemorated on 25 April, the date in 1915 when Australian and New Zealand troops landed at Gallipoli in Türkiye during World War I. It is a solemn day to remember all who served and died in wars.",
+      "explain": "Anzac Day is held on 25 April. On that date in 1915, during World War I, Australian and New Zealand soldiers went ashore at Gallipoli in Türkiye. It is a solemn occasion to honour everyone who served and died in wars.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 1: Important days for Australians",
@@ -94,7 +94,7 @@
         "Eucalyptus blossom"
       ],
       "answer": 1,
-      "explain": "The golden wattle is Australia's national flower. This small tree grows mainly in south-eastern Australia and has bright green leaves and many golden yellow flowers in spring. Each state and territory also has its own floral emblem.",
+      "explain": "The golden wattle is the national flower. It is a small tree found mostly in Australia's south-east, with bright green foliage and masses of golden yellow blossoms in spring. Every state and territory has chosen a floral emblem too.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 1: Australia's national flower",
@@ -114,7 +114,7 @@
         "Aboriginal and Torres Strait Islander peoples"
       ],
       "answer": 3,
-      "explain": "Australia's first inhabitants are the Aboriginal and Torres Strait Islander peoples, whose cultures and traditions are the oldest continuous cultures in the world. They have a deep connection with the land, expressed in stories, art and dance.",
+      "explain": "The first people to live in Australia were the Aboriginal and Torres Strait Islander peoples. Their cultures and traditions are the world's oldest continuous cultures, and their strong bond with the land is expressed through stories, art and dance.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 1: Aboriginal and Torres Strait Islander peoples",
@@ -128,13 +128,13 @@
       "chapter": "Part 1: Australia and its people",
       "q": "Where do Torres Strait Islander people come from?",
       "options": [
-        "Islands between the northern tip of Queensland and Papua New Guinea",
+        "Islands lying between Queensland's northern tip and Papua New Guinea",
         "Islands south of Tasmania",
         "The western coast of Western Australia",
         "Islands near New Zealand"
       ],
       "answer": 0,
-      "explain": "Torres Strait Islander people come from the islands lying between the northern tip of Queensland and Papua New Guinea. Aboriginal people, historically, are from mainland Australia and Tasmania. Together they are Australia's first peoples.",
+      "explain": "Torres Strait Islander people come from the islands that lie between Papua New Guinea and the northern tip of Queensland. Aboriginal people historically come from mainland Australia and Tasmania. Together they are Australia's first peoples.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 1: Aboriginal and Torres Strait Islander peoples",
@@ -151,10 +151,10 @@
         "About 5,000 years ago",
         "About 1,000 years ago",
         "In 1788",
-        "Between 65,000 and 40,000 years ago"
+        "Between 40,000 and 65,000 years ago"
       ],
       "answer": 3,
-      "explain": "The archaeological record indicates that Aboriginal peoples arrived in Australia between 65,000 and 40,000 years ago. Aboriginal peoples themselves believe they are central to the creation stories of this land, which begin with the beginning of time.",
+      "explain": "Archaeological evidence shows that Aboriginal peoples reached Australia somewhere between 40,000 and 65,000 years ago. Aboriginal peoples themselves hold that they are at the heart of this land's creation stories, which start at the beginning of time.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 1: Aboriginal and Torres Strait Islander peoples",
@@ -174,7 +174,7 @@
         "50"
       ],
       "answer": 1,
-      "explain": "European settlement began when the First Fleet of 11 convict ships arrived from Great Britain on 26 January 1788. British jails were overcrowded, so the government transported convicts to the new colony of New South Wales.",
+      "explain": "European settlement started on 26 January 1788, when the First Fleet of 11 convict ships reached Australia from Great Britain. Because British jails were overcrowded, the government sent convicts to the newly founded colony of New South Wales.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 1: Early days of European settlement",
@@ -186,7 +186,7 @@
       "country": "au",
       "lang": "en",
       "chapter": "Part 1: Australia and its people",
-      "q": "Who was the first Governor of the colony of New South Wales?",
+      "q": "Who served as the first Governor of New South Wales when it was a colony?",
       "options": [
         "Captain Arthur Phillip",
         "Captain James Cook",
@@ -194,7 +194,7 @@
         "Captain Matthew Flinders"
       ],
       "answer": 0,
-      "explain": "Captain Arthur Phillip was the first Governor of the colony of New South Wales. The colony survived and grew as more convicts and free settlers arrived, and further colonies were later set up in other parts of Australia.",
+      "explain": "Captain Arthur Phillip was the first Governor of New South Wales as a colony. The settlement survived and expanded as more convicts and free settlers came, and other colonies were later founded in different parts of Australia.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 1: Early days of European settlement",
@@ -206,7 +206,7 @@
       "country": "au",
       "lang": "en",
       "chapter": "Part 1: Australia and its people",
-      "q": "In which year did a gold rush begin in the colonies of New South Wales and Victoria?",
+      "q": "In which year did a gold rush start in the colonies of Victoria and New South Wales?",
       "options": [
         "1788",
         "1851",
@@ -226,7 +226,7 @@
       "country": "au",
       "lang": "en",
       "chapter": "Part 1: Australia and its people",
-      "q": "During the gold rush, which group became the first large group of migrants not from Europe?",
+      "q": "During the gold rush, which group became the first large wave of migrants from outside Europe?",
       "options": [
         "Indian people",
         "American people",
@@ -254,7 +254,7 @@
         "The end of World War II"
       ],
       "answer": 0,
-      "explain": "In 1901 Australia's population of about four million did not include Aboriginal and Torres Strait Islander peoples. It was only after a Referendum in 1967 that they were included in official estimates of the Australian population.",
+      "explain": "In 1901 Australia had about four million people, but this count left out Aboriginal and Torres Strait Islander peoples. They were only counted in official estimates of the population after the 1967 Referendum.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 1: The nation of Australia",
@@ -271,10 +271,10 @@
         "A second gold rush",
         "The end of convict transportation",
         "The opening of the Sydney Harbour Bridge",
-        "Millions of people in Europe had to leave their homelands"
+        "Millions of Europeans were forced out of their homelands"
       ],
       "answer": 3,
-      "explain": "After World War II, millions of people in Europe were forced to leave their homelands. Large numbers of Europeans came to Australia to build a new life, creating a wave of non-British migration.",
+      "explain": "After World War II, millions of Europeans were forced out of their homelands. Many of them came to Australia to start a new life, bringing a wave of migration from countries other than Britain.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 1: The nation of Australia",
@@ -294,7 +294,7 @@
         "Every state chooses its own"
       ],
       "answer": 0,
-      "explain": "English is Australia's national language and part of its national identity. Communicating in English is important for making the most of living and working in Australia, and in keeping with Australian values migrants should learn and use English.",
+      "explain": "English is the national language and part of Australia's national identity. Speaking English helps people get the most out of life and work in Australia, and Australian values expect migrants to learn and use it.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 1: The nation of Australia",
@@ -314,7 +314,7 @@
         "More than 100"
       ],
       "answer": 3,
-      "explain": "While English is the national language, other languages are also valued in Australia. These include more than 100 distinct Aboriginal and Torres Strait Islander languages, part of the oldest continuous cultures in the world.",
+      "explain": "English is the national language, but other languages are valued in Australia too. They include over 100 different languages of Aboriginal and Torres Strait Islander peoples, whose cultures are the world's oldest continuous cultures.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 1: The nation of Australia",
@@ -326,7 +326,7 @@
       "country": "au",
       "lang": "en",
       "chapter": "Part 1: Australia and its people",
-      "q": "Which was the first colony established by the British in Australia?",
+      "q": "Which colony did the British establish first in Australia?",
       "options": [
         "Victoria",
         "Tasmania",
@@ -334,7 +334,7 @@
         "New South Wales"
       ],
       "answer": 3,
-      "explain": "New South Wales was the first colony established by the British. Its capital, Sydney, is the nation's largest city, and the Sydney Harbour Bridge and the Opera House are national icons.",
+      "explain": "New South Wales was the first colony the British founded. Its capital, Sydney, is now the country's largest city, and both the Sydney Harbour Bridge and the Opera House are national icons.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 1: The states",
@@ -354,7 +354,7 @@
         "New South Wales"
       ],
       "answer": 0,
-      "explain": "Victoria is the smallest of the mainland states and its capital is Melbourne. Many fine buildings in Victoria were built from the wealth of the 1850s gold rush, and its icons include the Melbourne Cricket Ground and the 12 Apostles.",
+      "explain": "Victoria is the smallest state on the mainland, and Melbourne is its capital. Wealth from the 1850s gold rush paid for many of Victoria's fine buildings, and its icons include the Melbourne Cricket Ground and the 12 Apostles.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 1: The states",
@@ -374,7 +374,7 @@
         "Western Australia"
       ],
       "answer": 3,
-      "explain": "Western Australia is the largest state and its capital is Perth. The east of the state is mostly desert, while the south-west is a rich farming and wine-growing area. It is home to many large mining projects.",
+      "explain": "Western Australia is the largest state, with Perth as its capital. Most of the eastern part of the state is desert, while the south-west is rich farming and wine country. Many large mining projects operate there.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 1: The states",
@@ -394,7 +394,7 @@
         "Victoria"
       ],
       "answer": 0,
-      "explain": "The world-famous Great Barrier Reef runs along Queensland's eastern coast. Queensland is the second largest state, its capital is Brisbane, and it has tropical rainforests, temperate coastal areas and an often dry inland.",
+      "explain": "The world-famous Great Barrier Reef lies off Queensland's eastern coast. Queensland is the second largest state and its capital is Brisbane. It has tropical rainforests, mild coastal areas and an inland that is often dry.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 1: The states",
@@ -414,7 +414,7 @@
         "The Bass Strait"
       ],
       "answer": 3,
-      "explain": "Tasmania, the smallest state, is an island separated from the mainland by the Bass Strait. Its capital is Hobart, much of the island is unspoilt wilderness, and its icons include Cradle Mountain, Port Arthur and the Bay of Fires.",
+      "explain": "Tasmania, the smallest state, is an island divided from the mainland by Bass Strait. Hobart is its capital, much of the island is untouched wilderness, and its well-known sights include Port Arthur, Cradle Mountain and the Bay of Fires.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 1: The states",
@@ -434,7 +434,7 @@
         "The Australian Capital Territory"
       ],
       "answer": 0,
-      "explain": "Uluru, Kata Tjuta and Kings Canyon are icons of the Northern Territory. The territory has a tropical environment in the north and dry red desert in the south, and its capital city is Darwin.",
+      "explain": "Uluru, Kata Tjuta and Kings Canyon are icons of the Northern Territory. Its north is tropical and its south is dry red desert, and its capital city is Darwin.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 1: The territories",
@@ -451,10 +451,10 @@
         "The Prime Minister",
         "Any guest at the event",
         "A state Governor",
-        "An Aboriginal or Torres Strait Islander custodian of the local region"
+        "A local custodian who is an Aboriginal or Torres Strait Islander person"
       ],
       "answer": 3,
-      "explain": "A Welcome to Country is performed by an Aboriginal or Torres Strait Islander custodian of the local area, welcoming visitors to their traditional land. It can include songs, dances, smoking ceremonies or speeches and usually opens an event.",
+      "explain": "A Welcome to Country is given by a local custodian who is an Aboriginal or Torres Strait Islander person, welcoming visitors onto their traditional land. It may involve songs, dances, smoking ceremonies or speeches and usually begins an event.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 1: Welcome to Country and Acknowledgement of Country protocols",
@@ -466,7 +466,7 @@
       "country": "au",
       "lang": "en",
       "chapter": "Part 1: Australia and its people",
-      "q": "During Australia Day celebrations, who announces the Australian of the Year Awards in Canberra?",
+      "q": "As part of the Australia Day celebrations, who names the Australian of the Year Award winners in Canberra?",
       "options": [
         "The Prime Minister",
         "The Chief Justice",
@@ -474,7 +474,7 @@
         "The Governor of Victoria"
       ],
       "answer": 0,
-      "explain": "During Australia Day celebrations, the Prime Minister announces the Australian of the Year Awards in Canberra. Australia Day is also marked by events across the country, including special citizenship ceremonies.",
+      "explain": "As part of Australia Day, it is the Prime Minister who names, in Canberra, the winners of the Australian of the Year Awards. Events are also held across the country on the day, including special citizenship ceremonies.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 1: Important days for Australians",
@@ -494,7 +494,7 @@
         "The Australian National Cadet Corps"
       ],
       "answer": 2,
-      "explain": "Anzac Day is named after the Australian and New Zealand Army Corps, which landed at Gallipoli in Türkiye during World War I. On this day Australians remember the sacrifice of all who served and died in wars, conflicts and peacekeeping.",
+      "explain": "Anzac Day takes its name from the Australian and New Zealand Army Corps, the force that landed at Gallipoli in Türkiye in World War I. On the day, Australians honour everyone who served, and those who died, in wars, conflicts and peacekeeping operations.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 1: Important days for Australians",
@@ -534,7 +534,7 @@
         "The sun"
       ],
       "answer": 3,
-      "explain": "The Australian Aboriginal Flag is black, red and yellow. The black top half represents the Aboriginal peoples of Australia, the red bottom half represents the earth, which has ceremonial significance, and the yellow circle represents the sun.",
+      "explain": "The Australian Aboriginal Flag has three colours: black, red and yellow. Its black upper half stands for the Aboriginal peoples of Australia, its red lower half for the earth and its ceremonial significance, and its yellow circle for the sun.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 1: Australia's flags",
@@ -574,7 +574,7 @@
         "The ruby"
       ],
       "answer": 1,
-      "explain": "The opal is Australia's national gemstone. According to Aboriginal legend, a rainbow touched the earth and created the colours of the opal, a stone known for its shifting flashes of colour.",
+      "explain": "The national gemstone is the opal. An Aboriginal legend tells that the opal's colours were made when a rainbow touched the earth, and the stone is known for its shifting flashes of colour.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 1: Australia's national gemstone",
@@ -594,7 +594,7 @@
         "Southern Cross"
       ],
       "answer": 2,
-      "explain": "'Advance Australia Fair' is Australia's national anthem. It is sung on occasions of national importance, including at Australian citizenship ceremonies and major sporting events. Everyone sings it at a citizenship ceremony.",
+      "explain": "'Advance Australia Fair' is the national anthem. It is sung at events of national importance, such as citizenship ceremonies and major sporting events. Everyone joins in singing it at a citizenship ceremony.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 1: Australia's national anthem",
@@ -614,7 +614,7 @@
         "Only required every second election"
       ],
       "answer": 1,
-      "explain": "Australian citizens aged 18 or over must enrol and vote in federal and state or territory elections and in referendums. Voting gives citizens a say in how Australia is governed. Voting in some local government elections may not be compulsory.",
+      "explain": "Australian citizens aged 18 or over must enrol and vote in federal elections, in elections for their state or territory, and in referendums. Voting gives citizens a say in how Australia is governed, although voting in some local government elections may not be compulsory.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 2: Responsibilities and privileges of Australian citizenship",
@@ -634,7 +634,7 @@
         "A parliamentary democracy"
       ],
       "answer": 3,
-      "explain": "Australia's system of government is a parliamentary democracy. The power of the government comes from the Australian people, because Australian citizens vote for people to represent them in parliament. Elected representatives make the laws.",
+      "explain": "Australia is governed as a parliamentary democracy. The government's power comes from the Australian people, since citizens elect people to represent them in parliament. Those elected representatives make the laws.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 2: Parliamentary democracy",
@@ -654,7 +654,7 @@
         "They do not answer to anyone"
       ],
       "answer": 0,
-      "explain": "Representatives in parliament must answer to the people, through elections, for the decisions they make. If voters are unhappy with their representatives, they can choose someone else at the next election.",
+      "explain": "Members of parliament are accountable to the people, through elections, for their decisions. Voters who are unhappy with their representatives can choose someone else at the next election.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 2: Parliamentary democracy",
@@ -669,12 +669,12 @@
       "q": "How do Australians believe change in society or the law should come about?",
       "options": [
         "Through violence if necessary",
-        "Through discussion, peaceful persuasion and the democratic process",
+        "Through discussion, peaceful persuasion and democratic processes",
         "By order of religious leaders",
         "Through secret agreements"
       ],
       "answer": 1,
-      "explain": "Australians are proud to live in a peaceful country with a stable system of government. They believe change should occur through discussion, peaceful persuasion and the democratic process, and they reject violence as a way to change a person's mind or the law.",
+      "explain": "Australians value living in a peaceful country whose system of government is stable. They believe change should come through discussion, peaceful persuasion and democratic processes, and they reject violence as a means of changing someone's mind or changing the law.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 2: Living peacefully",
@@ -694,7 +694,7 @@
         "With suspicion until trust is earned"
       ],
       "answer": 2,
-      "explain": "Australia's democratic system is based on every individual having rights and equality under the law. All Australians are expected to treat each other with dignity and respect, regardless of race, origin, gender, sexual orientation, age, disability, religion or wealth.",
+      "explain": "Australia's democratic system rests on every individual having rights and equality under the law. Australians are expected to treat one another with dignity and respect, whatever their race, origin, gender, sexual orientation, age, disability, religion or wealth.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 2: Respect for all individuals regardless of background",
@@ -714,7 +714,7 @@
         "Yes, as long as they obey Australian laws"
       ],
       "answer": 3,
-      "explain": "Freedom of speech means people can say and write what they think. For example, they can criticise the government, protest peacefully against its decisions and campaign to change laws, as long as they still obey Australian laws.",
+      "explain": "Freedom of speech means people may speak and write their opinions. For example, they can criticise the government, protest peacefully against its decisions and campaign for laws to change, as long as they still obey Australian laws.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 2: Freedom of speech and freedom of expression",
@@ -734,7 +734,7 @@
         "Only official government channels"
       ],
       "answer": 0,
-      "explain": "Freedom of expression means people can express their views, including through art, film, music and literature. People are also free to meet in public or private places for social or political discussion, while always obeying the law.",
+      "explain": "Freedom of expression means people may share their views, for example through film, art, music and literature. People may also meet in public or in private to discuss social or political matters, provided they always obey the law.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 2: Freedom of speech and freedom of expression",
@@ -754,7 +754,7 @@
         "Limited to members of one political party"
       ],
       "answer": 1,
-      "explain": "Australians can gather with others to protest against a government action or an organisation. The laws of Australia must always be obeyed, which means such gatherings must be peaceful and must not injure any person or damage property.",
+      "explain": "Australians may join with others to protest against an organisation or a government action. Because the law must always be obeyed, these gatherings have to be peaceful and must not hurt anyone or damage property.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 2: Freedom of association",
@@ -774,7 +774,7 @@
         "Islamic"
       ],
       "answer": 2,
-      "explain": "Australia has a Judaeo-Christian heritage and many Australians describe themselves as Christians, but there are people in Australia from all the large religions. The government and the law treat all citizens equally, whatever their beliefs.",
+      "explain": "Australia's heritage is Judaeo-Christian and many Australians identify as Christians, but people of every major religion live in Australia. The government and the law treat every citizen equally, whatever they believe.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 2: Freedom of religion",
@@ -794,7 +794,7 @@
         "Good Friday"
       ],
       "answer": 3,
-      "explain": "Reflecting its Judaeo-Christian heritage, Australia has public holidays on Christian days such as Good Friday, Easter Sunday and Christmas Day. People of all faiths, and of none, are free to practise their own beliefs.",
+      "explain": "Because of its Judaeo-Christian heritage, Australia observes public holidays on Christian days such as Christmas Day, Good Friday and Easter Sunday. People of every faith, and of no faith, are free to practise their own beliefs.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 2: Freedom of religion",
@@ -814,7 +814,7 @@
         "It bans religious practice"
       ],
       "answer": 0,
-      "explain": "Australia's government is secular, which means it operates separately from churches and other religious bodies. There is no official national religion, and the government treats all citizens equally whatever their religion or beliefs.",
+      "explain": "Australia's government is secular: it works separately from churches and other religious bodies. The country has no official national religion, and the government treats every citizen equally, whatever their religion or beliefs.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 2: Freedom of religion",
@@ -832,7 +832,7 @@
         "False"
       ],
       "answer": 1,
-      "explain": "The statement is false. People in Australia are free to follow any religion they choose, and they may also choose not to follow a religion at all. In every case, religious or not, the laws of Australia must be obeyed.",
+      "explain": "The statement is false. In Australia people may follow whichever religion they choose, or no religion at all. Either way, religious or not, everyone must obey the laws of Australia.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 2: Freedom of religion",
@@ -852,7 +852,7 @@
         "Only citizens may own a business"
       ],
       "answer": 1,
-      "explain": "Australians value equal opportunity, often called a 'fair go'. What someone achieves in life should result from their talents, work and effort rather than their wealth or background, so that there are no formal class distinctions in Australian society.",
+      "explain": "Australians value equal opportunity, often called a 'fair go'. What a person achieves in life should depend on their talent, work and effort, not on their wealth or background, so Australian society has no formal class distinctions.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 2: Equality of opportunity and a 'fair go'",
@@ -872,7 +872,7 @@
         "Their taste in music"
       ],
       "answer": 2,
-      "explain": "There are a number of laws in Australia that ensure a person is not treated differently to others because of their gender, race, disability or age. Equal treatment under the law is one of Australia's core democratic principles.",
+      "explain": "Several Australian laws make sure nobody is treated differently from other people on the grounds of race, gender, age or disability. Equal treatment under the law is one of Australia's core democratic principles.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 2: Our equalities",
@@ -884,7 +884,7 @@
       "country": "au",
       "lang": "en",
       "chapter": "Part 2: Democratic beliefs, rights and liberties",
-      "q": "Service in the Australian Defence Force is voluntary. What is the related responsibility of Australian citizens?",
+      "q": "Serving in the Australian Defence Force is voluntary. What related responsibility do Australian citizens have?",
       "options": [
         "To serve in the army for two years",
         "To pay a defence fee instead",
@@ -892,7 +892,7 @@
         "To defend Australia should the need arise"
       ],
       "answer": 3,
-      "explain": "Although service in the Australian Defence Force is voluntary, Australian citizens have a responsibility to defend Australia should the need arise. It is vital that citizens are committed to joining together to defend the nation and its way of life.",
+      "explain": "Even though serving in the Australian Defence Force is voluntary, citizens have a responsibility to defend Australia if the need arises. It is essential that citizens are willing to come together to protect the nation and its way of life.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 2: Defend Australia should the need arise",
@@ -904,7 +904,7 @@
       "country": "au",
       "lang": "en",
       "chapter": "Part 2: Democratic beliefs, rights and liberties",
-      "q": "Which Australian citizens can be called to serve on a jury?",
+      "q": "Which Australian citizens may be called for jury service?",
       "options": [
         "Citizens who are on the electoral roll",
         "Only lawyers and police",
@@ -912,7 +912,7 @@
         "Only people who volunteer"
       ],
       "answer": 0,
-      "explain": "Jury service, if requested, is a responsibility for Australian citizens aged 18 or over. Citizens on the electoral roll can be called to serve. A jury of ordinary men and women hears the evidence and decides whether a person is guilty or not guilty.",
+      "explain": "Serving on a jury when asked is a responsibility of Australian citizens aged 18 or over, and citizens on the electoral roll may be called. A jury of ordinary men and women hears the evidence and decides whether a person is guilty or not guilty.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 2: Serve on a jury if called to do so",
@@ -932,7 +932,7 @@
         "A meeting of local councillors"
       ],
       "answer": 1,
-      "explain": "A referendum is a vote to change the Australian Constitution. Voting in a referendum is a responsibility of Australian citizens aged 18 or over, just like voting in federal and state or territory elections.",
+      "explain": "A referendum is a vote on whether to change the Australian Constitution. Voting in one is a responsibility of citizens aged 18 or over, just as voting in federal, state and territory elections is.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 2: Voting in federal and state or territory elections, and in a referendum",
@@ -948,11 +948,11 @@
       "options": [
         "No, it is never compulsory",
         "Only local elections are compulsory",
-        "It is compulsory in federal and state or territory elections, but may not be in some local government elections",
+        "It is compulsory in federal, state and territory elections, but may not be in some local government elections",
         "Only for people born in Australia"
       ],
       "answer": 2,
-      "explain": "Voting is compulsory in federal and state or territory elections. However, it may not be compulsory to vote in local government elections in some states. Voting gives citizens a say in how Australia is governed.",
+      "explain": "Voting is compulsory in federal elections and in state and territory elections. In some states, however, voting in local government elections may be optional. Voting gives citizens a say in how Australia is governed.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 2: Voting in federal and state or territory elections, and in a referendum",
@@ -972,7 +972,7 @@
         "Applying for them to become Australian citizens by descent"
       ],
       "answer": 3,
-      "explain": "Australian citizens can apply for their child born overseas to become an Australian citizen by descent. It is one of the privileges of citizenship, alongside voting, seeking election and holding an Australian passport.",
+      "explain": "Australian citizens may apply for Australian citizenship by descent for a child of theirs born overseas. This is one of the privileges of citizenship, along with voting, standing for election and holding an Australian passport.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 2: Apply for children born overseas to become Australian citizens by descent",
@@ -992,7 +992,7 @@
         "Owning a farm"
       ],
       "answer": 0,
-      "explain": "A privilege of Australian citizenship is to apply for a job in the Australian Public Service and work for the Australian Government, for example in Services Australia or the Australian Taxation Office (ATO).",
+      "explain": "One privilege of Australian citizenship is being able to apply for Australian Public Service jobs, working for the Australian Government at agencies such as the Australian Taxation Office (ATO) or Services Australia.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 2: Apply for work in the Australian Public Service and the Australian Defence Force",
@@ -1012,7 +1012,7 @@
         "The Air Force, Fire Brigade and Ambulance"
       ],
       "answer": 1,
-      "explain": "Australian citizens have the right to apply for a job in the Australian Defence Force, which is made up of the Army, the Navy and the Air Force. Service in the Defence Force is voluntary.",
+      "explain": "Australian citizens may apply to work in the Australian Defence Force, which consists of the Army, the Navy and the Air Force. Serving in the Defence Force is voluntary.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 2: Apply for work in the Australian Public Service and the Australian Defence Force",
@@ -1032,7 +1032,7 @@
         "Citizens who rent their home"
       ],
       "answer": 2,
-      "explain": "Australian citizens aged 18 or over who are not dual citizens can seek election to parliament at federal, state or territory level. Serving in an Australian parliament is described as both an honour and a serious responsibility.",
+      "explain": "Australian citizens aged 18 or over who do not hold dual citizenship may stand for election to a federal, state or territory parliament. Serving in an Australian parliament is both an honour and a serious responsibility.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 2: Seek election to parliament",
@@ -1044,7 +1044,7 @@
       "country": "au",
       "lang": "en",
       "chapter": "Part 2: Democratic beliefs, rights and liberties",
-      "q": "If you travel overseas as an Australian citizen, what do you need to return to Australia?",
+      "q": "As an Australian citizen travelling abroad, what do you need to come back to Australia?",
       "options": [
         "A new visa each time",
         "A letter from your employer",
@@ -1052,7 +1052,7 @@
         "No visa: you are free to return"
       ],
       "answer": 3,
-      "explain": "Australian citizens have the right to live freely in Australia and the privilege to apply for an Australian passport. If they travel overseas, they are free to return to Australia without needing a visa.",
+      "explain": "Australian citizens may live in Australia freely and have the privilege of applying for an Australian passport. After travelling abroad, they can come back to Australia without needing a visa.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 2: Apply for an Australian passport and re-enter Australia freely",
@@ -1064,7 +1064,7 @@
       "country": "au",
       "lang": "en",
       "chapter": "Part 2: Democratic beliefs, rights and liberties",
-      "q": "While overseas, where can an Australian citizen ask for help from an Australian government official in times of need?",
+      "q": "When abroad, where can an Australian citizen seek help from Australian government officials in an emergency?",
       "options": [
         "An Australian embassy, high commission or consulate",
         "Any local hotel",
@@ -1072,7 +1072,7 @@
         "A foreign police station only"
       ],
       "answer": 0,
-      "explain": "In many countries Australia has an embassy, high commission or consulate. Australian officials can help citizens in emergencies such as civil unrest or natural disasters, issue emergency passports and give support after an accident, serious illness or death.",
+      "explain": "In many countries there is an Australian embassy, high commission or consulate. Australian officials there can help citizens during emergencies such as civil unrest or natural disasters, issue emergency passports and give support after an accident, serious illness or death.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 2: Ask for consular assistance from an Australian official while overseas",
@@ -1112,7 +1112,7 @@
         "Services Australia"
       ],
       "answer": 2,
-      "explain": "Paying tax is required by law and is an important way to contribute to the Australian community. Tax is paid on money earned from a job, a business or investments and is collected by the Australian Taxation Office (ATO).",
+      "explain": "Paying tax is a legal requirement and an important way of contributing to the Australian community. Tax is paid on income from employment, a business or investments, and the Australian Taxation Office (ATO) collects it.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 2: Participating in Australian society",
@@ -1129,10 +1129,10 @@
         "Only the salaries of politicians",
         "Only private businesses",
         "Nothing, taxes go overseas",
-        "Government-funded healthcare and education, defence, roads and social security"
+        "Government healthcare and education, defence, roads and social security"
       ],
       "answer": 3,
-      "explain": "Many benefits that Australians enjoy are made possible through taxes. Taxes pay for government-funded healthcare and education, defence, roads and railways, and social security. State and territory governments and local councils also collect taxes for services.",
+      "explain": "Taxes make possible many of the benefits Australians enjoy. They fund government healthcare and education, defence, social security, and roads and railways. Local councils and state and territory governments also raise taxes to pay for services.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 2: Participating in Australian society",
@@ -1167,12 +1167,12 @@
       "q": "Is tax in Australia paid only on wages from a job?",
       "options": [
         "Yes, only on wages",
-        "No, there are also taxes on many goods and services",
+        "No, many goods and services are taxed as well",
         "Only on property",
         "Only on imported cars"
       ],
       "answer": 1,
-      "explain": "Tax is paid on money earned from a job, a business or investments, and there are also taxes on many goods and services. The ATO works to make sure people know their tax rights and obligations and pay the correct amount.",
+      "explain": "Tax is paid on income from employment, a business or investments, and many goods and services are taxed as well. The ATO helps people understand their tax rights and obligations and makes sure they pay the right amount.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 2: Participating in Australian society",
@@ -1188,11 +1188,11 @@
       "options": [
         "To benefit only the governing party",
         "To raise money for politicians",
-        "To maintain an orderly, free and safe society and protect our rights",
+        "To keep society orderly, free and safe and to protect our rights",
         "To limit who can live in each state"
       ],
       "answer": 2,
-      "explain": "Representatives in government make laws to maintain an orderly, free and safe society and to protect people's rights. All Australian citizens, and other people in Australia, must obey the laws of Australia.",
+      "explain": "Our representatives in government make laws to keep society orderly, free and safe and to protect people's rights. Every Australian citizen, and everyone else in Australia, must obey Australian laws.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 2: Obey the laws of Australia",
@@ -1212,7 +1212,7 @@
         "25 April 1915"
       ],
       "answer": 1,
-      "explain": "On 1 January 1901 the Australian Constitution came into effect and the six colonies became one independent nation, the Commonwealth of Australia. The national parliament, government and High Court were established at this time.",
+      "explain": "The Australian Constitution took effect on 1 January 1901, and the six colonies joined to form a single independent nation called the Commonwealth of Australia. The national parliament, government and High Court were set up at that time.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 3: The Australian Constitution",
@@ -1232,7 +1232,7 @@
         "76"
       ],
       "answer": 2,
-      "explain": "All states are equally represented in the Senate, whatever their size or population. Each state elects 12 senators and the Australian Capital Territory and the Northern Territory elect two each, giving 76 senators in total.",
+      "explain": "Every state has equal representation in the Senate, regardless of its size or population. Each state elects 12 senators, while the Australian Capital Territory and the Northern Territory elect two each, for a total of 76 senators.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 3: The Senate",
@@ -1244,7 +1244,7 @@
       "country": "au",
       "lang": "en",
       "chapter": "Part 3: Government and the law in Australia",
-      "q": "Who signs a Bill so that it becomes law (Royal Assent)?",
+      "q": "Who signs a Bill to make it law (Royal Assent)?",
       "options": [
         "The Prime Minister",
         "The Chief Justice",
@@ -1272,7 +1272,7 @@
         "The High Court"
       ],
       "answer": 1,
-      "explain": "State and territory governments are primarily responsible for hospitals and health services, schools, roads and railways, forestry, police and ambulance services, and public transport. Other services belong to the Australian Government or local councils.",
+      "explain": "State and territory governments mainly look after schools, hospitals and health services, roads and railways, forestry, police, ambulance services and public transport. Other services are the job of the Australian Government or local councils.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 3: What do the three levels of government do?",
@@ -1292,7 +1292,7 @@
         "The Australian Electoral Commission (AEC)"
       ],
       "answer": 3,
-      "explain": "The Australian Electoral Commission (AEC) is a Commonwealth agency that runs federal elections and referendums and keeps the electoral roll. It is independent, so political parties and people in government cannot influence its decisions.",
+      "explain": "The Australian Electoral Commission (AEC) is an agency of the Commonwealth that conducts federal elections and referendums and maintains the electoral roll. It is independent, so neither political parties nor people in government can influence its decisions.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 3: How do I have my say?",
@@ -1304,15 +1304,15 @@
       "country": "au",
       "lang": "en",
       "chapter": "Part 3: Government and the law in Australia",
-      "q": "In Australia, voting in an election is by secret ballot. What does this mean?",
+      "q": "Australian elections use a secret ballot. What does this mean?",
       "options": [
-        "No one is allowed to know whom you voted for unless you choose to tell them",
+        "Nobody is entitled to know how you voted unless you decide to tell them",
         "Votes are counted in secret by the government",
         "Only some people are told about the election",
         "Candidates are kept secret until election day"
       ],
       "answer": 0,
-      "explain": "Voting in Australia is by secret ballot, so voters are free and safe to vote for any candidate. No one is allowed to know whom you have voted for, unless you decide to tell them yourself.",
+      "explain": "Because Australia votes by secret ballot, voters can choose any candidate freely and safely. Nobody is entitled to know how you voted, unless you decide to tell them yourself.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 3: How do I have my say?",
@@ -1332,7 +1332,7 @@
         "Two large colonies, east and west"
       ],
       "answer": 1,
-      "explain": "After British settlement and before 1901, Australia was made up of six separate, self-governing British colonies, each with its own constitution and laws on defence, immigration, postage, trade and transport. This created difficulties between them.",
+      "explain": "Between British settlement and 1901, Australia consisted of six separate British colonies that governed themselves, each with its own constitution and its own laws on defence, immigration, postage, trade and transport. This caused difficulties between them.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 3: Federation",
@@ -1344,7 +1344,7 @@
       "country": "au",
       "lang": "en",
       "chapter": "Part 3: Government and the law in Australia",
-      "q": "Which court did the Australian Constitution establish, with the ultimate power to apply and interpret the laws of Australia?",
+      "q": "Which court did the Australian Constitution establish, with the final power to apply and interpret Australia's laws?",
       "options": [
         "The Federal Magistrates Court",
         "The Supreme Court of New South Wales",
@@ -1352,7 +1352,7 @@
         "The Privy Council"
       ],
       "answer": 2,
-      "explain": "The Australian Constitution set up the Parliament of the Commonwealth, made up of a House of Representatives and a Senate. It also established the High Court of Australia, which has the ultimate power to apply and interpret Australia's laws.",
+      "explain": "The Australian Constitution created the Parliament of the Commonwealth, with two houses: the House of Representatives and the Senate. It also created the High Court of Australia, which holds the final power to apply and interpret Australia's laws.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 3: The Australian Constitution",
@@ -1369,10 +1369,10 @@
         "The agreement of the Prime Minister alone",
         "A two-thirds vote in the Senate only",
         "A majority of voters in New South Wales",
-        "A 'double majority': a majority of voters nationally and a majority of voters in a majority of states"
+        "A 'double majority': most voters nationally and most voters in a majority of the states"
       ],
       "answer": 3,
-      "explain": "In a referendum, a 'double majority' is required. A majority of voters across the nation must vote for the change, and a majority of voters in a majority of the states must also vote for it.",
+      "explain": "A referendum needs a 'double majority'. Most voters across the whole country must support the change, and most voters in a majority of the states must support it as well.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 3: The Australian Constitution",
@@ -1412,7 +1412,7 @@
         "The British Parliament"
       ],
       "answer": 1,
-      "explain": "The King of Australia appoints the Governor-General as his representative in Australia, acting on the advice of the Australian Prime Minister. The Governor-General acts independently of all political parties and must remain neutral.",
+      "explain": "The Governor-General is appointed by the King of Australia to represent him in Australia, on the advice of the Australian Prime Minister. The Governor-General stays independent of every political party and must remain neutral.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 3: Who is Australia's Head of State?",
@@ -1432,7 +1432,7 @@
         "A senator"
       ],
       "answer": 2,
-      "explain": "In each of the six states there is a Governor who represents the King, in a role similar to that of the Governor-General at the national level. The King does not have a day-to-day role in government.",
+      "explain": "Each of the six states has a Governor who represents the King, much as the Governor-General does for the nation as a whole. The King takes no part in the everyday running of government.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 3: Who is Australia's Head of State?",
@@ -1449,10 +1449,10 @@
         "Leading the largest political party",
         "Deciding court cases",
         "Collecting taxes",
-        "Acting as Commander-in-Chief of the Australian Defence Force"
+        "Being Commander-in-Chief of the ADF (Australian Defence Force)"
       ],
       "answer": 3,
-      "explain": "The Governor-General is not part of the government and must remain neutral. The role includes signing Bills into law, ceremonial duties, approving the appointment of ministers and federal judges, starting the process for a federal election and acting as Commander-in-Chief of the ADF.",
+      "explain": "The Governor-General must remain neutral and does not belong to the government. The role includes signing Bills into law, ceremonial duties, approving the appointment of ministers and federal judges, triggering a federal election and serving as Commander-in-Chief of the ADF.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 3: The role of the Governor-General",
@@ -1472,7 +1472,7 @@
         "Mayor"
       ],
       "answer": 0,
-      "explain": "The leader of a state government is called the Premier. The leader of a territory government is the Chief Minister, and the leader of a local government is a Mayor or Shire President.",
+      "explain": "A state government is led by the Premier. A territory government is led by the Chief Minister, and a local government is led by a Mayor or Shire President.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 3: Who are some of Australia's leaders?",
@@ -1492,7 +1492,7 @@
         "The Governor's House"
       ],
       "answer": 1,
-      "explain": "The Senate is sometimes called the Upper House, the House of Review or the States' House. The House of Representatives, by contrast, is also known as the Lower House or the People's House.",
+      "explain": "The Senate is also known as the Upper House, the States' House or the House of Review. The House of Representatives, by contrast, is known as the People's House, or simply the Lower House.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 3: The Senate",
@@ -1508,11 +1508,11 @@
       "options": [
         "Territories have no elections",
         "States have no parliaments",
-        "Territory laws can be altered or revoked by the Australian Government at any time",
+        "The Australian Government can change or overturn territory laws whenever it chooses",
         "Territories are ruled by the King directly"
       ],
       "answer": 2,
-      "explain": "States have rights recognised by the Constitution, while territories do not. States can pass laws in their own right, but laws made by self-governing territories can be altered or revoked by the Australian Government at any time.",
+      "explain": "The Constitution recognises rights for the states but not for the territories. States make laws in their own right, whereas the Australian Government can change or overturn laws made by self-governing territories whenever it chooses.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 3: State and territory government",
@@ -1552,7 +1552,7 @@
         "The party with the oldest leader"
       ],
       "answer": 0,
-      "explain": "After a federal election, the government is generally formed by the party or coalition of parties with the majority of members in the House of Representatives. The leader of that party becomes Prime Minister.",
+      "explain": "After a federal election, the government is usually formed by whichever party or coalition holds most of the seats in the House of Representatives. The leader of that party becomes Prime Minister.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 3: How is the Australian Government formed?",
@@ -1567,12 +1567,12 @@
       "q": "Who forms the Opposition after a federal election?",
       "options": [
         "All independent members",
-        "The party or coalition with the second largest number of members in the House of Representatives",
+        "The party or coalition holding the second highest number of seats in the House of Representatives",
         "The Senate as a whole",
         "Members chosen by the High Court"
       ],
       "answer": 1,
-      "explain": "The party or coalition with the second largest number of members in the House of Representatives forms the Opposition. Its leader is called the Leader of the Opposition, and it scrutinises the work of the government.",
+      "explain": "The Opposition is the party or coalition that wins the second highest number of seats in the House of Representatives. Its leader is known as the Leader of the Opposition, and it closely examines the government's work.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 3: How is the Australian Government formed?",
@@ -1592,7 +1592,7 @@
         "A portfolio"
       ],
       "answer": 2,
-      "explain": "A proposal to introduce a new law or change an existing one is called a Bill. Both Houses of Parliament consider, debate and vote on it, and if a majority in each agrees, it goes to the Governor-General for Royal Assent.",
+      "explain": "A Bill is a proposal for a new law or for a change to a current law. Both Houses of Parliament consider, debate and vote on it, and if each agrees by a majority, it goes to the Governor-General for Royal Assent.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 3: How are laws made?",
@@ -1604,7 +1604,7 @@
       "country": "au",
       "lang": "en",
       "chapter": "Part 3: Government and the law in Australia",
-      "q": "Judges and magistrates are appointed by the government. Can the government remove them because it disagrees with their decisions?",
+      "q": "The government appoints judges and magistrates. Can it remove them because it disagrees with their decisions?",
       "options": [
         "Yes, at any time",
         "Yes, but only before elections",
@@ -1612,7 +1612,7 @@
         "No, they are independent"
       ],
       "answer": 3,
-      "explain": "Judges and magistrates are the highest authority in a court. They are independent and no one can tell them what to decide. Although the government appoints them, it cannot take their jobs away if it disagrees with their decisions.",
+      "explain": "Judges and magistrates are the top authority in a courtroom. They are independent, and nobody can instruct them on what to decide. Although the government appoints them, it cannot dismiss them for making decisions it does not like.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 3: Judges and magistrates",
@@ -1624,7 +1624,7 @@
       "country": "au",
       "lang": "en",
       "chapter": "Part 3: Government and the law in Australia",
-      "q": "In Australia's court system, how is a person treated until they are found guilty in a court?",
+      "q": "In Australia's court system, how is a person treated unless and until a court finds them guilty?",
       "options": [
         "As innocent",
         "As guilty",
@@ -1632,7 +1632,7 @@
         "As a prisoner"
       ],
       "answer": 0,
-      "explain": "In Australia's court system, people are considered innocent until they are found guilty in a court. Every person also has the right to be represented by a lawyer in court.",
+      "explain": "Australian courts treat people as innocent until a court has found them guilty. Everyone also has the right to a lawyer to represent them in court.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 3: Juries",
@@ -1644,7 +1644,7 @@
       "country": "au",
       "lang": "en",
       "chapter": "Part 3: Government and the law in Australia",
-      "q": "In a criminal trial, if the jury finds a person guilty, who decides the penalty?",
+      "q": "In a criminal trial, who decides the penalty once a jury has found a person guilty?",
       "options": [
         "The jury",
         "The judge",
@@ -1652,7 +1652,7 @@
         "The victim"
       ],
       "answer": 1,
-      "explain": "A jury is a group of ordinary citizens randomly chosen from the population. The judge explains the law to the jury, the jury decides whether a person is innocent or guilty, and in a criminal trial the judge then decides the penalty.",
+      "explain": "A jury is a group of ordinary citizens chosen at random from the population. The judge explains the relevant law to the jurors, the jury decides whether the person is innocent or guilty, and in a criminal trial the judge then sets the penalty.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 3: Juries",
@@ -1672,7 +1672,7 @@
         "Queensland"
       ],
       "answer": 2,
-      "explain": "The Australian Federal Police (AFP) investigates crimes against federal laws, such as drug trafficking and crimes against national security or the environment. It also carries out general police work in the Australian Capital Territory.",
+      "explain": "The Australian Federal Police (AFP) investigates crimes against federal laws, such as drug trafficking and crimes against national security or the environment. It also does ordinary policing in the Australian Capital Territory.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 3: The police",
@@ -1692,7 +1692,7 @@
         "Yes, even offering a bribe is a crime"
       ],
       "answer": 3,
-      "explain": "In Australia it is a serious crime to bribe the police, and it is a crime even to offer a bribe to a police officer. The police are independent of government and have a good relationship with the community.",
+      "explain": "Bribing the police is a serious crime in Australia, and even offering a police officer a bribe is a crime. The police are independent of government and have a good relationship with the community.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 3: The police",
@@ -1704,7 +1704,7 @@
       "country": "au",
       "lang": "en",
       "chapter": "Part 3: Government and the law in Australia",
-      "q": "If you break an Australian law that you did not know about, can you still be charged?",
+      "q": "Can you still be charged for breaking an Australian law you were unaware of?",
       "options": [
         "Yes, not knowing the law is no excuse",
         "No, newcomers are always excused",
@@ -1727,12 +1727,12 @@
       "q": "Which of these can be a form of domestic and family violence?",
       "options": [
         "Disagreeing politely about a decision",
-        "Isolating a family member from friends and family",
+        "Cutting a family member off from their friends and family",
         "Sharing household chores",
         "Taking a family holiday"
       ],
       "answer": 1,
-      "explain": "Domestic and family violence includes behaviour or threats that aim to control a partner by causing fear or threatening their safety. It can include hitting, isolating a family member from friends and family, or threatening children or pets, and it is against the law.",
+      "explain": "Domestic and family violence covers behaviour or threats meant to control a partner by making them afraid or putting their safety at risk. Examples include hitting, cutting a family member off from their friends and family, or making threats against pets or children. It is against the law.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 3: Criminal offences in Australia",
@@ -1752,7 +1752,7 @@
         "Only children"
       ],
       "answer": 2,
-      "explain": "Everybody travelling in a car in Australia must wear a seatbelt, and babies and young children must be in an approved car seat. Road rules are set by state and territory governments and breaking them can lead to fines or prison.",
+      "explain": "Everyone in a car in Australia must wear a seatbelt, and babies and young children must travel in an approved child car seat. State and territory governments set the road rules, and breaking them can lead to fines or prison.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 3: Traffic offences",
@@ -1764,7 +1764,7 @@
       "country": "au",
       "lang": "en",
       "chapter": "Part 3: Government and the law in Australia",
-      "q": "Is it legal to use a hand-held mobile device while driving in Australia?",
+      "q": "Is it legal in Australia to drive while using a hand-held mobile device?",
       "options": [
         "Yes, at any time",
         "Yes, if driving slowly",
@@ -1772,7 +1772,7 @@
         "No, it is against the law"
       ],
       "answer": 3,
-      "explain": "Traffic laws in Australia are very strict. It is against the law to use a hand-held mobile device while driving, and it is also illegal to drive after taking drugs or when above the blood alcohol limit.",
+      "explain": "Australia's traffic laws are very strict. Using a hand-held mobile device while driving is illegal, and so is driving after taking drugs or with a blood alcohol level above the limit.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 3: Traffic offences",
@@ -1792,7 +1792,7 @@
         "Permission from a neighbour"
       ],
       "answer": 0,
-      "explain": "To drive a car in Australia, you must have a local driver's licence and the car must be registered. Road and traffic rules are controlled by state and territory governments, and people can be fined or sent to prison for breaking them.",
+      "explain": "To drive in Australia you need a driver's licence issued locally, and the vehicle must be registered. State and territory governments control the road and traffic rules, and people who break them can be fined or sent to prison.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 3: Traffic offences",
@@ -1812,7 +1812,7 @@
         "Only in private homes"
       ],
       "answer": 2,
-      "explain": "Australia has no official national religion and people are free to follow any religion, or none. At all times the laws of Australia must be obeyed: where there is a conflict between an Australian law and a religious practice, Australian law prevails.",
+      "explain": "There is no official national religion in Australia, and people may follow any religion or none. Australian laws must be obeyed at all times: if an Australian law and a religious practice conflict, the Australian law takes priority.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 4: Freedom of religion",
@@ -1825,7 +1825,7 @@
       "country": "au",
       "lang": "en",
       "chapter": "Part 4: Australian values",
-      "q": "Do men and women have equal rights in Australia?",
+      "q": "Do women and men have equal rights in Australia?",
       "options": [
         "Yes",
         "No",
@@ -1833,7 +1833,7 @@
         "Only in courts"
       ],
       "answer": 0,
-      "explain": "Men and women have equal rights in Australia. Both have equal access to education and employment, can vote and stand for parliament, can join the Australian Defence Force and the police, and are treated equally in courts.",
+      "explain": "Yes. In Australia, women and men have equal rights. Both can access education and jobs on equal terms, vote and stand for parliament, join the police and the Australian Defence Force, and are treated equally in the courts.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 4: Equality of all people under the law",
@@ -1854,7 +1854,7 @@
         "Only online"
       ],
       "answer": 2,
-      "explain": "It is never acceptable to promote violence against another person or group, for example because of their culture, ethnicity, religion or background. Doing so is against Australian values and against the law, whatever the setting.",
+      "explain": "Promoting violence against another person or group is never acceptable, for example on the grounds of their culture, ethnicity, religion or background. It goes against Australian values and against the law, whatever the setting.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 4: Freedom of speech",
@@ -1875,7 +1875,7 @@
         "Only adults born in Australia"
       ],
       "answer": 1,
-      "explain": "Under the Rule of Law, all Australians are equal in relation to the law and no person or group is above it. Australian laws apply to all people in Australia, regardless of their background or culture.",
+      "explain": "Under the Rule of Law, every Australian is equal before the law, and nobody, whether a person or a group, stands above it. Australian laws apply to everyone in Australia, whatever their background or culture.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 4: Commitment to the Rule of Law",
@@ -1896,7 +1896,7 @@
         "Only a political party"
       ],
       "answer": 2,
-      "explain": "In Australia people are free to join or leave any lawful group voluntarily, such as a political party, trade union, or religious, cultural or social group. Individuals cannot be compelled to join an organisation or forced to leave it.",
+      "explain": "People in Australia may join or leave any lawful group of their own free will, such as a political party, a trade union, or a religious, cultural or social group. Nobody can be forced to join an organisation or made to leave one.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 4: Freedom of association",
@@ -1917,7 +1917,7 @@
         "Only if you agree with the law"
       ],
       "answer": 1,
-      "explain": "Australians recognise the importance of laws for a peaceful and orderly society. Everybody should obey the law and not break it at any time, otherwise they face penalties, and people should follow the law even if no one is watching.",
+      "explain": "Australians see laws as important for a peaceful and orderly society. Everyone should obey the law at all times or face penalties, and people should keep to the law even when nobody is watching.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 4: Commitment to the Rule of Law",
@@ -1938,7 +1938,7 @@
         "Only during elections"
       ],
       "answer": 2,
-      "explain": "People in Australia are free to say and write what they think about any topic, within the law. Newspapers, television and radio outlets have the same freedom, which is an important part of Australia's democracy.",
+      "explain": "In Australia people may speak and write their opinions on any subject, within the law. Newspapers, television and radio enjoy the same freedom, which is an important part of Australia's democracy.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 4: Freedom of speech",
@@ -1972,7 +1972,7 @@
       "country": "au",
       "lang": "en",
       "chapter": "Part 4: Australian values",
-      "q": "Is polygamy (being married to more than one person at the same time) legal in Australia?",
+      "q": "Is polygamy (having more than one husband or wife at the same time) legal in Australia?",
       "options": [
         "No, it is against the law",
         "Yes, if all partners agree",
@@ -1980,7 +1980,7 @@
         "Yes, if the marriages took place overseas and are kept private"
       ],
       "answer": 0,
-      "explain": "Some religious or cultural practices are against the law in Australia. Polygamy, which means being married to more than one person at the same time, is illegal and can result in severe legal penalties, including imprisonment.",
+      "explain": "Some religious or cultural practices are illegal in Australia. Polygamy, meaning having more than one husband or wife at the same time, is against the law and can lead to severe penalties, including prison.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 4: Freedom of religion",
@@ -2001,7 +2001,7 @@
         "It is a private family matter"
       ],
       "answer": 1,
-      "explain": "Forced marriage, in which one or both people do not have a free choice, is against the law in Australia. Like polygamy, it can result in severe legal penalties, including imprisonment, whatever the family's cultural or religious views.",
+      "explain": "Forced marriage, where one or both people do not freely choose to marry, is illegal in Australia. As with polygamy, it can lead to severe penalties, including prison, whatever the family's cultural or religious views.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 4: Freedom of religion",
@@ -2022,7 +2022,7 @@
         "Only between neighbours"
       ],
       "answer": 2,
-      "explain": "Religious intolerance is not acceptable in Australian society. All people should be given equal opportunity to pursue their goals and interests, regardless of their ethnicity or religion, as long as they are obeying Australian law.",
+      "explain": "Religious intolerance has no place in Australian society. Everyone should have an equal chance to pursue their own goals and interests, whatever their ethnicity or religion, provided they obey Australian law.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 4: Freedom of religion",
@@ -2043,7 +2043,7 @@
         "They receive the same treatment"
       ],
       "answer": 3,
-      "explain": "The law is applied in Australia so that people from different backgrounds are neither given preferential treatment nor discriminated against. For example, Buddhists and people of all other faiths receive the same treatment as Christians.",
+      "explain": "In Australia the law is applied so that nobody receives preferential treatment or suffers discrimination because of their background. For example, Buddhists and followers of every other faith are treated exactly as Christians are.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 4: Equality of all people under the law",
@@ -2064,7 +2064,7 @@
         "Only if they were married overseas"
       ],
       "answer": 0,
-      "explain": "Australian society values the equal rights of all people, regardless of gender or sexual orientation. Under Australian law, two people can marry each other, including marriage between two men or two women.",
+      "explain": "Australian society values equal rights for everyone, whatever their gender or sexual orientation. Under Australian law, any two people may marry, including two women or two men.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 4: Equality of all people under the law",
@@ -2085,7 +2085,7 @@
         "Only in the public service"
       ],
       "answer": 1,
-      "explain": "It is against the law to discriminate against a person because of their gender. In Australia, it is a right for a woman to get a job ahead of a man if she has better qualifications and skills.",
+      "explain": "Discriminating against someone because of their gender is illegal. In Australia, a woman who has better qualifications and skills than a man has the right to be given the job ahead of him.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 4: Equality of all people under the law",
@@ -2098,7 +2098,7 @@
       "country": "au",
       "lang": "en",
       "chapter": "Part 4: Australian values",
-      "q": "Who has the right to make independent choices about personal matters such as marriage and religion?",
+      "q": "Who has the right to make their own choices about personal matters like religion and marriage?",
       "options": [
         "Only men",
         "Only the head of the family",
@@ -2106,7 +2106,7 @@
         "Only parents"
       ],
       "answer": 2,
-      "explain": "Both men and women in Australia have the right to make their own independent choices about personal matters, such as marriage and religion. They are protected by law from intimidation or violence relating to those choices.",
+      "explain": "In Australia, women and men alike have the right to make their own choices about personal matters such as religion and marriage. The law protects them from intimidation or violence linked to those choices.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 4: Equality of all people under the law",
@@ -2127,7 +2127,7 @@
         "Yes, either spouse may apply"
       ],
       "answer": 3,
-      "explain": "Divorce is acceptable in Australia. Either a husband or a wife may apply to the courts for a divorce, even if the other spouse wishes to continue the marriage. Both spouses have equal rights.",
+      "explain": "Divorce is accepted in Australia. A wife or a husband can ask the courts for a divorce, even when the other spouse wants the marriage to continue. Both spouses have equal rights.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 4: Equality of all people under the law",
@@ -2140,15 +2140,15 @@
       "country": "au",
       "lang": "en",
       "chapter": "Part 4: Australian values",
-      "q": "When an organisation needs to fill a job, whom does the law support it in selecting?",
+      "q": "When an organisation is filling a job, whom does the law support it in choosing?",
       "options": [
-        "The person with the best skills and experience for the job",
+        "The applicant whose skills and experience best fit the job",
         "A member of the owner's family",
         "The applicant with the most money",
         "Someone of the same ethnicity as the manager"
       ],
       "answer": 0,
-      "explain": "What someone achieves should result from hard work and talent. A person should get a job based on skills and experience, not gender, wealth or ethnicity, and the law supports organisations in selecting the person best suited to the job.",
+      "explain": "What someone achieves should come from hard work and talent. Jobs should go to people on the basis of skills and experience, not gender, wealth or ethnicity, and the law supports organisations in choosing the person best suited to the role.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 4: Equality of opportunity and a 'fair go'",
@@ -2190,7 +2190,7 @@
         "Only if the person deserves it"
       ],
       "answer": 2,
-      "explain": "It is against the law to be violent towards another person. Violence of any kind, including verbal and physical abuse, is illegal. Australians believe in peaceful disagreement and the right to be safe from violence and intimidation.",
+      "explain": "Being violent towards another person is against the law. All violence, verbal and physical abuse included, is illegal. Australians believe people can disagree peacefully and have the right to be safe from violence and intimidation.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 4: Mutual respect and tolerance for others",
@@ -2211,7 +2211,7 @@
         "21 in all states"
       ],
       "answer": 2,
-      "explain": "Australia has very strict laws about the age of sexual consent, which is 16 or 17 depending on the state or territory. For example, a 20 year old man cannot have sexual relations with a 15 year old girl anywhere in Australia.",
+      "explain": "Australia's laws on the age of sexual consent are very strict. The age is 16 or 17, depending on the state or territory. For example, it is illegal everywhere in Australia for a man aged 20 to have sex with a girl aged 15.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 4: Mutual respect and tolerance for others",
@@ -2232,7 +2232,7 @@
         "Obey the lawful request"
       ],
       "answer": 3,
-      "explain": "In Australia, the lawful actions of the police should be supported. You should obey a lawful request from the police, because all Australians commit to following the law. Police protect life and property.",
+      "explain": "Australians should support the police when they act lawfully. You should comply with any lawful police request, because all Australians commit to obeying the law. The police protect life and property.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 4: Mutual respect and tolerance for others",
@@ -2253,7 +2253,7 @@
         "Celebrating a cultural festival"
       ],
       "answer": 0,
-      "explain": "Racism has no place in Australia. This includes creating or sharing racially offensive material on the internet or in other publications and making racially abusive comments in a public place or at a sporting event.",
+      "explain": "There is no place for racism in Australia. That includes making or sharing racially offensive material online or in other publications, and making racially abusive remarks in public or at a sporting event.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 4: Mutual respect and tolerance for others",
@@ -2274,7 +2274,7 @@
         "To leave their family's support to others"
       ],
       "answer": 1,
-      "explain": "Australians expect everyone living in Australia to participate in society and make a contribution to the community. Everyone has a responsibility to try to support themselves and their families when they are able to do so.",
+      "explain": "Australians expect everyone who lives in Australia to take part in society and contribute to the community. Everyone has a responsibility to try to provide for themselves and their families if they are able to.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 4: Making a contribution",
@@ -2295,7 +2295,7 @@
         "Avoiding contact with neighbours"
       ],
       "answer": 2,
-      "explain": "Australians value 'mateship', which means helping each other in times of need. Examples include taking a meal to an elderly neighbour, driving a friend to a medical appointment or visiting someone who is sick, frail or lonely.",
+      "explain": "Australians value 'mateship', which means helping one another in hard times. Examples include bringing a meal to an elderly neighbour, giving a friend a lift to see a doctor, or calling in on someone who is lonely, frail or unwell.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 4: Compassion for those in need",
@@ -2316,7 +2316,7 @@
         "Make reasonable efforts to learn English"
       ],
       "answer": 3,
-      "explain": "English is valued as Australia's national language and a unifying element of society. Applicants for Australian citizenship must undertake to make reasonable efforts to learn English if it is not their native language.",
+      "explain": "English is valued as Australia's national language and something that unites society. People applying for Australian citizenship must commit to making reasonable efforts to learn English if it is not their first language.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 4: English as the national language",
@@ -2329,15 +2329,15 @@
       "country": "au",
       "lang": "en",
       "chapter": "Part 4: Australian values",
-      "q": "You suspect that a neighbour may be planning to commit a serious crime. What should you do?",
+      "q": "You think a neighbour might be planning a serious crime. What should you do?",
       "options": [
-        "Report it to Australian government authorities as soon as possible",
+        "Tell the Australian government authorities without delay",
         "Ignore it as none of your business",
         "Warn the neighbour only",
         "Wait until the crime happens"
       ],
       "answer": 0,
-      "explain": "Everyone in Australia has responsibilities to help protect society. If people suspect a friend or neighbour may be planning a serious crime, they should report this to Australian government authorities as soon as possible.",
+      "explain": "Everyone in Australia shares responsibility for helping to protect society. Anyone who suspects that a friend or neighbour may be planning a serious crime should tell the Australian government authorities without delay.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 4: Helping to keep our society safe",
@@ -2358,7 +2358,7 @@
         "Do nothing unless asked"
       ],
       "answer": 1,
-      "explain": "Helping keep society safe includes protecting children. If a person in Australia sees or has knowledge of a child being abused, they should report it to the police so that it can be investigated.",
+      "explain": "Keeping society safe includes protecting children. Anyone in Australia who sees a child being abused, or knows that it is happening, should tell the police so that it can be investigated.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 4: Helping to keep our society safe",
@@ -2379,7 +2379,7 @@
         "Joining an online book club"
       ],
       "answer": 2,
-      "explain": "Online abuse, sometimes called cyber abuse, is not accepted in Australia. Examples include sharing sexual photos or videos online without consent, stalking a person online and making racially abusive comments about someone online.",
+      "explain": "Online abuse, also called cyber abuse, is not accepted in Australia. Examples include posting sexual images or videos of someone online without their consent, stalking someone online, and posting racially abusive comments about a person on the internet.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 4: Helping to keep our society safe",
@@ -2400,7 +2400,7 @@
         "All Australian laws at all times"
       ],
       "answer": 3,
-      "explain": "Australian citizens may hold dual or multiple citizenship if the laws of the other countries allow it. However, an Australian citizen in Australia must follow all Australian laws at all times, even if they are also a citizen elsewhere.",
+      "explain": "Australian citizens may hold dual or multiple citizenship where the other countries' laws permit it. However, while in Australia an Australian citizen must obey every Australian law at all times, even if they are a citizen of another country too.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 4: Loyalty to Australia",
@@ -2415,13 +2415,13 @@
       "chapter": "Part 4: Australian values",
       "q": "Which of these would undermine Australia's interests and security?",
       "options": [
-        "Using social media to share official government secrets",
+        "Posting official government secrets on social media",
         "Voting in a federal election",
         "Joining a local sports club",
         "Volunteering at a bushfire relief centre"
       ],
       "answer": 0,
-      "explain": "Australian society is based on shared obligations not to undermine Australia's interests and security. For example, using social media to share official government secrets would undermine Australia's interests and could put others at risk.",
+      "explain": "Australian society rests on a shared duty not to harm Australia's interests and security. For example, posting official government secrets on social media would damage Australia's interests and could put other people at risk.",
       "ref": {
         "doc": "Australian Citizenship: Our Common Bond (CC BY 4.0)",
         "section": "Part 4: Loyalty to Australia",
