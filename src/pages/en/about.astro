@@ -1,0 +1,31 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { LAST_UPDATED, AUTHOR_NAME, CONTACT_EMAIL, AUTHOR_ROLE } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { organizationSchema, breadcrumbSchema, profilePageSchema } from '../../lib/seo';
+import { displayDate } from '../../lib/format';
+import { PAGES } from '../../lib/guides';
+import { helpers } from '../../lib/helpers';
+const lang = 'en';
+const h = helpers(lang);
+const n = PAGES.length + 1;
+---
+<PageLayout title="Citizenship Test Free publisher: who writes the questions" description="Who publishes Citizenship Test Free, how its practice questions for the UK, Australia and Canada are written, where each fee and date rule comes from, and what it never sells." lang={lang} jsonLd={[organizationSchema(lang), profilePageSchema({ path: route('about', lang), lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'About', path: route('about', lang) }])]} breadcrumbs={[{ label: 'About' }]}>
+  <header class="mb-6"><p class="kicker">About</p><h1 class="mt-0 text-3xl font-bold text-navy-900 md:text-4xl">Who is behind Citizenship Test Free</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <div class="not-prose mb-6"><p class="text-lg font-semibold text-navy-900">{AUTHOR_NAME}</p><p class="text-navy-700">{AUTHOR_ROLE[lang]}</p></div>
+    <p>Citizenship Test Free is published by Radif Partners, a company that builds free tools on public rules and public data. It is meant for people who have lived for years in the United Kingdom, Australia or Canada and are getting ready to become citizens: they need to pass a test on the country, and before that, to know the first day their application will be accepted.</p>
+    <h2>What the site does</h2>
+    <p>It gives full mock exams for the three tests, marked with each country's own rule: {h.need.uk} correct answers out of {h.P.uk.test.questions} for the Life in the UK Test, {h.need.ca} out of {h.P.ca.test.questions} for Canada, 75 % plus all five values questions for Australia. Every answer is explained and points to the chapter of the official guide where the fact is. And it does what an official calculator does not: from your arrival or residence dates and every trip, past or planned, it finds the earliest date you can apply, day by day, with the counting rule each government publishes. It also adds up the official fees for a whole household.</p>
+    <p>Everything is free, without an account, an email address or a premium tier, and nothing you type leaves your browser.</p>
+    <h2>Where the questions and rules come from</h2>
+    <p>We wrote the {h.count.uk} UK questions, the {h.count.au} Australian questions (of which {h.count.auValues} on Australian values) and the {h.count.caEn} English and {h.count.caFr} French Canadian questions ourselves, from the facts of Life in the United Kingdom: A Guide for New Residents, Our Common Bond and Discover Canada. Fees, test formats and residence rules were read on gov.uk, the Department of Home Affairs and Immigration, Refugees and Citizenship Canada, and each page links to the page it was read on. The <a href={route('method', lang)}>method page</a> gives the details, including the cases where two official pages disagree.</p>
+    <h2>What we are not</h2>
+    <p>We are not the Home Office, Home Affairs or IRCC, nor a law firm or an immigration adviser. We cannot book a test, take an application or look at a file, and our questions are not the official ones: no government publishes its test bank. The site uses no coat of arms or official logo. For advice on a particular case, the official pages list who is allowed to give it.</p>
+    <h2>How the site is paid for</h2>
+    <p>The site sells no course, book, app or legal service, takes no commission and links to no firm that does. If advertising is added one day, it will never sit above a test, and it cannot use your answers because they stay in your browser.</p>
+    <h2>Tell us when something is wrong</h2>
+    <p>Write to <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> with the country and the rule, or the first words of the question. The <a href={route('editorial', lang)}>editorial policy</a> explains how a correction is made. The site has {n} pages in English.</p>
+    <p class="text-sm text-navy-600">Rules and fees last checked on <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, 'en-GB')}</time>.</p>
+  </div>
+</PageLayout>

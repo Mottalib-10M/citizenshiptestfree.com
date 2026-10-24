@@ -1,0 +1,47 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { LAST_UPDATED } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { breadcrumbSchema, articleSchema } from '../../lib/seo';
+import { helpers } from '../../lib/helpers';
+const lang = 'en';
+const h = helpers(lang);
+const P = h.P;
+const s = (k: Parameters<typeof h.src>[0], t: string) => h.src(k, t);
+---
+<PageLayout title="Citizenship test method: questions, pass rules and dates" description="How Citizenship Test Free writes its questions, draws a mock exam, applies the UK, Australian and Canadian pass rules, counts days abroad and adds up the official fees." lang={lang} jsonLd={[articleSchema({ title: 'How the questions, pass rules and dates are built', description: 'Method of Citizenship Test Free', path: route('method', lang), lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'Method', path: route('method', lang) }])]} breadcrumbs={[{ label: 'Method' }]}>
+  <header class="mb-6"><p class="kicker">Method</p><h1 class="mt-0 text-3xl font-bold text-navy-900 md:text-4xl">How the questions, pass rules and dates are built</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <p>Every page and every tool reads the same files: four question banks and one parameter file of official rules and fees, read on {h.date(P.retrieved_at)}. No pass mark, fee or day limit is typed into a page; when a rule changes, the parameter file changes and every page follows.</p>
+    <h2>1. The questions</h2>
+    <p>The banks hold {h.count.uk} questions for the United Kingdom, {h.count.au} for Australia and {h.count.caEn} in English and {h.count.caFr} in French for Canada. Each one has a single right answer, an explanation written in our own words, the chapter of the official guide it belongs to and the section where the fact can be checked.</p>
+    <ul>
+      <li><strong>United Kingdom.</strong> The handbook, Life in the United Kingdom: A Guide for New Residents (3rd edition), is sold by its publisher and is not under an open licence, so nothing is reproduced from it. Our questions cover the facts of its five chapters, checked against public sources, with {h.chapters.uk.map((c, i) => `${h.inChapter('uk', i)} on "${c}"`).join(', ')}.</li>
+      <li><strong>Australia.</strong> Our Common Bond is published by the Commonwealth under a Creative Commons Attribution 4.0 licence, except for the coat of arms. Our questions follow its four testable parts; {h.count.auValues} are on Part 4, Australian values, which the real test treats separately.</li>
+      <li><strong>Canada.</strong> Discover Canada is Crown copyright and its terms forbid commercial reproduction, so we use its facts only and never its own review questions. The French bank was written directly in French, not translated from the English one.</li>
+    </ul>
+    <p>We leave out questions whose answer depends on who holds an office today, and facts that changed after a guide was printed. No question was copied from an app, a book or another site.</p>
+    <h2>2. How a mock exam is drawn and marked</h2>
+    <p>A mock exam has the length of the real test: {P.uk.test.questions} questions in the UK, {P.au.test.questions} in Australia and {P.ca.test.questions} in Canada. Questions are drawn at random from the whole bank with a seed, so the same link replays the same test. An Australian draw always holds exactly {P.au.test.valuesQuestions} values questions, as the real test does. The pass rules are those published: {h.need.uk} correct answers in the UK; {h.need.ca} in Canada; in Australia {P.au.test.passPercent} % overall, which is {h.need.au} out of {P.au.test.questions}, and all {P.au.test.valuesQuestions} values questions right. A practice set of ten questions uses 75 % as a target and says so.</p>
+    <p>One caveat on the UK: the gov.uk page on the test gives the number of questions, the time and the fee but does not print the pass mark. We use 75 %, the mark applied at the test centres, and say where it does not come from.</p>
+    <h2>3. How the earliest date to apply is found</h2>
+    <p>The date tools try every day from today, in order, and stop at the first day on which all the residence conditions hold. A trip is a day of departure and a day of return. In all three countries only the whole days spent abroad count as absences: the UK guidance says not to count the dates of departure and arrival, IRCC counts absences only for days spent entirely outside Canada, and Home Affairs counts the days of arrival and departure as days in Australia. A trip that leaves on the 22nd and returns on the 23rd is therefore no absence at all.</p>
+    <ul>
+      <li><strong>United Kingdom</strong> ({s('uk_guidance', 'nationality guidance')}): the qualifying period starts the day after the date of application minus {P.uk.naturalisation.route61.years} years ({P.uk.naturalisation.route62spouse.years} for a spouse); the guidance's own example, an application on 1 September 2022, needs presence on 2 September 2017, and is one of our tests. Absences are capped at {P.uk.naturalisation.route61.maxAbsenceDays} days ({P.uk.naturalisation.route62spouse.maxAbsenceDays} for a spouse) and {P.uk.naturalisation.route61.maxAbsenceLast12m} in the last 12 months. An excess of up to 30 days is flagged as a case where discretion is normally used, never as a pass.</li>
+      <li><strong>Canada</strong> ({s('ca_bulletin', 'IRCC instructions')}): the window is the {P.ca.presence.windowYears} years before the application, the day of application excluded. Days as a permanent resident count in full; days before, as a temporary resident or protected person, count for half, up to {P.ca.presence.preprMaxCredit} days.</li>
+      <li><strong>Australia</strong> ({s('au_pr', 'Home Affairs')}): {P.au.residence.lawfulYears} years of lawful residence, the last {P.au.residence.prMonths} months as a permanent resident, at most {P.au.residence.maxAbsenceDays} days away in the {P.au.residence.lawfulYears} years and {P.au.residence.maxAbsenceLast12m} in the last year. The worked example of a Home Affairs document released under freedom of information is one of our tests.</li>
+    </ul>
+    <p>When a value falls within five days of a limit, the result says so: the official count uses your real travel records, and a one-day error in a date you typed can move the result.</p>
+    <h2>4. Fees</h2>
+    <p>UK fees come from the Home Office fees table in force from 8 October 2026; Canadian fees from the IRCC fee list; Australian fees from form 1298i of July 2026. One official contradiction is worth knowing: on {h.date(P.retrieved_at)} the Home Affairs page for permanent residents still showed AUD285 for an adult, while form 1298i gives {h.aud(P.au.fees.general)}. We follow the form, which is the fee schedule, and say so on the Australian cost page.</p>
+    <h2>5. Checks</h2>
+    <p>Automated tests run on every build: every question has distinct options, a right answer among them, an explanation and a source; every mock exam has the right length and, for Australia, five values questions; the official worked examples give the official dates; the fees add up. A script re-reads the fee tables and processing times on the official sites every month and stops the update if an amount differs from ours, until a person has checked it.</p>
+    <h2>6. What the site does not do</h2>
+    <ul>
+      <li>It does not judge good character, language level, tax filing or the intention to reside: only the residence condition and the test.</li>
+      <li>It does not reproduce or claim to reproduce any official test.</li>
+      <li>It does not book a test or send an application: that is done only on {s('uk_booking', 'gov.uk')}, the Home Affairs site or the IRCC site.</li>
+    </ul>
+    <p>Method version: {LAST_UPDATED}. A figure that looks wrong: <a href={route('contact', lang)}>contact</a>.</p>
+  </div>
+</PageLayout>

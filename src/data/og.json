@@ -1,0 +1,20 @@
+{
+ "accent": "#012169",
+ "symbol": "?",
+ "variants": [
+  {
+   "file": "og-en.png",
+   "title": "Citizenship tests 2026\nUK · Australia · Canada",
+   "subtitle": "Free mock exams · earliest date you can apply · official fees",
+   "badge": "Fees read on gov.uk, Home Affairs and IRCC, October 2026",
+   "brand": "Citizenship Test Free"
+  },
+  {
+   "file": "og-fr.png",
+   "title": "Examen de citoyenneté\ncanadienne 2026",
+   "subtitle": "Examens blancs gratuits · date de demande · frais d'IRCC",
+   "badge": "Frais relevés sur le site d'IRCC, octobre 2026",
+   "brand": "Examen de citoyenneté gratuit"
+  }
+ ]
+}

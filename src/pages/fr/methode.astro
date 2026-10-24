@@ -1,0 +1,34 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { LAST_UPDATED } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { breadcrumbSchema, articleSchema } from '../../lib/seo';
+import { helpers } from '../../lib/helpers';
+const lang = 'fr';
+const h = helpers(lang);
+const P = h.P;
+const s = (k: Parameters<typeof h.src>[0], t: string) => h.src(k, t);
+---
+<PageLayout title="Méthode de l’examen blanc de citoyenneté canadienne 2026" description="Comment sont rédigées les questions de l’examen blanc, comment un examen est tiré et noté (15 sur 20), comment la présence effective est comptée et les frais additionnés." lang={lang} jsonLd={[articleSchema({ title: 'Méthode : questions, notation et dates', description: 'Méthode du site', path: route('method', lang), lang }), breadcrumbSchema([{ name: 'Accueil', path: route('home', lang) }, { name: 'Méthode', path: route('method', lang) }])]} breadcrumbs={[{ label: 'Méthode' }]}>
+  <header class="mb-6"><p class="kicker">Méthode</p><h1 class="mt-0 text-3xl font-bold text-navy-900 md:text-4xl">Questions, notation et dates : la méthode</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <p>Chaque page et chaque outil lisent les mêmes fichiers : la banque de questions et un fichier de paramètres où figurent les règles et les frais officiels, relus le {h.date(P.retrieved_at)}. Aucune note de passage, aucun montant ni aucun seuil n’est écrit à la main dans une page.</p>
+    <h2>1. Les questions</h2>
+    <p>La banque française compte {h.count.caFr} questions, réparties sur les dix chapitres du guide Découvrir le Canada. Chacune a une seule bonne réponse, une explication rédigée par nous, le chapitre du guide auquel elle se rattache et la section où vérifier le fait. Le guide est protégé par le droit d’auteur de la Couronne et ses conditions interdisent la reproduction commerciale : nous n’en reprenons que les faits, jamais le texte ni les questions d’étude. Les questions françaises ont été écrites directement en français ; elles ne sont pas la traduction des {h.count.caEn} questions anglaises du site. Nous écartons les questions dont la réponse dépend de la personne qui occupe une fonction aujourd’hui, et les faits qui ont changé depuis l’impression du guide.</p>
+    <h2>2. Le tirage et la notation</h2>
+    <p>Un examen blanc compte {P.ca.test.questions} questions tirées au hasard dans toute la banque, avec une graine : le même lien redonne le même examen. Il est réussi à {h.need.ca} bonnes réponses, la note publiée par IRCC. Une série d’entraînement de dix questions vise 75 % et l’indique.</p>
+    <h2>3. La première date de demande</h2>
+    <p>Le calculateur essaie chaque jour à partir d’aujourd’hui, dans l’ordre, et s’arrête au premier jour où la présence effective atteint {h.num(P.ca.presence.requiredDays)} jours dans les {P.ca.presence.windowYears} ans qui précèdent, le jour de la demande exclu ({s('ca_rescalc', 'calculateur officiel d’IRCC')}). Les jours comme résident permanent comptent en entier ; ceux d’avant, comme résident temporaire ou personne protégée, comptent pour moitié, jusqu’à {P.ca.presence.preprMaxCredit} jours. Une absence est une journée passée entièrement hors du Canada : partir le 22 et revenir le 23, ce n’est aucune absence. Lorsqu’un résultat tombe à moins de cinq jours du seuil, l’outil le signale.</p>
+    <h2>4. Les frais</h2>
+    <p>Les frais viennent de la {s('ca_fees_fr', 'liste des frais d’IRCC')} : {h.cad(P.ca.fees.adult)} par adulte ({h.cad(P.ca.fees.adultProcessing)} de traitement et {h.cad(P.ca.fees.rightOfCitizenship)} de droit de citoyenneté) et {h.cad(P.ca.fees.minor)} par mineur.</p>
+    <h2>5. Les contrôles</h2>
+    <p>À chaque construction du site, des tests automatiques vérifient que chaque question a des choix distincts, une bonne réponse, une explication et une source, que chaque examen a la bonne longueur, que le plafond de 365 jours avant la résidence permanente s’applique et que les frais s’additionnent. Un script relit chaque mois la liste des frais d’IRCC et bloque la mise à jour si un montant diffère du nôtre, jusqu’à vérification.</p>
+    <h2>6. Ce que le site ne fait pas</h2>
+    <ul>
+      <li>Il ne juge ni les déclarations de revenus, ni le niveau de langue, ni les interdictions liées aux antécédents : seulement la présence effective et l’examen.</li>
+      <li>Il ne reproduit pas l’examen officiel et ne prétend pas le faire.</li>
+      <li>Il ne transmet aucune demande : elle se dépose uniquement auprès d’IRCC.</li>
+    </ul>
+    <p>Version de la méthode : {LAST_UPDATED}. Un chiffre vous semble faux : <a href={route('contact', lang)}>contact</a>.</p>
+  </div>
+</PageLayout>
