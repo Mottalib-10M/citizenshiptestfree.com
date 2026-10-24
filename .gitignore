@@ -5,3 +5,4 @@ scripts/__pycache__
 # Copies de travail des pages et PDF officiels (Home Affairs, IRCC, gov.uk) : jamais versionnées (audit données-droits 2026-10-24)
 data/raw/
 data/textes-sources/
+data/raw
