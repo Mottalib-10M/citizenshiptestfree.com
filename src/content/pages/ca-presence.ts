@@ -28,7 +28,7 @@ ${h.table(['Rule', 'How it is applied'], [['Window', `the ${h.P.ca.presence.wind
 <h2>Why the official calculator and this one differ</h2>
 <p>IRCC's ${h.src('ca_rescalc', 'online calculator')} answers one question: on the date you choose, are your days enough? This page answers the next one: which is the first date that works? It also lets you add trips you have not taken yet. The two should agree on any given date; if they do not, check the dates you typed in each, and rely on the official one, which IRCC uses.</p>
 <h2>Where to find your dates</h2>
-<p>The date you became a permanent resident is on your confirmation of permanent residence. For temporary residence, use the date you first entered Canada with a permit or as a visitor whose stay led to it. For trips, your passport stamps help, but Canada does not stamp every exit; travel bookings, boarding passes and the records the Canada Border Services Agency can provide are more complete. Enter each trip with the day you left and the day you returned.</p>
+<p>The date you became a permanent resident is on your confirmation of permanent residence. For temporary residence, use the date you first entered Canada with a permit or as a visitor whose stay led to it. For trips, passport stamps help but are rarely complete; travel bookings, boarding passes and the travel history the Canada Border Services Agency can provide on request fill the gaps. Enter each trip with the day you left and the day you returned.</p>
 <h2>What the date does not include</h2>
 <p>Being present long enough is one condition. You also need valid permanent resident status, tax filing where required, and for applicants aged ${h.P.ca.test.ages[0]} to ${h.P.ca.test.ages[1]} language proof and the ${h.a('ca-test', 'citizenship test')}. The ${h.a('ca-eligibility', 'eligibility page')} lists them, and the ${h.a('ca-fee', 'fee page')} adds up what the application costs.</p>`,
   },
@@ -54,7 +54,7 @@ ${h.table(['Règle', 'Application'], [['Période', `les ${h.P.ca.presence.window
 <h2>Le calculateur d’IRCC et celui-ci</h2>
 <p>Le ${h.src('ca_rescalc', 'calculateur en ligne d’IRCC')} vérifie si vos jours suffisent à la date que vous choisissez. Celui-ci cherche la première date qui convient et accepte des voyages à venir. Les deux doivent concorder pour une même date ; sinon, vérifiez les dates saisies et fiez-vous à l’outil officiel, celui qu’utilise IRCC.</p>
 <h2>Retrouver ses dates</h2>
-<p>La date de la résidence permanente figure sur la confirmation de résidence permanente. Pour les voyages, les tampons du passeport aident, mais le Canada ne tamponne pas chaque sortie : réservations, cartes d’embarquement et relevés d’entrées et de sorties que l’Agence des services frontaliers du Canada peut fournir sont plus complets.</p>
+<p>La date de la résidence permanente figure sur la confirmation de résidence permanente. Pour les voyages, les tampons du passeport aident mais sont rarement complets : réservations, cartes d’embarquement et historique de voyage que l’Agence des services frontaliers du Canada peut fournir sur demande comblent les trous.</p>
 <h2>Les autres conditions</h2>
 <p>La présence effective n’est qu’une condition. Il faut aussi la résidence permanente valide, les déclarations de revenus lorsqu’elles sont exigées et, de ${h.P.ca.test.ages[0]} à ${h.P.ca.test.ages[1]} ans, une preuve de langue et l’${h.a('home', 'examen de citoyenneté')}, pour lequel ce site propose des examens blancs.</p>`,
   },
