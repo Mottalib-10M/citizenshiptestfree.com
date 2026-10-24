@@ -66,7 +66,7 @@ const SPECS: Record<string, (lang: L) => MiniSpec> = {
     },
   }),
   capass: (lang) => ({
-    title: lang === 'fr' ? 'Ai-je réussi l’examen de citoyenneté ?' : 'Did I pass the Canadian citizenship test?', cta: lang === 'fr' ? 'Faire un examen blanc complet' : 'Take a full practice test', ctaPage: lang === 'fr' ? 'home' : 'ca-test',
+    title: lang === 'fr' ? 'Ai-je réussi l’examen de citoyenneté ?' : 'Did I pass the Canadian citizenship test?', cta: lang === 'fr' ? 'Faire un examen blanc complet' : 'Take a full practice test', ctaPage: lang === 'fr' ? 'home' : 'ca-test',
     inputs: [{ id: 'right', label: lang === 'fr' ? 'Bonnes réponses' : 'Correct answers', def: 16, max: P.ca.test.questions, unit: `/ ${P.ca.test.questions}` }],
     run: (v) => {
       const n = P.ca.test.questions, need = P.ca.test.passCorrect, r = clamp(v.right ?? 0, 0, n), ok = r >= need;
@@ -76,7 +76,7 @@ const SPECS: Record<string, (lang: L) => MiniSpec> = {
     },
   }),
   cadays: (lang) => ({
-    title: lang === 'fr' ? 'Combien de jours me manque-t-il ?' : 'How many days am I missing?', cta: lang === 'fr' ? 'Calculer ma date jour par jour' : 'Work out my date day by day', ctaPage: 'ca-presence',
+    title: lang === 'fr' ? 'Combien de jours me manque-t-il ?' : 'How many days am I missing?', cta: lang === 'fr' ? 'Calculer ma date jour par jour' : 'Work out my date day by day', ctaPage: 'ca-presence',
     inputs: [{ id: 'pr', label: lang === 'fr' ? 'Jours au Canada comme RP (5 dernières années)' : 'Days in Canada as a PR (last 5 years)', def: 900, max: 1826, unit: lang === 'fr' ? 'j' : 'days' }, { id: 'pre', label: lang === 'fr' ? 'Jours au Canada avant la RP' : 'Days in Canada before PR', def: 300, max: 1826, unit: lang === 'fr' ? 'j' : 'days' }],
     run: (v) => {
       const C = P.ca.presence, pre = Math.min(C.preprMaxCredit, (v.pre ?? 0) * C.preprFactor), tot = (v.pr ?? 0) + pre, miss = Math.max(0, Math.ceil(C.requiredDays - tot));
@@ -94,7 +94,7 @@ const SPECS: Record<string, (lang: L) => MiniSpec> = {
     },
   }),
   catestage: (lang) => ({
-    title: lang === 'fr' ? 'Dois-je passer l’examen ?' : 'Do I have to take the test?', cta: lang === 'fr' ? 'Faire l’examen blanc' : 'Take the practice test', ctaPage: lang === 'fr' ? 'home' : 'ca-test',
+    title: lang === 'fr' ? 'Dois-je passer l’examen ?' : 'Do I have to take the test?', cta: lang === 'fr' ? 'Faire l’examen blanc' : 'Take the practice test', ctaPage: lang === 'fr' ? 'home' : 'ca-test',
     inputs: [{ id: 'age', label: lang === 'fr' ? 'Âge à la signature de la demande' : 'Age when you sign the application', def: 35, max: 120, unit: lang === 'fr' ? 'ans' : 'yrs' }],
     run: (v) => {
       const [lo, hi] = P.ca.test.ages, a = v.age ?? 0, need = a >= lo && a <= hi;
@@ -110,7 +110,7 @@ const SPECS: Record<string, (lang: L) => MiniSpec> = {
       const c = ['uk', 'au', 'ca'][clamp(v.c ?? 0, 0, 2)] as 'uk' | 'au' | 'ca';
       if (c === 'uk') return { head: ['Life in the UK Test', `${P.uk.test.questions} questions`], rows: [['Pass mark', `${P.uk.test.passCorrect} correct`], ['Time', `${P.uk.test.minutes} minutes`], ['Test fee', money(P.uk.test.fee, 'GBP', lang)], ['Who sits it', `${P.uk.test.exemptUnder} to ${P.uk.test.exemptFromAge - 1}`]] };
       if (c === 'au') return { head: ['Australian citizenship test', `${P.au.test.questions} questions`], rows: [['Pass mark', `${pct(P.au.test.passPercent / 100, lang)} and all ${P.au.test.valuesQuestions} values questions`], ['Time', `${P.au.test.minutes} minutes`], ['Test fee', 'in the application fee'], ['Who sits it', `${P.au.test.ages[0]} to ${P.au.test.ages[1]}`]] };
-      return { head: ['Canadian citizenship test', `${P.ca.test.questions} questions`], rows: [['Pass mark', `${P.ca.test.passCorrect} correct`], ['Time', `${P.ca.test.minutes} minutes`], ['Test fee', 'in the application fee'], ['Who sits it', `${P.ca.test.ages[0]} to ${P.ca.test.ages[1]}`]] };
+      return { head: ['Canadian citizenship test', `${P.ca.test.questions} questions`], rows: [['Pass mark', `${P.ca.test.passCorrect} correct`], ['Time', `${P.ca.test.minutes} minutes`], ['Test fee', 'no separate fee listed'], ['Who sits it', `${P.ca.test.ages[0]} to ${P.ca.test.ages[1]}`]] };
     },
   }),
 };

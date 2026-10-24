@@ -9,7 +9,7 @@ const h = helpers(lang);
 const P = h.P;
 const s = (k: Parameters<typeof h.src>[0], t: string) => h.src(k, t);
 ---
-<PageLayout title="Méthode de l’examen blanc de citoyenneté canadienne 2026" description="Comment sont rédigées les questions de l’examen blanc, comment un examen est tiré et noté (15 sur 20), comment la présence effective est comptée et les frais additionnés." lang={lang} jsonLd={[articleSchema({ title: 'Méthode : questions, notation et dates', description: 'Méthode du site', path: route('method', lang), lang }), breadcrumbSchema([{ name: 'Accueil', path: route('home', lang) }, { name: 'Méthode', path: route('method', lang) }])]} breadcrumbs={[{ label: 'Méthode' }]}>
+<PageLayout title="Méthode de l’examen blanc de citoyenneté canadienne 2026" description="Comment sont rédigées les questions de l’examen blanc, comment un examen est tiré et noté (15 sur 20), comment la présence effective et les frais sont comptés." lang={lang} jsonLd={[articleSchema({ title: 'Méthode : questions, notation et dates', description: 'Méthode du site', path: route('method', lang), lang }), breadcrumbSchema([{ name: 'Accueil', path: route('home', lang) }, { name: 'Méthode', path: route('method', lang) }])]} breadcrumbs={[{ label: 'Méthode' }]}>
   <header class="mb-6"><p class="kicker">Méthode</p><h1 class="mt-0 text-3xl font-bold text-navy-900 md:text-4xl">Questions, notation et dates : la méthode</h1></header>
   <div class="prose prose-slate max-w-none">
     <p>Chaque page et chaque outil lisent les mêmes fichiers : la banque de questions et un fichier de paramètres où figurent les règles et les frais officiels, relus le {h.date(P.retrieved_at)}. Aucune note de passage, aucun montant ni aucun seuil n’est écrit à la main dans une page.</p>

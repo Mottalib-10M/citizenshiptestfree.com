@@ -33,16 +33,16 @@ const T = {
   },
   fr: {
     route: '', r61: '', r62: '', arrival: '', ilr: '',
-    pr: 'Date d’obtention de la résidence permanente', before: 'Au Canada avant la RP ?', beforeNo: 'Non', beforeYes: 'Oui, comme résident temporaire ou personne protégée', temp: 'Premier jour comme résident temporaire',
+    pr: 'Date d’obtention de la résidence permanente', before: 'Au Canada avant la RP ?', beforeNo: 'Non', beforeYes: 'Oui, comme résident temporaire ou personne protégée', temp: 'Premier jour comme résident temporaire',
     lawful: '', aupr: '', nz: '', nzNo: '', nzYes: '',
     trips: 'Voyages hors du Canada (passés et prévus)', left: 'Départ le', back: 'Retour le', add: 'Ajouter un voyage', remove: 'Retirer',
     head: 'Première date pour présenter la demande', none: 'Pas dans les 20 prochaines années avec ces voyages', now: 'Vous pouvez présenter la demande aujourd’hui', inDays: (d: number) => `dans ${formatNumberL(d, 'fr')} jours`,
     checks: 'À cette date', today: 'Si vous déposiez aujourd’hui',
     k: { presence: 'Jours de présence effective crédités', pr: 'Résident permanent avant la demande', age: '18 ans ou plus' } as Record<string, string>,
-    ok: 'rempli', ko: 'non rempli', limit: 'plafond', need: 'requis', near: 'À moins de 5 jours du seuil : vérifiez vos dates (tampons, historique des entrées) avant de présenter la demande.',
+    ok: 'rempli', ko: 'non rempli', limit: 'plafond', need: 'requis', near: 'À moins de 5 jours du seuil : vérifiez vos dates (tampons, historique des entrées) avant de présenter la demande.',
     discretion: '',
-    err: { order: 'Un retour précède son départ.', overlap: 'Deux voyages se chevauchent.' }, rule: 'Règle de calcul : le jour du départ et celui du retour comptent comme jours au Canada ; seule une journée entière à l’étranger est une absence.',
-    pre: (d: number, c: number) => `Jours avant la RP : ${formatNumberL(d, 'fr')}, crédités à moitié : ${formatNumberL(c, 'fr', c % 1 ? 1 : 0)}`,
+    err: { order: 'Un retour précède son départ.', overlap: 'Deux voyages se chevauchent.' }, rule: 'Règle de calcul : le jour du départ et celui du retour comptent comme jours au Canada ; seule une journée entière à l’étranger est une absence.',
+    pre: (d: number, c: number) => `Jours avant la RP : ${formatNumberL(d, 'fr')}, crédités à moitié : ${formatNumberL(c, 'fr', c % 1 ? 1 : 0)}`,
   },
 } as const;
 const DEF: Record<C, { a: string; b: string; trips: Trip[] }> = {
@@ -83,7 +83,7 @@ export default function ResidenceDate({ lang = 'en', country, idPrefix = 'd' }: 
   const fmt = (v: unknown) => (typeof v === 'number' ? formatNumberL(v, lang, v % 1 ? 1 : 0) : typeof v === 'string' && iso(v) ? dateL(v, lang) : '');
   const inputCls = 'h-12 w-full rounded-lg border border-navy-300 bg-white px-3 text-navy-900 focus:border-accent-500 focus:outline-none focus:ring-2 focus:ring-accent-500/20';
   const field = (id: string, label: string, val: string, set: (v: string) => void) => (
-    <div className="grid grid-rows-subgrid row-span-3 content-start gap-y-0"><label htmlFor={`${idPrefix}-${id}`} className="mb-1 block text-sm font-medium text-navy-700">{label}</label><input id={`${idPrefix}-${id}`} type="date" value={val} onChange={(e) => set(e.target.value)} className={inputCls} /><span /></div>
+    <div className="grid min-w-0 grid-rows-subgrid row-span-3 content-start gap-y-0"><label htmlFor={`${idPrefix}-${id}`} className="mb-1 block text-sm font-medium text-navy-700">{label}</label><input id={`${idPrefix}-${id}`} type="date" value={val} onChange={(e) => set(e.target.value)} className={`${inputCls} min-w-0`} /><span /></div>
   );
   const labels = country === 'uk' ? { a: L.arrival, b: L.ilr } : country === 'ca' ? { a: L.pr, b: L.temp } : { a: L.lawful, b: L.aupr };
   const date = res?.date ?? null;
@@ -105,10 +105,10 @@ export default function ResidenceDate({ lang = 'en', country, idPrefix = 'd' }: 
           <legend className="px-1 text-sm font-semibold text-navy-900">{L.trips}</legend>
           <div className="space-y-3">
             {trips.map((t, i) => (
-              <div key={i} className="grid grid-cols-[1fr_1fr_auto] items-end gap-3">
+              <div key={i} className="grid grid-cols-[minmax(0,1fr)_minmax(0,1fr)] items-end gap-3 sm:grid-cols-[minmax(0,1fr)_minmax(0,1fr)_auto]">
                 {field(`o${i}`, L.left, t.out, (x) => setTrips((o) => o.map((y, j) => (j === i ? { ...y, out: x } : y))))}
                 {field(`r${i}`, L.back, t.back ?? '', (x) => setTrips((o) => o.map((y, j) => (j === i ? { ...y, back: x } : y))))}
-                <button type="button" onClick={() => setTrips((o) => o.filter((_, j) => j !== i))} className="mb-0 h-12 rounded-lg border border-navy-300 px-3 text-sm text-navy-800 hover:bg-navy-50" aria-label={`${L.remove} ${i + 1}`}>×</button>
+                <button type="button" onClick={() => setTrips((o) => o.filter((_, j) => j !== i))} className="col-span-2 mb-0 h-12 rounded-lg border border-navy-300 px-3 text-sm text-navy-800 hover:bg-navy-50 sm:col-span-1" aria-label={`${L.remove} ${i + 1}`}>×</button>
               </div>
             ))}
           </div>

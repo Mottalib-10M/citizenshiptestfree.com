@@ -8,7 +8,7 @@ import { helpers } from '../../lib/helpers';
 const lang = 'fr';
 const h = helpers(lang);
 ---
-<PageLayout title="Examen de citoyenneté gratuit : qui rédige les questions" description="Qui publie Examen de citoyenneté gratuit, comment sont rédigées ses questions sur le Canada, d’où viennent les règles de présence et les frais, et ce que le site ne vend jamais." lang={lang} jsonLd={[organizationSchema(lang), profilePageSchema({ path: route('about', lang), lang }), breadcrumbSchema([{ name: 'Accueil', path: route('home', lang) }, { name: 'À propos', path: route('about', lang) }])]} breadcrumbs={[{ label: 'À propos' }]}>
+<PageLayout title="Examen de citoyenneté gratuit : qui rédige les questions" description="Qui publie Examen de citoyenneté gratuit, comment sont rédigées ses questions sur le Canada, d’où viennent les règles et les frais, ce qu’il ne vend pas." lang={lang} jsonLd={[organizationSchema(lang), profilePageSchema({ path: route('about', lang), lang }), breadcrumbSchema([{ name: 'Accueil', path: route('home', lang) }, { name: 'À propos', path: route('about', lang) }])]} breadcrumbs={[{ label: 'À propos' }]}>
   <header class="mb-6"><p class="kicker">À propos</p><h1 class="mt-0 text-3xl font-bold text-navy-900 md:text-4xl">Qui publie Examen de citoyenneté gratuit</h1></header>
   <div class="prose prose-slate max-w-none">
     <div class="not-prose mb-6"><p class="text-lg font-semibold text-navy-900">{AUTHOR_NAME}</p><p class="text-navy-700">{AUTHOR_ROLE[lang]}</p></div>

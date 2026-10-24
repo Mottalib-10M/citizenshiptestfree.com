@@ -18,7 +18,7 @@ const T = {
   fr: {
     adults: 'Adultes qui demandent', children: '', ilr: '', attempts: '', minors: 'Enfants de moins de 18 ans', concession: '', kids: '', other: 'Autres frais prévus (test de langue, traductions…)',
     head: 'Coût officiel de la demande', l: { adultProcessing: 'Frais de traitement (adulte)', rightOfCitizenship: 'Droit de citoyenneté', minor: 'Frais pour un mineur', other: 'Vos autres frais' } as Record<string, string>,
-    each: 'chacun', free: 'gratuit', note: 'Les frais se paient au gouvernement au dépôt de la demande ; ce site ne perçoit aucun frais et ne transmet aucune demande.',
+    each: 'chacun', free: 'gratuit', note: 'Les frais se paient au gouvernement au dépôt de la demande ; ce site ne perçoit aucun frais et ne transmet aucune demande.',
   },
 } as const;
 interface Props { lang?: Lang; country: C; idPrefix?: string }
