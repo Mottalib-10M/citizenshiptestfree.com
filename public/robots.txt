@@ -3,4 +3,4 @@ Allow: /
 
 Disallow: /*?*
 
-Sitemap: https://citizenship-tests.example/sitemap-index.xml
+Sitemap: https://citizenshiptestfree.com/sitemap-index.xml

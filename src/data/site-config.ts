@@ -1,5 +1,5 @@
 /** Configuration centrale du site (générée par new-site.py). */
-export const SITE_URL = "https://citizenship-tests.example";
+export const SITE_URL = "https://citizenshiptestfree.com";
 export const SITE_NAMES: Record<string, string> = {"en": "Citizenship Test Free", "fr": "Examen de citoyenneté gratuit"};
 export const LANG_TAGS: Record<string, string> = {"en": "en", "fr": "fr-CA"};
 export const OG_LOCALES: Record<string, string> = {"en": "en_GB", "fr": "fr_CA"};
@@ -16,7 +16,7 @@ export const AUTHOR_DESC: Record<string, string> = {"en": "Radif Partners writes
  *  themes reellement traites par le site, pas une liste de mots-cles : un sujet
  *  declare ici sans page qui le couvre est une declaration fausse. */
 export const KNOWS_ABOUT: Record<string, string[]> = {"en": ["Life in the UK test", "British citizenship by naturalisation", "Australian citizenship test", "Australian citizenship residence requirement", "Canadian citizenship test", "Canadian citizenship physical presence"], "fr": ["Examen pour la citoyenneté canadienne", "Présence effective pour la citoyenneté canadienne", "Frais de citoyenneté d'IRCC"]};
-export const CONTACT_EMAIL = "contact@citizenship-tests.example";
+export const CONTACT_EMAIL = "contact@citizenshiptestfree.com";
 export const THEME_COLOR = '#012169';
 export const LOGO_SYMBOL = '?';
 export const BING_VERIFY_CODE = '';
