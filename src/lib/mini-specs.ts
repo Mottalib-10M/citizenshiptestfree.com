@@ -54,7 +54,7 @@ const SPECS: Record<string, (lang: L) => MiniSpec> = {
     inputs: [{ id: 'w', label: 'Weeks since you applied', def: 12, max: 520, unit: 'wks' }],
     run: (v) => {
       const w = clamp(v.w ?? 0, 0, 520), mark = Math.round((5 * 365.25) / 12 / 7);
-      return { head: ['Against the 90 % mark', w >= mark ? 'Past it' : `${mark - w} weeks to go`], rows: [['90 % of applications decided in', P.au.processing.conferral90pct], ['Same mark in weeks', `about ${mark}`], ['Ceremony (90 %)', 'within 6 months of approval']], note: `Home Affairs processing times, page updated ${P.au.processing.pageUpdated}. One in ten applications takes longer.` };
+      return { head: ['Against the 90% mark', w >= mark ? 'Past it' : `${mark - w} weeks to go`], rows: [['90% of applications decided in', P.au.processing.conferral90pct], ['Same mark in weeks', `about ${mark}`], ['Ceremony (90%)', 'within 6 months of approval']], note: `Home Affairs processing times, page updated ${P.au.processing.pageUpdated}. One in ten applications takes longer.` };
     },
   }),
   aufee: (lang) => ({

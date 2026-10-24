@@ -17,7 +17,8 @@ export const money = (v: number, cur: Cur, lang: L) => {
   if (lang === 'fr') return `${n} $`;
   return cur === 'GBP' ? `£${n}` : cur === 'AUD' ? `A$${n}` : `C$${n}`;
 };
-export const pct = (v: number, lang: L, d = 0) => `${formatNumberL(v * 100, lang, d)} %`;
+// « 75% » en anglais, « 75 % » en français canadien (2026-10-24 : l'anglais affichait « 75 % »).
+export const pct = (v: number, lang: L, d = 0) => `${formatNumberL(v * 100, lang, d)}${lang === 'fr' ? '\u00a0' : ''}%`;
 /** "2026-10-24" → "24 October 2026" / "24 octobre 2026" (UTC, never shifts a day). */
 export const dateL = (iso: string, lang: L) => {
   const s = new Date(`${iso}T00:00:00Z`).toLocaleDateString(TAG[lang], { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });

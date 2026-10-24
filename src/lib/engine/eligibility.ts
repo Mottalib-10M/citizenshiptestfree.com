@@ -8,7 +8,7 @@
  * comme conditions à remplir, jamais tranchés ici.
  */
 import P from '../../data/params-2026.json';
-import { Iso, Trip, addDays, addMonths, addYears, dayNum, isAbroadAllDay, maxIso, totalAbsent } from './dates';
+import { type Iso, type Trip, addDays, addMonths, addYears, dayNum, isAbroadAllDay, maxIso, totalAbsent } from './dates';
 
 export interface Check {
   id: string;
