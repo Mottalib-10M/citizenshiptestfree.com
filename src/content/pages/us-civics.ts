@@ -1,5 +1,7 @@
 import { definePage } from '../../lib/guide-types';
 
+const R = (h: { P: { us: Record<string, any> } }) => h.P.us.passRates as { fy: number; overall: number; initialInterview: number; reexam: number; n648Pct: number; english: Record<string, number>; civicsInitial: number; exempt: Record<string, number>; reviewed: string };
+
 export default definePage({
   id: 'us-civics',
   group: 'us',
@@ -7,7 +9,7 @@ export default definePage({
   tool: { kind: 'usquiz', props: { version: '2025', mode: 'exam', versionSelect: true } },
   mini: { kind: 'mini:usexempt' },
   related: ['us-test', 'us-questions', 'us-practice', 'us-2008', 'us-which', 'us-exemptions'],
-  sources: ['us_128', 'us_100', 'us_study', 'us_updates', 'us_fr_notice', 'us_pm_e2'],
+  sources: ['us_128', 'us_100', 'us_study', 'us_updates', 'us_fr_notice', 'us_pm_e2', 'us_test_perf'],
   en: {
     slug: 'civics-test',
     nav: 'Civics test 2025',
@@ -43,6 +45,8 @@ ${h.table(['Theme', 'Questions'], h.us.themes25.map((t, i) => [t, h.us.inTheme('
 <li>Aged ${h.P.us.s6520.age} or over with ${h.P.us.s6520.years} years as a permanent resident: the same, plus a shorter list of 20 questions marked for special consideration, of which up to ${h.P.us.s6520.asked} are asked and ${h.P.us.s6520.passCorrect} must be right.</li>
 </ul>
 <p>The mini-tool above shows which case applies at your age; the ${h.a('us-exemptions', 'exemptions page')} has the 65/20 questions and a practice test on them. A medical disability exception, requested with Form N-648 signed by a doctor, can waive the tests at any age.</p>
+<h2>How many applicants pass</h2>
+<p>The latest national figures USCIS publishes are for fiscal year ${R(h).fy}, on its ${h.src('us_test_perf', 'naturalization test performance page')} (reviewed ${h.date(R(h).reviewed)}), so before the 2025 test existed. ${h.num(R(h).overall, 1)}% of applicants passed the naturalization test: over ${R(h).initialInterview}% at the first interview and another ${R(h).reexam}% at the re-exam. On the first try, ${h.num(R(h).civicsInitial, 1)}% passed civics (applicants without an age exception), and the English parts ranged from ${R(h).english.understanding}% for understanding to ${R(h).english.reading}% for reading. Applicants with an age exception who took civics passed at ${h.num(R(h).exempt['55/15'], 1)}% to ${h.num(R(h).exempt['65/20'], 1)}%. The 2025 version asks more questions and needs more right answers, so these rates may not hold for it.</p>
 <h2>How to use the mock civics test</h2>
 <p>Pick your version in the first menu. Each answer is marked at once and shows every answer USCIS accepts, so you learn the wording as you go. When the officer would stop, the tool stops too and lists the questions you missed. Start a new test as often as you like: the draw changes each time. Once you pass several times in a row, switch to ${h.a('us-practice', 'practice by theme')} for the themes you miss most, then come back to full tests in the last week.</p>`,
   },
@@ -81,6 +85,8 @@ ${h.table(['Tema', 'Preguntas'], h.us.themes25.map((t, i) => [t, h.us.inTheme('2
 <li>${h.P.us.s6520.age} años o más con ${h.P.us.s6520.years} años de residencia permanente: lo mismo, y además una lista corta de 20 preguntas marcadas, de las que se hacen hasta ${h.P.us.s6520.asked} y hay que acertar ${h.P.us.s6520.passCorrect}.</li>
 </ul>
 <p>La mini herramienta de arriba indica qué caso corresponde a su edad; la página de ${h.a('us-exemptions', 'exenciones')} tiene las 20 preguntas y una práctica sobre ellas. Una excepción por discapacidad médica, pedida con el Formulario N-648 firmado por un médico, puede eximir de los exámenes a cualquier edad.</p>
+<h2>Cuántos solicitantes aprueban</h2>
+<p>Las últimas cifras nacionales que publica USCIS son del año fiscal ${R(h).fy}, en su ${h.src('us_test_perf', 'página de resultados del examen de naturalización')} (revisada el ${h.date(R(h).reviewed)}), es decir, antes del examen de 2025. El ${h.num(R(h).overall, 1)} % de los solicitantes aprobó el examen de naturalización: más del ${R(h).initialInterview} % en la primera entrevista y otro ${R(h).reexam} % en la segunda oportunidad. En el primer intento, el ${h.num(R(h).civicsInitial, 1)} % aprobó la parte cívica (solicitantes sin exención por edad), y las partes de inglés fueron del ${R(h).english.understanding} % en comprensión al ${R(h).english.reading} % en lectura. Quienes tenían una exención por edad y hicieron el examen cívico aprobaron entre el ${h.num(R(h).exempt['55/15'], 1)} % y el ${h.num(R(h).exempt['65/20'], 1)} %. La versión de 2025 tiene más preguntas y exige más respuestas correctas, así que estas tasas pueden no valer para ella.</p>
 <h2>Cómo usar el examen de práctica</h2>
 <p>Elija su versión en el primer menú. Cada respuesta se corrige al instante y muestra todas las respuestas que USCIS acepta, para que aprenda las palabras exactas. Cuando el oficial se detendría, la herramienta también se detiene y enumera las preguntas falladas. Empiece un examen nuevo tantas veces como quiera: las preguntas cambian cada vez. Cuando apruebe varias veces seguidas, pase a la ${h.a('us-practice', 'práctica por tema')} en los temas que más falla y vuelva a los exámenes completos la última semana.</p>`,
   },

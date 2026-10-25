@@ -5,7 +5,7 @@ import US08 from '../src/data/questions/us-2008.json';
 import VOC from '../src/data/us-english.json';
 import {
   versionFor, ruleOf, exemptions, scorable, drawUs, practiceUs, scoreUs, earlyDate, presenceDays,
-  usVerdict, usEarliest, isBreak, isPresumption, fpgLimit, feeTier, usFee, type UsQuestion,
+  usVerdict, usEarliest, isBreak, isPresumption, fpgLimit, feeTier, usFee, usTimeline, type UsQuestion,
 } from '../src/lib/engine/us';
 
 const B25 = US25.questions as UsQuestion[];
@@ -166,5 +166,19 @@ describe('anglais : phrases de pratique', () => {
     const W = words((VOC as { writing: unknown }).writing);
     for (const s of (VOC as { writingSentences: string[] }).writingSentences)
       for (const w of s.toLowerCase().match(/[a-z]+/g)!) expect(W.has(w), `${w} dans « ${s} »`).toBe(true);
+  });
+});
+
+describe('délais et étapes', () => {
+  it('médiane nationale FY 2024 = 5,2 mois (fiche USCIS du 5 mars 2024)', () => {
+    expect(P.us.processing.medianMonths['2024']).toBe(5.2);
+  });
+  it('120 jours après l’entretien, 30 ou 33 jours pour l’audience N-336, 10 jours avant la Sécurité sociale', () => {
+    const t = usTimeline({ filed: '2026-01-15', months: 6, interview: '2026-05-04', ceremony: '2026-05-04' });
+    expect(t.decisionBy).toBe('2026-07-17');
+    expect(t.legalDecisionBy).toBe('2026-09-01');
+    expect(t.hearingBy).toBe('2026-06-03');
+    expect(t.hearingByMailed).toBe('2026-06-06');
+    expect(t.ssaFrom).toBe('2026-05-14');
   });
 });

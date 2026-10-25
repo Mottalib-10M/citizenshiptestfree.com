@@ -26,6 +26,7 @@ export default definePage({
 <h2>The three rules behind the checker</h2>
 ${h.table(['Your situation on the filing date', 'English test', 'Civics test'], [['Under the thresholds below', 'required', `in English, ${h.P.us.test2025.asked} of ${h.us.n25} (2025) or ${h.P.us.test2008.asked} of ${h.us.n08} (2008)`], [`Aged ${h.P.us.englishExempt[1].age}+ with ${h.P.us.englishExempt[1].years}+ years as a permanent resident`, 'exempt', 'full list, in your language with an interpreter'], [`Aged ${h.P.us.englishExempt[0].age}+ with ${h.P.us.englishExempt[0].years}+ years`, 'exempt', 'full list, in your language with an interpreter'], [`Aged ${h.P.us.s6520.age}+ with ${h.P.us.s6520.years}+ years`, 'exempt', `20 starred questions, up to ${h.P.us.s6520.asked} asked, ${h.P.us.s6520.passCorrect} to pass`]], `USCIS exceptions and accommodations page, read on ${h.date(h.P.us.retrieved_at)}.`, ['l', 'l', 'l'])}
 <p>The years are those spent as a lawful permanent resident, counted from the “Resident since” date on the green card, not years in the United States in any status. Time on a visa before the green card does not count.</p>
+${h.us.svgVersions()}
 <h2>Old test or new test: what changes for you</h2>
 <ul>
 <li><strong>The list.</strong> 2008: ${h.us.n08} questions in ${h.us.themes08.length} themes. 2025: ${h.us.n25} questions in ${h.us.themes25.length} themes, with new questions on history, the Constitution and why events mattered.</li>
@@ -59,6 +60,7 @@ ${h.table(['Your situation on the filing date', 'English test', 'Civics test'], 
 <h2>Las tres reglas del verificador</h2>
 ${h.table(['Su situación el día de la presentación', 'Examen de inglés', 'Examen cívico'], [['Por debajo de los umbrales siguientes', 'obligatorio', `en inglés, ${h.P.us.test2025.asked} de ${h.us.n25} (2025) o ${h.P.us.test2008.asked} de ${h.us.n08} (2008)`], [`${h.P.us.englishExempt[1].age} años o más con ${h.P.us.englishExempt[1].years} o más de residencia permanente`, 'exento', 'lista completa, en su idioma con intérprete'], [`${h.P.us.englishExempt[0].age} años o más con ${h.P.us.englishExempt[0].years} o más`, 'exento', 'lista completa, en su idioma con intérprete'], [`${h.P.us.s6520.age} años o más con ${h.P.us.s6520.years} o más`, 'exento', `20 preguntas marcadas, hasta ${h.P.us.s6520.asked}, ${h.P.us.s6520.passCorrect} para aprobar`]], `Página de excepciones y adaptaciones de USCIS, leída el ${h.date(h.P.us.retrieved_at)}.`, ['l', 'l', 'l'])}
 <p>Los años son los de residente permanente legal, contados desde la fecha «Resident since» de la tarjeta verde, no los años en Estados Unidos con cualquier estatus. El tiempo con visa antes de la tarjeta verde no cuenta.</p>
+${h.us.svgVersions()}
 <h2>Examen antiguo o nuevo: qué cambia para usted</h2>
 <ul>
 <li><strong>La lista.</strong> 2008: ${h.us.n08} preguntas en ${h.us.themes08.length} temas, con traducción oficial al español. 2025: ${h.us.n25} preguntas en ${h.us.themes25.length} temas, solo en inglés en USCIS.</li>

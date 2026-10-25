@@ -25,7 +25,7 @@ const s = (k: Parameters<typeof h.src>[0], t: string) => h.src(k, t);
     <h2>5. Lo que el sitio no hace</h2>
     <ul>
       <li>No juzga el buen carácter moral, los antecedentes ni los tres meses en su estado: solo las condiciones con fecha y el examen.</li>
-      <li>No publica tiempos de tramitación: USCIS los da por oficina en su propia herramienta.</li>
+      <li>No lee por usted los tiempos por oficina: la herramienta de USCIS no permite la lectura automática; la mediana nacional viene de la <Fragment set:html={s('us_hist_pt', 'hoja histórica de USCIS')} /> (datos al {h.date(U.processing.dataAsOf)}) y usted escribe la cifra de su oficina.</li>
       <li>No presenta solicitudes ni da asesoría legal: el N-400 se presenta solo ante USCIS.</li>
     </ul>
     <p>Versión del método: {LAST_UPDATED}. ¿Una cifra le parece incorrecta? <a href={route('contact', lang)}>Contacto</a>.</p>

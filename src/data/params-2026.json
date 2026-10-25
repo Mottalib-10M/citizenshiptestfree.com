@@ -345,6 +345,94 @@
         "es": "Federal Register: aplicación del examen cívico de 2025 (en inglés)",
         "fr": "Federal Register: Implementation of 2025 Naturalization Civics Test"
       }
+    },
+    "us_hist_pt": {
+      "url": "https://www.uscis.gov/sites/default/files/document/fact-sheets/historical_pt_factsheet_fy16_to_fy24.pdf",
+      "label": {
+        "en": "USCIS: Historical Processing Times Trends, FY 2016 to 2024 (PDF)",
+        "es": "USCIS: tendencias históricas de los tiempos de trámite, años fiscales 2016 a 2024 (PDF, en inglés)",
+        "fr": "USCIS: Historical Processing Times Trends, FY 2016 to 2024 (PDF)"
+      }
+    },
+    "us_egov_pt": {
+      "url": "https://egov.uscis.gov/processing-times/",
+      "label": {
+        "en": "USCIS: Check Case Processing Times (by form and field office)",
+        "es": "USCIS: consultar los tiempos de trámite por formulario y oficina (en inglés)",
+        "fr": "USCIS: Check Case Processing Times (by form and field office)"
+      }
+    },
+    "us_10steps": {
+      "url": "https://www.uscis.gov/citizenship/learn-about-citizenship/10-steps-to-naturalization",
+      "label": {
+        "en": "USCIS: 10 Steps to Naturalization",
+        "es": "USCIS: los 10 pasos de la naturalización (en inglés)",
+        "fr": "USCIS: 10 Steps to Naturalization"
+      }
+    },
+    "us_ceremonies": {
+      "url": "https://www.uscis.gov/citizenship/learn-about-citizenship/naturalization-ceremonies",
+      "label": {
+        "en": "USCIS: Naturalization Ceremonies",
+        "es": "USCIS: ceremonias de naturalización (en inglés)",
+        "fr": "USCIS: Naturalization Ceremonies"
+      }
+    },
+    "us_oath": {
+      "url": "https://www.uscis.gov/citizenship/learn-about-citizenship/the-naturalization-interview-and-test/naturalization-oath-of-allegiance-to-the-united-states-of-america",
+      "label": {
+        "en": "USCIS: Naturalization Oath of Allegiance",
+        "es": "USCIS: el Juramento de Lealtad (en inglés)",
+        "fr": "USCIS: Naturalization Oath of Allegiance"
+      }
+    },
+    "us_pm_b4": {
+      "url": "https://www.uscis.gov/policy-manual/volume-12-part-b-chapter-4",
+      "label": {
+        "en": "USCIS Policy Manual, Volume 12, Part B, Chapter 4: results of the examination",
+        "es": "Manual de Políticas de USCIS, volumen 12, parte B, capítulo 4: resultados del examen (en inglés)",
+        "fr": "USCIS Policy Manual, Volume 12, Part B, Chapter 4: results of the examination"
+      }
+    },
+    "us_pm_b6": {
+      "url": "https://www.uscis.gov/policy-manual/volume-12-part-b-chapter-6",
+      "label": {
+        "en": "USCIS Policy Manual, Volume 12, Part B, Chapter 6: hearing and judicial review",
+        "es": "Manual de Políticas de USCIS, volumen 12, parte B, capítulo 6: audiencia y revisión judicial (en inglés)",
+        "fr": "USCIS Policy Manual, Volume 12, Part B, Chapter 6: hearing and judicial review"
+      }
+    },
+    "us_pm_j3": {
+      "url": "https://www.uscis.gov/policy-manual/volume-12-part-j-chapter-3",
+      "label": {
+        "en": "USCIS Policy Manual, Volume 12, Part J, Chapter 3: oath modifications and waivers",
+        "es": "Manual de Políticas de USCIS, volumen 12, parte J, capítulo 3: modificaciones y exención del juramento (en inglés)",
+        "fr": "USCIS Policy Manual, Volume 12, Part J, Chapter 3: oath modifications and waivers"
+      }
+    },
+    "us_nat_stats": {
+      "url": "https://www.uscis.gov/citizenship-resource-center/naturalization-statistics",
+      "label": {
+        "en": "USCIS: Naturalization Statistics",
+        "es": "USCIS: estadísticas de naturalización (en inglés)",
+        "fr": "USCIS: Naturalization Statistics"
+      }
+    },
+    "us_test_perf": {
+      "url": "https://www.uscis.gov/citizenship-resource-center/naturalization-related-data-and-statistics/naturalization-test-performance",
+      "label": {
+        "en": "USCIS: Naturalization Test Performance (national pass rate)",
+        "es": "USCIS: resultados del examen de naturalización (tasa nacional de aprobación, en inglés)",
+        "fr": "USCIS: Naturalization Test Performance (national pass rate)"
+      }
+    },
+    "us_fod": {
+      "url": "https://www.uscis.gov/about-us/organization/directorates-and-program-offices/field-operations-directorate",
+      "label": {
+        "en": "USCIS: Field Operations Directorate",
+        "es": "USCIS: Dirección de Operaciones de Campo (en inglés)",
+        "fr": "USCIS: Field Operations Directorate"
+      }
     }
   },
   "uk": {
@@ -712,6 +800,58 @@
         ],
         "p400Add": 26120
       }
+    },
+    "processing": {
+      "_note": "National median N-400 processing time (months): time to complete half of the cases in the fiscal year. USCIS fact sheet 'Historical Processing Times Trends FY 2016-2024', data as of 2024-03-05; FY 2024 = 1 Oct 2023 to 31 Jan 2024. Office-level times are only in the USCIS processing times tool (egov.uscis.gov), which blocks automated reading: the user types the figure shown there.",
+      "dataAsOf": "2024-03-05",
+      "latestFy": "2024",
+      "latestFyFrom": "2023-10-01",
+      "latestFyTo": "2024-01-31",
+      "medianMonths": {
+        "2016": 5.2,
+        "2017": 7.9,
+        "2018": 9.7,
+        "2019": 10.0,
+        "2020": 9.1,
+        "2021": 11.5,
+        "2022": 10.5,
+        "2023": 6.1,
+        "2024": 5.2
+      },
+      "decisionDaysAfterInterview": 120,
+      "hearingRequestDays": 30,
+      "hearingRequestDaysMailed": 33,
+      "hearingScheduledDays": 180,
+      "ssaWaitDays": 10,
+      "ceremoniesPerYear": 10000,
+      "fieldOffices": 88,
+      "naturalizedFy2024": 818500,
+      "medianLprYearsFy2024": 7.5,
+      "statsReviewed": "2025-01-24",
+      "ceremoniesReviewed": "2026-02-12",
+      "stepsReviewed": "2025-09-10",
+      "oathReviewed": "2020-07-05"
+    },
+    "passRates": {
+      "fy": 2022,
+      "overall": 95.7,
+      "initialInterview": 88,
+      "reexam": 7,
+      "n648Pct": 2.7,
+      "english": {
+        "speaking": 94,
+        "understanding": 93,
+        "writing": 94,
+        "reading": 97
+      },
+      "civicsInitial": 92.4,
+      "exempt": {
+        "50/20": 88.7,
+        "55/15": 85.9,
+        "65/20": 91.2
+      },
+      "exemptShare": 11.6,
+      "reviewed": "2023-10-05"
     }
   }
 }

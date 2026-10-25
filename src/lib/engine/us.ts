@@ -181,3 +181,34 @@ export function usFee(x: UsFeeInput): UsFee {
   const n = Math.max(0, Math.round(x.adults));
   return { each, total: each * n, online, paperOnly };
 }
+
+/* ------------------------------------------------------------------ processing time and timeline */
+const PT = U.processing;
+/** Latest national median N-400 processing time (months) from the USCIS fact sheet. */
+export const nationalMedianMonths = (PT.medianMonths as Record<string, number>)[PT.latestFy];
+/** A processing time in months (decimals allowed) added to a date, at 365.25 / 12 days a month. */
+export const afterMonths = (d: Iso, months: number) => addDays(d, Math.round((Math.max(0, months) * 365.25) / 12));
+export interface UsTimelineInput {
+  filed: Iso;
+  /** months shown by the USCIS processing times tool for the field office, or the national median */
+  months: number;
+  interview?: Iso | null;
+  ceremony?: Iso | null;
+}
+export interface UsTimeline { decisionBy: Iso; legalDecisionBy: Iso | null; hearingBy: Iso | null; hearingByMailed: Iso | null; ssaFrom: Iso | null }
+/**
+ * Dates that follow from public rules: the processing time read on USCIS counted from the filing date;
+ * 120 days after the interview for the decision (after which the applicant may go to district court);
+ * 30 days (33 if the denial notice was mailed) to request an N-400 hearing with Form N-336, counted from
+ * a decision on the interview day; and at least 10 days after the oath before updating Social Security.
+ */
+export function usTimeline(x: UsTimelineInput): UsTimeline {
+  const iv = x.interview ?? null;
+  return {
+    decisionBy: afterMonths(x.filed, x.months),
+    legalDecisionBy: iv ? addDays(iv, PT.decisionDaysAfterInterview) : null,
+    hearingBy: iv ? addDays(iv, PT.hearingRequestDays) : null,
+    hearingByMailed: iv ? addDays(iv, PT.hearingRequestDaysMailed) : null,
+    ssaFrom: x.ceremony ? addDays(x.ceremony, PT.ssaWaitDays) : null,
+  };
+}

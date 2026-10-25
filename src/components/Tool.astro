@@ -15,6 +15,8 @@ import UsWhich from './calc/UsWhich';
 import UsEnglish from './calc/UsEnglish';
 import UsDate from './calc/UsDate';
 import UsFee from './calc/UsFee';
+import UsTimeline from './calc/UsTimeline';
+import UsFrise from './calc/UsFrise';
 import US25 from '../data/questions/us-2025.json';
 import US08 from '../data/questions/us-2008.json';
 import { drawUs, practiceUs, type UsBankFile, type UsVersion } from '../lib/engine/us';
@@ -64,6 +66,8 @@ for (const [k, v] of Object.entries(props)) if (typeof v === 'number') numDefaul
 {kind === 'usenglish' && <UsEnglish client:load lang={ul} mode={(props.mode ?? 'writing') as 'writing' | 'reading'} idPrefix={idPrefix ?? 'e'} />}
 {kind === 'usdate' && <UsDate client:load lang={ul} route={(String(props.route ?? '5')) as '5' | '3'} idPrefix={idPrefix ?? 'n'} />}
 {kind === 'usfee' && <UsFee client:load lang={ul} idPrefix={idPrefix ?? 'f'} />}
+{kind === 'usfrise' && <UsFrise client:visible lang={ul} variant={(props.variant ?? 'processing') as 'processing' | 'timeline' | 'steps' | 'oath'} id={idPrefix ?? 'frise'} />}
+{kind === 'ustime' && <UsTimeline client:load lang={ul} mode={(props.mode ?? 'processing') as 'processing' | 'timeline' | 'oath'} idPrefix={idPrefix ?? 't'} />}
 {mini && <MiniSim client:load kind={mini} lang={lang} href={href} defaults={numDefaults} primary={primary} idPrefix={idPrefix ?? (primary ? 'p' : 'm')} />}
 {(kind === 'quiz' || kind === 'bank') && (country === 'au' || props.countrySelect) && lang === 'en' && (
   <p class="mt-2 text-xs text-navy-600" data-attribution-au>Australian questions adapted from Australian Citizenship: Our Common Bond, © Commonwealth of Australia, <a class="underline" href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>, adapted by Radif Partners.</p>

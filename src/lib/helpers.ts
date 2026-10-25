@@ -9,6 +9,7 @@ import US25 from '../data/questions/us-2025.json';
 import US08 from '../data/questions/us-2008.json';
 import VOC from '../data/us-english.json';
 import type { UsBankFile, UsQuestion } from './engine/us';
+import { versionsSvg } from './us-svg';
 const B25 = US25 as unknown as UsBankFile, B08 = US08 as unknown as UsBankFile;
 const words = (o: Record<string, string[]>) => Object.values(o).reduce((s, l) => s + l.length, 0);
 
@@ -43,6 +44,10 @@ export function helpers(lang: Locale, strict = false) {
       q: (y: '2025' | '2008', n: number): UsQuestion => (y === '2025' ? B25 : B08).questions.find((q) => q.n === n)!,
       stars: (y: '2025' | '2008') => (y === '2025' ? B25 : B08).questions.filter((q) => q.star),
       updatesReviewed: B25.meta.updatesReviewed as string,
+      /** Inline SVG: which civics test applies by N-400 filing date. */
+      svgVersions: () => versionsSvg(ul, B25.questions.length, B08.questions.length, dateL(P.us.cutoff, lang)),
+      /** National median N-400 processing time (months) and its day count. */
+      medianMonths: (P.us.processing.medianMonths as Record<string, number>)[P.us.processing.latestFy],
       vocabR: words(VOC.reading), vocabW: words(VOC.writing), sentR: VOC.readingSentences.length, sentW: VOC.writingSentences.length,
     },
     m: (n: number, c: Cur) => money(n, c, lang),

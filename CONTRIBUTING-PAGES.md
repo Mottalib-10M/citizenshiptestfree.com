@@ -16,7 +16,10 @@ themselves. Models: `uk-test.ts`, and `us-test.ts` for a U.S. page with its Span
   - `{ kind: 'cost', props: { country } }` (official fees for a household)
   - United States: `{ kind: 'usquiz', props: { version: '2025'|'2008', mode: 'exam'|'practice'|'6520', theme?: <index>, versionSelect?: true } }`
     (officer's stop rule), `usbank` (`{ version, theme | 'star', versionSelect? }`), `uswhich` (version and exemptions),
-    `usenglish` (`{ mode: 'reading'|'writing' }`), `usdate` (`{ route: '5'|'3' }`, N-400 date with trips), `usfee` (household fee tier).
+    `usenglish` (`{ mode: 'reading'|'writing' }`), `usdate` (`{ route: '5'|'3' }`, N-400 date with trips), `usfee` (household fee tier),
+    `usfrise` (`{ variant: 'processing'|'timeline'|'steps'|'oath' }`, the trame's Frise, RECETTE §17.6, durations from `P.us.processing`),
+    `ustime` (`{ mode: 'processing'|'timeline'|'oath' }`: decision date with the field office time, dated steps, oath text by form).
+  - Inline SVG: `${h.us.svgVersions()}` draws which civics test applies by filing date (`src/lib/us-svg.ts`).
   - `{ kind: 'mini:<spec>' }`, specs in `src/lib/mini-specs.ts`: `ukpass`, `ukexempt`, `ukattempts`, `aupass`, `auproc`,
     `aufee`, `capass`, `cadays`, `cafee`, `catestage`, `compare`, `uspass`, `usexempt`, `uspresence`, `usfee`.
 - `mini`: a second tool under the citable block (optional, same kinds).

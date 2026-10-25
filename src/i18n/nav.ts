@@ -19,7 +19,7 @@ const link = (id: string, lang: Locale): NavLink => ({ href: route(id, lang), la
 const inGroup = (g: Group, lang: Locale) => PAGES.filter((p) => p.group === g && hasRoute(p.id, lang)).map((p) => link(p.id, lang));
 export function navCategories(lang: Locale): NavCategory[] {
   if (lang === 'fr') return [{ label: 'Citoyenneté canadienne', links: [link('home', 'fr'), ...inGroup('ca', 'fr')] }];
-  if (lang === 'es') { const l = inGroup('us', 'es'); return [{ label: 'El examen cívico', links: [link('home', 'es'), ...l.filter((x) => !/n-400|elegibilidad|tarifa/.test(x.href))] }, { label: 'Formulario N-400', links: l.filter((x) => /n-400|elegibilidad|tarifa/.test(x.href)) }]; }
+  if (lang === 'es') { const l = inGroup('us', 'es'); return [{ label: 'El examen cívico', links: [link('home', 'es'), ...l.filter((x) => !/n-400|elegibilidad|tarifa|cuanto-tarda|juramento/.test(x.href))] }, { label: 'Formulario N-400', links: l.filter((x) => /n-400|elegibilidad|tarifa|cuanto-tarda|juramento/.test(x.href)) }]; }
   return GROUPS_ORDER.filter((g) => g !== 'all').map((g) => ({ label: GROUP_LABEL[lang][g], links: inGroup(g, lang) })).filter((c) => c.links.length);
 }
 export const navDirect = (lang: Locale): NavLink[] => (lang === 'en' ? inGroup('all', 'en') : []);
