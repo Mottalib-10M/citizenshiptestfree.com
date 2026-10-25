@@ -6,8 +6,8 @@ export const DEFAULT_LOCALE: Locale = 'en';
 const R = (id: string, en: string, fr: string, es: string | null, noindex = false): RouteDef<Locale> => ({ id, paths: { en: `/en/${en}/`, fr: `/fr/${fr}/`, ...(es ? { es: `/es/${es}/` } : {}) }, ...(noindex ? { noindex } : {}) });
 const CORE: RouteDef<Locale>[] = [
   { id: 'home', paths: { en: '/en/', fr: '/fr/', es: '/es/' } },
-  R('method', 'method', 'methode', 'metodo'),
-  R('about', 'about', 'a-propos', 'acerca-de'),
+  R('method', 'method', 'methode', 'metodologia'),
+  R('about', 'about', 'a-propos', 'sobre-nosotros'),
   R('widget', 'widget', 'widget', null, true),
   R('contact', 'contact', 'contact', 'contacto', true),
   R('editorial', 'editorial-policy', 'politique-editoriale', 'politica-editorial', true),
