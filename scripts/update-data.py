@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Relit les sources officielles des frais et délais (UK, Canada, Australie) et les compare à
+"""Relit les sources officielles des frais et délais (États-Unis, UK, Canada, Australie) et les compare à
 data/params-2026.json.
 
 Usage : python3 scripts/update-data.py [--write]
@@ -10,7 +10,8 @@ Usage : python3 scripts/update-data.py [--write]
 Sources (aucun scraping de concurrent) :
   UK  gov.uk « Home Office immigration and nationality fees » (OGL v3.0), tableau ODS le plus récent ;
   AU  formulaire 1298i « Citizenship application fees » (PDF Home Affairs) et page des délais ;
-  CA  page des frais d'IRCC (canada.ca), section « Citizenship ».
+  CA  page des frais d'IRCC (canada.ca), section « Citizenship » ;
+  US  page du Formulaire N-400 sur uscis.gov (domaine public), « Submit $760 … $710 … $380 ».
 Dépendances : Python 3.10+ (stdlib) ; pypdf pour le PDF australien (pip install pypdf).
 """
 import datetime as dt
@@ -25,7 +26,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-PARAMS = ROOT / "data" / "params-2026.json"
+PARAMS = ROOT / "src" / "data" / "params-2026.json"
 OUT = ROOT / "data" / "official-latest.json"
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
 
@@ -33,6 +34,7 @@ UK_PUB = "https://www.gov.uk/government/publications/visa-regulations-revised-ta
 AU_FEES = "https://immi.homeaffairs.gov.au/form-listing/forms/1298i.pdf"
 AU_TIMES = "https://immi.homeaffairs.gov.au/citizenship/citizenship-processing-times/citizenship-processing-times"
 CA_FEES = "https://ircc.canada.ca/english/information/fees/fees.asp"
+US_N400 = "https://www.uscis.gov/n-400"
 
 
 def get(url: str, ua: bool = True, tries: int = 4) -> bytes:
@@ -151,11 +153,21 @@ def ca() -> dict:
     }
 
 
+# ---------- États-Unis ----------
+def us() -> dict:
+    t = text_of(get(US_N400))
+    full = re.search(r"Submit \$([\d,]+) if filing by paper, or \$([\d,]+) if filing online", t)
+    red = re.search(r"reduced fee:.{0,200}?Submit \$([\d,]+)", t)
+    if not full or not red:
+        raise RuntimeError("US : tarifs introuvables dans " + US_N400)
+    return {"paper": money(full.group(1)), "online": money(full.group(2)), "reduced": money(red.group(1))}
+
+
 def main() -> int:
     params = json.loads(PARAMS.read_text())
     lu = dt.date.today().isoformat()
     out, diffs, errors = {"_lu": lu}, [], []
-    for key, fn, ref in (("uk", uk, params["uk"]["fees"]), ("au", au, {**params["au"]["fees"], **params["au"]["processing"]}), ("ca", ca, params["ca"]["fees"])):
+    for key, fn, ref in (("uk", uk, params["uk"]["fees"]), ("au", au, {**params["au"]["fees"], **params["au"]["processing"]}), ("ca", ca, params["ca"]["fees"]), ("us", us, params["us"]["fees"])):
         try:
             got = fn()
         except Exception as e:  # une source muette n'arrête pas les autres

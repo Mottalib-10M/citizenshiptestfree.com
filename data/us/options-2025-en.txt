@@ -29,7 +29,7 @@
 27|Two (2)|One (1)|It depends on the state’s population|Four (4)
 28|Equal representation for small states|Each state has two major parties|To balance the President’s vote|Because senators serve two terms
 30|Mike Johnson|Chuck Schumer|Nancy Pelosi|John Roberts
-31|Citizens in their state|Only the voters of their party|The President|The governor of their state
+31|Citizens of their state|Only the voters of their party|The President|The governor of their state
 32|Citizens from their state|The state legislature|The President|The state’s governor
 33|Citizens in their congressional district|Only the members of their party|The Senate|The state’s governor
 34|Citizens from their congressional district|The President|The Senate|The state’s governor
