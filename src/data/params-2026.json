@@ -620,12 +620,13 @@
       "earlyFilingDays": 90,
       "stateMonths": 3,
       "departureReturnCountAsPresence": true,
-      "absencePresumptionMonths": 6,
-      "absenceBreakYears": 1,
       "afterBreakWait": {
         "5": "4 years and 1 day",
         "3": "2 years and 1 day"
-      }
+      },
+      "absencePresumptionDays": 180,
+      "absenceBreakDays": 365,
+      "_absences": "Policy Manual 12 D.3: absence of more than 6 months (more than 180 days) but less than 1 year (less than 365 days) = rebuttable presumption of a break; 1 year or more = break. Departure and return days are not days of absence (12 D.4)."
     },
     "fees": {
       "paper": 760,

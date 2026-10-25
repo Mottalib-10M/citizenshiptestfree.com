@@ -1,7 +1,7 @@
 ---
 /**
- * Home of one language. English: the three tests behind one country switch (UK first, the largest
- * search), then the three countries compared and the date each one lets you apply. French: the
+ * Home of one language. English: the U.S. civics test first (the heart of the site), the two versions,
+ * the N-400 date and fee, then the UK, Australia and Canada as secondary sections. French: the
  * Canadian test in French, then the 1,095 days and the fees. Every figure is read from params.
  */
 import PageLayout from '../layouts/PageLayout.astro';
@@ -20,12 +20,13 @@ const { lang } = Astro.props;
 const fr = lang === 'fr';
 const h = helpers(lang, true);
 const P = h.P;
-const card = (g: 'uk' | 'au' | 'ca' | 'all') => PAGES.filter((p) => p.group === g && (fr ? p.fr : true)).map((p) => ({ href: route(p.id, lang), name: fr ? p.fr!.nav : p.en.nav, text: fr ? p.fr!.card : p.en.card }));
+const U = P.us;
+const card = (g: 'us' | 'uk' | 'au' | 'ca' | 'all') => PAGES.filter((p) => p.group === g && (fr ? p.fr : true)).map((p) => ({ href: route(p.id, lang), name: fr ? p.fr!.nav : p.en.nav, text: fr ? p.fr!.card : p.en.card }));
 
-const title = fr ? 'Examen de citoyenneté canadienne 2026 : examen blanc gratuit' : 'Citizenship Test 2026: Free Practice, UK, Australia, Canada';
+const title = fr ? 'Examen de citoyenneté canadienne 2026 : examen blanc gratuit' : 'Citizenship Test 2026: Free USCIS Civics Practice in English';
 const description = fr
   ? 'Examen de citoyenneté canadienne gratuit en français : 20 questions notées comme l’examen d’IRCC (15 pour réussir), la date où demander et les frais de 653 $.'
-  : 'Free citizenship test practice for the UK, Australia and Canada: mock exams marked with each country’s rule, the first date you can apply and the official fees.';
+  : 'Free citizenship test practice with the official USCIS civics questions, the real stop rule at 12 right, the N-400 date and fee, plus UK, Australia and Canada.';
 const faqs = fr ? [
   { q: 'Combien de questions compte l’examen de citoyenneté canadienne ?', a: `L’examen compte ${P.ca.test.questions} questions à choix multiples ou de type vrai ou faux, en français ou en anglais au choix. Il dure ${P.ca.test.minutes} minutes et il faut ${P.ca.test.passCorrect} bonnes réponses pour réussir. Les questions portent sur les droits et responsabilités des citoyens et sur l’histoire, la géographie, l’économie, le gouvernement, les lois et les symboles du Canada, tels que les présente le guide Découvrir le Canada.` },
   { q: 'Que se passe-t-il si j’échoue à l’examen ?', a: `IRCC prévoit jusqu’à ${P.ca.test.attempts} occasions de réussir l’examen dans le cadre d’une même demande. Un premier échec ne met donc pas fin à la demande, mais chaque essai compte. Mieux vaut arriver préparé dès le premier : faites les séries par chapitre, puis des examens blancs complets jusqu’à obtenir régulièrement au moins ${P.ca.test.passCorrect} bonnes réponses sur ${P.ca.test.questions}.` },
@@ -35,15 +36,14 @@ const faqs = fr ? [
   { q: 'Combien de jours faut-il avoir passés au Canada ?', a: `Il faut ${P.ca.presence.requiredDays} jours de présence effective pendant les ${P.ca.presence.windowYears} ans qui précèdent la demande. Chaque jour comme résident permanent compte en entier, chaque jour d’avant pour moitié, avec un crédit d’au plus ${P.ca.presence.preprMaxCredit} jours. Seule une journée passée entièrement hors du Canada est une absence. Le calculateur de présence physique donne la première date recevable.` },
   { q: 'L’examen se passe-t-il en français ?', a: `Oui, si vous le souhaitez : IRCC propose l’examen en français ou en anglais, et le guide Découvrir le Canada existe dans les deux langues, en ligne, en PDF, en livre numérique, en audio et sur papier. L’examen ne contient pas de questions de langue ; le niveau en français ou en anglais se prouve à part, pour les demandeurs de ${P.ca.test.ages[0]} à ${P.ca.test.ages[1]} ans.` },
 ] : [
-  { q: 'Which citizenship test is the hardest of the three?', a: `They test the same kind of knowledge in different doses. The UK test asks ${P.uk.test.questions} questions and wants ${h.need.uk}, the Canadian test asks ${P.ca.test.questions} and wants ${h.need.ca}, and the Australian test asks ${P.au.test.questions} with a 75 % mark plus a perfect score on the five values questions. Many candidates find the UK test hardest because its handbook is long and full of dates.` },
-  { q: 'Can I prepare for two countries at once?', a: 'Only partly. Some themes overlap, such as parliamentary democracy, the rule of law, the role of the Crown and voting, but each test is written from its own official guide, and history, geography and symbols differ completely. Use the country switch above and keep separate scores: a pass mark in one test says nothing about the other.' },
-  { q: 'Do I have to pay for a citizenship test?', a: `In the UK the test is booked and paid separately, ${h.gbp(P.uk.test.fee)} per sitting. In Australia and Canada there is no separate test fee: the test is part of the citizenship application, whose fee is ${h.aud(P.au.fees.general)} for an Australian adult (general eligibility) and ${h.cad(P.ca.fees.adult)} for a Canadian adult. These practice tests are free.` },
-  { q: 'When can I sit the test?', a: 'In the UK you book the test yourself, usually before applying, because you need the pass for settlement or citizenship. In Australia and Canada you apply first and are invited to the test once the application is being processed. That is why the earliest date you can apply matters more than the test date in those two countries.' },
-  { q: 'How many days abroad can I have before applying?', a: `Each country has its own rule. For British naturalisation, at most ${P.uk.naturalisation.route61.maxAbsenceDays} days outside the UK over the ${P.uk.naturalisation.route61.years} years and ${P.uk.naturalisation.route61.maxAbsenceLast12m} in the last year. For Australia, at most ${P.au.residence.maxAbsenceDays} days over ${P.au.residence.lawfulYears} years and ${P.au.residence.maxAbsenceLast12m} in the last year. Canada counts presence instead: ${P.ca.presence.requiredDays} days in ${P.ca.presence.windowYears} years. The date calculators above apply each rule trip by trip.` },
-  { q: 'Is the day I fly out counted as a day abroad?', a: 'No, in none of the three countries. The UK nationality guidance and the Canadian instructions count only whole days outside the country, and a Home Affairs instruction says Australian departure and arrival days count as days in Australia. A weekend trip from Friday to Sunday is therefore one day of absence, the Saturday.' },
+  { q: 'How long does it take to get ready for the civics test?', a: `Most applicants who read English comfortably need three to four weeks of short daily sessions. The 2025 list has ${h.us.n25} questions, but they circle around the same documents, institutions and wars, so the answers come back again and again. Start with the themes you know least, then take full mock interviews until you reach ${U.test2025.passCorrect} right several times in a row.` },
+  { q: 'Are these the real questions the officer will ask?', a: `Yes for the United States: USCIS publishes the whole list, and every question and accepted answer here is copied from it without change. The officer picks up to ${U.test2025.asked} of them aloud. Only the answer choices and the order are ours. For the UK, Australia and Canada no bank is published, so those practice questions are written from each official guide.` },
+  { q: 'Do I have to pay for a citizenship test?', a: `In the United States the English and civics tests are included in the N-400 fee, ${h.usd(U.fees.online)} online or ${h.usd(U.fees.paper)} on paper. In the UK the test is booked and paid separately, ${h.gbp(P.uk.test.fee)} per sitting. In Australia and Canada the test is part of the citizenship application fee. These practice tests are free.` },
+  { q: 'When can I sit the test?', a: `In the United States you file Form N-400 first, up to ${U.n400.earlyFilingDays} days before your fifth or third green card anniversary, and USCIS sets the interview where both tests take place. In the UK you book the test yourself before applying. In Australia and Canada you apply first and are invited later. That is why the first filing date matters most.` },
+  { q: 'How many days abroad can I have before applying?', a: `Each country has its own rule. In the United States, a trip of more than six months may break continuous residence and one of a year or more breaks it, and you need ${h.num(U.n400.routes['5'].presenceDays)} days inside the country over five years. For British naturalisation, at most ${P.uk.naturalisation.route61.maxAbsenceDays} days outside the UK over the ${P.uk.naturalisation.route61.years} years and ${P.uk.naturalisation.route61.maxAbsenceLast12m} in the last year. For Australia, at most ${P.au.residence.maxAbsenceDays} days over ${P.au.residence.lawfulYears} years and ${P.au.residence.maxAbsenceLast12m} in the last year. Canada counts presence instead: ${P.ca.presence.requiredDays} days in ${P.ca.presence.windowYears} years. The date calculators above apply each rule trip by trip.` },
 ];
-const jsonLd = [websiteSchema(lang), organizationSchema(lang), webApplicationSchema({ name: fr ? 'Examen blanc de citoyenneté canadienne' : 'Citizenship practice tests for the UK, Australia and Canada', description, path: route('home', lang), lang }), faqSchema(faqs, lang)];
-const resumeEn = `A citizenship test checks what a new citizen knows about the country, its history, its institutions and its values. Three countries ask for one in English. The United Kingdom's Life in the UK Test has ${P.uk.test.questions} questions, ${P.uk.test.minutes} minutes and a mark of ${h.need.uk}; it costs ${h.gbp(P.uk.test.fee)} a sitting and is needed for settlement and naturalisation. Australia's test has ${P.au.test.questions} questions in ${P.au.test.minutes} minutes, a 75 % mark and five questions on Australian values that must all be right; it is included in the citizenship fee. Canada's test has ${P.ca.test.questions} questions, ${P.ca.test.minutes} minutes and ${h.need.ca} correct answers to pass, in English or French. Each is written from one official guide: Life in the United Kingdom, Our Common Bond and Discover Canada. The tool above draws a full mock exam from our ${h.count.uk + h.count.au + h.count.caEn} English practice questions for the country you choose and marks it with that country's rule.`;
+const jsonLd = [websiteSchema(lang), organizationSchema(lang), webApplicationSchema({ name: fr ? 'Examen blanc de citoyenneté canadienne' : 'Citizenship practice tests built on the official USCIS questions', description, path: route('home', lang), lang }), faqSchema(faqs, lang)];
+const resumeEn = `The U.S. citizenship test takes place at the naturalization interview, face to face with a USCIS officer, and has two parts: English (read one sentence aloud, write one from dictation, answer questions about your application) and civics, on American history and government. Every Form N-400 received on or after ${h.date(U.cutoff)} leads to the 2025 civics test: the officer asks up to ${U.test2025.asked} questions aloud from a public list of ${h.us.n25}, and you need ${U.test2025.passCorrect} right answers. The officer stops as soon as you reach ${U.test2025.passCorrect} right or ${U.test2025.failWrong} wrong. An N-400 received earlier keeps the 2008 test: up to ${U.test2008.asked} of ${h.us.n08} questions, ${U.test2008.passCorrect} to pass. Applicants aged ${U.s6520.age} or older with ${U.s6520.years} years as permanent residents study only 20 questions. The mock interview above draws from the official list, accepts every answer USCIS lists and stops exactly where the officer would. Practice tests for the United Kingdom, Australia and Canada follow further down.`;
 const resumeFr = `L’examen pour la citoyenneté canadienne vérifie ce que le demandeur sait du Canada : droits et responsabilités, histoire, géographie, économie, institutions, lois et symboles. Il compte ${P.ca.test.questions} questions, dure ${P.ca.test.minutes} minutes et se réussit avec ${h.need.ca} bonnes réponses, soit 75 %. On peut le passer en français ou en anglais, et le demandeur a jusqu’à ${P.ca.test.attempts} occasions de le réussir. Il concerne les personnes de ${P.ca.test.ages[0]} à ${P.ca.test.ages[1]} ans, qui doivent aussi prouver leur niveau de langue. Toutes les questions viennent du guide d’étude officiel, Découvrir le Canada : les droits et responsabilités liés à la citoyenneté. L’examen blanc ci-dessus tire ${P.ca.test.questions} de nos ${h.count.caFr} questions rédigées en français, réparties sur les dix chapitres du guide, et les note avec la même règle. L’examen n’est que la dernière étape : il faut d’abord ${h.num(P.ca.presence.requiredDays)} jours de présence effective sur cinq ans pour présenter la demande, que le calculateur de ce site compte jour par jour.`;
 const S = (k: Parameters<typeof h.src>[0], t: string) => h.src(k, t);
 const cmpRows = [
@@ -59,13 +59,48 @@ const cmpRows = [
 ---
 <PageLayout title={title} description={description} lang={lang} jsonLd={jsonLd} faqs={faqs} breadcrumbs={[]}>
   <header class="mb-3">
-    <h1 class="mt-0 text-[1.75rem] font-bold text-navy-900 max-sm:leading-tight sm:text-3xl md:text-4xl">{fr ? 'Examen de citoyenneté canadienne : examen blanc gratuit en français' : 'Citizenship test practice for the UK, Australia and Canada'}</h1>
-    <p class="mt-2 text-base text-navy-700 sm:text-lg">{fr ? `${P.ca.test.questions} questions, ${h.need.ca} bonnes réponses pour réussir, correction expliquée. Aucune inscription.` : 'Pick a country and answer: a full mock exam, marked with that country’s own pass rule. No sign-up.'}</p>
+    <h1 class="mt-0 text-[1.75rem] font-bold text-navy-900 max-sm:leading-tight sm:text-3xl md:text-4xl">{fr ? 'Examen de citoyenneté canadienne : examen blanc gratuit en français' : 'Citizenship test practice with the official USCIS questions'}</h1>
+    <p class="mt-2 text-base text-navy-700 sm:text-lg">{fr ? `${P.ca.test.questions} questions, ${h.need.ca} bonnes réponses pour réussir, correction expliquée. Aucune inscription.` : `Up to ${U.test2025.asked} official civics questions, ${U.test2025.passCorrect} right to pass, the officer’s stop rule. No sign-up.`}</p>
   </header>
-  <div data-outil class="mb-4"><Tool tool={fr ? { kind: 'quiz', props: { country: 'ca', mode: 'exam' } } : { kind: 'quiz', props: { country: 'uk', mode: 'exam', countrySelect: true } }} lang={lang} primary={true} seedKey="home" /></div>
+  <div data-outil class="mb-4"><Tool tool={fr ? { kind: 'quiz', props: { country: 'ca', mode: 'exam' } } : { kind: 'usquiz', props: { version: '2025', mode: 'exam', versionSelect: true } }} lang={lang} primary={true} seedKey="home" /></div>
   <Clamp text={fr ? resumeFr : resumeEn} id="clamp-home" lang={lang} class="mb-3" />
   <p class="mb-8 text-sm text-navy-600">{fr ? 'Mis à jour le' : 'Updated'} <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, fr ? 'fr-CA' : 'en-GB')}</time> · {AUTHOR_NAME} · <a href={route('method', lang)} class="underline hover:text-navy-900">{fr ? 'Méthode' : 'How the questions and dates are built'}</a> · <a href={route('about', lang)} class="underline hover:text-navy-900">{fr ? 'À propos' : 'About this site'}</a></p>
 
+  {!fr && (
+  <div class="prose prose-slate max-w-none">
+    <h2>The two versions of the U.S. civics test</h2>
+    <Fragment set:html={h.table(['Rule', '2025 version', '2008 version'], [['Who takes it', `N-400 received on or after ${h.date(U.cutoff)}`, 'N-400 received before'], ['Official list', `${h.us.n25} questions`, `${h.us.n08} questions`], ['Asked at the interview', `up to ${U.test2025.asked}`, `up to ${U.test2008.asked}`], ['Right answers to pass', U.test2025.passCorrect, U.test2008.passCorrect], ['The officer stops at', `${U.test2025.passCorrect} right or ${U.test2025.failWrong} wrong`, `${U.test2008.passCorrect} right or ${U.test2008.failWrong} wrong`], ['Aged 65+ with 20 years as LPR', '10 of 20 starred questions, 6 to pass', '10 of 20 starred questions, 6 to pass']], `Rules read on uscis.gov on ${h.date(U.retrieved_at)}.`, ['l', 'l', 'l'])} />
+    <p>Which version you take depends only on the date USCIS received your N-400, printed on the receipt notice. The <a href={route('us-which', lang)}>version checker</a> also tells you whether an age exemption lets you skip the English test or take civics in your own language.</p>
+    <h2>Before the test: the N-400 filing date</h2>
+    <p>You cannot book the U.S. test. You file Form N-400 first, up to {U.n400.earlyFilingDays} days before the fifth anniversary of your green card, or the third if you have been married to and living with a U.S. citizen, with at least {h.num(U.n400.routes['5'].presenceDays)} days of physical presence over five years. The mini tool below counts the days you still need; the <a href={route('us-n400', lang)}>N-400 date calculator</a> finds the exact first day with your trips.</p>
+  </div>
+  )}
+  {!fr && <div class="mb-6"><Tool tool={{ kind: 'mini:uspresence' }} lang={lang} idPrefix="h1" /></div>}
+  {!fr && (
+  <div class="prose prose-slate max-w-none">
+    <h2>Every U.S. practice page</h2>
+  </div>
+  )}
+  {!fr && (
+    <div class="not-prose grid gap-6 md:grid-cols-2" data-sommaire>
+      <section><h3 class="mb-2 text-lg font-semibold text-navy-900">The test</h3><ul class="space-y-2 text-sm">{PAGES.filter((p) => p.group === 'us' && p.order < 90).map((p) => <li><a href={route(p.id, lang)} class="font-medium text-accent-700 underline">{p.en.nav}</a><span class="block text-navy-700">{p.en.card}</span></li>)}</ul></section>
+      <section><h3 class="mb-2 text-lg font-semibold text-navy-900">Form N-400</h3><ul class="space-y-2 text-sm">{PAGES.filter((p) => p.group === 'us' && p.order >= 90).map((p) => <li><a href={route(p.id, lang)} class="font-medium text-accent-700 underline">{p.en.nav}</a><span class="block text-navy-700">{p.en.card}</span></li>)}</ul></section>
+    </div>
+  )}
+  {!fr && (
+  <div class="prose prose-slate mt-8 max-w-none">
+    <h2>What the N-400 costs</h2>
+    <p>The N-400 fee covers both tests and biometrics: {h.usd(U.fees.online)} online and {h.usd(U.fees.paper)} on paper per applicant. Households under {U.fees.reducedMaxPctFpg} % of the federal poverty guidelines pay {h.usd(U.fees.reduced)}, and below {U.fees.waiverMaxPctFpg} % they can ask for a waiver with Form I-912; both require a paper filing.</p>
+  </div>
+  )}
+  {!fr && <div class="mb-6"><Tool tool={{ kind: 'mini:usfee' }} lang={lang} idPrefix="h2" /></div>}
+  {!fr && (
+  <div class="prose prose-slate max-w-none">
+    <h2>Other countries: the UK, Australia and Canada</h2>
+    <p>The same site also has practice tests for three other countries. Pick one below for a full mock exam marked with that country’s own pass rule.</p>
+  </div>
+  )}
+  {!fr && <div class="mb-6"><Tool tool={{ kind: 'quiz', props: { country: 'uk', mode: 'exam', countrySelect: true } }} lang={lang} seedKey="home" /></div>}
   {!fr && (
   <div class="prose prose-slate max-w-none">
     <h2>The three tests at a glance</h2>
@@ -82,7 +117,7 @@ const cmpRows = [
     <p>The date tools look at time and travel only. Good character, criminal records, immigration breaches, English or French language proof, tax filing in Canada ({P.ca.presence.taxYearsRequired} years out of {P.ca.presence.windowYears}) and the intention to live in the country are conditions too, and they are decided case by case by an officer. A date given here means the residence condition is met on that day under the published rule, nothing more. When a result falls within five days of a limit, the tool says so: check the dates against passport stamps or official travel records before you send anything.</p>
     <h2>Coming next in the UK</h2>
     <p>The Home Office consulted on "earned settlement", a model that would lengthen the standard qualifying period for indefinite leave to remain and that also discusses changes to citizenship. The consultation closed on 12 February 2026. On {h.date(P.retrieved_at)} no new rule was in force: the test, the {P.uk.naturalisation.route61.years}-year rule and the fees above still apply. This page will change on the day the final rules are published.</p>
-    <h2>Every practice page</h2>
+    <h2>Practice pages for the UK, Australia and Canada</h2>
   </div>
   )}
   {!fr && (
@@ -95,8 +130,8 @@ const cmpRows = [
   {!fr && (
   <div class="prose prose-slate mt-8 max-w-none">
     <h2>How the questions are written</h2>
-    <p>No country publishes its test bank, so every question on this site was written by {AUTHOR_NAME} from the facts of the official guide, and each one says which chapter to read to check it. Our Common Bond is published under a Creative Commons licence (CC BY 4.0), and our Australian questions are adapted from it with attribution; the Canadian guide and the UK handbook are Crown copyright, so nothing is reproduced from them. Questions about who holds an office today, or about facts that changed after a guide was printed, are left out. The <a href={route('method', lang)}>method page</a> explains how a test is drawn and how each pass rule is applied.</p>
-    <Sources lang={lang} keys={['uk_test', 'uk_ilr', 'uk_guidance', 'uk_fees', 'au_test', 'au_pr', 'au_1298i', 'ca_study', 'ca_eligibility', 'ca_fees']} />
+    <p>The U.S. civics questions and answers are the official USCIS lists, in the public domain, copied without change; only the answer choices and the English practice sentences are ours. The UK, Australia and Canada do not publish their test banks, so every question for those three was written by {AUTHOR_NAME} from the facts of the official guide, and each one says which chapter to read to check it. Our Common Bond is published under a Creative Commons licence (CC BY 4.0), and our Australian questions are adapted from it with attribution; the Canadian guide and the UK handbook are Crown copyright, so nothing is reproduced from them. Questions about who holds an office today, or about facts that changed after a guide was printed, are left out. The <a href={route('method', lang)}>method page</a> explains how a test is drawn and how each pass rule is applied.</p>
+    <Sources lang={lang} keys={['us_study', 'us_128', 'us_100', 'us_updates', 'us_n400', 'us_reduced', 'uk_test', 'uk_ilr', 'uk_guidance', 'uk_fees', 'au_test', 'au_pr', 'au_1298i', 'ca_study', 'ca_eligibility', 'ca_fees']} />
   </div>
   )}
 

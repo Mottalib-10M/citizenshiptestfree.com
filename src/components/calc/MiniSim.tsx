@@ -9,7 +9,7 @@ import NumberField from '../ui/NumberField';
 import SelectField from '../ui/SelectField';
 import { getSpec } from '../../lib/mini-specs';
 
-interface Props { kind: string; lang?: 'en' | 'fr'; href?: string; defaults?: Record<string, number>; primary?: boolean; idPrefix?: string }
+interface Props { kind: string; lang?: 'en' | 'fr' | 'es'; href?: string; defaults?: Record<string, number>; primary?: boolean; idPrefix?: string }
 
 export default function MiniSim({ kind, lang = 'en', href, defaults = {}, primary = false, idPrefix = 'm' }: Props) {
   const spec = getSpec(kind, lang);
@@ -24,7 +24,7 @@ export default function MiniSim({ kind, lang = 'en', href, defaults = {}, primar
         <form className="grid content-start gap-3" onSubmit={(e) => e.preventDefault()} {...(primary ? {} : { 'data-simulateur-secondaire': '' })}>
           {spec.inputs.map((i) => i.options
             ? <SelectField key={i.id} id={fid(i.id)} label={i.label} value={String(v[i.id])} onChange={(x) => set(i.id)(Number(x))} options={i.options} help={i.help} />
-            : <NumberField key={i.id} id={fid(i.id)} label={i.label} value={v[i.id]} onChange={set(i.id)} unit={i.unit} max={i.max} decimals={i.decimals} help={i.help} tag={lang === 'fr' ? 'fr-CA' : 'en-GB'} />)}
+            : <NumberField key={i.id} id={fid(i.id)} label={i.label} value={v[i.id]} onChange={set(i.id)} unit={i.unit} max={i.max} decimals={i.decimals} help={i.help} tag={lang === 'fr' ? 'fr-CA' : lang === 'es' ? 'es-US' : 'en-GB'} />)}
         </form>
         <div aria-live="polite" {...(primary ? { 'data-resultat': '' } : {})} className="rounded-lg bg-navy-50 p-4">
           <p className="text-sm font-medium text-navy-600">{out.head[0]}</p>

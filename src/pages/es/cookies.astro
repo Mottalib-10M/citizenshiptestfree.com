@@ -1,0 +1,29 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { CLARITY_ID, CONTACT_EMAIL, GA4_ID, LAST_UPDATED, SITE_NAMES } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+const lang = 'es';
+const title = `Cookies – ${SITE_NAMES[lang]}`;
+const description = GA4_ID ? 'Cookies de medición de audiencia de Google Analytics, y solo esas: nombres, finalidad, duración de 13 meses como máximo, proveedor y cómo oponerse a ellas.' : 'El sitio no usa cookies: lo que escribe se queda en su navegador.';
+---
+<PageLayout title={title} description={description} lang={lang} noindex={true} breadcrumbs={[{ label: 'Cookies' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>Cookies</h1>
+    {GA4_ID ? (<>
+    <p>El sitio usa cookies de medición de audiencia de Google Analytics, y solo esas: ni cookies publicitarias ni de redes sociales. El detalle está en la <a href={route('privacy', lang)}>política de privacidad</a>.</p>
+    <h2>Las cookies que se instalan</h2>
+    <table><thead><tr><th>Nombre</th><th>Proveedor</th><th>Finalidad</th><th>Duración</th></tr></thead><tbody>
+    <tr><td><code>_ga</code></td><td>Google Analytics</td><td>Distinguir a los visitantes con un identificador aleatorio</td><td>13 meses como máximo (390 días)</td></tr>
+    <tr><td><code>_ga_{GA4_ID.replace('G-', '')}</code></td><td>Google Analytics</td><td>Guardar el estado de la visita</td><td>13 meses como máximo (390 días)</td></tr>
+    </tbody></table>
+    <p>Estas duraciones no se prolongan en cada visita. Finalidad: medición de audiencia (páginas vistas, procedencia, dispositivo, país aproximado). Google Analytics 4 no registra ni conserva la dirección IP. Sin publicidad: el almacenamiento publicitario, la personalización de anuncios y las señales de Google están desactivados.</p>
+    <p>Proveedor: Google Ireland Limited, Gordon House, Barrow Street, Dublín 4, Irlanda; los datos pueden transferirse a Google LLC, en Estados Unidos, en el marco del EU–U.S. Data Privacy Framework y de las cláusulas contractuales tipo de la Comisión Europea. Conservación en Google: 14 meses. Base jurídica: el interés legítimo del editor (art. 6.1.f del RGPD).</p>
+    <h2>Cómo oponerse</h2>
+    <p>Bloquee o borre las cookies en los ajustes de su navegador, o instale el <a href="https://tools.google.com/dlpage/gaoptout" rel="nofollow noopener" target="_blank">complemento de inhabilitación de Google Analytics</a>. El sitio y sus herramientas funcionan igual.</p>
+    </>) : (<p>El sitio <strong>no usa cookies</strong>.</p>)}
+    {CLARITY_ID && (<><h2>Microsoft Clarity, sin cookies</h2><p>La estabilidad de las páginas se mide con Microsoft Clarity en modo sin cookies: Clarity no instala cookies, cada página vista recibe un identificador de un solo uso y el contenido de las páginas y lo que usted escribe se ocultan. Bloquear <code>clarity.ms</code> lo detiene.</p></>)}
+    <h2>Lo que escribe</h2>
+    <p>Los cálculos se hacen en su navegador: lo que escribe no se envía a ningún servidor y desaparece al cerrar la página.</p>
+    <p>Una pregunta: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. Actualización: {LAST_UPDATED}.</p>
+  </div>
+</PageLayout>

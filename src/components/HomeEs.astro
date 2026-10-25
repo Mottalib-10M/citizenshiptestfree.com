@@ -1,0 +1,64 @@
+---
+/**
+ * Spanish home (United States only): the 2025 civics test first, then the two versions, the pages of
+ * the module and the N-400. Every figure is read from params-2026.json and the USCIS banks.
+ */
+import PageLayout from '../layouts/PageLayout.astro';
+import Tool from './Tool.astro';
+import Clamp from './Clamp.astro';
+import Sources from './Sources.astro';
+import { route } from '../i18n/routes';
+import { PAGES } from '../lib/guides';
+import { helpers } from '../lib/helpers';
+import { LAST_UPDATED, AUTHOR_NAME } from '../data/site-config';
+import { displayDate } from '../lib/format';
+import { faqSchema, webApplicationSchema, websiteSchema, organizationSchema } from '../lib/seo';
+const lang = 'es';
+const h = helpers(lang, true);
+const U = h.P.us;
+const cards = PAGES.filter((p) => p.group === 'us' && p.es).map((p) => ({ href: route(p.id, lang), name: p.es!.nav, text: p.es!.card, n400: p.order >= 90 }));
+const title = 'Examen de ciudadanía 2026: preguntas oficiales y práctica';
+const description = 'Examen de ciudadanía de Estados Unidos en español: práctica gratis con las preguntas oficiales de USCIS, la regla real de 12 correctas, la fecha del N-400 y su tarifa.';
+const faqs = [
+  { q: '¿Cuánto tiempo hace falta para preparar el examen de ciudadanía?', a: `Para la mayoría, entre tres y cuatro semanas de práctica diaria corta bastan para la parte cívica, si se lee el inglés con cierta soltura. La lista de 2025 tiene ${h.us.n25} preguntas, pero muchas se repiten en torno a las mismas instituciones y documentos. Quien empieza con poco inglés debe sumar tiempo para la lectura, la escritura y la conversación de la entrevista.` },
+  { q: '¿El examen de ciudadanía tiene costo aparte?', a: `No. Los exámenes de inglés y de educación cívica están incluidos en la tarifa del Formulario N-400: ${h.usd(U.fees.online)} en línea o ${h.usd(U.fees.paper)} en papel por solicitante, con una tarifa reducida de ${h.usd(U.fees.reduced)} y una exención para ingresos bajos. Las prácticas de este sitio son gratuitas y no piden cuenta ni correo.` },
+  { q: '¿Dónde se hace el examen de ciudadanía?', a: 'En una oficina de USCIS, el día de la entrevista de naturalización, frente a un oficial. No se hace en línea ni en un centro de exámenes, y no se reserva: USCIS envía la cita después de recibir el N-400. El aviso de la cita indica la dirección, la hora y los documentos que hay que llevar.' },
+  { q: '¿Puedo llevar a alguien a la entrevista?', a: 'Puede ir acompañado de un abogado o representante acreditado. Un intérprete solo se admite para el examen cívico si tiene derecho a una exención de inglés por edad, o para las personas con una adaptación aprobada. En los demás casos, la entrevista y los exámenes se hacen directamente en inglés con el oficial.' },
+];
+const jsonLd = [websiteSchema(lang), organizationSchema(lang), webApplicationSchema({ name: 'Examen de ciudadanía de práctica', description, path: route('home', lang), lang }), faqSchema(faqs, lang)];
+const resume = `El examen de ciudadanía de Estados Unidos se hace durante la entrevista de naturalización con un oficial de USCIS y tiene dos partes: inglés (leer una oración, escribir una y conversar) y educación cívica, sobre la historia y el gobierno del país. Desde el ${h.date(U.cutoff)}, todo Formulario N-400 recibido en esa fecha o después lleva al examen cívico de 2025: el oficial hace en voz alta hasta ${U.test2025.asked} preguntas de una lista pública de ${h.us.n25} y hacen falta ${U.test2025.passCorrect} respuestas correctas; se detiene con ${U.test2025.passCorrect} correctas o ${U.test2025.failWrong} incorrectas. Quien presentó antes conserva el examen de 2008: hasta ${U.test2008.asked} de ${h.us.n08} preguntas, ${U.test2008.passCorrect} para aprobar. Salvo exención por edad, la entrevista es en inglés. Por eso las prácticas de este sitio muestran cada pregunta en español para entenderla y en inglés para memorizarla, con la traducción oficial de USCIS para 2008 y nuestra traducción no oficial para 2025, que USCIS solo publica en inglés. El examen de arriba aplica la regla real y se detiene donde lo haría el oficial.`;
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={jsonLd} faqs={faqs} breadcrumbs={[]}>
+  <header class="mb-3">
+    <h1 class="mt-0 text-[1.75rem] font-bold text-navy-900 max-sm:leading-tight sm:text-3xl md:text-4xl">Examen de ciudadanía de Estados Unidos: práctica gratis en español</h1>
+    <p class="mt-2 text-base text-navy-700 sm:text-lg">Hasta {U.test2025.asked} preguntas oficiales, {U.test2025.passCorrect} correctas para aprobar, cada pregunta en español y en inglés. Sin registro.</p>
+  </header>
+  <div data-outil class="mb-4"><Tool tool={{ kind: 'usquiz', props: { version: '2025', mode: 'exam', versionSelect: true } }} lang={lang} primary={true} seedKey="home-es" /></div>
+  <Clamp text={resume} id="clamp-home-es" lang={lang} class="mb-3" />
+  <p class="mb-8 text-sm text-navy-600">Actualizado el <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, 'es-US')}</time> · {AUTHOR_NAME} · <a href={route('method', lang)} class="underline hover:text-navy-900">Método</a> · <a href={route('about', lang)} class="underline hover:text-navy-900">Quiénes somos</a></p>
+  <div class="prose prose-slate max-w-none">
+    <h2>Las dos versiones del examen cívico</h2>
+    <Fragment set:html={h.table(['Regla', 'Versión 2025', 'Versión 2008'], [['Para quién', `N-400 recibido desde el ${h.date(U.cutoff)}`, 'N-400 recibido antes'], ['Lista oficial', `${h.us.n25} preguntas`, `${h.us.n08} preguntas`], ['Preguntas en la entrevista', `hasta ${U.test2025.asked}`, `hasta ${U.test2008.asked}`], ['Correctas para aprobar', U.test2025.passCorrect, U.test2008.passCorrect], ['El oficial se detiene con', `${U.test2025.passCorrect} correctas o ${U.test2025.failWrong} incorrectas`, `${U.test2008.passCorrect} correctas o ${U.test2008.failWrong} incorrectas`], ['En español', 'traducción no oficial (nuestra)', 'traducción oficial de USCIS']], `Reglas leídas en uscis.gov el ${h.date(U.retrieved_at)}.`, ['l', 'l', 'l'])} />
+    <p>La versión depende solo de la fecha en que USCIS recibió su N-400, que figura en el aviso de recibo. Quien tiene {U.s6520.age} años o más y {U.s6520.years} años como residente permanente estudia solo 20 preguntas y puede hacer el examen en español; desde {U.englishExempt[0].age} años con {U.englishExempt[0].years} de residencia, o {U.englishExempt[1].age} con {U.englishExempt[1].years}, no hay examen de inglés.</p>
+    <h2>Antes del examen: la fecha del N-400</h2>
+    <p>El examen no se reserva. Primero hay que presentar el Formulario N-400, hasta {U.n400.earlyFilingDays} días antes del quinto aniversario de la tarjeta verde, o del tercero si está casado con un ciudadano, con al menos {h.num(U.n400.routes['5'].presenceDays)} días de presencia física en cinco años. La mini herramienta de abajo estima los días que le faltan.</p>
+  </div>
+  <div class="mb-6"><Tool tool={{ kind: 'mini:uspresence' }} lang={lang} idPrefix="h1" /></div>
+  <div class="prose prose-slate max-w-none">
+    <h2>Todas las páginas en español</h2>
+  </div>
+  <div class="not-prose grid gap-6 md:grid-cols-2" data-sommaire>
+    <section><h3 class="mb-2 text-lg font-semibold text-navy-900">El examen</h3><ul class="space-y-2 text-sm">{cards.filter((c) => !c.n400).map((c) => <li><a href={c.href} class="font-medium text-accent-700 underline">{c.name}</a><span class="block text-navy-700">{c.text}</span></li>)}</ul></section>
+    <section><h3 class="mb-2 text-lg font-semibold text-navy-900">Formulario N-400</h3><ul class="space-y-2 text-sm">{cards.filter((c) => c.n400).map((c) => <li><a href={c.href} class="font-medium text-accent-700 underline">{c.name}</a><span class="block text-navy-700">{c.text}</span></li>)}</ul></section>
+  </div>
+  <div class="prose prose-slate mt-8 max-w-none">
+    <h2>Cuánto cuesta</h2>
+    <p>La tarifa del N-400 incluye los exámenes y los datos biométricos: {h.usd(U.fees.online)} en línea y {h.usd(U.fees.paper)} en papel por solicitante. Los hogares con ingresos inferiores al {U.fees.reducedMaxPctFpg} % de las pautas federales de pobreza pagan {h.usd(U.fees.reduced)} y, por debajo del {U.fees.waiverMaxPctFpg} %, pueden pedir la exención con el Formulario I-912; las dos opciones exigen presentar en papel.</p>
+  </div>
+  <div class="mb-6"><Tool tool={{ kind: 'mini:usfee' }} lang={lang} idPrefix="h2" /></div>
+  <div class="prose prose-slate max-w-none">
+    <h2>Quién prepara estas prácticas</h2>
+    <p>Las preguntas y respuestas son las de USCIS, en el dominio público, sin cambios. Las opciones de respuesta, la traducción de la versión 2025 y las oraciones de práctica de inglés las escribe {AUTHOR_NAME}, que no es USCIS ni ninguna agencia del gobierno y no ofrece asesoría legal. El <a href={route('method', lang)}>método</a> explica cómo se sortea y corrige cada examen.</p>
+    <Sources lang={lang} keys={['us_study_es', 'us_128', 'us_100_es', 'us_updates', 'us_exceptions_es', 'us_n400', 'us_fpg']} date={U.retrieved_at} />
+  </div>
+</PageLayout>

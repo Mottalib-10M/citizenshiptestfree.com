@@ -1,0 +1,29 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { LAST_UPDATED, AUTHOR_NAME, CONTACT_EMAIL, AUTHOR_ROLE } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { organizationSchema, breadcrumbSchema, profilePageSchema } from '../../lib/seo';
+import { displayDate } from '../../lib/format';
+import { helpers } from '../../lib/helpers';
+const lang = 'es';
+const h = helpers(lang);
+---
+<PageLayout title="Examen de ciudadanía gratis: quién está detrás del sitio" description="Quién publica Examen de ciudadanía gratis, de dónde vienen sus preguntas cívicas y su traducción, de dónde salen las reglas y tarifas del N-400 y qué no vende nunca." lang={lang} jsonLd={[organizationSchema(lang), profilePageSchema({ path: route('about', lang), lang }), breadcrumbSchema([{ name: 'Inicio', path: route('home', lang) }, { name: 'Quiénes somos', path: route('about', lang) }])]} breadcrumbs={[{ label: 'Quiénes somos' }]}>
+  <header class="mb-6"><p class="kicker">Quiénes somos</p><h1 class="mt-0 text-3xl font-bold text-navy-900 md:text-4xl">Quién publica Examen de ciudadanía gratis</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <div class="not-prose mb-6"><p class="text-lg font-semibold text-navy-900">{AUTHOR_NAME}</p><p class="text-navy-700">{AUTHOR_ROLE[lang]}</p></div>
+    <p>El sitio lo publica Radif Partners, una empresa que construye herramientas gratuitas a partir de reglas y datos públicos. La parte en español está pensada para los residentes permanentes de Estados Unidos que preparan su naturalización y prefieren leer en español, aunque la entrevista sea en inglés.</p>
+    <h2>Qué hace el sitio</h2>
+    <p>Ofrece exámenes de práctica con las preguntas oficiales de USCIS, corregidos con la regla real ({h.P.us.test2025.passCorrect} correctas de hasta {h.P.us.test2025.asked} en 2025) y detenidos donde lo haría el oficial, la práctica por tema, el examen 65/20 y una práctica de lectura y escritura en inglés. Calcula además el primer día en que puede presentar el Formulario N-400, contando día por día cada viaje, y la tarifa que corresponde a su hogar.</p>
+    <p>Todo es gratis, sin cuenta, sin correo y sin suscripción, y nada de lo que escribe sale de su navegador.</p>
+    <h2>De dónde vienen las preguntas y las reglas</h2>
+    <p>Las preguntas y respuestas son las de USCIS ({h.us.n25} de 2025 y {h.us.n08} de 2008), en el dominio público. La versión de 2008 está en la traducción oficial de USCIS; la de 2025 en nuestra traducción, no oficial. Las tarifas, el formato del examen y las reglas de residencia se leyeron en uscis.gov, y cada página enlaza la página oficial consultada. El <a href={route('method', lang)}>método</a> da los detalles.</p>
+    <h2>Lo que no somos</h2>
+    <p>No somos USCIS ni ninguna agencia del gobierno, ni un bufete de abogados. No recibimos solicitudes, no fijamos citas y no consultamos expedientes. El sitio no usa ningún sello ni logotipo oficial.</p>
+    <h2>Cómo se financia el sitio</h2>
+    <p>El sitio no vende cursos, libros, aplicaciones ni servicios legales, no cobra comisiones y no enlaza a ninguna empresa que lo haga.</p>
+    <h2>Señalar un error</h2>
+    <p>Escriba a <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> con la regla o el número de la pregunta. La <a href={route('editorial', lang)}>política editorial</a> explica cómo se corrige.</p>
+    <p class="text-sm text-navy-600">Reglas y tarifas verificadas el <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, 'es-US')}</time>.</p>
+  </div>
+</PageLayout>

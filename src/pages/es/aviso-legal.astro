@@ -1,0 +1,32 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import LegalIdentity from '../../components/LegalIdentity.astro';
+import { AUTHOR_NAME, CLARITY_ID, CONTACT_EMAIL, GA4_ID, LAST_UPDATED, LEGAL, SITE_NAMES, SITE_URL } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+const lang = 'es';
+const title = `Aviso legal – ${SITE_NAMES[lang]}`;
+const description = 'Editor, director de la publicación, alojamiento, ausencia de asesoría, propiedad intelectual, datos personales y ley aplicable del sitio Examen de ciudadanía gratis.';
+---
+<PageLayout title={title} description={description} lang={lang} noindex={true} breadcrumbs={[{ label: 'Aviso legal' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>Aviso legal</h1>
+    <p>Información publicada en aplicación del artículo 6 III-1 de la ley francesa n.º 2004-575, de 21 de junio de 2004, sobre la confianza en la economía digital.</p>
+    <h2>Editor del sitio</h2>
+    <LegalIdentity lang={lang} />
+    <p>Director de la publicación: {AUTHOR_NAME}, responsable de los contenidos publicados en {SITE_URL}.</p>
+    <h2>Alojamiento</h2>
+    <LegalIdentity mode="hosting" lang={lang} />
+    <h2>Objeto del sitio y ausencia de asesoría</h2>
+    <p>El sitio ofrece gratis exámenes de práctica, calculadoras y guías, con fines informativos. Los resultados son estimaciones calculadas a partir de los textos y tarifas oficiales citados en cada página; no son asesoría legal, ni una decisión, ni un compromiso de USCIS. El sitio no es USCIS ni ninguna agencia del gobierno. Método y límites: <a href={route('method', lang)}>método</a>.</p>
+    <h2>Límites de responsabilidad</h2>
+    <p>Los parámetros se actualizan y los cálculos se comprueban con casos de referencia, sin garantía de ausencia de errores. El editor no responde de una decisión tomada solo a partir de una estimación. Un error se señala en la página de <a href={route('contact', lang)}>contacto</a>.</p>
+    <h2>Propiedad intelectual</h2>
+    <p>Las preguntas cívicas, las respuestas aceptadas y las listas de vocabulario son obras del gobierno federal de Estados Unidos en el dominio público. Los demás textos, la traducción de la versión 2025, los gráficos y el código pertenecen al editor; se permiten citas breves con un enlace a la página de origen.</p>
+    <h2>Datos personales y cookies</h2>
+    {GA4_ID ? (<p>Lo que escribe en las herramientas no sale de su navegador. El sitio usa cookies de medición de audiencia de Google Analytics (<code>_ga</code>, <code>_ga_{GA4_ID.replace('G-', '')}</code>, 13 meses como máximo), sin publicidad{CLARITY_ID && '; la estabilidad de las páginas se mide con Microsoft Clarity, sin cookies'}. Detalles y cómo oponerse: <a href={route('privacy', lang)}>política de privacidad</a> y página de <a href={route('cookies', lang)}>cookies</a>.</p>) : (<p>Lo que escribe en las herramientas no sale de su navegador y el sitio no usa cookies. Vea la <a href={route('privacy', lang)}>política de privacidad</a>.</p>)}
+    <h2>Denuncias</h2>
+    <p>Un contenido ilícito se señala en <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>, con la dirección de la página y el motivo.</p>
+    <h2>Ley aplicable</h2>
+    <p>Ley francesa. A falta de acuerdo amistoso, los tribunales competentes de {LEGAL.jurisdiction}. Actualización: {LAST_UPDATED}.</p>
+  </div>
+</PageLayout>

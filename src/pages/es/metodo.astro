@@ -1,0 +1,33 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { LAST_UPDATED } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { breadcrumbSchema, articleSchema } from '../../lib/seo';
+import { helpers } from '../../lib/helpers';
+const lang = 'es';
+const h = helpers(lang);
+const U = h.P.us;
+const s = (k: Parameters<typeof h.src>[0], t: string) => h.src(k, t);
+---
+<PageLayout title="Método del examen de ciudadanía de práctica: preguntas y fechas" description="De dónde vienen las preguntas cívicas y su traducción, cómo se sortea y corrige un examen con la regla de parada de USCIS y cómo se calculan la fecha del N-400 y la tarifa." lang={lang} jsonLd={[articleSchema({ title: 'Método: preguntas, corrección y fechas', description: 'Método del sitio', path: route('method', lang), lang }), breadcrumbSchema([{ name: 'Inicio', path: route('home', lang) }, { name: 'Método', path: route('method', lang) }])]} breadcrumbs={[{ label: 'Método' }]}>
+  <header class="mb-6"><p class="kicker">Método</p><h1 class="mt-0 text-3xl font-bold text-navy-900 md:text-4xl">Preguntas, corrección y fechas: el método</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <p>Cada página y cada herramienta leen los mismos archivos: dos bancos de preguntas oficiales y un archivo de parámetros con las reglas y tarifas de USCIS, leídas el {h.date(U.retrieved_at)}. Ninguna nota, tarifa ni umbral se escribe a mano en una página: cuando una regla cambia, cambia el archivo y todas las páginas lo siguen.</p>
+    <h2>1. Las preguntas</h2>
+    <p>Los bancos contienen las {h.us.n25} preguntas cívicas de 2025 (<Fragment set:html={s('us_128', 'formulario M-1778 de USCIS')} />) y las {h.us.n08} de 2008, con todas las respuestas aceptadas, tal como USCIS las publica: son obras del gobierno federal en el dominio público. La versión de 2008 se muestra en la <Fragment set:html={s('us_100_es', 'traducción oficial de USCIS')} />. USCIS no publica la versión de 2025 en español: la traducción es nuestra, se señala como no oficial y cada pregunta va acompañada del original en inglés. Las respuestas que dependen de quién ocupa un cargo vienen de la <Fragment set:html={s('us_updates', 'página de actualizaciones del examen')} />, revisada por USCIS el {h.date(h.us.updatesReviewed)}; las cuatro que dependen del lugar donde vive se muestran en la lista pero nunca se puntúan.</p>
+    <p>Las cuatro opciones de cada pregunta de práctica las escribimos nosotros. Un programa comprueba en cada construcción que la opción correcta coincide con una respuesta aceptada de USCIS, que las cuatro opciones son distintas y que la respuesta correcta se reparte entre las cuatro posiciones.</p>
+    <h2>2. El sorteo y la corrección</h2>
+    <p>Un examen de 2025 toma hasta {U.test2025.asked} preguntas al azar entre las puntuables, con una semilla: el mismo enlace repite el mismo examen. Se aprueba con {U.test2025.passCorrect} correctas y se detiene, como el oficial, con {U.test2025.passCorrect} correctas o {U.test2025.failWrong} incorrectas. El examen de 2008 usa {U.test2008.asked}, {U.test2008.passCorrect} y {U.test2008.failWrong}; el examen 65/20 toma {U.s6520.asked} de las 20 preguntas marcadas, con {U.s6520.passCorrect} para aprobar. Estas reglas vienen de la <Fragment set:html={s('us_study_es', 'página de estudio de USCIS')} /> y del <Fragment set:html={s('us_pm_e2', 'Manual de Políticas')} />.</p>
+    <h2>3. La fecha del N-400</h2>
+    <p>La herramienta prueba cada día desde hoy y se detiene en el primero en que se cumplen a la vez: la presentación anticipada ({U.n400.earlyFilingDays} días antes del aniversario de la tarjeta verde), la presencia física ({h.num(U.n400.routes['5'].presenceDays)} días en 5 años o {h.num(U.n400.routes['3'].presenceDays)} en 3), la ausencia de viajes de 1 año o más (o la espera de {U.n400.afterBreakWait['5']} tras el regreso), los 3 años de unión conyugal en la vía del cónyuge y los {U.n400.minAge} años. El día de salida y el de regreso cuentan como presencia (<Fragment set:html={s('us_pm_d4', 'Manual de Políticas, 12 D.4')} />). Un viaje de más de {U.n400.absencePresumptionDays} días se señala porque USCIS presume una interrupción de la residencia (<Fragment set:html={s('us_pm_d3', '12 D.3')} />). El ejemplo de USCIS (tarjeta del 4 de julio de 2017, presentación desde el 5 de abril de 2022) forma parte de nuestras pruebas automáticas.</p>
+    <h2>4. Las tarifas</h2>
+    <p>Las tarifas vienen de la <Fragment set:html={s('us_n400', 'página del N-400')} />: {h.usd(U.fees.online)} en línea, {h.usd(U.fees.paper)} en papel y {h.usd(U.fees.reduced)} de tarifa reducida; los límites de ingresos, de la <Fragment set:html={s('us_fpg', 'tabla de pautas de pobreza de USCIS')} />, vigente desde el {h.date(U.fpg.effective)}. Un script relee la página del N-400 cada mes y detiene la actualización si un importe cambia, hasta que una persona lo revise.</p>
+    <h2>5. Lo que el sitio no hace</h2>
+    <ul>
+      <li>No juzga el buen carácter moral, los antecedentes ni los tres meses en su estado: solo las condiciones con fecha y el examen.</li>
+      <li>No publica tiempos de tramitación: USCIS los da por oficina en su propia herramienta.</li>
+      <li>No presenta solicitudes ni da asesoría legal: el N-400 se presenta solo ante USCIS.</li>
+    </ul>
+    <p>Versión del método: {LAST_UPDATED}. ¿Una cifra le parece incorrecta? <a href={route('contact', lang)}>Contacto</a>.</p>
+  </div>
+</PageLayout>

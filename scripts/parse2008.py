@@ -1,6 +1,6 @@
 import re, json, zipfile, html, sys
 # English PDF
-lines = [l.replace('\t', ' ') for l in open('../uscis/raw/OoC_100_Questions_2008_Civics_Test_V1.txt', encoding='utf-8')]
+lines = [l.replace('\t', ' ') for l in open('data/raw/us/OoC_100_Questions_2008_Civics_Test_V1.txt', encoding='utf-8')]
 clean = []
 skip = False
 for l in lines:
@@ -27,9 +27,9 @@ for q in qs:
     if q['q'].endswith('*'): q['star'] = True; q['q'] = q['q'][:-1].strip()
     q['a'] = [re.sub(r'\s+', ' ', a).replace('’ s', '’s').strip() for a in q['a']]
 print('en', len(qs), sum(q['star'] for q in qs), [q['n'] for q in qs if q['star']], file=sys.stderr)
-json.dump(qs, open('q2008-en.json', 'w'), ensure_ascii=False, indent=1)
+json.dump(qs, open('data/us/official-2008-en.json.new', 'w'), ensure_ascii=False, indent=1)
 # Spanish docx
-x = zipfile.ZipFile('../uscis/raw/100q_Spanish_2021_SPA.docx').read('word/document.xml').decode()
+x = zipfile.ZipFile('data/raw/us/100q_Spanish_2021_SPA.docx').read('word/document.xml').decode()
 es = []; cat = sub = None
 for p in re.findall(r'<w:p[ >].*?</w:p>', x, re.S):
     t = re.sub(r'\s+', ' ', html.unescape(''.join(re.findall(r'<w:t[^>]*>([^<]*)</w:t>', p)))).strip()
@@ -48,4 +48,4 @@ for p in re.findall(r'<w:p[ >].*?</w:p>', x, re.S):
 for q in es:
     if q['q'].endswith('*'): q['star'] = True; q['q'] = q['q'][:-1].strip()
 print('es', len(es), sum(q['star'] for q in es), [q['n'] for q in es if q['star']], file=sys.stderr)
-json.dump(es, open('q2008-es.json', 'w'), ensure_ascii=False, indent=1)
+json.dump(es, open('data/us/official-2008-es.json.new', 'w'), ensure_ascii=False, indent=1)

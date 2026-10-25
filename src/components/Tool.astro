@@ -9,6 +9,15 @@ import QuestionBank from './calc/QuestionBank';
 import ResidenceDate from './calc/ResidenceDate';
 import CostTool from './calc/CostTool';
 import MiniSim from './calc/MiniSim';
+import UsQuiz from './calc/UsQuiz';
+import UsBank from './calc/UsBank';
+import UsWhich from './calc/UsWhich';
+import UsEnglish from './calc/UsEnglish';
+import UsDate from './calc/UsDate';
+import UsFee from './calc/UsFee';
+import US25 from '../data/questions/us-2025.json';
+import US08 from '../data/questions/us-2008.json';
+import { drawUs, practiceUs, type UsBankFile, type UsVersion } from '../lib/engine/us';
 import { route, hasRoute, type Locale } from '../i18n/routes';
 import { getSpec } from '../lib/mini-specs';
 import { BANKS } from '../lib/banks-build';
@@ -30,6 +39,15 @@ const bankChapter = CHAPTERS[key][Number(props.chapter ?? 0)];
 const bankInitial = kind === 'bank' ? bank.filter((q) => q.chapter === bankChapter) : [];
 const pages: Record<string, string> = {};
 for (const [c, id] of [['uk', 'uk-test'], ['au', 'au-test'], ['ca', 'ca-test']]) if (hasRoute(id, lang)) pages[c] = route(id, lang);
+// United States (props: version '2025' | '2008', mode 'exam' | 'practice' | '6520', theme, versionSelect)
+const ul = lang === 'es' ? 'es' : 'en';
+const usV = (props.version ?? '2025') as UsVersion;
+const usB = (usV === '2025' ? US25 : US08) as unknown as UsBankFile;
+const usMode = (props.mode ?? 'exam') as 'exam' | 'practice' | '6520';
+const usTheme: number | null = props.theme != null && props.theme !== 'star' ? Number(props.theme) : null;
+const usInitial = kind === 'usquiz' ? (usMode === 'practice' ? practiceUs(usB.questions, usTheme, seed, 10) : drawUs(usB.questions, usV, usMode === '6520' ? '6520' : 'full', seed)) : [];
+const usBankTheme: number | 'star' = props.theme === 'star' ? 'star' : Number(props.theme ?? 0);
+const usBankInitial = kind === 'usbank' ? usB.questions.filter((q) => (usBankTheme === 'star' ? q.star : q.theme === usBankTheme)) : [];
 const mini = kind.startsWith('mini:') ? kind.slice(5) : null;
 const spec = mini ? getSpec(mini, lang) : null;
 const href = spec?.ctaPage && hasRoute(spec.ctaPage, lang) ? route(spec.ctaPage, lang) : undefined;
@@ -40,6 +58,12 @@ for (const [k, v] of Object.entries(props)) if (typeof v === 'number') numDefaul
 {kind === 'bank' && <QuestionBank client:load lang={lang} bank={key} chapter={bankChapter} initial={bankInitial} total={bank.length} idPrefix={idPrefix ?? 'b'} />}
 {kind === 'date' && <ResidenceDate client:load lang={lang} country={country} idPrefix={idPrefix ?? 'd'} />}
 {kind === 'cost' && <CostTool client:load lang={lang} country={country} idPrefix={idPrefix ?? 'c'} />}
+{kind === 'usquiz' && <UsQuiz client:load lang={ul} version={usV} mode={usMode} theme={usTheme} initial={usInitial} themes={usB.themes[ul]} seed={seed} versionSelect={!!props.versionSelect} idPrefix={idPrefix ?? 'u'} />}
+{kind === 'usbank' && <UsBank client:load lang={ul} version={usV} theme={usBankTheme} initial={usBankInitial} themes={usB.themes[ul]} total={usB.questions.length} versionSelect={!!props.versionSelect} idPrefix={idPrefix ?? 'ub'} />}
+{kind === 'uswhich' && <UsWhich client:load lang={ul} idPrefix={idPrefix ?? 'w'} />}
+{kind === 'usenglish' && <UsEnglish client:load lang={ul} mode={(props.mode ?? 'writing') as 'writing' | 'reading'} idPrefix={idPrefix ?? 'e'} />}
+{kind === 'usdate' && <UsDate client:load lang={ul} route={(String(props.route ?? '5')) as '5' | '3'} idPrefix={idPrefix ?? 'n'} />}
+{kind === 'usfee' && <UsFee client:load lang={ul} idPrefix={idPrefix ?? 'f'} />}
 {mini && <MiniSim client:load kind={mini} lang={lang} href={href} defaults={numDefaults} primary={primary} idPrefix={idPrefix ?? (primary ? 'p' : 'm')} />}
 {(kind === 'quiz' || kind === 'bank') && (country === 'au' || props.countrySelect) && lang === 'en' && (
   <p class="mt-2 text-xs text-navy-600" data-attribution-au>Australian questions adapted from Australian Citizenship: Our Common Bond, © Commonwealth of Australia, <a class="underline" href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>, adapted by Radif Partners.</p>

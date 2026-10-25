@@ -1,0 +1,21 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import LegalIdentity from '../../components/LegalIdentity.astro';
+import { CONTACT_EMAIL, LAST_UPDATED, SITE_NAMES } from '../../data/site-config';
+const lang = 'es';
+---
+<PageLayout title={`Contacto: ${SITE_NAMES[lang]}, preguntas y tarifas`} description="Escriba a Examen de ciudadanía gratis si una tarifa o una regla parece desactualizada o si una pregunta o una traducción parece incorrecta. No damos asesoría sobre casos personales." lang={lang} noindex={true} breadcrumbs={[{ label: 'Contacto' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>Contacto</h1>
+    <p>Correo: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. Cada mensaje lo lee una persona.</p>
+    <h2>Una tarifa o una regla parece desactualizada</h2>
+    <p>Indique la regla y, si la tiene, la página oficial de USCIS que dice otra cosa. Releemos la fuente oficial, corregimos el archivo de parámetros y fechamos el cambio.</p>
+    <h2>Una pregunta o una traducción parece incorrecta</h2>
+    <p>Indíquenos el número de la pregunta y la versión (2025 o 2008). Las preguntas y respuestas son las de USCIS; la traducción de la versión 2025 es nuestra y la corregimos si un término no es exacto.</p>
+    <h2>Lo que no podemos hacer</h2>
+    <p>No somos USCIS ni un abogado. No podemos consultar ni seguir una solicitud ni aconsejar sobre un caso personal. No envíe su número de caso, su número de residente ni su fecha de nacimiento.</p>
+    <h2>Editor</h2>
+    <LegalIdentity lang={lang} />
+    <p>Actualización: {LAST_UPDATED}.</p>
+  </div>
+</PageLayout>

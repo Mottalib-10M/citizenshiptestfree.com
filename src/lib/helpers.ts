@@ -5,6 +5,12 @@ import { BANKS } from './banks-build';
 import { CHAPTERS } from './banks';
 import { passNeeded } from './engine/exam';
 import P from '../data/params-2026.json';
+import US25 from '../data/questions/us-2025.json';
+import US08 from '../data/questions/us-2008.json';
+import VOC from '../data/us-english.json';
+import type { UsBankFile, UsQuestion } from './engine/us';
+const B25 = US25 as unknown as UsBankFile, B08 = US08 as unknown as UsBankFile;
+const words = (o: Record<string, string[]>) => Object.values(o).reduce((s, l) => s + l.length, 0);
 
 export type SourceKey = keyof typeof P.sources;
 const esc = (s: string | number) => String(s).replace(/&(?!(?:[a-z]+|#\d+);)/g, '&amp;').replace(/</g, '&lt;');
@@ -20,12 +26,25 @@ export function helpers(lang: Locale, strict = false) {
   };
   const ext = (url: string, text: string) => `<a href="${url}" target="_blank" rel="nofollow noopener noreferrer">${text}</a>`;
   const src = (k: SourceKey, text: string) => ext(P.sources[k].url, text);
+  const usd = (n: number) => money(n, 'USD', lang);
+  const ul = lang === 'es' ? 'es' : 'en';
   const gbp = (n: number) => money(n, 'GBP', lang), aud = (n: number) => money(n, 'AUD', lang), cad = (n: number) => money(n, 'CAD', lang);
   const num = (n: number, d = 0) => formatNumberL(n, lang, d);
   const pc = (x: number, d = 0) => pct(x, lang, d);
   const ca = lang === 'fr' ? 'ca-fr' : 'ca-en';
   return {
-    lang, a, ext, src, gbp, aud, cad, num, pc, P,
+    lang, a, ext, src, gbp, aud, cad, usd, num, pc, P,
+    /** United States: bank sizes, themes and questions read from the USCIS banks (never typed in a page). */
+    us: {
+      n25: B25.questions.length, n08: B08.questions.length,
+      scor25: B25.questions.filter((q) => q.answer !== undefined).length, scor08: B08.questions.filter((q) => q.answer !== undefined).length,
+      themes25: B25.themes[ul], themes08: B08.themes[ul],
+      inTheme: (y: '2025' | '2008', i: number) => (y === '2025' ? B25 : B08).questions.filter((q) => q.theme === i).length,
+      q: (y: '2025' | '2008', n: number): UsQuestion => (y === '2025' ? B25 : B08).questions.find((q) => q.n === n)!,
+      stars: (y: '2025' | '2008') => (y === '2025' ? B25 : B08).questions.filter((q) => q.star),
+      updatesReviewed: B25.meta.updatesReviewed as string,
+      vocabR: words(VOC.reading), vocabW: words(VOC.writing), sentR: VOC.readingSentences.length, sentW: VOC.writingSentences.length,
+    },
     m: (n: number, c: Cur) => money(n, c, lang),
     date: (iso: string) => dateL(iso, lang),
     table: (h: string[], r: Array<Array<string | number>>, c?: string, al: Array<'l' | 'r'> = []) => table(h, r, c, al, lang),

@@ -100,10 +100,12 @@ export function longestAbsence(trips: Trip[], from: Iso, to: Iso): number {
 const NEAR = 5;
 /** Last day of a trip for the absence rules: the return day, or `to` while still abroad. */
 const endOf = (t: Trip, to: Iso) => t.back ?? to;
-/** Absence of 1 year or more (calendar): continuity is broken. */
-export const isBreak = (t: Trip, to: Iso) => endOf(t, to) >= addYears(t.out, U.n400.absenceBreakYears);
-/** Absence of more than 6 months (calendar) but less than 1 year: continuity is presumed broken, the applicant may rebut it. */
-export const isPresumption = (t: Trip, to: Iso) => !isBreak(t, to) && endOf(t, to) > addMonths(t.out, U.n400.absencePresumptionMonths);
+/** Whole days abroad of a trip (departure and return days are days of presence). */
+const tripDays = (t: Trip, to: Iso) => absentDaysIn({ out: t.out, back: t.back ?? addDays(to, 1) }, t.out, endOf(t, to));
+/** Absence of 1 year or more (365 days or more, Policy Manual 12 D.3): continuity is broken. */
+export const isBreak = (t: Trip, to: Iso) => tripDays(t, to) >= U.n400.absenceBreakDays;
+/** Absence of more than 6 months (more than 180 days) but less than 1 year: continuity is presumed broken, the applicant may rebut it. */
+export const isPresumption = (t: Trip, to: Iso) => !isBreak(t, to) && tripDays(t, to) > U.n400.absencePresumptionDays;
 export function usVerdict(x: UsInput, on: Iso): UsVerdict {
   const R = U.n400.routes[x.route];
   const from = maxIso(addYears(on, -R.years), x.lpr); // statutory period, counted as a permanent resident only
@@ -116,7 +118,9 @@ export function usVerdict(x: UsInput, on: Iso): UsVerdict {
   const breaks = inPeriod.filter((t) => isBreak(t, to));
   const lastBreakBack = breaks.length ? breaks.map((t) => endOf(t, to)).reduce((a, b) => (a > b ? a : b)) : null;
   const breakOk = !lastBreakBack || (!!x.trips.find((t) => endOf(t, to) === lastBreakBack)?.back && on >= addDays(addYears(lastBreakBack, R.years - 1), 1));
-  const presumption = inPeriod.some((t) => isPresumption(t, to));
+  // Presumption of a break: a trip of more than 6 months, or a break of 1 year or more whose return is less than
+  // 4 years and 6 months ago (3-year route: 2 years and 6 months), Policy Manual 12 D.3 table.
+  const presumption = inPeriod.some((t) => isPresumption(t, to) || (isBreak(t, to) && on < addMonths(addYears(endOf(t, to), R.years - 1), 6)));
   const checks: UsCheck[] = [
     { id: 'early', ok: on >= early, value: on, limit: early },
     { id: 'presence', ok: pres >= R.presenceDays, value: pres, limit: R.presenceDays, near: Math.abs(pres - R.presenceDays) <= NEAR },

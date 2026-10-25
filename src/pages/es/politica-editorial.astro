@@ -1,0 +1,19 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { AUTHOR_NAME, CONTACT_EMAIL, LAST_UPDATED, SITE_NAMES } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+const lang = 'es';
+---
+<PageLayout title={`Política editorial: ${SITE_NAMES[lang]}, fuentes`} description="En qué páginas oficiales se apoya Examen de ciudadanía gratis, de dónde vienen sus preguntas y su traducción, qué fuentes rechaza y cómo se corrige y fecha un error." lang={lang} noindex={true} breadcrumbs={[{ label: 'Política editorial' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>Política editorial y de corrección</h1>
+    <p>Estas páginas sirven para decidir cuándo presentar el Formulario N-400 y para preparar el examen de ciudadanía. Una tarifa desactualizada o un umbral falso puede costar una solicitud negada: por eso cada cifra remite a la página oficial donde se leyó.</p>
+    <h2>Responsable</h2><p>{AUTHOR_NAME}, en <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
+    <h2>Lo que leemos</h2><p>Las páginas de USCIS sobre el examen, las listas oficiales de preguntas cívicas y de vocabulario, la página de actualizaciones del examen, el Formulario N-400 y sus instrucciones, las tarifas y las pautas de pobreza, y el Manual de Políticas de USCIS.</p>
+    <h2>Preguntas y traducción</h2><p>Las preguntas y respuestas aceptadas son las de USCIS, en el dominio público. La versión de 2008 se muestra en la traducción oficial de USCIS; la de 2025, que USCIS solo publica en inglés, en nuestra traducción, señalada como no oficial. Las opciones de respuesta de las prácticas y las oraciones de inglés las escribimos nosotros.</p>
+    <h2>Fuentes rechazadas</h2><p>Bufetes, consultores, editores de aplicaciones y sitios de práctica no aportan aquí ninguna cifra. Una regla que no está en una página oficial no se publica. Tampoco publicamos tiempos de tramitación, que solo la herramienta de USCIS da por oficina.</p>
+    <h2>Revisión</h2><p>Un script compara cada mes las tarifas de la página del N-400 con nuestro archivo de parámetros. Cada página indica la fecha de la última verificación.</p>
+    <h2>Correcciones</h2><ol><li>Releemos la página oficial.</li><li>Corregimos el parámetro, la pregunta o la traducción y añadimos una prueba.</li><li>El sitio se reconstruye y muestra la nueva fecha.</li></ol>
+    <h2>Independencia</h2><p>Ningún bufete, consultor, editor ni gobierno paga o revisa lo que se publica aquí, y el sitio no tiene enlaces de afiliación. Vea también el <a href={route('method', lang)}>método</a>. Versión: {LAST_UPDATED}.</p>
+  </div>
+</PageLayout>
