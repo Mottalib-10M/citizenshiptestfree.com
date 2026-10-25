@@ -11,14 +11,14 @@
  */
 import P from '../data/params-2026.json';
 import { dateL } from '../lib/format-l';
-interface Props { lang: string; keys?: string[] }
-const { lang, keys } = Astro.props;
+interface Props { lang: string; keys?: string[]; date?: string }
+const { lang, keys, date = P.retrieved_at } = Astro.props;
 
 const INTRO: Record<string, string> = {
   fr: 'Les règles, montants et délais cités ici ont été relevés sur ces pages des gouvernements le',
   de: 'Jede Zahl auf dieser Seite stammt aus einer dieser amtlichen Quellen, abgerufen am',
   en: 'The rules, fees and times quoted here were read on these government pages on',
-  es: 'Cada cifra de esta página procede de una de estas fuentes oficiales, consultadas el',
+  es: 'Las reglas, tarifas y preguntas citadas aquí se leyeron en estas páginas oficiales el',
   nl: 'Elk bedrag op deze pagina komt uit een van deze officiële bronnen, geraadpleegd op',
   it: 'Ogni cifra di questa pagina proviene da una di queste fonti ufficiali, consultate il',
   pt: 'Cada valor desta página provém de uma destas fontes oficiais, consultadas em',
@@ -36,7 +36,7 @@ const sources: Src[] = keys ? keys.map((k) => all[k]).filter(Boolean) : Object.v
 {sources.length > 0 && (
   <>
     <h2 id="sources">{H2[lang] ?? H2.en}</h2>
-    <p>{INTRO[lang] ?? INTRO.en} {(lang === 'fr' || lang === 'en') ? dateL(P.retrieved_at, lang) : P.retrieved_at}.</p>
+    <p>{INTRO[lang] ?? INTRO.en} {(lang === 'fr' || lang === 'en' || lang === 'es') ? dateL(date, lang) : date}.</p>
     <ul>
       {sources.map((s) => (
         <li><a href={s.url} rel="nofollow noopener" target="_blank">{s.label[lang] ?? s.label.en}</a></li>

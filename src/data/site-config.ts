@@ -1,21 +1,21 @@
 /** Configuration centrale du site (générée par new-site.py). */
 export const SITE_URL = "https://citizenshiptestfree.com";
-export const SITE_NAMES: Record<string, string> = {"en": "Citizenship Test Free", "fr": "Examen de citoyenneté gratuit"};
-export const LANG_TAGS: Record<string, string> = {"en": "en", "fr": "fr-CA"};
-export const OG_LOCALES: Record<string, string> = {"en": "en_GB", "fr": "fr_CA"};
+export const SITE_NAMES: Record<string, string> = {"en": "Citizenship Test Free", "fr": "Examen de citoyenneté gratuit", "es": "Examen de ciudadanía gratis"};
+export const LANG_TAGS: Record<string, string> = {"en": "en", "fr": "fr-CA", "es": "es-US"};
+export const OG_LOCALES: Record<string, string> = {"en": "en_GB", "fr": "fr_CA", "es": "es_US"};
 export const LOCALE_TAG = 'en-GB';
 export const CURRENCY = 'GBP';
 export const YEAR = 2026;
 /** Année de création du site — signal d'ancienneté (RECETTE §8.0). */
 export const SITE_FOUNDED = '2026';
-export const LAST_UPDATED = '2026-10-24';
+export const LAST_UPDATED = '2026-10-25';
 export const AUTHOR_NAME = 'Radif Partners';
-export const AUTHOR_ROLE: Record<string, string> = {"en": "Independent publisher of free citizenship practice tests for the UK, Australia and Canada, with the earliest date you can apply and the official cost", "fr": "Éditeur indépendant d'examens blancs gratuits pour la citoyenneté canadienne, avec la date à partir de laquelle on peut présenter sa demande et les frais officiels"};
-export const AUTHOR_DESC: Record<string, string> = {"en": "Radif Partners writes original practice questions from the official citizenship guides of the United Kingdom, Australia and Canada, and reads the residence rules and fees on gov.uk, Home Affairs and IRCC to date the first day an applicant can apply.", "fr": "Radif Partners rédige des questions d’entraînement originales à partir du guide officiel Découvrir le Canada et relit sur le site d’IRCC les règles de présence effective et les frais, pour dater le premier jour où l’on peut demander la citoyenneté."};
+export const AUTHOR_ROLE: Record<string, string> = {"en": "Independent publisher of free U.S. citizenship test practice built on the official USCIS questions, with the earliest N-400 filing date and the official fee; practice tests for the UK, Australia and Canada too", "es": "Editor independiente de prácticas gratuitas del examen de ciudadanía de Estados Unidos, con la fecha más temprana para presentar el N-400 y la tarifa oficial", "fr": "Éditeur indépendant d'examens blancs gratuits pour la citoyenneté canadienne, avec la date à partir de laquelle on peut présenter sa demande et les frais officiels"};
+export const AUTHOR_DESC: Record<string, string> = {"en": "Radif Partners writes original practice questions from the official citizenship guides of the United Kingdom, Australia and Canada, publishes the official USCIS civics questions for the United States, and reads the residence rules and fees on gov.uk, uscis.gov, Home Affairs and IRCC to date the first day an applicant can apply.", "es": "Radif Partners publica las preguntas cívicas oficiales de USCIS con prácticas de opción múltiple escritas por su equipo, y lee en uscis.gov las reglas de residencia y las tarifas del N-400 para fechar el primer día en que se puede presentar la solicitud.", "fr": "Radif Partners rédige des questions d’entraînement originales à partir du guide officiel Découvrir le Canada et relit sur le site d’IRCC les règles de présence effective et les frais, pour dater le premier jour où l’on peut demander la citoyenneté."};
 /** Sujets sur lesquels l'editeur est competent (schema.org knowsAbout). Ce sont les
  *  themes reellement traites par le site, pas une liste de mots-cles : un sujet
  *  declare ici sans page qui le couvre est une declaration fausse. */
-export const KNOWS_ABOUT: Record<string, string[]> = {"en": ["Life in the UK test", "British citizenship by naturalisation", "Australian citizenship test", "Australian citizenship residence requirement", "Canadian citizenship test", "Canadian citizenship physical presence"], "fr": ["Examen pour la citoyenneté canadienne", "Présence effective pour la citoyenneté canadienne", "Frais de citoyenneté d'IRCC"]};
+export const KNOWS_ABOUT: Record<string, string[]> = {"en": ["Life in the UK test", "British citizenship by naturalisation", "Australian citizenship test", "Australian citizenship residence requirement", "Canadian citizenship test", "Canadian citizenship physical presence", "U.S. naturalization civics test", "Form N-400 eligibility and fees"], "es": ["Examen de educación cívica para la naturalización", "Requisitos y tarifas del Formulario N-400"], "fr": ["Examen pour la citoyenneté canadienne", "Présence effective pour la citoyenneté canadienne", "Frais de citoyenneté d'IRCC"]};
 export const CONTACT_EMAIL = "contact@citizenshiptestfree.com";
 export const THEME_COLOR = '#012169';
 export const LOGO_SYMBOL = '?';

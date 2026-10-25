@@ -1,0 +1,127 @@
+# 2025 civics test: answer options for the multiple-choice practice, written by Radif Partners.
+# One line per official question: number|correct option (an answer USCIS accepts, or a set of them)|three wrong options.
+# Questions 23, 29, 61 and 62 depend on where the applicant lives: no options, they stay in the bank as "answers vary".
+1|Republic|Constitutional monarchy|Direct democracy run by referendums|Confederation of independent states
+2|The U.S. Constitution|The Declaration of Independence|The Bill of Rights only|The Articles of Confederation
+3|Defines the parts of government|Names the official language|Sets the federal income tax rate|Lists the 50 state capitals
+4|Self-government|Rule by the states alone|Loyalty to the President|Government by judges
+5|Through amendments|By an executive order of the President|By a decision of the Supreme Court alone|By a vote of the Senate alone
+6|The basic rights of Americans|The powers of the President|The borders of the states|The rules of the federal budget
+7|Twenty-seven (27)|Ten (10)|Fifty (50)|Thirty-three (33)
+8|It says all people are created equal|It created the Supreme Court|It set up the first federal budget|It made English the national language
+9|Declaration of Independence|U.S. Constitution|Emancipation Proclamation|Federalist Papers
+10|Liberty and equality|Monarchy and nobility|A state religion and censorship|Unlimited government and taxation
+11|Declaration of Independence|U.S. Constitution|Bill of Rights|Gettysburg Address
+12|Capitalism (free market economy)|Communism|Feudalism|A planned economy run by the state
+13|No one is above the law|The President makes the laws alone|Laws apply only to citizens|Judges can ignore the Constitution
+14|Articles of Confederation|Treaty of Versailles|Monroe Doctrine|Emancipation Proclamation
+15|So one part does not become too powerful|So each state can choose its own president|So Congress can meet more often|So the courts can write the laws
+16|Legislative, executive, and judicial|Federal, state, and local|Senate, House, and Cabinet|President, governors, and mayors
+17|Executive branch|Legislative branch|Judicial branch|State branch
+18|U.S. Congress|The Supreme Court|The Cabinet|The President alone
+19|Senate and House of Representatives|Senate and Supreme Court|House of Representatives and Cabinet|Senate and Electoral College
+20|Declares war|Appoints Supreme Court justices without a vote|Vetoes bills|Commands the military
+21|One hundred (100)|Fifty (50)|Four hundred thirty-five (435)|Two hundred (200)
+22|Six (6) years|Two (2) years|Four (4) years|For life
+24|Four hundred thirty-five (435)|One hundred (100)|Five hundred (500)|Two hundred fifty (250)
+25|Two (2) years|Four (4) years|Six (6) years|Eight (8) years
+26|To more closely follow public opinion|Because there are fewer of them|To save money on elections|Because the Constitution limits them to one term
+27|Two (2)|One (1)|It depends on the state’s population|Four (4)
+28|Equal representation for small states|Each state has two major parties|To balance the President’s vote|Because senators serve two terms
+30|Mike Johnson|Chuck Schumer|Nancy Pelosi|John Roberts
+31|Citizens in their state|Only the voters of their party|The President|The governor of their state
+32|Citizens from their state|The state legislature|The President|The state’s governor
+33|Citizens in their congressional district|Only the members of their party|The Senate|The state’s governor
+34|Citizens from their congressional district|The President|The Senate|The state’s governor
+35|Because some states have more people|Because larger states pay more taxes|Because older states get extra seats|Because the President decides
+36|Four (4) years|Two (2) years|Six (6) years|Eight (8) years
+37|Because of the 22nd Amendment|Because of the Bill of Rights|Because the Senate decides each time|Because of the Electoral College
+38|Donald J. Trump|Joe Biden|JD Vance|Barack Obama
+39|JD Vance|Kamala Harris|Mike Johnson|Marco Rubio
+40|The Vice President|The Speaker of the House|The Chief Justice|The Secretary of State
+41|Signs bills into law|Writes the federal budget alone|Declares war|Decides if a law is constitutional
+42|The President|The Vice President|The Secretary of War|The Speaker of the House
+43|The President|The Speaker of the House|The Chief Justice|The Vice President
+44|The President|The Senate|The Supreme Court|The Speaker of the House
+45|The President|The Senate alone|The voters|The Chief Justice
+46|Cabinet|The House of Representatives|The Supreme Court|State legislatures
+47|Advises the President|Writes federal laws|Chooses Supreme Court justices|Counts electoral votes
+48|Attorney General and Secretary of State|Speaker of the House and Chief Justice|Senate Majority Leader and Governor|Chief Justice and Senate President pro tempore
+49|It decides who is elected president|It chooses Supreme Court justices|It writes the federal budget|It approves treaties
+50|Supreme Court|Congress|The Cabinet|The Electoral College
+51|Decides if a law goes against the Constitution|Writes new federal laws|Signs bills into law|Collects federal taxes
+52|Supreme Court|Court of Appeals|Federal District Court|State Supreme Court
+53|Nine (9)|Seven (7)|Twelve (12)|Fifteen (15)
+54|Five (5)|Nine (9)|Three (3)|Seven (7)
+55|For life|Ten (10) years|Until the next election|Six (6) years
+56|To be independent of politics|To save the cost of elections|Because the President asks them to|Because the Senate cannot replace them
+57|John Roberts|Clarence Thomas|Mike Johnson|Merrick Garland
+58|Print paper money|Give a driver’s license|Provide schooling and education|Approve zoning and land use
+59|Give a driver’s license|Print paper money|Declare war|Make treaties
+60|Powers not given to the federal government belong to the states or to the people|It gives citizens the right to vote at 18|It ends slavery|It sets the term of the President
+63|Citizens eighteen (18) and older can vote|Only landowners can vote|Only men can vote|Voters must pay a poll tax
+64|U.S. citizens|All green card holders|Anyone living in the United States|Only people born in the United States
+65|Freedom of speech, freedom of religion, and freedom of assembly|The right to vote, to serve on a jury, and to run for federal office|Free health care, free housing, and a free car|The right to a federal job, a pension, and a passport
+66|The United States|The President|Your state governor|Congress
+67|Defend the Constitution and obey the laws of the United States|Keep loyalty to your first country and pay no taxes|Vote for the President and join a party|Live in one state and never travel abroad
+68|Naturalize|Buy property in the United States|Live in the United States for one year|Marry anyone who lives in the United States
+69|Vote and join a community group|Avoid jury duty and skip elections|Pay no taxes and ignore the law|Leave the country before elections
+70|Pay taxes|Avoid jury duty|Refuse to register for Selective Service|Ignore local laws
+71|Required by law|Only to pay for state schools|Because taxes are voluntary|To join a political party
+72|Required by law|To get a driver’s license|To vote in state elections|To receive a passport
+73|Religious freedom|To find a shorter route to China|To pay higher taxes to the king|To join the British army
+74|American Indians (Native Americans)|The British|The French|The Spanish
+75|Africans|Native Americans|Canadians|Australians
+76|The American Revolution|The Civil War|The War of 1812|The French and Indian War
+77|Taxation without representation|The Louisiana Purchase|The Civil War|The Great Depression
+78|Thomas Jefferson|George Washington|Abraham Lincoln|Benjamin Franklin
+79|July 4, 1776|July 4, 1787|December 25, 1776|September 17, 1787
+80|Battle of Yorktown|Battle of Gettysburg|Pearl Harbor|Battle of the Bulge
+81|New York, New Jersey, Virginia, Georgia, and Delaware|California, Texas, Florida, Ohio, and Maine|Vermont, Kentucky, Tennessee, Ohio, and Alaska|Florida, Michigan, Illinois, Texas, and Hawaii
+82|U.S. Constitution|Declaration of Independence|Emancipation Proclamation|Bill of Rights
+83|James Madison|Thomas Jefferson|George Washington|Benjamin Franklin
+84|They helped people understand the U.S. Constitution|They declared war on Britain|They ended slavery|They bought the Louisiana Territory
+85|U.S. diplomat|First president of the United States|Writer of the Federalist Papers|Commander of the Continental Navy
+86|First president of the United States|Writer of the Declaration of Independence|President during the Civil War|Inventor of the light bulb
+87|Third president of the United States|First president of the United States|Commander in the Civil War|First Chief Justice
+88|“Father of the Constitution”|First Secretary of the Treasury|President during the Civil War|Leader of the women’s rights movement
+89|First Secretary of the Treasury|Third president of the United States|Writer of the Declaration of Independence|Commander of the Union Army
+90|Louisiana Territory|Alaska|Florida|Texas
+91|Civil War|World War I|Korean War|Vietnam War
+92|The Civil War|The Revolutionary War|The War of 1812|The Mexican-American War
+93|Emancipation Proclamation|Boston Tea Party|Pearl Harbor|Louisiana Purchase
+94|Freed the slaves (Emancipation Proclamation)|Wrote the Declaration of Independence|Bought Alaska from Russia|Was the first president
+95|Freed the slaves in the Confederate states|Gave women the right to vote|Ended the War of 1812|Created the Supreme Court
+96|The Civil War|World War I|The Revolutionary War|The Spanish-American War
+97|14th Amendment|1st Amendment|19th Amendment|22nd Amendment
+98|After the Civil War (15th Amendment)|In 1776|After World War II|In 1920
+99|Susan B. Anthony|Martha Washington|Abigail Adams|Betsy Ross
+100|World War II|Civil War|War of 1812|Mexican-American War
+101|Because Germany attacked U.S. civilian ships|Because Japan attacked Pearl Harbor|To stop the spread of communism|To force Iraq out of Kuwait
+102|1920 (19th Amendment)|1776|1865|1964
+103|Longest economic recession in modern history|A war between the North and the South|A drought that ended slavery|The period after World War II
+104|Stock market crash of 1929|Attack on Pearl Harbor in 1941|End of the Civil War in 1865|Louisiana Purchase in 1803
+105|Franklin Roosevelt|Abraham Lincoln|Woodrow Wilson|Dwight Eisenhower
+106|Japanese attacked Pearl Harbor|Germany attacked U.S. civilian ships in 1917|To stop the spread of communism in Korea|Iraq invaded Kuwait
+107|General during World War II|First president of the United States|President during the Civil War|Writer of the Federalist Papers
+108|Soviet Union|Germany|Japan|Mexico
+109|Communism|Slavery|The Great Depression|British taxes
+110|To stop the spread of communism|To free the slaves|To force the Iraqi military from Kuwait|Because Germany attacked U.S. ships
+111|To stop the spread of communism|To win independence from Britain|To buy new territory|Because of the attacks of September 11, 2001
+112|Fought to end racial discrimination|Fought to win independence from Britain|Fought to give 18-year-olds the right to vote|Fought to end the Great Depression
+113|Fought for civil rights|Was the first Chief Justice|Wrote the Constitution|Led the Union Army
+114|To force the Iraqi military from Kuwait|To stop the spread of communism|Because Japan attacked Pearl Harbor|To free the slaves
+115|Terrorists attacked the United States|The Great Depression began|The Civil War ended|Pearl Harbor was bombed
+116|War in Afghanistan|Korean War|Vietnam War|World War II
+117|Cherokee|Aztec|Inca|Maya
+118|Light bulb|Printing press|Gunpowder|Paper
+119|Washington, D.C.|New York City|Philadelphia|Boston
+120|New York Harbor (Liberty Island)|San Francisco Bay|Washington, D.C.|Boston Harbor
+121|Because there were 13 original colonies|Because there were 13 presidents|Because there are 13 amendments|Because there were 13 wars
+122|One star for each state|One star for each president|One star for each amendment|One star for each original colony
+123|The Star-Spangled Banner|America the Beautiful|God Bless America|My Country, ’Tis of Thee
+124|Out of many, one|In God we trust|Liberty for all|One nation, many states
+125|A holiday to celebrate U.S. independence from Britain|A holiday to honor soldiers who died|A holiday to honor workers|A holiday to celebrate the harvest
+126|Independence Day, Labor Day, and Thanksgiving Day|Halloween, Valentine’s Day, and Earth Day|Mother’s Day, Groundhog Day, and Halloween|Saint Patrick’s Day, Easter Monday, and Boxing Day
+127|A holiday to honor soldiers who died in military service|A holiday to celebrate U.S. independence|A holiday to honor workers|A holiday to celebrate the first harvest
+128|A holiday to honor people who have served in the U.S. military|A holiday to honor soldiers who died in military service|A holiday to celebrate the Constitution|A holiday to honor the first president

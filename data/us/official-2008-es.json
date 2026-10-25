@@ -1,0 +1,1180 @@
+[
+ {
+  "n": 1,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Principios de la Democracia Estadounidense",
+  "q": "¿Cuál es la ley suprema de la nación?",
+  "a": [
+   "la Constitución"
+  ],
+  "star": false
+ },
+ {
+  "n": 2,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Principios de la Democracia Estadounidense",
+  "q": "¿Qué hace la Constitución?",
+  "a": [
+   "establece el gobierno",
+   "define el gobierno",
+   "protege los derechos básicos de los ciudadanos estadounidenses"
+  ],
+  "star": false
+ },
+ {
+  "n": 3,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Principios de la Democracia Estadounidense",
+  "q": "Las primeras tres palabras de la Constitución contienen la idea del autogobierno (de que el pueblo se gobierna a sí mismo). ¿Cuáles son estas palabras?",
+  "a": [
+   "Nosotros, el pueblo"
+  ],
+  "star": false
+ },
+ {
+  "n": 4,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Principios de la Democracia Estadounidense",
+  "q": "¿Qué es una enmienda?",
+  "a": [
+   "un cambio (a la Constitución)",
+   "una adición (a la Constitución)"
+  ],
+  "star": false
+ },
+ {
+  "n": 5,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Principios de la Democracia Estadounidense",
+  "q": "¿Con qué nombre se conocen las primeras diez enmiendas a la Constitución?",
+  "a": [
+   "la Carta de Derechos"
+  ],
+  "star": false
+ },
+ {
+  "n": 6,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Principios de la Democracia Estadounidense",
+  "q": "¿Cuál es un derecho o libertad garantizado por la Primera Enmienda?",
+  "a": [
+   "expresión",
+   "religión",
+   "reunión",
+   "prensa",
+   "peticionar al gobierno"
+  ],
+  "star": true
+ },
+ {
+  "n": 7,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Principios de la Democracia Estadounidense",
+  "q": "¿Cuántas enmiendas tiene la Constitución?",
+  "a": [
+   "veintisiete (27)"
+  ],
+  "star": false
+ },
+ {
+  "n": 8,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Principios de la Democracia Estadounidense",
+  "q": "¿Qué hizo la Declaración de la Independencia?",
+  "a": [
+   "anunció nuestra independencia (de Gran Bretaña)",
+   "declaró nuestra independencia (de Gran Bretaña)",
+   "declaró que Estados Unidos se independizó (de Gran Bretaña)"
+  ],
+  "star": false
+ },
+ {
+  "n": 9,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Principios de la Democracia Estadounidense",
+  "q": "¿Cuáles son dos derechos en la Declaración de la Independencia?",
+  "a": [
+   "la vida",
+   "la libertad",
+   "la búsqueda de la felicidad"
+  ],
+  "star": false
+ },
+ {
+  "n": 10,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Principios de la Democracia Estadounidense",
+  "q": "¿En qué consiste la libertad de religión?",
+  "a": [
+   "Se puede practicar cualquier religión o no practicar ninguna."
+  ],
+  "star": false
+ },
+ {
+  "n": 11,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Principios de la Democracia Estadounidense",
+  "q": "¿Cuál es el sistema económico de Estados Unidos?",
+  "a": [
+   "economía capitalista",
+   "economía de mercado"
+  ],
+  "star": true
+ },
+ {
+  "n": 12,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Principios de la Democracia Estadounidense",
+  "q": "¿En qué consiste el “estado de derecho” (ley y orden)?",
+  "a": [
+   "Todos deben obedecer la ley",
+   "Los líderes deben obedecer la ley",
+   "El gobierno debe obedecer la ley",
+   "Nadie está por encima de la ley"
+  ],
+  "star": false
+ },
+ {
+  "n": 13,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "Nombre una rama o parte del gobierno.",
+  "a": [
+   "Congreso",
+   "Poder Legislativo",
+   "presidente",
+   "Poder Ejecutivo",
+   "tribunales",
+   "Poder Judicial"
+  ],
+  "star": true
+ },
+ {
+  "n": 14,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿Qué es lo que evita que una rama del gobierno se vuelva demasiado poderosa?",
+  "a": [
+   "pesos y contrapesos",
+   "separación de poderes"
+  ],
+  "star": false
+ },
+ {
+  "n": 15,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿Quién está a cargo de la rama ejecutiva?",
+  "a": [
+   "el presidente"
+  ],
+  "star": false
+ },
+ {
+  "n": 16,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿Quién crea las leyes federales?",
+  "a": [
+   "el Congreso",
+   "el Senado y la Cámara (de Representantes)",
+   "la legislatura (nacional o de Estados Unidos)"
+  ],
+  "star": false
+ },
+ {
+  "n": 17,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿Cuáles son las dos partes que integran el Congreso de Estados Unidos?",
+  "a": [
+   "el Senado y la Cámara (de Representantes)"
+  ],
+  "star": true
+ },
+ {
+  "n": 18,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿Cuántos senadores hay en Estados Unidos?",
+  "a": [
+   "cien (100)"
+  ],
+  "star": false
+ },
+ {
+  "n": 19,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿De cuántos años es el término de elección de un senador de Estados Unidos?",
+  "a": [
+   "seis (6)"
+  ],
+  "star": false
+ },
+ {
+  "n": 20,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿Quién es uno de los senadores actuales del estado donde usted vive?.",
+  "a": [
+   "Las respuestas variarán. [Los residentes del Distrito de Columbia y los territorios de Estados Unidos deberán contestar que Distrito de Columbia (o el territorio en donde vive el solicitante) no cuenta con senadores en Estados Unidos]."
+  ],
+  "star": true
+ },
+ {
+  "n": 21,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿Cuántos miembros votantes tiene la Cámara de Representantes?",
+  "a": [
+   "cuatrocientos treinta y cinco (435)"
+  ],
+  "star": false
+ },
+ {
+  "n": 22,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿De cuántos años es el término de elección de un representante de Estados Unidos?",
+  "a": [
+   "dos (2)"
+  ],
+  "star": false
+ },
+ {
+  "n": 23,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "Mencione el nombre de su representante de Estados Unidos.",
+  "a": [
+   "Las respuestas variarán. (Los residentes de territorios con delegados no votantes o los comisionados residentes pueden decir el nombre de dicho delegado o comisionado. Una respuesta que indica que el territorio no tiene representantes votantes en el Congreso también es aceptable)."
+  ],
+  "star": false
+ },
+ {
+  "n": 24,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿A quiénes representa un senador de Estados Unidos?",
+  "a": [
+   "a todas las personas del estado"
+  ],
+  "star": false
+ },
+ {
+  "n": 25,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿Por qué tienen algunos estados más representantes que otros?",
+  "a": [
+   "(debido a) la población del estado",
+   "(debido a que) tienen más gente",
+   "(debido a que) algunos estados tienen más gente"
+  ],
+  "star": false
+ },
+ {
+  "n": 26,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿Por cuántos años elegimos al presidente?",
+  "a": [
+   "cuatro (4)"
+  ],
+  "star": false
+ },
+ {
+  "n": 27,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿En qué mes votamos por un nuevo presidente?",
+  "a": [
+   "noviembre"
+  ],
+  "star": true
+ },
+ {
+  "n": 28,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿Cómo se llama el actual presidente de Estados Unidos?",
+  "a": [
+   "Visite uscis.gov/es/ciudadania/actualizacionesalexamen para saber el nombre del presidente de Estados Unidos."
+  ],
+  "star": true
+ },
+ {
+  "n": 29,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿Cómo se llama el actual vicepresidente de Estados Unidos?",
+  "a": [
+   "Visite uscis.gov/es/ciudadania/actualizacionesalexamen para saber el nombre del vicepresidente de Estados Unidos."
+  ],
+  "star": false
+ },
+ {
+  "n": 30,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "Si el presidente ya no puede cumplir sus funciones, ¿quién se convierte en presidente?",
+  "a": [
+   "el vicepresidente"
+  ],
+  "star": false
+ },
+ {
+  "n": 31,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "Si tanto el presidente como el vicepresidente ya no pueden cumplir sus funciones, ¿quién se convierte en presidente?",
+  "a": [
+   "el portavoz de la Cámara de Representantes"
+  ],
+  "star": false
+ },
+ {
+  "n": 32,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿Quién es el comandante en jefe de las Fuerzas Armadas?",
+  "a": [
+   "el presidente"
+  ],
+  "star": false
+ },
+ {
+  "n": 33,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿Quién firma los proyectos de ley para convertirlos en ley?",
+  "a": [
+   "el presidente"
+  ],
+  "star": false
+ },
+ {
+  "n": 34,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿Quién veta los proyectos de ley?",
+  "a": [
+   "el presidente"
+  ],
+  "star": false
+ },
+ {
+  "n": 35,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿Qué hace el gabinete del presidente?",
+  "a": [
+   "asesora al presidente"
+  ],
+  "star": false
+ },
+ {
+  "n": 36,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿Cuáles son dos puestos a nivel de gabinete?",
+  "a": [
+   "secretario de Agricultura",
+   "secretario de Comercio",
+   "secretario de Defensa",
+   "secretario de Educación",
+   "secretario de Energía",
+   "secretario de Salud y Servicios Humanos",
+   "secretario de Seguridad Nacional",
+   "secretario de Vivienda y Desarrollo Urbano",
+   "secretario del Interior",
+   "secretario del Trabajo",
+   "secretario de Estado",
+   "secretario de Transporte",
+   "secretario del Tesoro (de Hacienda)",
+   "secretario de Asuntos de los Veteranos",
+   "procurador general (fiscal general)",
+   "vicepresidente"
+  ],
+  "star": false
+ },
+ {
+  "n": 37,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿Qué hace la Rama Judicial? (El poder judicial)",
+  "a": [
+   "revisa las leyes",
+   "explica las leyes",
+   "resuelve disputas (desacuerdos)",
+   "decide si una ley va en contra de la Constitución"
+  ],
+  "star": false
+ },
+ {
+  "n": 38,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿Cuál es el tribunal más importante (supremo) de Estados Unidos?",
+  "a": [
+   "el Tribunal Supremo (Corte Suprema)"
+  ],
+  "star": false
+ },
+ {
+  "n": 39,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿Cuántos jueces hay en el Tribunal Suprema?",
+  "a": [
+   "Visite uscis.gov/es/ciudadania/actualizacionesalexamen para saber el número de jueces en el Tribunal Supremo."
+  ],
+  "star": false
+ },
+ {
+  "n": 40,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿Quién es el juez presidente actual del Tribunal Supremo de Estados Unidos?",
+  "a": [
+   "Visite uscis.gov/es/ciudadania/actualizacionesalexamen para saber el nombre del juez presidente del Tribunal Supremo de Estados Unidos."
+  ],
+  "star": false
+ },
+ {
+  "n": 41,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "De acuerdo con nuestra Constitución, algunos poderes pertenecen al gobierno federal. ¿Cuál es un poder del gobierno federal?",
+  "a": [
+   "imprimir dinero",
+   "declarar la guerra",
+   "crear un ejército",
+   "acordar tratados"
+  ],
+  "star": false
+ },
+ {
+  "n": 42,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "De acuerdo con nuestra Constitución, algunos poderes pertenecen a los estados. ¿Cuál es un poder de los estados?",
+  "a": [
+   "proporcionar escuelas y educación",
+   "proporcionar protección (policía)",
+   "proporcionar seguridad (cuerpos de bomberos)",
+   "otorgar licencias de conducir",
+   "aprobar la zonificación y uso de la tierra (uso de suelos)"
+  ],
+  "star": false
+ },
+ {
+  "n": 43,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿Quién es el gobernador actual de su estado?",
+  "a": [
+   "Las respuestas variarán. (Los residentes del Distrito de Columbia deben decir “no tenemos gobernador”)."
+  ],
+  "star": false
+ },
+ {
+  "n": 44,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿Cuál es la capital de su estado?",
+  "a": [
+   "Las respuestas variarán. (Los residentes del Distrito de Columbia deben contestar que el Distrito de Columbia no es estado y que no tiene capital. Los residentes de los territorios de Estados Unidos deben dar el nombre de la capital del territorio]."
+  ],
+  "star": true
+ },
+ {
+  "n": 45,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿Cuáles son los dos principales partidos políticos de Estados Unidos?",
+  "a": [
+   "Demócrata y Republicano"
+  ],
+  "star": true
+ },
+ {
+  "n": 46,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿Cuál es el partido político del presidente actual?",
+  "a": [
+   "Visite uscis.gov/es/ciudadania/actualizacionesalexamen para saber el partido político al que pertenece el presidente de Estados Unidos."
+  ],
+  "star": false
+ },
+ {
+  "n": 47,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Sistema de Gobierno",
+  "q": "¿Cómo se llama el portavoz actual de la Cámara de Representantes?",
+  "a": [
+   "Visite uscis.gov/es/ciudadania/actualizacionesalexamen para saber el nombre del portavoz de la Cámara de Representantes."
+  ],
+  "star": false
+ },
+ {
+  "n": 48,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Derechos y Responsabilidades",
+  "q": "Existen cuatro enmiendas a la Constitución sobre quién puede votar. Describa una de ellas.",
+  "a": [
+   "Ciudadanos de dieciocho (18) años en adelante (pueden votar).",
+   "No se exige pagar un impuesto para votar (el impuesto para acudir a las urnas o “poll tax” en inglés).",
+   "Cualquier ciudadano puede votar. (Tanto mujeres como hombres pueden votar).",
+   "Un hombre ciudadano de cualquier raza (puede votar)."
+  ],
+  "star": false
+ },
+ {
+  "n": 49,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Derechos y Responsabilidades",
+  "q": "¿Cuál es una responsabilidad que corresponde sólo a los ciudadanos de Estados Unidos?",
+  "a": [
+   "prestar servicio en un jurado",
+   "votar en una elección federal."
+  ],
+  "star": true
+ },
+ {
+  "n": 50,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Derechos y Responsabilidades",
+  "q": "¿Cuál es un derecho que pueden ejercer sólo los ciudadanos de Estados Unidos?",
+  "a": [
+   "votar en una elección federal",
+   "postularse a un cargo político federal"
+  ],
+  "star": false
+ },
+ {
+  "n": 51,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Derechos y Responsabilidades",
+  "q": "¿Cuáles son dos derechos que pueden ejercer todas las personas que viven en Estados Unidos?",
+  "a": [
+   "libertad de expresión",
+   "libertad de la palabra",
+   "libertad de reunión",
+   "libertad para peticionar al gobierno",
+   "libertad de religión",
+   "derecho a portar armas"
+  ],
+  "star": false
+ },
+ {
+  "n": 52,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Derechos y Responsabilidades",
+  "q": "¿A qué demostramos nuestra lealtad cuando prestamos el Juramento de Lealtad (Pledge of Allegiance)?",
+  "a": [
+   "a Estados Unidos",
+   "a la bandera"
+  ],
+  "star": false
+ },
+ {
+  "n": 53,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Derechos y Responsabilidades",
+  "q": "¿Cuál es una promesa que usted hace cuando se convierte en ciudadano de Estados Unidos?",
+  "a": [
+   "renunciar a su lealtad a otros países",
+   "defender la Constitución y las leyes de Estados Unidos",
+   "obedecer las leyes de Estados Unidos",
+   "prestar servicio en las Fuerzas Armadas de Estados Unidos (de ser necesario)",
+   "prestar servicio a (realizar trabajo importante para) la nación (de ser necesario)",
+   "ser leal a Estados Unidos"
+  ],
+  "star": false
+ },
+ {
+  "n": 54,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Derechos y Responsabilidades",
+  "q": "¿Cuántos años tienen que tener los ciudadanos para votar por el presidente?",
+  "a": [
+   "dieciocho (18) años en adelante"
+  ],
+  "star": true
+ },
+ {
+  "n": 55,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Derechos y Responsabilidades",
+  "q": "¿Cuáles son dos maneras mediante las cuales los ciudadanos estadounidenses pueden participar en su democracia?",
+  "a": [
+   "votar",
+   "afiliarse a un partido político",
+   "ayudar en una campaña política",
+   "unirse a un grupo cívico",
+   "unirse a un grupo comunitario",
+   "compartir su opinión acerca de un asunto con un oficial electo",
+   "llamar a senadores y representantes",
+   "apoyar u oponerse públicamente a un asunto o política",
+   "postularse a un cargo político",
+   "enviar una carta o mensaje a un periódico"
+  ],
+  "star": false
+ },
+ {
+  "n": 56,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Derechos y Responsabilidades",
+  "q": "¿Cuál es la fecha límite para enviar la declaración federal de impuestos sobre ingresos?",
+  "a": [
+   "el 15 de abril"
+  ],
+  "star": true
+ },
+ {
+  "n": 57,
+  "cat": "GOBIERNO ESTADOUNIDENSE",
+  "sub": "Derechos y Responsabilidades",
+  "q": "¿Cuándo deben inscribirse todos los hombres en el Servicio Selectivo?",
+  "a": [
+   "a los dieciocho (18) años",
+   "entre los dieciocho (18) y veintiséis (26) años de edad"
+  ],
+  "star": false
+ },
+ {
+  "n": 58,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Época colonial e independencia",
+  "q": "¿Cuál es una razón por la que los colonos vinieron a América?",
+  "a": [
+   "libertad",
+   "libertad política",
+   "libertad religiosa",
+   "oportunidad económica",
+   "para practicar su religión",
+   "para huir de la persecución"
+  ],
+  "star": false
+ },
+ {
+  "n": 59,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Época colonial e independencia",
+  "q": "¿Quiénes vivían en lo que hoy conocemos como Estados Unidos antes de la llegada de los europeos?",
+  "a": [
+   "indios estadounidenses",
+   "nativos estadounidenses"
+  ],
+  "star": false
+ },
+ {
+  "n": 60,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Época colonial e independencia",
+  "q": "¿Qué grupo de personas fue traído a Estados Unidos y vendidos como esclavos?",
+  "a": [
+   "africanos",
+   "gente de África"
+  ],
+  "star": false
+ },
+ {
+  "n": 61,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Época colonial e independencia",
+  "q": "¿Por qué lucharon los colonos contra los británicos?",
+  "a": [
+   "debido a los impuestos altos (impuestos sin representación)",
+   "el ejército británico se alojaba en sus casas (alojándose, acuartelándose)",
+   "porque no tenían gobierno propio"
+  ],
+  "star": false
+ },
+ {
+  "n": 62,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Época colonial e independencia",
+  "q": "¿Quién escribió la Declaración de Independencia?",
+  "a": [
+   "(Thomas) Jefferson"
+  ],
+  "star": false
+ },
+ {
+  "n": 63,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Época colonial e independencia",
+  "q": "¿Cuándo fue adoptada la Declaración de Independencia?",
+  "a": [
+   "el 4 de julio de 1776"
+  ],
+  "star": false
+ },
+ {
+  "n": 64,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Época colonial e independencia",
+  "q": "Nombre tres de los estados originales.",
+  "a": [
+   "Nueva Hampshire",
+   "Massachusetts",
+   "Rhode Island",
+   "Connecticut",
+   "Nueva York",
+   "Nueva Jersey",
+   "Pensilvania",
+   "Delaware",
+   "Maryland",
+   "Virginia",
+   "Carolina del Norte",
+   "Carolina del Sur",
+   "Georgia"
+  ],
+  "star": false
+ },
+ {
+  "n": 65,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Época colonial e independencia",
+  "q": "¿Qué ocurrió en la Convención Constitucional?",
+  "a": [
+   "se redactó la Constitución",
+   "los padres fundadores redactaron la Constitución"
+  ],
+  "star": false
+ },
+ {
+  "n": 66,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Época colonial e independencia",
+  "q": "¿Cuándo fue redactada la Constitución?",
+  "a": [
+   "1787"
+  ],
+  "star": false
+ },
+ {
+  "n": 67,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Época colonial e independencia",
+  "q": "Los escritos conocidos como “Los Documentos Federalistas” respaldaron la aprobación de la Constitución de Estados Unidos. Nombre uno de sus autores.",
+  "a": [
+   "(James) Madison",
+   "(Alexander) Hamilton",
+   "(John) Jay",
+   "Publius"
+  ],
+  "star": false
+ },
+ {
+  "n": 68,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Época colonial e independencia",
+  "q": "Mencione una razón por la que es famoso Benjamin Franklin.",
+  "a": [
+   "diplomático estadounidense",
+   "era el miembro de mayor edad de la Convención Constitucional",
+   "primer director general de la Oficina de Correos de Estados Unidos",
+   "autor de “Poor Richard’s almanac” (Almanaque del Pobre Richard)",
+   "fundó las primeras bibliotecas gratuitas"
+  ],
+  "star": false
+ },
+ {
+  "n": 69,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Época colonial e independencia",
+  "q": "¿Quién se conoce como el “Padre de Nuestra Nación”?",
+  "a": [
+   "(George) Washington"
+  ],
+  "star": false
+ },
+ {
+  "n": 70,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Época colonial e independencia",
+  "q": "¿Quién fue el primer presidente?",
+  "a": [
+   "(George) Washington"
+  ],
+  "star": true
+ },
+ {
+  "n": 71,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Siglo 19 (los años 1800)",
+  "q": "¿Qué territorio compró Estados Unidos a Francia en 1803?",
+  "a": [
+   "el territorio de Luisiana",
+   "Luisiana"
+  ],
+  "star": false
+ },
+ {
+  "n": 72,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Siglo 19 (los años 1800)",
+  "q": "Mencione una guerra en la que combatió Estados Unidos durante los años 1800.",
+  "a": [
+   "la Guerra de 1812",
+   "la Guerra entre México y Estados Unidos",
+   "la Guerra Civil",
+   "la Guerra Hispanoestadounidense (Hispanoamericana)"
+  ],
+  "star": false
+ },
+ {
+  "n": 73,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Siglo 19 (los años 1800)",
+  "q": "¿Cuál es el nombre de la guerra entre el Norte y el Sur de Estados Unidos?",
+  "a": [
+   "la Guerra Civil",
+   "la Guerra entre Estados"
+  ],
+  "star": false
+ },
+ {
+  "n": 74,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Siglo 19 (los años 1800)",
+  "q": "Mencione un problema que condujo a la Guerra Civil.",
+  "a": [
+   "esclavitud",
+   "razones económicas",
+   "derechos de los estados"
+  ],
+  "star": false
+ },
+ {
+  "n": 75,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Siglo 19 (los años 1800)",
+  "q": "¿Cuál fue una cosa importante que hizo Abraham Lincoln?",
+  "a": [
+   "liberó a los esclavos (Proclamación de la Emancipación)",
+   "salvó (o preservó) la Unión",
+   "presidió (dirigió) Estados Unidos durante la Guerra Civil"
+  ],
+  "star": true
+ },
+ {
+  "n": 76,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Siglo 19 (los años 1800)",
+  "q": "¿Qué hizo la Proclamación de la Emancipación?",
+  "a": [
+   "liberó a los esclavos",
+   "liberó a los esclavos de la Confederación",
+   "liberó a los esclavos en los estados de la Confederación",
+   "liberó a los esclavos en la mayoría de los estados del sur"
+  ],
+  "star": false
+ },
+ {
+  "n": 77,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Siglo 19 (los años 1800)",
+  "q": "¿Qué hizo Susan B. Anthony?",
+  "a": [
+   "luchó por los derechos de la mujer",
+   "luchó por los derechos civiles"
+  ],
+  "star": false
+ },
+ {
+  "n": 78,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Historia Estadounidense Reciente y otra Información Histórica Importante",
+  "q": "Mencione una guerra del siglo XX en la que combatió Estados Unidos.",
+  "a": [
+   "la Primera Guerra Mundial",
+   "la Segunda Guerra Mundial",
+   "la Guerra de Corea",
+   "la Guerra de Vietnam",
+   "la Guerra del Golfo (Pérsico)"
+  ],
+  "star": true
+ },
+ {
+  "n": 79,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Historia Estadounidense Reciente y otra Información Histórica Importante",
+  "q": "¿Quién era el presidente durante la Primera Guerra Mundial?",
+  "a": [
+   "(Woodrow) Wilson"
+  ],
+  "star": false
+ },
+ {
+  "n": 80,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Historia Estadounidense Reciente y otra Información Histórica Importante",
+  "q": "¿Quién era presidente durante la Gran Depresión y la Segunda Guerra Mundial?",
+  "a": [
+   "(Franklin) Roosevelt"
+  ],
+  "star": false
+ },
+ {
+  "n": 81,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Historia Estadounidense Reciente y otra Información Histórica Importante",
+  "q": "¿Contra qué países peleó Estados Unidos en la Segunda Guerra Mundial?",
+  "a": [
+   "Japón, Alemania e Italia"
+  ],
+  "star": false
+ },
+ {
+  "n": 82,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Historia Estadounidense Reciente y otra Información Histórica Importante",
+  "q": "Antes de ser presidente, Eisenhower era general. ¿En qué guerra participó?",
+  "a": [
+   "Segunda Guerra Mundial"
+  ],
+  "star": false
+ },
+ {
+  "n": 83,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Historia Estadounidense Reciente y otra Información Histórica Importante",
+  "q": "Durante la Guerra Fría, ¿cuál era la principal preocupación de Estados Unidos?",
+  "a": [
+   "comunismo"
+  ],
+  "star": false
+ },
+ {
+  "n": 84,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Historia Estadounidense Reciente y otra Información Histórica Importante",
+  "q": "¿Qué movimiento trató de poner fin a la discriminación racial?",
+  "a": [
+   "(el movimiento de) derechos civiles"
+  ],
+  "star": false
+ },
+ {
+  "n": 85,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Historia Estadounidense Reciente y otra Información Histórica Importante",
+  "q": "¿Qué hizo Martin Luther King, Jr.?",
+  "a": [
+   "luchó por los derechos civiles",
+   "trabajó por la igualdad de todos los ciudadanos estadounidenses"
+  ],
+  "star": true
+ },
+ {
+  "n": 86,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Historia Estadounidense Reciente y otra Información Histórica Importante",
+  "q": "¿Qué suceso de gran magnitud ocurrió el 11 de septiembre de 2001 en Estados Unidos?",
+  "a": [
+   "terroristas atacaron a Estados Unidos."
+  ],
+  "star": false
+ },
+ {
+  "n": 87,
+  "cat": "HISTORIA ESTADOUNIDENSE",
+  "sub": "Historia Estadounidense Reciente y otra Información Histórica Importante",
+  "q": "Mencione una tribu de indios estadounidenses en Estados Unidos.",
+  "a": [
+   "Cherokee",
+   "Navajo",
+   "Sioux",
+   "Chippewa",
+   "Choctaw",
+   "Pueblo",
+   "Apache",
+   "Iroquois",
+   "Creek",
+   "Blackfeet",
+   "Seminole",
+   "Cheyenne",
+   "Arawak",
+   "Shawnee",
+   "Mohegan",
+   "Huron",
+   "Oneida",
+   "Lakota",
+   "Crow",
+   "Teton",
+   "Hopi",
+   "Inuit"
+  ],
+  "star": false
+ },
+ {
+  "n": 88,
+  "cat": "EDUCACIÓN CÍVICA INTEGRADA",
+  "sub": "Geografía",
+  "q": "Mencione uno de los dos ríos más largos en Estados Unidos.",
+  "a": [
+   "(el Río) Missouri",
+   "(el Río) Mississippi"
+  ],
+  "star": false
+ },
+ {
+  "n": 89,
+  "cat": "EDUCACIÓN CÍVICA INTEGRADA",
+  "sub": "Geografía",
+  "q": "¿Qué océano está en la costa oeste de Estados Unidos?",
+  "a": [
+   "(el Océano) Pacífico"
+  ],
+  "star": false
+ },
+ {
+  "n": 90,
+  "cat": "EDUCACIÓN CÍVICA INTEGRADA",
+  "sub": "Geografía",
+  "q": "¿Qué océano está en la costa este de Estados Unidos?",
+  "a": [
+   "(el Océano) Atlántico"
+  ],
+  "star": false
+ },
+ {
+  "n": 91,
+  "cat": "EDUCACIÓN CÍVICA INTEGRADA",
+  "sub": "Geografía",
+  "q": "Dé el nombre de un territorio de Estados Unidos.",
+  "a": [
+   "Puerto Rico",
+   "Islas Vírgenes de Estados Unidos",
+   "Samoa Estadounidense",
+   "Islas Marianas del Norte",
+   "Guam"
+  ],
+  "star": false
+ },
+ {
+  "n": 92,
+  "cat": "EDUCACIÓN CÍVICA INTEGRADA",
+  "sub": "Geografía",
+  "q": "Mencione un estado que tiene frontera con Canadá.",
+  "a": [
+   "Maine",
+   "Nueva Hampshire",
+   "Vermont",
+   "Nueva York",
+   "Pensilvania",
+   "Ohio",
+   "Michigan",
+   "Minnesota",
+   "Dakota del Norte",
+   "Montana",
+   "Idaho",
+   "Washington",
+   "Alaska"
+  ],
+  "star": false
+ },
+ {
+  "n": 93,
+  "cat": "EDUCACIÓN CÍVICA INTEGRADA",
+  "sub": "Geografía",
+  "q": "Mencione un estado que tiene frontera con México.",
+  "a": [
+   "California",
+   "Arizona",
+   "Nuevo México",
+   "Texas"
+  ],
+  "star": false
+ },
+ {
+  "n": 94,
+  "cat": "EDUCACIÓN CÍVICA INTEGRADA",
+  "sub": "Geografía",
+  "q": "¿Cuál es la capital de Estados Unidos?",
+  "a": [
+   "Washington, Distrito de Columbia"
+  ],
+  "star": true
+ },
+ {
+  "n": 95,
+  "cat": "EDUCACIÓN CÍVICA INTEGRADA",
+  "sub": "Geografía",
+  "q": "¿Dónde está la Estatua de la Libertad?",
+  "a": [
+   "(el puerto de) Nueva York",
+   "Liberty Island [Otras respuestas aceptables son Nueva Jersey, cerca de la Ciudad de Nueva York y (el río) Hudson]."
+  ],
+  "star": true
+ },
+ {
+  "n": 96,
+  "cat": "EDUCACIÓN CÍVICA INTEGRADA",
+  "sub": "Símbolos",
+  "q": "¿Por qué hay 13 franjas en la bandera?",
+  "a": [
+   "porque representan las 13 colonias originales",
+   "porque las franjas representan las colonias originales"
+  ],
+  "star": false
+ },
+ {
+  "n": 97,
+  "cat": "EDUCACIÓN CÍVICA INTEGRADA",
+  "sub": "Símbolos",
+  "q": "¿Por qué hay 50 estrellas en la bandera?",
+  "a": [
+   "porque hay una estrella por cada estado",
+   "porque cada estrella representa un estado",
+   "porque hay 50 estados"
+  ],
+  "star": true
+ },
+ {
+  "n": 98,
+  "cat": "EDUCACIÓN CÍVICA INTEGRADA",
+  "sub": "Símbolos",
+  "q": "¿Cómo se llama el himno nacional?",
+  "a": [
+   "The Star-Spangled Banner"
+  ],
+  "star": false
+ },
+ {
+  "n": 99,
+  "cat": "EDUCACIÓN CÍVICA INTEGRADA",
+  "sub": "Días feriados",
+  "q": "¿Cuándo celebramos el Día de la Independencia?",
+  "a": [
+   "el 4 de julio"
+  ],
+  "star": true
+ },
+ {
+  "n": 100,
+  "cat": "EDUCACIÓN CÍVICA INTEGRADA",
+  "sub": "Días feriados",
+  "q": "Mencione dos días feriados nacionales de Estados Unidos.",
+  "a": [
+   "Día de Año Nuevo",
+   "Día de Martin Luther King, Jr.",
+   "Día de los Presidentes",
+   "Día de la Recordación",
+   "Día de la Independencia",
+   "Día del Trabajo",
+   "Día de la Raza (Cristóbal Colón)",
+   "Día de los Veteranos",
+   "Día de Acción de Gracias",
+   "Día de Navidad",
+   "Día de la Liberación (Juneteenth)"
+  ],
+  "star": false
+ }
+]

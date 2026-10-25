@@ -177,6 +177,174 @@
         "en": "IRCC: fee list (French)",
         "fr": "IRCC : liste des frais (citoyenneté)"
       }
+    },
+    "us_study": {
+      "url": "https://www.uscis.gov/citizenship/find-study-materials-and-resources/study-for-the-test",
+      "label": {
+        "en": "USCIS: Study for the Test (2008 and 2025 civics tests)",
+        "es": "USCIS: Estudie para el examen (exámenes de 2008 y 2025)",
+        "fr": "USCIS: Study for the Test (2008 and 2025 civics tests)"
+      }
+    },
+    "us_study_es": {
+      "url": "https://www.uscis.gov/es/ciudadania/encuentre-materiales-de-estudio-y-recursos/estudie-para-el-examen",
+      "label": {
+        "en": "USCIS: Study for the Test (Spanish page)",
+        "es": "USCIS: Estudie para el examen",
+        "fr": "USCIS: Study for the Test (Spanish page)"
+      }
+    },
+    "us_interview": {
+      "url": "https://www.uscis.gov/citizenship/learn-about-citizenship/the-naturalization-interview-and-test",
+      "label": {
+        "en": "USCIS: The Naturalization Interview and Test",
+        "es": "USCIS: la entrevista y el examen de naturalización (en inglés)",
+        "fr": "USCIS: The Naturalization Interview and Test"
+      }
+    },
+    "us_128": {
+      "url": "https://www.uscis.gov/sites/default/files/document/questions-and-answers/2025-Civics-Test-128-Questions-and-Answers.pdf",
+      "label": {
+        "en": "USCIS: 128 Civics Questions and Answers, 2025 version (M-1778, PDF)",
+        "es": "USCIS: las 128 preguntas cívicas de 2025 (M-1778, PDF en inglés)",
+        "fr": "USCIS: 128 Civics Questions and Answers, 2025 version (M-1778, PDF)"
+      }
+    },
+    "us_100": {
+      "url": "https://www.uscis.gov/sites/default/files/document/questions-and-answers/OoC_100_Questions_2008_Civics_Test_V1.pdf",
+      "label": {
+        "en": "USCIS: 100 Civics Questions and Answers, 2008 version (PDF)",
+        "es": "USCIS: las 100 preguntas cívicas de 2008 (PDF en inglés)",
+        "fr": "USCIS: 100 Civics Questions and Answers, 2008 version (PDF)"
+      }
+    },
+    "us_100_es": {
+      "url": "https://www.uscis.gov/sites/default/files/document/questions-and-answers/100q_Spanish_2021_SPA.docx",
+      "label": {
+        "en": "USCIS: the 100 civics questions of 2008 in Spanish (Word)",
+        "es": "USCIS: las 100 preguntas de educación cívica de 2008 en español (Word)",
+        "fr": "USCIS: the 100 civics questions of 2008 in Spanish (Word)"
+      }
+    },
+    "us_updates": {
+      "url": "https://www.uscis.gov/citizenship/find-study-materials-and-resources/check-for-test-updates",
+      "label": {
+        "en": "USCIS: Check for Test Updates (answers that change)",
+        "es": "USCIS: actualizaciones del examen (respuestas que cambian)",
+        "fr": "USCIS: Check for Test Updates (answers that change)"
+      }
+    },
+    "us_exceptions": {
+      "url": "https://www.uscis.gov/citizenship/exceptions-and-accommodations",
+      "label": {
+        "en": "USCIS: Exceptions and Accommodations (50/20, 55/15, 65/20, N-648)",
+        "es": "USCIS: excepciones y ajustes (50/20, 55/15, 65/20, N-648)",
+        "fr": "USCIS: Exceptions and Accommodations (50/20, 55/15, 65/20, N-648)"
+      }
+    },
+    "us_exceptions_es": {
+      "url": "https://www.uscis.gov/es/ciudadania/excepciones-y-ajustes",
+      "label": {
+        "en": "USCIS: Exceptions and Accommodations (Spanish page)",
+        "es": "USCIS: excepciones y ajustes",
+        "fr": "USCIS: Exceptions and Accommodations (Spanish page)"
+      }
+    },
+    "us_pm_e2": {
+      "url": "https://www.uscis.gov/policy-manual/volume-12-part-e-chapter-2",
+      "label": {
+        "en": "USCIS Policy Manual, vol. 12, part E, chapter 2: English and civics testing",
+        "es": "Manual de Políticas de USCIS, vol. 12, parte E, cap. 2 (en inglés)",
+        "fr": "USCIS Policy Manual, vol. 12, part E, chapter 2: English and civics testing"
+      }
+    },
+    "us_n400": {
+      "url": "https://www.uscis.gov/n-400",
+      "label": {
+        "en": "USCIS: Form N-400, Application for Naturalization (fees and early filing)",
+        "es": "USCIS: Formulario N-400 (tarifas y presentación anticipada, en inglés)",
+        "fr": "USCIS: Form N-400, Application for Naturalization (fees and early filing)"
+      }
+    },
+    "us_lpr5": {
+      "url": "https://www.uscis.gov/citizenship/learn-about-citizenship/citizenship-and-naturalization/i-am-a-lawful-permanent-resident-of-5-years",
+      "label": {
+        "en": "USCIS: I am a lawful permanent resident of 5 years",
+        "es": "USCIS: residente permanente desde hace 5 años (en inglés)",
+        "fr": "USCIS: I am a lawful permanent resident of 5 years"
+      }
+    },
+    "us_pm_d3": {
+      "url": "https://www.uscis.gov/policy-manual/volume-12-part-d-chapter-3",
+      "label": {
+        "en": "USCIS Policy Manual, vol. 12, part D, chapter 3: Continuous residence",
+        "es": "Manual de Políticas de USCIS, vol. 12, parte D, cap. 3: residencia continua (en inglés)",
+        "fr": "USCIS Policy Manual, vol. 12, part D, chapter 3: Continuous residence"
+      }
+    },
+    "us_pm_d4": {
+      "url": "https://www.uscis.gov/policy-manual/volume-12-part-d-chapter-4",
+      "label": {
+        "en": "USCIS Policy Manual, vol. 12, part D, chapter 4: Physical presence",
+        "es": "Manual de Políticas de USCIS, vol. 12, parte D, cap. 4: presencia física (en inglés)",
+        "fr": "USCIS Policy Manual, vol. 12, part D, chapter 4: Physical presence"
+      }
+    },
+    "us_pm_g3": {
+      "url": "https://www.uscis.gov/policy-manual/volume-12-part-g-chapter-3",
+      "label": {
+        "en": "USCIS Policy Manual, vol. 12, part G, chapter 3: Spouses of U.S. citizens (3 years, 90-day early filing)",
+        "es": "Manual de Políticas de USCIS, vol. 12, parte G, cap. 3: cónyuges de ciudadanos (en inglés)",
+        "fr": "USCIS Policy Manual, vol. 12, part G, chapter 3: Spouses of U.S. citizens (3 years, 90-day early filing)"
+      }
+    },
+    "us_reduced": {
+      "url": "https://www.uscis.gov/forms/filing-fees/additional-information-on-filing-a-reduced-fee-request",
+      "label": {
+        "en": "USCIS: Reduced fee request for Form N-400",
+        "es": "USCIS: solicitud de tarifa reducida del N-400 (en inglés)",
+        "fr": "USCIS: Reduced fee request for Form N-400"
+      }
+    },
+    "us_fpg": {
+      "url": "https://www.uscis.gov/forms/filing-fees/poverty-guidelines",
+      "label": {
+        "en": "USCIS: Poverty guidelines for fee waivers and the N-400 reduced fee",
+        "es": "USCIS: pautas de pobreza para exenciones y tarifa reducida (en inglés)",
+        "fr": "USCIS: Poverty guidelines for fee waivers and the N-400 reduced fee"
+      }
+    },
+    "us_i912": {
+      "url": "https://www.uscis.gov/i-912",
+      "label": {
+        "en": "USCIS: Form I-912, Request for Fee Waiver",
+        "es": "USCIS: Formulario I-912, solicitud de exención de tarifas (en inglés)",
+        "fr": "USCIS: Form I-912, Request for Fee Waiver"
+      }
+    },
+    "us_vocab_r": {
+      "url": "https://www.uscis.gov/sites/default/files/document/guides/reading_vocab.pdf",
+      "label": {
+        "en": "USCIS: Reading vocabulary for the naturalization test (PDF)",
+        "es": "USCIS: vocabulario del examen de lectura (PDF en inglés)",
+        "fr": "USCIS: Reading vocabulary for the naturalization test (PDF)"
+      }
+    },
+    "us_vocab_w": {
+      "url": "https://www.uscis.gov/sites/default/files/document/guides/writing_vocab.pdf",
+      "label": {
+        "en": "USCIS: Writing vocabulary for the naturalization test (PDF)",
+        "es": "USCIS: vocabulario del examen de escritura (PDF en inglés)",
+        "fr": "USCIS: Writing vocabulary for the naturalization test (PDF)"
+      }
+    },
+    "us_fr_notice": {
+      "url": "https://www.federalregister.gov/public-inspection/2025-18050/implementation-of-2025-naturalization-civics-test",
+      "label": {
+        "en": "Federal Register: Implementation of 2025 Naturalization Civics Test",
+        "es": "Federal Register: aplicación del examen cívico de 2025 (en inglés)",
+        "fr": "Federal Register: Implementation of 2025 Naturalization Civics Test"
+      }
     }
   },
   "uk": {
@@ -387,6 +555,162 @@
         }
       },
       "prPageFigures": "Page Permanent resident : 75 % en 13 mois, 90 % en 16 mois (dépôt à cérémonie), plus ancien que la page des délais"
+    }
+  },
+  "us": {
+    "retrieved_at": "2026-10-25",
+    "cutoff": "2025-10-20",
+    "test2025": {
+      "bank": 128,
+      "asked": 20,
+      "passCorrect": 12,
+      "failWrong": 9,
+      "source": "https://www.uscis.gov/citizenship/find-study-materials-and-resources/study-for-the-test"
+    },
+    "test2008": {
+      "bank": 100,
+      "asked": 10,
+      "passCorrect": 6,
+      "failWrong": 5
+    },
+    "s6520": {
+      "age": 65,
+      "years": 20,
+      "bank": 20,
+      "asked": 10,
+      "passCorrect": 6,
+      "failWrong": 5
+    },
+    "englishExempt": [
+      {
+        "age": 50,
+        "years": 20
+      },
+      {
+        "age": 55,
+        "years": 15
+      }
+    ],
+    "english": {
+      "readingSentences": 3,
+      "readingNeeded": 1,
+      "writingSentences": 3,
+      "writingNeeded": 1,
+      "retestDays": [
+        60,
+        90
+      ],
+      "attempts": 2
+    },
+    "n400": {
+      "minAge": 18,
+      "routes": {
+        "5": {
+          "years": 5,
+          "presenceDays": 913,
+          "presenceMonths": 30
+        },
+        "3": {
+          "years": 3,
+          "presenceDays": 548,
+          "presenceMonths": 18,
+          "unionYears": 3
+        }
+      },
+      "earlyFilingDays": 90,
+      "stateMonths": 3,
+      "departureReturnCountAsPresence": true,
+      "absencePresumptionMonths": 6,
+      "absenceBreakYears": 1,
+      "afterBreakWait": {
+        "5": "4 years and 1 day",
+        "3": "2 years and 1 day"
+      }
+    },
+    "fees": {
+      "paper": 760,
+      "online": 710,
+      "reduced": 380,
+      "waiver": 0,
+      "reducedMaxPctFpg": 400,
+      "waiverMaxPctFpg": 150,
+      "biometricsIncluded": true,
+      "pageReviewed": "2026-06-16"
+    },
+    "fpg": {
+      "effective": "2026-01-13",
+      "contiguous": {
+        "p150": [
+          23940,
+          32460,
+          40980,
+          49500,
+          58020,
+          66540,
+          75060,
+          83580
+        ],
+        "p150Add": 8520,
+        "p400": [
+          63840,
+          86560,
+          109280,
+          132000,
+          154720,
+          177440,
+          200160,
+          222880
+        ],
+        "p400Add": 22720
+      },
+      "alaska": {
+        "p150": [
+          29925,
+          40575,
+          51225,
+          61875,
+          72525,
+          83175,
+          93825,
+          104475
+        ],
+        "p150Add": 10650,
+        "p400": [
+          79800,
+          108200,
+          136600,
+          165000,
+          193400,
+          221800,
+          250200,
+          278600
+        ],
+        "p400Add": 28400
+      },
+      "hawaii": {
+        "p150": [
+          27540,
+          37335,
+          47130,
+          56925,
+          66720,
+          76515,
+          86310,
+          96105
+        ],
+        "p150Add": 9795,
+        "p400": [
+          73440,
+          99560,
+          125680,
+          151800,
+          177920,
+          204040,
+          230160,
+          256280
+        ],
+        "p400Add": 26120
+      }
     }
   }
 }

@@ -1,12 +1,12 @@
 /**
  * One page = ONE data file in `src/content/pages/<id>.ts`, with an English version and, for the
- * Canadian pages that have a French query, a French one. How to add a page: CONTRIBUTING-PAGES.md.
+ * Canadian pages that have a French query, a French one, and for the US pages a Spanish one. How to add a page: CONTRIBUTING-PAGES.md.
  */
 import type { Helpers } from './helpers';
 
-export type Lang = 'en' | 'fr';
+export type Lang = 'en' | 'fr' | 'es';
 /** Country group of a page: menus, footer and home lists follow it. */
-export type Group = 'all' | 'uk' | 'au' | 'ca';
+export type Group = 'all' | 'uk' | 'us' | 'au' | 'ca';
 export interface FAQ { q: string; a: string }
 /**
  * `quiz` (mock exam or practice, props: country, mode 'exam' | 'practice', chapter, timed),
@@ -34,6 +34,6 @@ export interface PageDef {
   related: string[];
   /** Keys of `data/params-2026.json` sources. */
   sources: string[];
-  en: PageText; fr?: PageText;
+  en: PageText; fr?: PageText; es?: PageText;
 }
 export const definePage = (g: PageDef): PageDef => g;

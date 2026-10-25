@@ -1,0 +1,99 @@
+# Examen cívico de 2008: opciones de la práctica de opción múltiple, escritas por Radif Partners.
+# Las preguntas y respuestas aceptadas vienen de la traducción oficial de USCIS (100q_Spanish).
+# número|opción correcta|tres opciones incorrectas. Sin opciones: 20, 23, 43 y 44 (dependen del lugar donde vive).
+1|La Constitución|La Declaración de la Independencia|Solo la Carta de Derechos|Los Ensayos Federalistas
+2|Establece el gobierno|Elige al presidente|Fija el idioma nacional|Fija el precio de los productos
+3|Nosotros, el pueblo|Vida, libertad, felicidad|En Dios confiamos|De muchos, uno
+4|Un cambio a la Constitución|Un nuevo estado|Una ley aprobada por un estado|Una decisión del presidente
+5|La Carta de Derechos|Los Artículos de la Confederación|Los Ensayos Federalistas|La Proclamación de Emancipación
+6|Expresión|Manejar un auto|Tener una licencia comercial|Votar a los 16 años
+7|Veintisiete (27)|Diez (10)|Cincuenta (50)|Trece (13)
+8|Declaró nuestra independencia de Gran Bretaña|Puso fin a la esclavitud|Creó la Corte Suprema|Compró Luisiana a Francia
+9|La vida y la libertad|Vivienda y escuela gratuitas|Un empleo y una pensión|Votar y ser jurado
+10|Se puede practicar cualquier religión o no practicar ninguna|Todos deben pertenecer a la iglesia nacional|Solo se permiten religiones cristianas|El gobierno elige la religión de cada familia
+11|Economía de mercado (economía capitalista)|Economía comunista|Economía feudal|Economía socialista dirigida por el Estado
+12|Nadie está por encima de la ley|El presidente está por encima de la ley|Solo los ciudadanos deben obedecer la ley|Las leyes las hacen solo los jueces
+13|Congreso|Las Naciones Unidas|La Reserva Federal|El Colegio Electoral
+14|Pesos y contrapesos|El Colegio Electoral|La Carta de Derechos|Los partidos políticos
+15|El presidente|El presidente de la Cámara de Representantes|El presidente de la Corte Suprema|El líder de la mayoría del Senado
+16|El Congreso|El presidente|La Corte Suprema|Los gobernadores de los estados
+17|El Senado y la Cámara de Representantes|El Senado y la Corte Suprema|La Cámara y el Gabinete|El Senado y el Colegio Electoral
+18|Cien (100)|Cincuenta (50)|Cuatrocientos treinta y cinco (435)|Doscientos (200)
+19|Seis (6)|Dos (2)|Cuatro (4)|Ocho (8)
+21|Cuatrocientos treinta y cinco (435)|Cien (100)|Quinientos (500)|Trescientos (300)
+22|Dos (2)|Cuatro (4)|Seis (6)|Uno (1)
+24|A todas las personas del estado|Solo a quienes votaron por él o ella|Al presidente|Solo al gobierno del estado
+25|Por la población del estado|Por la superficie del estado|Por la antigüedad del estado|Por la riqueza del estado
+26|Cuatro (4)|Dos (2)|Seis (6)|Cinco (5)
+27|Noviembre|Enero|Julio|Marzo
+28|Donald J. Trump|Joe Biden|JD Vance|Barack Obama
+29|JD Vance|Kamala Harris|Mike Johnson|Marco Rubio
+30|El vicepresidente|El presidente de la Cámara de Representantes|El presidente de la Corte Suprema|El secretario de Estado
+31|El presidente de la Cámara de Representantes|El presidente de la Corte Suprema|El secretario de Estado|El líder de la mayoría del Senado
+32|El presidente|El vicepresidente|El secretario de Defensa|El presidente de la Cámara de Representantes
+33|El presidente|El vicepresidente|El presidente de la Corte Suprema|El presidente de la Cámara de Representantes
+34|El presidente|La Corte Suprema|El Senado|El presidente de la Cámara de Representantes
+35|Asesora al presidente|Hace las leyes federales|Elige a la Corte Suprema|Cuenta los votos para presidente
+36|Secretario de Estado y secretario del Trabajo|Presidente de la Cámara y presidente de la Corte Suprema|Líder de la mayoría del Senado y gobernador|Presidente de la Corte Suprema y líder de la mayoría del Senado
+37|Decide si una ley va en contra de la Constitución|Escribe nuevas leyes|Firma proyectos de ley|Cobra los impuestos federales
+38|La Corte Suprema de Justicia|El Tribunal de Apelaciones|Un tribunal federal de distrito|La corte suprema de un estado
+39|Nueve (9)|Siete (7)|Doce (12)|Quince (15)
+40|John Roberts|Clarence Thomas|Mike Johnson|Merrick Garland
+41|Imprimir dinero|Dar licencias de manejo|Ofrecer escuelas|Aprobar la zonificación y el uso del suelo
+42|Otorgar licencias de manejo|Imprimir dinero|Declarar la guerra|Hacer tratados
+45|Demócrata y Republicano|Liberal y Conservador|Federalista y Whig|Laborista y Verde
+46|Republicano|Demócrata|Libertario|Verde
+47|Mike Johnson|Chuck Schumer|Nancy Pelosi|John Roberts
+48|Los ciudadanos de 18 años o más pueden votar|Solo los propietarios pueden votar|Hay que pagar un impuesto para votar|Solo los hombres pueden votar
+49|Prestar servicio en un jurado|Pagar impuestos|Obedecer la ley|Ir a la escuela
+50|Votar en una elección federal|Libertad de expresión|Libertad de religión|Tener propiedades
+51|Libertad de expresión y libertad de religión|Votar y postularse a un cargo federal|Salud y vivienda gratuitas|Un empleo federal y un pasaporte
+52|A Estados Unidos|Al presidente|Al estado donde vive|Al Congreso
+53|Obedecer las leyes de Estados Unidos|Mantener la lealtad a otros países|Votar siempre por un partido|No salir nunca del país
+54|Dieciocho (18) años o más|Dieciséis (16) años o más|Veintiún (21) años o más|Veinticinco (25) años o más
+55|Votar y unirse a un grupo comunitario|Ignorar las elecciones y evitar ser jurado|Dejar de pagar impuestos|Salir del país en época de elecciones
+56|15 de abril|1 de enero|4 de julio|31 de diciembre
+57|A la edad de dieciocho (18) años|A los dieciséis (16) años|A los treinta (30) años|A los cuarenta (40) años
+58|Libertad religiosa|Pagar más impuestos|Unirse al ejército británico|Buscar oro en Alaska
+59|Los indios estadounidenses (nativos estadounidenses)|Los británicos|Los franceses|Los españoles
+60|Africanos|Nativos estadounidenses|Canadienses|Australianos
+61|Por los impuestos altos (impuestos sin representación)|Porque los británicos liberaron a los esclavos|Por la compra de Luisiana|Por la Gran Depresión
+62|Thomas Jefferson|George Washington|Abraham Lincoln|Benjamin Franklin
+63|4 de julio de 1776|4 de julio de 1787|25 de diciembre de 1776|17 de septiembre de 1787
+64|Nueva York, Virginia y Georgia|California, Texas y Florida|Ohio, Kentucky y Tennessee|Michigan, Alaska y Hawái
+65|Se redactó la Constitución|Se firmó la Declaración de la Independencia|Se abolió la esclavitud|Se compró Luisiana a Francia
+66|1787|1776|1865|1812
+67|James Madison|Thomas Jefferson|George Washington|Abraham Lincoln
+68|Diplomático de Estados Unidos|Primer presidente de Estados Unidos|Autor de la Declaración de la Independencia|General del Ejército de la Unión
+69|George Washington|Thomas Jefferson|Abraham Lincoln|Benjamin Franklin
+70|George Washington|John Adams|Thomas Jefferson|Abraham Lincoln
+71|El territorio de Luisiana|Alaska|Florida|Hawái
+72|La Guerra Civil|La Primera Guerra Mundial|La Guerra de Corea|La Guerra de Vietnam
+73|La Guerra Civil|La Guerra de Independencia|La Guerra de 1812|La Primera Guerra Mundial
+74|La esclavitud|La Gran Depresión|El comunismo|Los impuestos británicos
+75|Liberó a los esclavos (Proclamación de Emancipación)|Escribió la Declaración de la Independencia|Compró Luisiana|Fue el primer presidente
+76|Liberó a los esclavos de los estados confederados|Dio a las mujeres el derecho al voto|Puso fin a la Primera Guerra Mundial|Creó la Corte Suprema
+77|Luchó por los derechos de la mujer|Fue la primera mujer presidenta|Escribió el himno nacional|Dirigió el Ejército de la Unión
+78|La Segunda Guerra Mundial|La Guerra Civil|La Guerra de 1812|La Guerra México-Estados Unidos
+79|Woodrow Wilson|Franklin Roosevelt|Abraham Lincoln|Dwight Eisenhower
+80|Franklin Roosevelt|Woodrow Wilson|Harry Truman|Herbert Hoover
+81|Japón, Alemania e Italia|México, España y Canadá|Gran Bretaña, Francia y Rusia|China, Corea y Vietnam
+82|La Segunda Guerra Mundial|La Primera Guerra Mundial|La Guerra Civil|La Guerra de Vietnam
+83|El comunismo|La esclavitud|Los impuestos británicos|La Gran Depresión
+84|El movimiento de derechos civiles|El movimiento por el voto femenino|La abolición de la monarquía|El movimiento antialcohol
+85|Luchó por los derechos civiles|Fue el primer presidente de la Corte Suprema|Escribió la Constitución|Dirigió el Ejército de la Unión
+86|Los terroristas atacaron Estados Unidos|Terminó la Guerra Civil|Fue bombardeado Pearl Harbor|Se desplomó la bolsa
+87|Cherokee|Azteca|Inca|Maya
+88|Río Misisipi|Río Colorado|Río Hudson|Río Bravo
+89|Océano Pacífico|Océano Atlántico|Océano Índico|Océano Ártico
+90|Océano Atlántico|Océano Pacífico|Océano Índico|Océano Ártico
+91|Puerto Rico|Hawái|Alaska|Cuba
+92|Montana|Texas|Florida|Georgia
+93|Texas|Florida|Oklahoma|Nevada
+94|Washington, D.C.|Nueva York|Filadelfia|Boston
+95|En el puerto de Nueva York (Liberty Island)|En la bahía de San Francisco|En Washington, D.C.|En el puerto de Boston
+96|Porque hubo 13 colonias originales|Porque hubo 13 presidentes|Porque hay 13 enmiendas|Porque hubo 13 guerras
+97|Porque hay una estrella por cada estado|Porque hay una estrella por cada presidente|Porque hay una estrella por cada enmienda|Porque hay una estrella por cada colonia original
+98|The Star-Spangled Banner|America the Beautiful|God Bless America|My Country, ’Tis of Thee
+99|El 4 de julio|El 1 de enero|El 11 de noviembre|El 25 de diciembre
+100|Día de Acción de Gracias y Día del Trabajo|Halloween y San Valentín|Día de la Madre y Día de la Marmota|Lunes de Pascua y Boxing Day

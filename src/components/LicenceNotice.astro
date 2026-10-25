@@ -1,7 +1,7 @@
 ---
 /** Attributions exigées par les licences (RECETTE, règle commune 3 de l'audit données-droits du 2026-10-24).
  * Affichée en pied de toutes les pages, embeds compris. */
-interface Props { lang: 'en' | 'fr'; class?: string }
+interface Props { lang: 'en' | 'fr' | 'es'; class?: string }
 const { lang, class: cls = 'text-xs text-navy-500' } = Astro.props;
 const OGL = 'https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/';
 const CCBY = 'https://creativecommons.org/licenses/by/4.0/';
@@ -11,6 +11,11 @@ const CCBY = 'https://creativecommons.org/licenses/by/4.0/';
     Contains public sector information licensed under the <a class="underline" href={OGL} target="_blank" rel="noopener">Open Government Licence v3.0</a>.
     Australian questions and explanations: adapted from Australian Citizenship: Our Common Bond, © Commonwealth of Australia, licensed under <a class="underline" href={CCBY} target="_blank" rel="noopener">CC BY 4.0</a>; adapted by Radif Partners.
     Canadian questions restate facts from Discover Canada (© His Majesty the King in Right of Canada) in our own words; no text of the guide is reproduced.
+    U.S. civics questions, accepted answers and word lists: USCIS, works of the U.S. federal government in the public domain (17 U.S.C. 105); answer choices by Radif Partners.
+  </p>
+) : lang === 'es' ? (
+  <p class={cls} data-licence-notice>
+    Preguntas cívicas, respuestas aceptadas y listas de vocabulario: USCIS, obras del gobierno federal de Estados Unidos en el dominio público (17 U.S.C. 105). Traducción oficial de USCIS para la versión 2008; traducción no oficial de Radif Partners para la versión 2025, que USCIS solo publica en inglés. Opciones de respuesta: Radif Partners.
   </p>
 ) : (
   <p class={cls} data-licence-notice>

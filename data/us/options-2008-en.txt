@@ -1,0 +1,98 @@
+# 2008 civics test: answer options for the multiple-choice practice, written by Radif Partners.
+# number|correct option|three wrong options. Questions 20, 23, 43 and 44 depend on where the applicant lives: no options.
+1|The Constitution|The Declaration of Independence|The Bill of Rights only|The Federalist Papers
+2|Sets up the government|Chooses the President|Names the national language|Sets the price of goods
+3|We the People|Life, Liberty, Happiness|In God We Trust|E Pluribus Unum
+4|A change to the Constitution|A new state|A law passed by a state|A decision of the President
+5|The Bill of Rights|The Articles of Confederation|The Federalist Papers|The Emancipation Proclamation
+6|Speech|To drive a car|To own a business license|To vote at 16
+7|Twenty-seven (27)|Ten (10)|Fifty (50)|Thirteen (13)
+8|Declared our independence from Great Britain|Ended slavery|Created the Supreme Court|Bought Louisiana from France
+9|Life and liberty|Free housing and free schooling|A job and a pension|Voting and jury service
+10|You can practice any religion, or not practice a religion|Everyone must belong to the national church|Only Christian religions are allowed|The government chooses each family’s religion
+11|Market economy (capitalist economy)|Communist economy|Feudal economy|Socialist economy run by the state
+12|No one is above the law|The President is above the law|Only citizens must obey the law|Laws are made by judges alone
+13|Congress|The United Nations|The Federal Reserve|The Electoral College
+14|Checks and balances|The Electoral College|The Bill of Rights|Political parties
+15|The President|The Speaker of the House|The Chief Justice|The Senate Majority Leader
+16|Congress|The President|The Supreme Court|The state governors
+17|The Senate and House of Representatives|The Senate and the Supreme Court|The House and the Cabinet|The Senate and the Electoral College
+18|One hundred (100)|Fifty (50)|Four hundred thirty-five (435)|Two hundred (200)
+19|Six (6)|Two (2)|Four (4)|Eight (8)
+21|Four hundred thirty-five (435)|One hundred (100)|Five hundred (500)|Three hundred (300)
+22|Two (2)|Four (4)|Six (6)|One (1)
+24|All people of the state|Only the people who voted for him or her|The President|Only the state government
+25|Because of the state’s population|Because of the state’s land area|Because of the state’s age|Because of the state’s wealth
+26|Four (4)|Two (2)|Six (6)|Five (5)
+27|November|January|July|March
+28|Donald J. Trump|Joe Biden|JD Vance|Barack Obama
+29|JD Vance|Kamala Harris|Mike Johnson|Marco Rubio
+30|The Vice President|The Speaker of the House|The Chief Justice|The Secretary of State
+31|The Speaker of the House|The Chief Justice|The Secretary of State|The Senate Majority Leader
+32|The President|The Vice President|The Secretary of Defense|The Speaker of the House
+33|The President|The Vice President|The Chief Justice|The Speaker of the House
+34|The President|The Supreme Court|The Senate|The Speaker of the House
+35|Advises the President|Makes federal laws|Chooses the Supreme Court|Counts the votes for President
+36|Secretary of State and Secretary of Labor|Speaker of the House and Chief Justice|Senate Majority Leader and Governor|Chief Justice and Senate Majority Leader
+37|Decides if a law goes against the Constitution|Writes new laws|Signs bills into law|Collects federal taxes
+38|The Supreme Court|The Court of Appeals|A federal district court|A state supreme court
+39|Nine (9)|Seven (7)|Twelve (12)|Fifteen (15)
+40|John Roberts|Clarence Thomas|Mike Johnson|Merrick Garland
+41|To print money|To give a driver’s license|To provide schooling|To approve zoning and land use
+42|Give a driver’s license|Print money|Declare war|Make treaties
+45|Democratic and Republican|Liberal and Conservative|Federalist and Whig|Labor and Green
+46|Republican (Party)|Democratic (Party)|Libertarian (Party)|Green (Party)
+47|Mike Johnson|Chuck Schumer|Nancy Pelosi|John Roberts
+48|Citizens eighteen (18) and older can vote|Only landowners can vote|Voters must pay a poll tax|Only men can vote
+49|Serve on a jury|Pay taxes|Obey the law|Go to school
+50|Vote in a federal election|Freedom of speech|Freedom of religion|Own property
+51|Freedom of speech and freedom of religion|The right to vote and to run for federal office|Free health care and free housing|A federal job and a passport
+52|The United States|The President|The state you live in|Congress
+53|Obey the laws of the United States|Keep loyalty to other countries|Vote for one party|Never leave the country
+54|Eighteen (18) and older|Sixteen (16) and older|Twenty-one (21) and older|Twenty-five (25) and older
+55|Vote and join a community group|Ignore elections and avoid jury duty|Stop paying taxes|Leave the country at election time
+56|April 15|January 1|July 4|December 31
+57|At age eighteen (18)|At age sixteen (16)|At age thirty (30)|At age forty (40)
+58|Religious freedom|To pay higher taxes|To join the British army|To find gold in Alaska
+59|American Indians (Native Americans)|The British|The French|The Spanish
+60|Africans|Native Americans|Canadians|Australians
+61|Because of high taxes (taxation without representation)|Because the British freed the slaves|Because of the Louisiana Purchase|Because of the Great Depression
+62|Thomas Jefferson|George Washington|Abraham Lincoln|Benjamin Franklin
+63|July 4, 1776|July 4, 1787|December 25, 1776|September 17, 1787
+64|New York, Virginia, and Georgia|California, Texas, and Florida|Ohio, Kentucky, and Tennessee|Michigan, Alaska, and Hawaii
+65|The Constitution was written|The Declaration of Independence was signed|Slavery was ended|Louisiana was bought from France
+66|1787|1776|1865|1812
+67|James Madison|Thomas Jefferson|George Washington|Abraham Lincoln
+68|U.S. diplomat|First President of the United States|Writer of the Declaration of Independence|General of the Union Army
+69|George Washington|Thomas Jefferson|Abraham Lincoln|Benjamin Franklin
+70|George Washington|John Adams|Thomas Jefferson|Abraham Lincoln
+71|The Louisiana Territory|Alaska|Florida|Hawaii
+72|Civil War|World War I|Korean War|Vietnam War
+73|The Civil War|The Revolutionary War|The War of 1812|World War I
+74|Slavery|The Great Depression|Communism|Taxation by Britain
+75|Freed the slaves (Emancipation Proclamation)|Wrote the Declaration of Independence|Bought Louisiana|Was the first President
+76|Freed the slaves in the Confederate states|Gave women the right to vote|Ended World War I|Created the Supreme Court
+77|Fought for women’s rights|Was the first woman president|Wrote the national anthem|Led the Union Army
+78|World War II|Civil War|War of 1812|Mexican-American War
+79|Woodrow Wilson|Franklin Roosevelt|Abraham Lincoln|Dwight Eisenhower
+80|Franklin Roosevelt|Woodrow Wilson|Harry Truman|Herbert Hoover
+81|Japan, Germany, and Italy|Mexico, Spain, and Canada|Britain, France, and Russia|China, Korea, and Vietnam
+82|World War II|World War I|The Civil War|The Vietnam War
+83|Communism|Slavery|Taxes from Britain|The Great Depression
+84|Civil rights movement|Women’s suffrage movement|Abolition of the monarchy|Temperance movement
+85|Fought for civil rights|Was the first Chief Justice|Wrote the Constitution|Led the Union Army
+86|Terrorists attacked the United States|The Civil War ended|Pearl Harbor was bombed|The stock market crashed
+87|Cherokee|Aztec|Inca|Maya
+88|Mississippi (River)|Colorado River|Hudson River|Rio Grande
+89|Pacific (Ocean)|Atlantic Ocean|Indian Ocean|Arctic Ocean
+90|Atlantic (Ocean)|Pacific Ocean|Indian Ocean|Arctic Ocean
+91|Puerto Rico|Hawaii|Alaska|Cuba
+92|Montana|Texas|Florida|Georgia
+93|Texas|Florida|Oklahoma|Nevada
+94|Washington, D.C.|New York City|Philadelphia|Boston
+95|New York Harbor (Liberty Island)|San Francisco Bay|Washington, D.C.|Boston Harbor
+96|Because there were 13 original colonies|Because there were 13 presidents|Because there are 13 amendments|Because there were 13 wars
+97|Because there is one star for each state|Because there is one star for each president|Because there is one star for each amendment|Because there is one star for each original colony
+98|The Star-Spangled Banner|America the Beautiful|God Bless America|My Country, ’Tis of Thee
+99|July 4|January 1|November 11|December 25
+100|Thanksgiving and Labor Day|Halloween and Valentine’s Day|Mother’s Day and Groundhog Day|Easter Monday and Boxing Day
