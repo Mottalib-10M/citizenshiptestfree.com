@@ -1,35 +1,40 @@
 import { definePage } from '../../lib/guide-types';
 
+// Recentrée sur les États-Unis le 2026-10-25 : la page comparait les tests du Royaume-Uni, de l'Australie et
+// du Canada, qui ont désormais chacun leur site. Elle couvre maintenant l'entraînement à toute l'entrevue
+// américaine (civique, lecture, écriture, conversation), sans lien vers les autres sites de l'éditeur.
 export default definePage({
   id: 'practice',
-  group: 'all',
-  order: 1,
-  tool: { kind: 'quiz', props: { country: 'au', mode: 'practice', countrySelect: true } },
-  mini: { kind: 'mini:compare' },
-  related: ['au-practice', 'ca-practice', 'uk-practice', 'au-test', 'ca-test', 'uk-test'],
-  sources: ['au_test', 'au_ocb', 'ca_study', 'ca_guide', 'uk_test'],
+  group: 'us',
+  order: 65,
+  tool: { kind: 'usquiz', props: { version: '2025', mode: 'practice', versionSelect: true } },
+  mini: { kind: 'mini:uspass' },
+  related: ['us-test', 'us-practice', 'us-english', 'us-questions', 'us-exemptions', 'us-which'],
+  sources: ['us_study', 'us_128', 'us_100', 'us_vocab_r', 'us_vocab_w', 'us_test_perf'],
   en: {
     slug: 'citizenship-test-practice',
     nav: 'Citizenship test practice',
-    card: 'Ten practice questions for the Australian, Canadian or UK test, the answer explained after each one.',
-    title: 'Citizenship Test Practice: Free Questions for AU, CA and UK',
-    description: 'Free citizenship test practice for Australia, Canada and the UK: ten questions at a time from the official guide of your country, answers explained, no sign-up.',
-    h1: 'Citizenship test practice for Australia, Canada and the UK',
-    intro: 'Choose your country and answer ten questions. Each one is checked straight away, with a short explanation taken from the official guide.',
-    resume: (h) => `Three countries ask future citizens to pass a test on the country itself, and each one publishes the guide its questions come from. Australia uses Our Common Bond: ${h.P.au.test.questions} questions, at least ${h.pc(h.P.au.test.passPercent / 100)} overall and all ${h.P.au.test.valuesQuestions} values questions right. Canada uses Discover Canada: ${h.P.ca.test.questions} questions, ${h.P.ca.test.passCorrect} correct answers to pass, in English or French. The United Kingdom uses the Life in the UK handbook: ${h.P.uk.test.questions} questions, ${h.P.uk.test.passCorrect} correct answers to pass, for a ${h.gbp(h.P.uk.test.fee)} booking. This page draws ten questions for the country you choose from our banks of ${h.count.au} Australian, ${h.count.caEn} Canadian and ${h.count.uk} British questions, all written by us from the facts in those guides, and checks each answer as you go. None of them is a real test question: those are not published. When ten in a row feel easy, take the full practice test of your country, with its time limit and its pass rule.`,
+    card: 'Ten official civics questions drawn from the whole list, then a plan to practise every part of the interview: civics, reading, writing and speaking.',
+    title: 'Citizenship Test Practice 2026: Free USCIS Questions',
+    description: 'Free U.S. citizenship test practice: ten official USCIS civics questions at a time from the whole list, then reading, writing and speaking for the interview.',
+    h1: 'U.S. citizenship test practice: every part of the interview',
+    intro: 'Answer ten civics questions drawn from the whole official list, each checked at once. Then use the plan below to cover reading, writing and speaking too.',
+    resume: (h) => `The U.S. citizenship test is not one test but four checks made during the same naturalization interview. The officer asks civics questions aloud from the public USCIS list, up to ${h.P.us.test2025.asked} on the 2025 version with ${h.P.us.test2025.passCorrect} right answers needed; asks you to read ${h.P.us.english.readingNeeded} of up to ${h.P.us.english.readingSentences} sentences aloud; dictates ${h.P.us.english.writingNeeded} of up to ${h.P.us.english.writingSentences} sentences for you to write; and judges your spoken English through the whole conversation about your Form N-400. Practice that only drills civics leaves three of those four checks to chance. The set above draws ten questions from the entire 2025 list of ${h.us.n25}, or from the 2008 list of ${h.us.n08} if USCIS received your N-400 before ${h.date(h.P.us.cutoff)}, and shows every accepted answer after each one. The rest of this page explains how to train the reading, writing and speaking parts with the official USCIS word lists, how the four parts weigh in the official results, and when a single mixed set like this one is more useful than practice by theme.`,
     faqs: (h) => [
-      { q: 'Which citizenship test is the hardest?', a: `They test different things. The UK test has the most questions, ${h.P.uk.test.questions}, and a handbook rich in history and dates. The Australian test adds a rule of its own: all ${h.P.au.test.valuesQuestions} values questions must be right. The Canadian test needs ${h.P.ca.test.passCorrect} of ${h.P.ca.test.questions}, the same ratio as Australia, but its guide covers history, geography and government in detail. The best test is the one you prepare from its own guide.` },
-      { q: 'Can I practise in French?', a: 'Yes, for Canada, which offers its test in English or French. The French version of this site has the Canadian practice test, the questions by chapter and the physical presence calculator in French. The Australian and UK tests are in English only, so their practice here is in English.' },
-      { q: 'Do I need an account to keep my score?', a: 'No. Nothing is stored about you and there is no sign-up. Your score appears at the end of each set and disappears when you leave. To track progress, note the result of each full practice test, which shows your score for every chapter or part of the guide.' },
+      { q: 'What is the difference between this practice and the mock test?', a: `This set mixes ten questions from the whole list and always lets you answer all ten, so it measures how much of the list you know today. The ${h.P.us.test2025.asked}-question mock test runs like the interview: it stops at ${h.P.us.test2025.passCorrect} right or ${h.P.us.test2025.failWrong} wrong, exactly as the officer does. Use mixed sets every day and the mock test once or twice a week.` },
+      { q: 'Which part of the interview do applicants fail most?', a: `In the USCIS results for fiscal year ${h.P.us.passRates.fy}, ${h.P.us.passRates.civicsInitial}% passed civics at the first interview, against ${h.P.us.passRates.english.reading}% for reading and ${h.P.us.passRates.english.writing}% for writing. Civics is the part that most often sends people to a second appointment, which is why it gets the most practice here, but writing and speaking are not free points.` },
+      { q: 'What happens if I fail one part?', a: `USCIS gives a second chance on the part you failed only, at a new interview usually ${h.P.us.english.retestDays[0]} to ${h.P.us.english.retestDays[1]} days later. You keep what you passed. If you fail the same part twice, the application is denied and you must file a new N-400 and pay the fee again.` },
     ],
     body: (h) => `
-<h2>The three tests side by side</h2>
-${h.table(['', 'United Kingdom', 'Australia', 'Canada'], [['Questions', h.P.uk.test.questions, h.P.au.test.questions, h.P.ca.test.questions], ['To pass', `${h.P.uk.test.passCorrect} correct`, `${h.pc(h.P.au.test.passPercent / 100)} and all ${h.P.au.test.valuesQuestions} values`, `${h.P.ca.test.passCorrect} correct`], ['Time', `${h.P.uk.test.minutes} min`, `${h.P.au.test.minutes} min`, `${h.P.ca.test.minutes} min`], ['Who sits it', `${h.P.uk.test.exemptUnder} to ${h.P.uk.test.exemptFromAge - 1}`, `${h.P.au.test.ages[0]} to ${h.P.au.test.ages[1]}`, `${h.P.ca.test.ages[0]} to ${h.P.ca.test.ages[1]}`], ['Guide', 'Life in the United Kingdom', 'Our Common Bond', 'Discover Canada'], ['Our questions', h.count.uk, h.count.au, h.count.caEn]], 'Official test pages of GOV.UK, Home Affairs and IRCC; question counts from our banks.', ['l', 'r', 'r', 'r'])}
-<h2>Practice by country</h2>
-<p>Each country has its own practice page, where you can pick one chapter or part of the guide: the ${h.a('uk-practice', 'Life in the UK test practice')}, the ${h.a('au-practice', 'Australian test practice by part')} and the ${h.a('ca-practice', 'Canadian test practice by chapter')}. For a run under real conditions, with the time limit and the pass rule, use the full tests: ${h.a('uk-test', 'Life in the UK')}, ${h.a('au-test', 'Australia')} and ${h.a('ca-test', 'Canada')}.</p>
-<h2>How the questions are written</h2>
-<p>We write each question from a fact stated in the official guide and keep its source with it. We do not copy questions from apps, books or other sites, and we do not claim to know the real questions. Tests in our code check that every question has one right answer, that the answers are spread across the four positions and that no question repeats in a set.</p>
-<h2>The test is one step</h2>
-<p>In all three countries the test only counts once you can apply, which depends on how long you have lived there and how long you were away. Our date calculators count every trip with the official rule: ${h.a('uk-citizenship', 'British citizenship')}, ${h.a('au-residence', 'Australian residence')} and ${h.a('ca-presence', 'Canadian physical presence')}.</p>`,
+<h2>The four parts and how often applicants pass them</h2>
+${h.table(['Part', 'What the officer does', 'Passed at first try'], [['Civics', `asks up to ${h.P.us.test2025.asked} questions aloud (2025 list), ${h.P.us.test2025.passCorrect} right to pass`, `${h.P.us.passRates.civicsInitial}%`], ['Reading', `shows up to ${h.P.us.english.readingSentences} sentences, you read ${h.P.us.english.readingNeeded} correctly aloud`, `${h.P.us.passRates.english.reading}%`], ['Writing', `dictates up to ${h.P.us.english.writingSentences} sentences, you write ${h.P.us.english.writingNeeded} correctly`, `${h.P.us.passRates.english.writing}%`], ['Speaking', 'judges your answers about your N-400 during the whole interview', `${h.P.us.passRates.english.speaking}%`]], `USCIS test performance data, fiscal year ${h.P.us.passRates.fy}; overall pass rate after a second try: ${h.P.us.passRates.overall}%.`, ['l', 'l', 'r'])}
+<h2>A mixed set or one theme at a time?</h2>
+<p>Both, at different moments. While you are still learning the list, the ${h.a('us-practice', 'practice by theme')} is faster, because it shows the weak theme you need to read again. Once each theme gives you eight right answers out of ten, switch to mixed sets like the one above: the officer does not announce the theme, and a question on the Senate can follow one on the Civil War. A mixed set that gives you eight or more right answers three days in a row means you are ready for the full ${h.a('us-test', 'mock citizenship test')}.</p>
+<h2>Practise reading and writing with the official words</h2>
+<p>The reading and writing sentences are built from two short USCIS vocabulary lists, ${h.us.vocabR} words for reading and ${h.us.vocabW} for writing, made of civics words, question words, places, months, holidays and a few verbs. The ${h.a('us-english', 'English test page')} reads a sentence aloud for you to type and shows sentences to read, all made only of those words. Ten minutes a day is enough for most applicants: write each sentence twice, then check capital letters, the names of months and holidays, and the spelling of the presidents' names on the list.</p>
+<h2>Practise speaking with your own N-400</h2>
+<p>The speaking part has no list. The officer goes through your application and asks you to confirm or explain what you wrote: your addresses, your trips abroad, your work, your family, and the yes-or-no questions of Part 9. Read your copy of the N-400 aloud a few times before the interview and practise saying the key words, such as “claimed to be a U.S. citizen”, “habitual drunkard” or “removal proceedings”, in a short sentence of your own. Saying “Can you repeat the question, please?” is allowed and does not count against you.</p>
+<h2>Who practises less</h2>
+<p>Applicants aged ${h.P.us.s6520.age} or older with ${h.P.us.s6520.years} years as permanent residents study only the 20 starred questions and may take civics in their own language; ${h.P.us.englishExempt[0].age} with ${h.P.us.englishExempt[0].years} years, or ${h.P.us.englishExempt[1].age} with ${h.P.us.englishExempt[1].years}, skip the English test. The ${h.a('us-exemptions', 'exemptions page')} and the ${h.a('us-which', 'version checker')} tell you which case is yours before you plan your practice.</p>`,
   },
 });

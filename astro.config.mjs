@@ -5,14 +5,16 @@ import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 import { SITE_URL, LAST_UPDATED } from './src/data/site-config.js';
 import { ROUTES, NOINDEX_PATHS, LOCALES, DEFAULT_LOCALE } from './src/i18n/routes.js';
+import { RENVOI_PATHS } from './src/data/renvois.js';
 export default defineConfig({
   site: SITE_URL, trailingSlash: 'always',
   integrations: [react(), sitemap({
     filter(page) { const p = new URL(page).pathname;
       /* '/' est la page de redirection vers la langue par defaut : elle porte
          un noindex, elle n'a donc rien a faire dans le sitemap. '/embed/' :
-         pages d'iframe, hors sitemap pour la meme raison. */
-      return p !== '/' && !NOINDEX_PATHS.includes(p) && !p.startsWith('/embed/'); },
+         pages d'iframe, hors sitemap pour la meme raison. RENVOI_PATHS : anciennes pages UK / AU / CA,
+         devenues des renvois noindex vers les nouveaux sites (2026-10-25). */
+      return p !== '/' && !NOINDEX_PATHS.includes(p) && !p.startsWith('/embed/') && !RENVOI_PATHS.includes(p); },
     serialize(item) {
       item.lastmod = new Date(LAST_UPDATED);
       const p = new URL(item.url).pathname;

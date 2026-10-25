@@ -3,28 +3,27 @@ import { PAGES, pageById } from '../lib/guides';
 import type { Group } from '../lib/guide-types';
 export interface NavLink { href: string; label: string } export interface NavCategory { label: string; links: NavLink[] }
 const CORE: Record<Locale, Record<string, string>> = {
-  en: { home: 'All four tests', method: 'How the questions and dates are built', about: 'About', widget: 'Embed a test', contact: 'Contact', editorial: 'Editorial policy', privacy: 'Privacy', terms: 'Legal notice', cookies: 'Cookies' },
-  fr: { home: 'Examen de citoyenneté canadienne', method: 'Méthode', about: 'À propos', widget: 'Intégrer l’examen', contact: 'Contact', editorial: 'Politique éditoriale', privacy: 'Confidentialité', terms: 'Mentions légales', cookies: 'Témoins (cookies)' },
+  en: { home: 'U.S. citizenship test', method: 'How the questions and dates are built', about: 'About', widget: 'Embed the test', contact: 'Contact', editorial: 'Editorial policy', privacy: 'Privacy', terms: 'Legal notice', cookies: 'Cookies' },
   es: { home: 'Examen de ciudadanía americana', method: 'Método', about: 'Quiénes somos', widget: 'Insertar un examen', contact: 'Contacto', editorial: 'Política editorial', privacy: 'Privacidad', terms: 'Aviso legal', cookies: 'Cookies' },
 };
-const GROUP_LABEL: Record<Locale, Record<Group, string>> = {
-  en: { all: 'All countries', uk: 'United Kingdom', us: 'United States', au: 'Australia', ca: 'Canada' },
-  fr: { all: 'Tous les pays', uk: 'Royaume-Uni', us: 'États-Unis', au: 'Australie', ca: 'Canada' },
-  es: { all: 'Todos los países', uk: 'Reino Unido', us: 'Estados Unidos', au: 'Australia', ca: 'Canadá' },
-};
-export const GROUPS_ORDER: Group[] = ['us', 'uk', 'au', 'ca', 'all'];
-export const groupLabel = (g: Group, lang: Locale) => GROUP_LABEL[lang][g];
-export const label = (id: string, lang: Locale = 'en') => CORE[lang][id] ?? (lang === 'fr' ? pageById(id)?.fr?.nav : lang === 'es' ? pageById(id)?.es?.nav : undefined) ?? pageById(id)?.en.nav ?? id;
+/** Libellé du pays, en surtitre des pages (« kicker »). */
+export const groupLabel = (_g: Group, lang: Locale) => (lang === 'es' ? 'Estados Unidos' : 'United States');
+export const label = (id: string, lang: Locale = 'en') => CORE[lang][id] ?? (lang === 'es' ? pageById(id)?.es?.nav : undefined) ?? pageById(id)?.en.nav ?? id;
 const link = (id: string, lang: Locale): NavLink => ({ href: route(id, lang), label: label(id, lang) });
-const inGroup = (g: Group, lang: Locale) => PAGES.filter((p) => p.group === g && hasRoute(p.id, lang)).map((p) => link(p.id, lang));
+/** Toutes les pages sont américaines depuis le 2026-10-25 (Royaume-Uni, Australie et Canada ont chacun leur site). */
+const pagesIn = (lang: Locale) => PAGES.filter((p) => hasRoute(p.id, lang)).map((p) => link(p.id, lang));
+const N400 = /n-400|elegibilidad|tarifa|cuanto-tarda|juramento/;
 export function navCategories(lang: Locale): NavCategory[] {
-  if (lang === 'fr') return [{ label: 'Citoyenneté canadienne', links: [link('home', 'fr'), ...inGroup('ca', 'fr')] }];
-  if (lang === 'es') { const l = inGroup('us', 'es'); return [{ label: 'El examen cívico', links: [link('home', 'es'), ...l.filter((x) => !/n-400|elegibilidad|tarifa|cuanto-tarda|juramento/.test(x.href))] }, { label: 'Formulario N-400', links: l.filter((x) => /n-400|elegibilidad|tarifa|cuanto-tarda|juramento/.test(x.href)) }]; }
-  return GROUPS_ORDER.filter((g) => g !== 'all').map((g) => ({ label: GROUP_LABEL[lang][g], links: inGroup(g, lang) })).filter((c) => c.links.length);
+  const l = pagesIn(lang);
+  if (lang === 'es') return [{ label: 'El examen cívico', links: [link('home', 'es'), ...l.filter((x) => !N400.test(x.href))] }, { label: 'Formulario N-400', links: l.filter((x) => N400.test(x.href)) }];
+  // Même partage que l'accueil : le test (ordre < 90), puis le Formulaire N-400 (ordre ≥ 90).
+  const test = PAGES.filter((p) => p.order < 90).map((p) => link(p.id, 'en'));
+  const n400 = PAGES.filter((p) => p.order >= 90).map((p) => link(p.id, 'en'));
+  return [{ label: 'The citizenship test', links: test }, { label: 'Form N-400', links: n400 }].filter((c) => c.links.length);
 }
-export const navDirect = (lang: Locale): NavLink[] => (lang === 'en' ? inGroup('all', 'en') : []);
+export const navDirect = (_lang: Locale): NavLink[] => [];
 export const footerColumns = (lang: Locale): NavCategory[] => [
   ...navCategories(lang),
-  { label: lang === 'fr' ? 'Ce site' : lang === 'es' ? 'Este sitio' : 'This site', links: ['home', 'method', 'about', 'contact', 'editorial', 'widget', 'terms', 'privacy', 'cookies'].filter((i) => hasRoute(i, lang)).map((i) => link(i, lang)) },
+  { label: lang === 'es' ? 'Este sitio' : 'This site', links: ['home', 'method', 'about', 'contact', 'editorial', 'widget', 'terms', 'privacy', 'cookies'].filter((i) => hasRoute(i, lang)).map((i) => link(i, lang)) },
 ];
 export const popularLinks = (_lang: Locale): NavLink[] => [];

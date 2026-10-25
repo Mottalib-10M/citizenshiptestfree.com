@@ -19,7 +19,7 @@ import { AUTHOR_NAME } from '../data/site-config';
 import type { PageDef, ToolDef } from '../lib/guide-types';
 interface Props { page: PageDef; lang: Locale }
 const { page, lang } = Astro.props;
-const T = lang === 'fr' ? page.fr! : lang === 'es' ? page.es! : page.en;
+const T = lang === 'es' ? page.es! : page.en;
 const ui = t(lang);
 const path = route(page.id, lang);
 const h = helpers(lang, true);
@@ -28,7 +28,7 @@ const parts = T.body(h).split(/<!--tool:([a-z0-9:-]+)(?:\|(\{.*?\}))?-->/);
 const jsonLd = [articleSchema({ title: T.h1, description: T.description, path, lang }), webPageSchema({ name: T.h1, description: T.description, path, lang }), breadcrumbSchema([{ name: ui.breadcrumbHome, path: route('home', lang) }, { name: T.nav, path }])];
 if (page.tool) jsonLd.push(webApplicationSchema({ name: T.h1, description: T.description, path, lang }));
 if (faqs.length) jsonLd.push(faqSchema(faqs, lang));
-const cardOf = (id: string) => { const p = pageById(id); return (lang === 'fr' ? p?.fr?.card : lang === 'es' ? p?.es?.card : p?.en.card) ?? (id === 'home' ? (lang === 'fr' ? 'Examen blanc de 20 questions en français, noté comme l’examen d’IRCC.' : lang === 'es' ? 'Examen de práctica de 20 preguntas de la versión 2025, con la regla de USCIS: 12 correctas para aprobar.' : 'The U.S. civics test first, then mock tests for the UK, Australia and Canada, each scored with its own rule.') : ''); };
+const cardOf = (id: string) => { const p = pageById(id); return (lang === 'es' ? p?.es?.card : p?.en.card) ?? (id === 'home' ? (lang === 'es' ? 'Examen de práctica de 20 preguntas de la versión 2025, con la regla de USCIS: 12 correctas para aprobar.' : 'A mock civics interview from the official USCIS list, stopped where the officer would stop: 12 right to pass.') : ''); };
 const related = page.related.filter((id) => hasRoute(id, lang)).map((id) => ({ href: route(id, lang), name: label(id, lang), description: cardOf(id) }));
 type SK = keyof typeof P.sources;
 const sources = page.sources.map((k) => ({ name: (P.sources[k as SK].label as Record<string, string>)[lang], url: P.sources[k as SK].url }));

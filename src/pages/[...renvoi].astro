@@ -1,0 +1,29 @@
+---
+/**
+ * Pages de renvoi des anciennes pages Royaume-Uni, Australie et Canada (src/data/renvois.ts).
+ * GitHub Pages ne fait pas de 301 : canonical vers la cible, meta refresh à 0 s, noindex, follow,
+ * et un lien visible pour qui a coupé les redirections. Pas de mise en page, pas de pub, pas de mesure.
+ */
+import { RENVOIS, type Renvoi } from '../data/renvois';
+export function getStaticPaths() {
+  return RENVOIS.map((r) => ({ params: { renvoi: r.from.replace(/^\/|\/$/g, '') }, props: { r } }));
+}
+const { r } = Astro.props as { r: Renvoi };
+const fr = r.lang === 'fr';
+const host = new URL(r.to).host;
+---
+<!doctype html>
+<html lang={fr ? 'fr-CA' : 'en'}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fr ? `Page déplacée sur ${host}` : `Page moved to ${host}`}</title>
+    <link rel="canonical" href={r.to} />
+    <meta http-equiv="refresh" content={`0; url=${r.to}`} />
+    <meta name="robots" content="noindex, follow" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  </head>
+  <body style="font-family:system-ui,sans-serif;max-width:40rem;margin:3rem auto;padding:0 1rem;line-height:1.5">
+    <p>{fr ? 'Cette page a été déplacée sur ' : 'This page has moved to '}<a href={r.to}>{r.to}</a></p>
+  </body>
+</html>

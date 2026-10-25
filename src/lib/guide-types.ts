@@ -1,21 +1,20 @@
 /**
- * One page = ONE data file in `src/content/pages/<id>.ts`, with an English version and, for the
- * Canadian pages that have a French query, a French one, and for the US pages a Spanish one. How to add a page: CONTRIBUTING-PAGES.md.
+ * One page = ONE data file in `src/content/pages/<id>.ts`, with an English version and, when the
+ * page has a Spanish query, a Spanish one. The site covers the United States only since 2026-10-25. How to add a page: CONTRIBUTING-PAGES.md.
  */
 import type { Helpers } from './helpers';
 
-export type Lang = 'en' | 'fr' | 'es';
-/** Country group of a page: menus, footer and home lists follow it. */
-export type Group = 'all' | 'uk' | 'us' | 'au' | 'ca';
+export type Lang = 'en' | 'es';
+/** Country group of a page. Only 'us' remains: the UK, Australia and Canada moved to their own sites on 2026-10-25. */
+export type Group = 'us';
 export interface FAQ { q: string; a: string }
 /**
- * `quiz` (mock exam or practice, props: country, mode 'exam' | 'practice', chapter, timed),
- * `bank` (questions with answers, props: country, chapter), `date` (earliest date to apply,
- * props: country), `cost` (official cost, props: country) or `mini:<spec>` from `lib/mini-specs.ts`.
+ * `usquiz` (mock interview or practice, props: version, mode, theme, versionSelect), `usbank`,
+ * `uswhich`, `usenglish`, `usdate`, `usfee`, `usfrise`, `ustime` or `mini:<spec>` from `lib/mini-specs.ts`.
  */
 export interface ToolDef { kind: string; props?: Record<string, string | number | boolean> }
 export interface PageText {
-  /** Path after /en/ or /fr/, without slashes at the ends; may hold one "/" (life-in-the-uk-test/practice). */
+  /** Path after /en/ or /es/, without slashes at the ends; may hold one "/". */
   slug: string; nav: string; card: string;
   /** 50–60 characters, key term first (RECETTE §11). */
   title: string;
@@ -25,7 +24,7 @@ export interface PageText {
   /** Citable block, one paragraph of 120 words or more (RECETTE §21), folded after its first sentence. */
   resume: (h: Helpers) => string;
   faqs: (h: Helpers) => FAQ[];
-  /** HTML; `<!--tool:mini:spec-->` or `<!--tool:date|{"country":"uk"}-->` places a tool in the body. */
+  /** HTML; `<!--tool:mini:spec-->` or `<!--tool:usdate|{"route":"3"}-->` places a tool in the body. */
   body: (h: Helpers) => string;
 }
 export interface PageDef {
@@ -34,6 +33,6 @@ export interface PageDef {
   related: string[];
   /** Keys of `data/params-2026.json` sources. */
   sources: string[];
-  en: PageText; fr?: PageText; es?: PageText;
+  en: PageText; es?: PageText;
 }
 export const definePage = (g: PageDef): PageDef => g;

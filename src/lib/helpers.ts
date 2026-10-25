@@ -1,9 +1,6 @@
-/** Writing helpers handed to every page: links, figures read from params-2026.json, tables, banks. */
+/** Writing helpers handed to every page: links, figures read from params-2026.json, tables, the USCIS banks. */
 import { route, ROUTES, type Locale } from '../i18n/routes';
 import { formatNumberL, money, pct, dateL, type Cur } from './format-l';
-import { BANKS } from './banks-build';
-import { CHAPTERS } from './banks';
-import { passNeeded } from './engine/exam';
 import P from '../data/params-2026.json';
 import US25 from '../data/questions/us-2025.json';
 import US08 from '../data/questions/us-2008.json';
@@ -29,12 +26,10 @@ export function helpers(lang: Locale, strict = false) {
   const src = (k: SourceKey, text: string) => ext(P.sources[k].url, text);
   const usd = (n: number) => money(n, 'USD', lang);
   const ul = lang === 'es' ? 'es' : 'en';
-  const gbp = (n: number) => money(n, 'GBP', lang), aud = (n: number) => money(n, 'AUD', lang), cad = (n: number) => money(n, 'CAD', lang);
   const num = (n: number, d = 0) => formatNumberL(n, lang, d);
   const pc = (x: number, d = 0) => pct(x, lang, d);
-  const ca = lang === 'fr' ? 'ca-fr' : 'ca-en';
   return {
-    lang, a, ext, src, gbp, aud, cad, usd, num, pc, P,
+    lang, a, ext, src, usd, num, pc, P,
     /** United States: bank sizes, themes and questions read from the USCIS banks (never typed in a page). */
     us: {
       n25: B25.questions.length, n08: B08.questions.length,
@@ -53,14 +48,6 @@ export function helpers(lang: Locale, strict = false) {
     m: (n: number, c: Cur) => money(n, c, lang),
     date: (iso: string) => dateL(iso, lang),
     table: (h: string[], r: Array<Array<string | number>>, c?: string, al: Array<'l' | 'r'> = []) => table(h, r, c, al, lang),
-    /** Size of each bank and of each chapter, read from the JSON (never typed in a page). */
-    count: { uk: BANKS.uk.length, au: BANKS.au.length, auValues: BANKS.au.filter((q) => q.values).length, ca: BANKS[ca].length, caEn: BANKS['ca-en'].length, caFr: BANKS['ca-fr'].length },
-    chapters: { uk: CHAPTERS.uk, au: CHAPTERS.au, ca: CHAPTERS[ca] },
-    inChapter: (bank: 'uk' | 'au' | 'ca', i: number) => (bank === 'ca' ? BANKS[ca] : BANKS[bank]).filter((q) => q.chapter === (bank === 'ca' ? CHAPTERS[ca] : CHAPTERS[bank])[i]).length,
-    /** A sample question of the bank (by id), for a worked example in the text. */
-    q: (id: string) => [...BANKS.uk, ...BANKS.au, ...BANKS['ca-en'], ...BANKS['ca-fr']].find((x) => x.id === id),
-    need: { uk: passNeeded('uk'), au: passNeeded('au'), ca: passNeeded('ca') },
-    ukTotal: P.uk.fees.naturalisation + P.uk.fees.ceremony + P.uk.fees.lifeInUkTest,
   };
 }
 export type Helpers = ReturnType<typeof helpers>;

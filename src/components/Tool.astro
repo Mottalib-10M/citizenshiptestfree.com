@@ -1,13 +1,10 @@
 ---
 /**
- * Renders one tool with its page defaults: `quiz` (mock exam or practice), `bank` (questions with
- * answers), `date` (earliest date to apply), `cost` (official cost) or `mini:<spec>`. The questions a
- * quiz shows first are drawn here, at build time, with a seed taken from the page id (RECETTE §17.5).
+ * Renders one U.S. tool with its page defaults: `usquiz` (mock interview or practice), `usbank`
+ * (official questions with answers), `uswhich`, `usenglish`, `usdate`, `usfee`, `usfrise`, `ustime`
+ * or `mini:<spec>`. The questions a quiz shows first are drawn here, at build time, with a seed taken
+ * from the page id (RECETTE §17.5).
  */
-import CitizenQuiz from './calc/CitizenQuiz';
-import QuestionBank from './calc/QuestionBank';
-import ResidenceDate from './calc/ResidenceDate';
-import CostTool from './calc/CostTool';
 import MiniSim from './calc/MiniSim';
 import UsQuiz from './calc/UsQuiz';
 import UsBank from './calc/UsBank';
@@ -22,25 +19,15 @@ import US08 from '../data/questions/us-2008.json';
 import { drawUs, practiceUs, type UsBankFile, type UsVersion } from '../lib/engine/us';
 import { route, hasRoute, type Locale } from '../i18n/routes';
 import { getSpec } from '../lib/mini-specs';
-import { BANKS } from '../lib/banks-build';
-import { bankKey, CHAPTERS } from '../lib/banks';
-import { buildExam, buildPractice, seedOf, type Country } from '../lib/engine/exam';
+import { seedOf } from '../lib/engine/exam';
 import type { ToolDef } from '../lib/guide-types';
 interface Props { tool: ToolDef; lang: Locale; primary?: boolean; idPrefix?: string; seedKey?: string }
 const { tool, lang, primary = false, idPrefix, seedKey = 'home' } = Astro.props;
 const props = (tool.props ?? {}) as Record<string, any>;
 const kind = tool.kind;
-const country = (props.country ?? 'uk') as Country;
-const key = bankKey(country, lang);
-const bank = BANKS[key];
-const seed = seedOf(`${seedKey}-${kind}-${country}-${props.chapter ?? ''}`);
-const mode = (props.mode ?? 'exam') as 'exam' | 'practice';
-const chapter: string | null = props.chapter != null ? CHAPTERS[key][Number(props.chapter)] : null;
-const initial = kind === 'quiz' ? (mode === 'practice' ? buildPractice(bank, chapter, seed, 10) : buildExam(bank, country, seed).questions) : [];
-const bankChapter = CHAPTERS[key][Number(props.chapter ?? 0)];
-const bankInitial = kind === 'bank' ? bank.filter((q) => q.chapter === bankChapter) : [];
-const pages: Record<string, string> = {};
-for (const [c, id] of [['uk', 'uk-test'], ['au', 'au-test'], ['ca', 'ca-test']]) if (hasRoute(id, lang)) pages[c] = route(id, lang);
+// Graine inchangée depuis le retrait des autres pays (le segment « uk » restait la valeur par défaut) :
+// le premier tirage affiché par chaque page reste le même qu'avant le 2026-10-25.
+const seed = seedOf(`${seedKey}-${kind}-uk-${props.chapter ?? ''}`);
 // United States (props: version '2025' | '2008', mode 'exam' | 'practice' | '6520', theme, versionSelect)
 const ul = lang === 'es' ? 'es' : 'en';
 const usV = (props.version ?? '2025') as UsVersion;
@@ -56,10 +43,6 @@ const href = spec?.ctaPage && hasRoute(spec.ctaPage, lang) ? route(spec.ctaPage,
 const numDefaults: Record<string, number> = {};
 for (const [k, v] of Object.entries(props)) if (typeof v === 'number') numDefaults[k] = v;
 ---
-{kind === 'quiz' && <CitizenQuiz client:load lang={lang} country={country} mode={mode} chapter={chapter} timed={!!props.timed} initial={initial} seed={seed} countrySelect={!!props.countrySelect} pages={pages} idPrefix={idPrefix ?? 'q'} />}
-{kind === 'bank' && <QuestionBank client:load lang={lang} bank={key} chapter={bankChapter} initial={bankInitial} total={bank.length} idPrefix={idPrefix ?? 'b'} />}
-{kind === 'date' && <ResidenceDate client:load lang={lang} country={country} idPrefix={idPrefix ?? 'd'} />}
-{kind === 'cost' && <CostTool client:load lang={lang} country={country} idPrefix={idPrefix ?? 'c'} />}
 {kind === 'usquiz' && <UsQuiz client:load lang={ul} version={usV} mode={usMode} theme={usTheme} initial={usInitial} themes={usB.themes[ul]} seed={seed} versionSelect={!!props.versionSelect} idPrefix={idPrefix ?? 'u'} />}
 {kind === 'usbank' && <UsBank client:load lang={ul} version={usV} theme={usBankTheme} initial={usBankInitial} themes={usB.themes[ul]} total={usB.questions.length} versionSelect={!!props.versionSelect} idPrefix={idPrefix ?? 'ub'} />}
 {kind === 'uswhich' && <UsWhich client:load lang={ul} idPrefix={idPrefix ?? 'w'} />}
@@ -69,6 +52,3 @@ for (const [k, v] of Object.entries(props)) if (typeof v === 'number') numDefaul
 {kind === 'usfrise' && <UsFrise client:visible lang={ul} variant={(props.variant ?? 'processing') as 'processing' | 'timeline' | 'steps' | 'oath'} id={idPrefix ?? 'frise'} />}
 {kind === 'ustime' && <UsTimeline client:load lang={ul} mode={(props.mode ?? 'processing') as 'processing' | 'timeline' | 'oath'} idPrefix={idPrefix ?? 't'} />}
 {mini && <MiniSim client:load kind={mini} lang={lang} href={href} defaults={numDefaults} primary={primary} idPrefix={idPrefix ?? (primary ? 'p' : 'm')} />}
-{(kind === 'quiz' || kind === 'bank') && (country === 'au' || props.countrySelect) && lang === 'en' && (
-  <p class="mt-2 text-xs text-navy-600" data-attribution-au>Australian questions adapted from Australian Citizenship: Our Common Bond, © Commonwealth of Australia, <a class="underline" href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>, adapted by Radif Partners.</p>
-)}

@@ -20,7 +20,7 @@ const alts = altPaths(pathname);
 const homeHref = route('home', lang);
 const cats = navCategories(lang); const direct = navDirect(lang); const footerCols = footerColumns(lang); const popular = popularLinks(lang);
 // Only the translations that exist: a language link on a page that has no version in that language
-// would send the visitor to an unrelated home (fr = Canada, es = United States).
+// would send the visitor to an unrelated home.
 const otherLocales = LOCALES.filter((l) => l !== lang && !!alts?.[l]);
 const altLocales = alts ? LOCALES.filter((l) => !!alts[l]) : [];
 // Un emplacement passé sous condition ({cond && <p slot=…>}) compte comme présent pour

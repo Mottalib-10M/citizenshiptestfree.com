@@ -5,18 +5,18 @@ import { CONTACT_EMAIL, LAST_UPDATED, SITE_NAMES } from '../../data/site-config'
 import { route } from '../../i18n/routes';
 const lang = 'en';
 ---
-<PageLayout title={`Contact ${SITE_NAMES[lang]}: a fee, a question, the widget`} description="Write to Citizenship Test Free when a fee or residence rule looks out of date, when a practice question seems wrong, or to embed the free mock test on a library or college site." lang={lang} noindex={true} breadcrumbs={[{ label: 'Contact' }]} showAuthor={false}>
+<PageLayout title={`Contact ${SITE_NAMES[lang]}: a fee, a question, the widget`} description="Write to Citizenship Test Free when an N-400 fee or residence rule looks out of date, when a civics answer seems wrong, or to embed the free mock test on a library or class site." lang={lang} noindex={true} breadcrumbs={[{ label: 'Contact' }]} showAuthor={false}>
   <div class="prose prose-slate max-w-none">
     <h1>Contact</h1>
     <p>Email: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. A person reads every message.</p>
     <h2>A fee or a rule looks out of date</h2>
-    <p>Tell us the country and the rule and, if you have it, the official page that says otherwise. Fees in the three countries change at set dates (the UK fees table, the Australian indexation on 1 July, the IRCC fee list), and some official pages are updated later than others. We read the official source again, correct the parameter file and date the change.</p>
-    <h2>A practice question seems wrong</h2>
-    <p>Give us the first words of the question. Each one names the chapter of the guide it was written from; if the guide and current reality differ, we rewrite or remove it.</p>
+    <p>Tell us the rule and, if you have it, the uscis.gov page that says otherwise. The N-400 fee changes by rule published in the Federal Register, the income limits for the reduced fee follow the poverty guidelines each year, and the answers that depend on who holds an office change after an election. We read the official source again, correct the parameter file and date the change.</p>
+    <h2>A civics answer seems wrong</h2>
+    <p>Give us the question number and the list, 2025 or 2008. The questions and accepted answers are copied from USCIS without change; if USCIS has updated an answer on its test updates page, we follow it the same day we see it. The answer choices are ours, and we fix any that could mislead.</p>
     <h2>What we cannot do</h2>
-    <p>We are not a government office or an adviser. We cannot book a test, check an application or advise on a personal case. Please do not send passport numbers, application numbers or dates of birth.</p>
+    <p>We are not a government office or an adviser. We cannot schedule an interview, check an application or advise on a personal case. Please do not send A-numbers, receipt numbers, passport numbers or dates of birth.</p>
     <h2>Using a test on your own site</h2>
-    <p>Libraries, colleges and community groups that help new residents can show the mock test in an iframe at no cost: see the <a href={route('widget', lang)}>embed page</a>.</p>
+    <p>Libraries, adult schools and community groups that help green card holders can show the civics mock test in an iframe at no cost: see the <a href={route('widget', lang)}>embed page</a>.</p>
     <h2>Publisher</h2>
     <LegalIdentity lang={lang} />
     <p>Updated: {LAST_UPDATED}.</p>

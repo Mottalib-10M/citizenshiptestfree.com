@@ -483,9 +483,16 @@ if os.path.exists(racine):
         flags.append(f'{len(muets)} lien(s) sans texte lisible '
                      f'({", ".join(repr(t) for t in muets[:3])})')
 
+    # Un dossier de langue dont l'accueil n'est qu'un renvoi (meta refresh) n'est plus une langue
+    # publiée : langue retirée du site, ses anciennes adresses renvoient ailleurs
+    # (citizenshiptestfree.com, arbre /fr/ devenu des renvois vers le site canadien le 2026-10-25).
+    def renvoi_seul(d):
+        f = f'{site}/{sortie}/{d}/index.html'
+        return os.path.exists(f) and 'http-equiv="refresh"' in open(f, encoding='utf-8').read()
     locales = sorted(d for d in os.listdir(f'{site}/{sortie}')
                      if re.fullmatch(r'[a-z]{2}', d)
-                     and os.path.isdir(f'{site}/{sortie}/{d}'))
+                     and os.path.isdir(f'{site}/{sortie}/{d}')
+                     and not renvoi_seul(d))
     if len(liens) < len(locales):
         flags.append(f'{len(locales)} langue(s) publiée(s) ({", ".join(locales)}) '
                      f'mais {len(liens)} lien(s) : une langue est inatteignable sans JS')

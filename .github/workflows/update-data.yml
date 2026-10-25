@@ -1,4 +1,4 @@
-# Relève mensuelle des frais et délais officiels (gov.uk, Home Affairs, IRCC).
+# Relève mensuelle des frais officiels du Formulaire N-400 (uscis.gov ; UK, Australie et Canada retirés le 2026-10-25).
 # Ne tourne qu'une fois le dépôt créé. Un écart (code 2) fait échouer le job : la règle est relue à la main
 # (RECETTE §17.4) avant de modifier data/params-2026.json ; official-latest.json garde la trace datée.
 name: update-data
@@ -16,7 +16,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install pypdf==6.9.2
       - run: python3 scripts/update-data.py --write
       - name: Commit official-latest.json
         if: always()
