@@ -85,7 +85,7 @@ ${h.table(['Punto', 'Regla', 'Fuente'], [['Doble nacionalidad', 'permitida; la l
 <li><strong>Pasaportes.</strong> Use el pasaporte estadounidense en la frontera de Estados Unidos y el del otro país donde ese país lo exija.</li>
 <li><strong>Ayuda consular.</strong> En su otro país, ese país puede tratarle solo como nacional suyo, y el acceso consular estadounidense puede ser limitado.</li>
 <li><strong>Obligaciones.</strong> Su otra nacionalidad puede traer deberes propios, como el servicio militar o impuestos. Pregunte al consulado de ese país.</li>
-<li><strong>Prueba de la ciudadanía.</strong> Su Certificado de Naturalización es el documento que debe guardar; si lo pierde, se reemplaza con el ${h.a('us-n565', 'Formulario N-565')}. Los hijos que se hicieron ciudadanos a través de usted pueden obtener un certificado con el ${h.a('us-n600', 'Formulario N-600')}.</li>
+<li><strong>Prueba de la ciudadanía.</strong> Su Certificado de Naturalización es el documento que debe guardar; si lo pierde, se reemplaza con el Formulario N-565. Los hijos que se hicieron ciudadanos a través de usted pueden obtener un certificado con el Formulario N-600.</li>
 </ul>
 <p>Esta página explica las reglas publicadas. No es asesoría legal: quien piense renunciar a una de sus nacionalidades, o tenga una duda sobre una posible pérdida, debe consultar a un abogado de inmigración y, por los efectos fiscales, a un profesional de impuestos.</p>`,
   },

@@ -92,6 +92,6 @@ ${h.table(['Puntos de la Parte 9', 'Tema', 'Lo que dicen las instrucciones'], [[
 <li>Para cualquier «Sí» en la Parte 9: las pruebas que sostienen su explicación de la Parte 14.</li>
 </ul>
 <h2>Después de la entrevista</h2>
-<p>Si el oficial recomienda la aprobación, la ceremonia de juramento a veces se hace el mismo día y más a menudo en otra fecha; la página de la ${h.a('us-oath', 'ceremonia de juramento')} la explica. USCIS tiene ${h.P.us.processing.decisionDaysAfterInterview} días después de la primera entrevista para decidir. Una afección médica que impide aprender inglés o educación cívica se presenta con el ${h.a('us-n648', 'Formulario N-648')}, junto con el N-400. El orden completo está en la página del ${h.a('us-steps', 'proceso del N-400')}.</p>`,
+<p>Si el oficial recomienda la aprobación, la ceremonia de juramento a veces se hace el mismo día y más a menudo en otra fecha; la página de la ${h.a('us-oath', 'ceremonia de juramento')} la explica. USCIS tiene ${h.P.us.processing.decisionDaysAfterInterview} días después de la primera entrevista para decidir. Una afección médica que impide aprender inglés o educación cívica se presenta con el Formulario N-648, junto con el N-400. El orden completo está en la página del ${h.a('us-steps', 'proceso del N-400')}.</p>`,
   },
 });

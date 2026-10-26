@@ -47,44 +47,4 @@ ${h.table(['Case', 'Fee'], [['Online filing', h.usd(h.P.us.forms.n600.online)], 
 <h2>After approval</h2>
 <p>If you are 14 or older, you take the Oath of Allegiance before USCIS issues the certificate; under 14, USCIS waives it. Keep the original safe: a lost or damaged Certificate of Citizenship is replaced with ${h.a('us-n565', 'Form N-565')}, at a separate fee. Adults who did not become citizens through a parent follow the ${h.a('us-greencard', 'green card to citizenship')} route with the N-400 instead.</p>`,
   },
-  es: {
-    slug: 'formulario-n-600',
-    nav: 'Formulario N-600, Certificado de Ciudadanía',
-    card: 'La prueba de ciudadanía de quien se hizo estadounidense a través de un padre: las condiciones de la INA 320, la tarifa de $1,335 en línea y cuándo basta el pasaporte.',
-    title: 'Formulario N-600 2026: Certificado de Ciudadanía, $1,335',
-    description: 'Formulario N-600 en 2026: el Certificado de Ciudadanía de los hijos de ciudadanos, las cuatro condiciones de la INA 320, la tarifa de $1,335 y el pasaporte.',
-    h1: 'Formulario N-600: el Certificado de Ciudadanía',
-    intro: 'Responda cuatro preguntas sobre su infancia. La herramienta indica si probablemente se hizo ciudadano automáticamente según la INA 320 y cuánto cuesta probarlo con el N-600.',
-    resume: (h) => `El Formulario N-600, solicitud de Certificado de Ciudadanía, pide a USCIS un documento que pruebe que usted ya es ciudadano estadounidense: por haber nacido en el extranjero de un padre o una madre ciudadanos, o por haberse hecho ciudadano automáticamente antes de cumplir ${h.P.us.forms.cca.childAgeUnder} años. No es una solicitud para hacerse ciudadano. Según la sección 320 de la INA, modificada por la Ley de Ciudadanía Infantil vigente desde el ${h.date(h.P.us.forms.cca.effective)}, un niño nacido en el extranjero se hace ciudadano automáticamente cuando se cumplen a la vez cuatro condiciones antes de los ${h.P.us.forms.cca.childAgeUnder} años: uno de los padres es ciudadano por nacimiento o naturalización, el niño tiene menos de ${h.P.us.forms.cca.childAgeUnder} años, es residente permanente legal y vive en Estados Unidos bajo la custodia legal y física de ese padre. La ley se aplica a quienes nacieron en esa fecha o después, o tenían menos de ${h.P.us.forms.cca.childAgeUnder} años ese día. La tarifa es de ${h.usd(h.P.us.forms.n600.online)} en línea o ${h.usd(h.P.us.forms.n600.paper)} en papel según la tabla G-1055 de USCIS, edición del ${h.date(h.P.us.forms.g1055Edition)}, sin tarifa para miembros actuales o antiguos de las fuerzas armadas que la piden para sí mismos y para ciertos hijos adoptivos. No está obligado a tener el certificado: un pasaporte estadounidense válido también prueba la ciudadanía.`,
-    faqs: (h) => [
-      { q: '¿Necesito el N-600 si ya tengo pasaporte estadounidense?', a: 'No. USCIS indica que no está obligado a obtener una prueba de su ciudadanía, y un pasaporte estadounidense válido y vigente la demuestra. La diferencia es la duración: el pasaporte vence y deja entonces de ser prueba concluyente, mientras que el Certificado de Ciudadanía no vence nunca. Muchas familias sacan primero el pasaporte, para viajar, y presentan el N-600 más tarde o nunca.' },
-      { q: 'Tenía más de 18 años el 27 de febrero de 2001. ¿Puedo presentar el N-600?', a: `Sí, pero la actual sección 320 no se le aplica. La Ley de Ciudadanía Infantil no es retroactiva: su caso se juzga con la ley vigente cuando cumplió ${h.P.us.forms.cca.childAgeUnder} años o cumplió la última condición, como la antigua sección 321, con reglas distintas sobre los padres y la custodia. El formulario es el mismo; las condiciones no. Pida a un abogado o representante acreditado que revise las reglas antiguas antes de pagar la tarifa.` },
-      { q: '¿Puede un padre presentar el N-600 por su hijo?', a: 'Sí. El padre o la madre ciudadanos, o el tutor legal, con custodia legal y física pueden presentarlo por un hijo menor de 18 años, y firman por un hijo menor de 14. USCIS toma el Juramento de Lealtad antes de entregar el certificado, pero exime de él a los menores de 14 años. Si el niño vive en el extranjero y no se hizo ciudadano automáticamente, el formulario que corresponde es el N-600K.' },
-      { q: '¿Puedo presentar un segundo N-600 después de una negación?', a: `No. Las instrucciones indican que USCIS rechazará cualquier nuevo N-600 de quien ya recibió una decisión sobre uno anterior. Tras una negación, la carta explica su derecho de apelación, en un plazo de ${h.P.us.processing.hearingRequestDays} días naturales (${h.P.us.processing.hearingRequestDaysMailed} si la decisión llegó por correo); una solicitud de pasaporte es otra vía para obtener la prueba. Por eso conviene reunir bien las pruebas de custodia y de residencia la primera vez.` },
-    ],
-    body: (h) => `
-<h2>Tarifas vigentes</h2>
-${h.table(['Caso', 'Tarifa'], [['Presentación en línea', h.usd(h.P.us.forms.n600.online)], ['Presentación en papel', h.usd(h.P.us.forms.n600.paper)], ['Miembro actual o antiguo de las fuerzas armadas, para sí mismo', h.usd(h.P.us.forms.n600.military)], ['Ciertos hijos adoptivos (INA 101(b)(1)(E), (F) o (G))', h.usd(h.P.us.forms.n600.adopted)], ['Exención con el Formulario I-912 (solo en papel)', h.usd(0)]], `Tabla de tarifas de USCIS, Formulario G-1055, edición del ${h.date(h.P.us.forms.g1055Edition)}, leída el ${h.date(h.P.us.forms.retrieved_at)}.`, ['l', 'r'])}
-<p>Los hijos de militares no tienen la exención militar. No puede presentar en línea si lo hace desde fuera de Estados Unidos, si pide una exención de tarifa o si es militar o veterano y presenta para sí mismo: esos casos van por correo.</p>
-<h2>Las cuatro condiciones de la INA 320</h2>
-<p>Las cuatro deben cumplirse al mismo tiempo, en algún momento antes de los 18 años. El orden no importa.</p>
-<ol>
-<li><strong>Un padre o una madre ciudadanos</strong>, por nacimiento o naturalización, incluido un padre adoptivo. Los hijastros no cuentan salvo adopción.</li>
-<li><strong>Menos de ${h.P.us.forms.cca.childAgeUnder} años.</strong></li>
-<li><strong>Residente permanente legal.</strong> El niño tiene tarjeta verde.</li>
-<li><strong>Vivir en Estados Unidos bajo la custodia legal y física del padre ciudadano.</strong> La custodia legal sigue el acta de nacimiento si los padres están casados, o una orden judicial tras un divorcio; la custodia física significa vivir de verdad con ese padre.</li>
-</ol>
-<p>El caso más frecuente: un padre se naturaliza mientras vive con él un hijo con tarjeta verde. El hijo se hace ciudadano el día del juramento del padre, sin ningún formulario. El N-600 solo lo documenta después. Los hijos de empleados del gobierno y de militares destinados en el extranjero pueden cumplir la condición de residencia fuera del país, según la INA 320(c).</p>
-<h2>Las pruebas que busca USCIS</h2>
-<ul>
-<li>Su acta de nacimiento y la prueba de ciudadanía del padre (acta de nacimiento, Certificado de Naturalización, pasaporte).</li>
-<li>Su tarjeta verde u otra prueba de residencia permanente.</li>
-<li>La prueba de la custodia legal: acta de matrimonio de los padres, sentencia de divorcio y orden de custodia, o documentos de legitimación para un padre.</li>
-<li>La prueba de que vivía con el padre ciudadano antes de los ${h.P.us.forms.cca.childAgeUnder} años: expedientes escolares, médicos o fiscales con la misma dirección, o declaraciones juradas notariadas de cualquiera de los padres, como enumera el Manual de Políticas.</li>
-</ul>
-<h2>Nacido en el extranjero de un padre ciudadano</h2>
-<p>Un niño nacido en el extranjero de un padre o una madre ciudadanos puede ser ciudadano desde el nacimiento según las secciones 301 o 309 de la INA, según el matrimonio de los padres y la presencia física pasada del padre en Estados Unidos, con la ley vigente en la fecha del nacimiento. Ese niño también puede usar el N-600, o un padre puede pedir a una embajada o un consulado de Estados Unidos un Informe Consular de Nacimiento en el Extranjero. Estas reglas cambiaron varias veces; compruebe la versión que corresponde a su año de nacimiento con un abogado o representante acreditado.</p>
-<h2>Después de la aprobación</h2>
-<p>Si tiene 14 años o más, presta el Juramento de Lealtad antes de que USCIS entregue el certificado; con menos de 14, USCIS lo exime. Guarde bien el original: un Certificado de Ciudadanía perdido o dañado se reemplaza con el ${h.a('us-n565', 'Formulario N-565')}, con su propia tarifa. Los adultos que no se hicieron ciudadanos a través de un padre siguen la vía ${h.a('us-greencard', 'de residente a ciudadano')} con el N-400.</p>`,
-  },
 });

@@ -132,7 +132,7 @@ const SPECS: Record<string, (lang: L) => MiniSpec> = {
       5: ['details of the foreign official who asks (Part 8)', 'datos del funcionario extranjero que lo pide (Parte 8)'],
     };
     return {
-      title: es ? 'Tarifa del N-565 según el motivo' : 'N-565 fee for my reason', cta: es ? 'Ver el proceso del N-400' : 'See the N-400 process', ctaPage: 'us-steps',
+      title: es ? 'Tarifa del N-565 según el motivo' : 'N-565 fee for my reason', cta: es ? 'Nunca recibió certificado: Formulario N-600' : 'Never had a certificate? See Form N-600', ctaPage: 'us-n600',
       inputs: [{ id: 'r', label: es ? 'Motivo del reemplazo' : 'Reason for the replacement', def: 1, options: reasons }, { id: 'o', label: es ? '¿En línea?' : 'Online?', def: 1, options: yn(lang) }],
       run: (v) => {
         const r = clamp(v.r ?? 1, 1, 5), fee = r === 3 ? F.uscisError : v.o ? F.online : F.paper;
@@ -151,8 +151,8 @@ const SPECS: Record<string, (lang: L) => MiniSpec> = {
       run: (v) => {
         const a = clamp(v.a ?? 0, 0, 5), intent = !!v.i;
         const lost = a === 5 || (a > 0 && intent);
-        const law = a === 0 ? (es ? 'sin acto' : 'no act') : `INA 349(a)(${[0, 1, 2, 4, 3, 5][a]})`;
-        return { head: [es ? 'Ciudadanía de EE. UU.' : 'U.S. citizenship', lost ? (es ? 'Se pierde' : 'Lost') : (es ? 'Se conserva' : 'Kept')], rows: [[es ? 'Texto aplicable' : 'Provision', law], [es ? 'Pasaporte para entrar y salir de EE. UU.' : 'Passport to enter and leave the U.S.', lost ? (es ? 'el extranjero' : 'foreign') : (es ? 'el estadounidense' : 'U.S.')], [es ? 'Tarifa consular de renuncia' : 'Consular renunciation fee', money(P.us.forms.renunciationFee, 'USD', lang)]], note: es ? 'La ley exige un acto voluntario y la intención de renunciar; la renuncia formal ante un cónsul la expresa por sí misma. No es asesoría legal: consulte a un abogado si su caso es dudoso.' : 'The law requires a voluntary act done with the intent to give up citizenship; a formal renunciation before a consul expresses that intent itself. Not legal advice: ask an attorney if your case is unclear.' };
+        const law = a === 0 ? (es ? 'ninguno' : 'none') : `349(a)(${[0, 1, 2, 4, 3, 5][a]})`;
+        return { head: [es ? 'Ciudadanía de EE. UU.' : 'U.S. citizenship', lost ? (es ? 'Se pierde' : 'Lost') : (es ? 'Se conserva' : 'Kept')], rows: [[es ? 'Sección de la INA' : 'INA section', law], [es ? 'Pasaporte para entrar y salir de EE. UU.' : 'Passport to enter and leave the U.S.', lost ? (es ? 'el extranjero' : 'foreign') : (es ? 'el estadounidense' : 'U.S.')], [es ? 'Tarifa consular de renuncia' : 'Consular renunciation fee', money(P.us.forms.renunciationFee, 'USD', lang)]], note: es ? 'La ley exige un acto voluntario y la intención de renunciar; la renuncia formal ante un cónsul la expresa por sí misma. No es asesoría legal: consulte a un abogado si su caso es dudoso.' : 'The law requires a voluntary act done with the intent to give up citizenship; a formal renunciation before a consul expresses that intent itself. Not legal advice: ask an attorney if your case is unclear.' };
       },
     };
   },
