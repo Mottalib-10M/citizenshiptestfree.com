@@ -10,7 +10,7 @@ import Tool from './Tool.astro';
 import Clamp from './Clamp.astro';
 import Sources from './Sources.astro';
 import { route, type Locale } from '../i18n/routes';
-import { PAGES } from '../lib/guides';
+import { PAGES, sectionOf } from '../lib/guides';
 import { helpers } from '../lib/helpers';
 import { LAST_UPDATED, AUTHOR_NAME } from '../data/site-config';
 import { displayDate } from '../lib/format';
@@ -56,9 +56,10 @@ const resumeEn = `The U.S. citizenship test takes place at the naturalization in
   <div class="prose prose-slate max-w-none">
     <h2>Every U.S. practice page</h2>
   </div>
-  <div class="not-prose grid gap-6 md:grid-cols-2" data-sommaire>
+  <div class="not-prose grid gap-6 md:grid-cols-3" data-sommaire>
     <section><h3 class="mb-2 text-lg font-semibold text-navy-900">The test</h3><ul class="space-y-2 text-sm">{PAGES.filter((p) => p.order < 90).map((p) => <li><a href={route(p.id, lang)} class="font-medium text-accent-700 underline">{p.en.nav}</a><span class="block text-navy-700">{p.en.card}</span></li>)}</ul></section>
-    <section><h3 class="mb-2 text-lg font-semibold text-navy-900">Form N-400</h3><ul class="space-y-2 text-sm">{PAGES.filter((p) => p.order >= 90).map((p) => <li><a href={route(p.id, lang)} class="font-medium text-accent-700 underline">{p.en.nav}</a><span class="block text-navy-700">{p.en.card}</span></li>)}</ul></section>
+    <section><h3 class="mb-2 text-lg font-semibold text-navy-900">Form N-400</h3><ul class="space-y-2 text-sm">{PAGES.filter((p) => sectionOf(p) === 'n400').map((p) => <li><a href={route(p.id, lang)} class="font-medium text-accent-700 underline">{p.en.nav}</a><span class="block text-navy-700">{p.en.card}</span></li>)}</ul></section>
+    <section><h3 class="mb-2 text-lg font-semibold text-navy-900">Other citizenship forms</h3><ul class="space-y-2 text-sm">{PAGES.filter((p) => sectionOf(p) === 'more').map((p) => <li><a href={route(p.id, lang)} class="font-medium text-accent-700 underline">{p.en.nav}</a><span class="block text-navy-700">{p.en.card}</span></li>)}</ul></section>
   </div>
   <div class="prose prose-slate mt-8 max-w-none">
     <h2>What the N-400 costs</h2>

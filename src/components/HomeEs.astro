@@ -8,7 +8,7 @@ import Tool from './Tool.astro';
 import Clamp from './Clamp.astro';
 import Sources from './Sources.astro';
 import { route } from '../i18n/routes';
-import { PAGES } from '../lib/guides';
+import { PAGES, sectionOf } from '../lib/guides';
 import { helpers } from '../lib/helpers';
 import { LAST_UPDATED, AUTHOR_NAME } from '../data/site-config';
 import { displayDate } from '../lib/format';
@@ -16,8 +16,8 @@ import { faqSchema, webApplicationSchema, websiteSchema, organizationSchema } fr
 const lang = 'es';
 const h = helpers(lang, true);
 const U = h.P.us;
-const cards = PAGES.filter((p) => p.group === 'us' && p.es).map((p) => ({ href: route(p.id, lang), name: p.es!.nav, text: p.es!.card, n400: p.order >= 90 }));
-const title = 'Examen de ciudadanía 2026: preguntas oficiales y práctica';
+const cards = PAGES.filter((p) => p.group === 'us' && p.es).map((p) => ({ href: route(p.id, lang), name: p.es!.nav, text: p.es!.card, sec: sectionOf(p) }));
+const title = 'Examen de ciudadanía en español 2026: preguntas y práctica';
 const description = 'Examen de ciudadanía de Estados Unidos en español: práctica gratis con las preguntas de USCIS, la regla de 12 correctas, la fecha del N-400 y el costo.';
 const faqs = [
   { q: '¿Cuánto tiempo hace falta para preparar el examen de ciudadanía?', a: `Para la mayoría, entre tres y cuatro semanas de práctica diaria corta bastan para la parte cívica, si se lee el inglés con cierta soltura. La lista de 2025 tiene ${h.us.n25} preguntas, pero muchas se repiten en torno a las mismas instituciones y documentos. Quien empieza con poco inglés debe sumar tiempo para la lectura, la escritura y la conversación de la entrevista.` },
@@ -32,7 +32,7 @@ const resume = `El examen de ciudadanía de Estados Unidos se hace durante la en
 ---
 <PageLayout title={title} description={description} lang={lang} jsonLd={jsonLd} faqs={faqs} breadcrumbs={[]}>
   <header class="mb-3">
-    <h1 class="mt-0 text-[1.75rem] font-bold text-navy-900 max-sm:leading-tight sm:text-3xl md:text-4xl">Examen de ciudadanía de Estados Unidos: práctica gratis en español</h1>
+    <h1 class="mt-0 text-[1.75rem] font-bold text-navy-900 max-sm:leading-tight sm:text-3xl md:text-4xl">Examen de ciudadanía en español: práctica gratis de Estados Unidos</h1>
     <p class="mt-2 text-base text-navy-700 sm:text-lg">Hasta {U.test2025.asked} preguntas oficiales, {U.test2025.passCorrect} correctas para aprobar, cada pregunta en español y en inglés. Sin registro.</p>
   </header>
   <div data-outil class="mb-4"><Tool tool={{ kind: 'usquiz', props: { version: '2025', mode: 'exam', versionSelect: true } }} lang={lang} primary={true} seedKey="home-es" /></div>
@@ -49,9 +49,10 @@ const resume = `El examen de ciudadanía de Estados Unidos se hace durante la en
   <div class="prose prose-slate max-w-none">
     <h2>Todas las páginas en español</h2>
   </div>
-  <div class="not-prose grid gap-6 md:grid-cols-2" data-sommaire>
-    <section><h3 class="mb-2 text-lg font-semibold text-navy-900">El examen</h3><ul class="space-y-2 text-sm">{cards.filter((c) => !c.n400).map((c) => <li><a href={c.href} class="font-medium text-accent-700 underline">{c.name}</a><span class="block text-navy-700">{c.text}</span></li>)}</ul></section>
-    <section><h3 class="mb-2 text-lg font-semibold text-navy-900">Formulario N-400</h3><ul class="space-y-2 text-sm">{cards.filter((c) => c.n400).map((c) => <li><a href={c.href} class="font-medium text-accent-700 underline">{c.name}</a><span class="block text-navy-700">{c.text}</span></li>)}</ul></section>
+  <div class="not-prose grid gap-6 md:grid-cols-3" data-sommaire>
+    <section><h3 class="mb-2 text-lg font-semibold text-navy-900">El examen</h3><ul class="space-y-2 text-sm">{cards.filter((c) => c.sec === 'test').map((c) => <li><a href={c.href} class="font-medium text-accent-700 underline">{c.name}</a><span class="block text-navy-700">{c.text}</span></li>)}</ul></section>
+    <section><h3 class="mb-2 text-lg font-semibold text-navy-900">Formulario N-400</h3><ul class="space-y-2 text-sm">{cards.filter((c) => c.sec === 'n400').map((c) => <li><a href={c.href} class="font-medium text-accent-700 underline">{c.name}</a><span class="block text-navy-700">{c.text}</span></li>)}</ul></section>
+    <section><h3 class="mb-2 text-lg font-semibold text-navy-900">Otros formularios de ciudadanía</h3><ul class="space-y-2 text-sm">{cards.filter((c) => c.sec === 'more').map((c) => <li><a href={c.href} class="font-medium text-accent-700 underline">{c.name}</a><span class="block text-navy-700">{c.text}</span></li>)}</ul></section>
   </div>
   <div class="prose prose-slate mt-8 max-w-none">
     <h2>Cuánto cuesta</h2>

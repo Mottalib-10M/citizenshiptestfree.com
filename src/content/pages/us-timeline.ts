@@ -9,7 +9,7 @@ export default definePage({
   group: 'us',
   order: 114,
   tool: { kind: 'usfrise', props: { variant: 'timeline' } },
-  related: ['us-steps', 'us-processing', 'us-n400', 'us-eligibility', 'us-oath', 'us-test'],
+  related: ['us-steps', 'us-greencard', 'us-processing', 'us-n400', 'us-interview', 'us-oath'],
   sources: ['us_n400', 'us_hist_pt', 'us_pm_b4', 'us_nat_stats', 'us_ceremonies'],
   en: {
     slug: 'naturalization-timeline',
@@ -43,7 +43,7 @@ ${h.table(['Stage', 'Official duration', 'Source'], [['Permanent residence befor
 <li><strong>Failing a test.</strong> A second interview usually comes ${h.P.us.english.retestDays[0]} to ${h.P.us.english.retestDays[1]} days later. The ${h.a('us-test', 'mock civics test')} and the ${h.a('us-english', 'English practice')} are free.</li>
 <li><strong>Missing the ceremony.</strong> USCIS warns that failing to appear more than once can lead to the denial of the application; the ${h.a('us-oath', 'oath ceremony page')} explains how to ask for a new date.</li>
 </ul>
-<p>Each stage has its own page: the ${h.a('us-steps', 'N-400 process from filing to oath')}, the ${h.a('us-processing', 'processing time')} and the ${h.a('us-oath', 'ceremony')}.</p>`,
+<p>Each stage has its own page: ${h.a('us-greencard', 'green card to citizenship')} for the first wait, the ${h.a('us-steps', 'N-400 process from filing to oath')}, the ${h.a('us-processing', 'processing time')}, the ${h.a('us-interview', 'interview')} and the ${h.a('us-oath', 'ceremony')}.</p>`,
   },
   es: {
     slug: 'cuanto-tarda-la-ciudadania',
@@ -77,6 +77,6 @@ ${h.table(['Etapa', 'Duración oficial', 'Fuente'], [['Residencia permanente ant
 <li><strong>No aprobar un examen.</strong> La segunda entrevista suele llegar entre ${h.P.us.english.retestDays[0]} y ${h.P.us.english.retestDays[1]} días después. El ${h.a('us-test', 'examen cívico de práctica')} y la ${h.a('us-english', 'práctica de inglés')} son gratuitos.</li>
 <li><strong>Faltar a la ceremonia.</strong> USCIS advierte que no presentarse más de una vez puede llevar a la denegación; la página de la ${h.a('us-oath', 'ceremonia de juramento')} explica cómo pedir otra fecha.</li>
 </ul>
-<p>Cada etapa tiene su página: el ${h.a('us-steps', 'proceso del N-400 de la presentación al juramento')}, el ${h.a('us-processing', 'tiempo de trámite')} y la ${h.a('us-oath', 'ceremonia')}.</p>`,
+<p>Cada etapa tiene su página: el ${h.a('us-steps', 'proceso del N-400 de la presentación al juramento')}, el ${h.a('us-processing', 'tiempo de trámite')}, la ${h.a('us-interview', 'entrevista')} y la ${h.a('us-oath', 'ceremonia')}.</p>`,
   },
 });

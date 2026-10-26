@@ -6,7 +6,7 @@ export default definePage({
   order: 70,
   tool: { kind: 'usquiz', props: { version: '2025', mode: '6520', versionSelect: true } },
   mini: { kind: 'mini:usexempt' },
-  related: ['us-which', 'us-civics', 'us-questions', 'us-2008', 'us-english', 'us-test'],
+  related: ['us-which', 'us-n648', 'us-civics', 'us-questions', 'us-2008', 'us-test'],
   sources: ['us_exceptions', 'us_exceptions_es', 'us_pm_e2', 'us_128', 'us_100'],
   en: {
     slug: '65-20-civics-test',
@@ -39,7 +39,7 @@ ${h.us.stars('2008').map((x) => `<li>${x.en.q}</li>`).join('\n')}
 <h2>Taking the test in your language</h2>
 <p>When you are exempt from English, the officer asks the civics questions in English and your interpreter translates them; you answer in your language and the interpreter translates back. USCIS states that you must bring the interpreter yourself and that the interpreter must be fluent in both languages. Practise with that person beforehand, using the Spanish version of this page if Spanish is your language: the 2008 questions exist in an official USCIS translation, and for 2025 we provide our own translation.</p>
 <h2>The medical exception</h2>
-<p>A physical or developmental disability or a mental impairment that prevents you from learning English or civics can lead to a waiver of one or both tests. You ask for it with Form N-648, Medical Certification for Disability Exceptions, completed by a licensed medical or osteopathic doctor or a licensed clinical psychologist, and filed with the N-400; a form handed in later, at the interview for example, is accepted only for extenuating circumstances. The officer reviews the certification, and an incomplete one can be refused, so the doctor must explain how the condition affects learning, not only name it.</p>
+<p>A physical or developmental disability or a mental impairment that prevents you from learning English or civics can lead to a waiver of one or both tests. You ask for it with ${h.a('us-n648', 'Form N-648, Medical Certification for Disability Exceptions')}, completed by a licensed medical or osteopathic doctor or a licensed clinical psychologist, and filed with the N-400; a form handed in later, at the interview for example, is accepted only for extenuating circumstances. The officer reviews the certification, and an incomplete one can be refused, so the doctor must explain how the condition affects learning, not only name it.</p>
 <h2>Everything else still applies</h2>
 <p>An exemption changes the test, not the rest of naturalization: the residence and presence conditions, good moral character, the oath and the ${h.a('us-fee', 'N-400 fee')} are the same for everyone. The ${h.a('us-n400', 'N-400 date tool')} checks when you can file, and the ${h.a('us-which', 'version checker')} confirms which list you study.</p>`,
   },

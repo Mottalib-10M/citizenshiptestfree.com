@@ -1,7 +1,7 @@
 ---
 /**
  * Renders one U.S. tool with its page defaults: `usquiz` (mock interview or practice), `usbank`
- * (official questions with answers), `uswhich`, `usenglish`, `usdate`, `usfee`, `usfrise`, `ustime`
+ * (official questions with answers), `usinterview` (N-400 Part 9 yes/no practice), `uswhich`, `usenglish`, `usdate`, `usfee`, `usfrise`, `ustime`
  * or `mini:<spec>`. The questions a quiz shows first are drawn here, at build time, with a seed taken
  * from the page id (RECETTE §17.5).
  */
@@ -14,6 +14,7 @@ import UsDate from './calc/UsDate';
 import UsFee from './calc/UsFee';
 import UsTimeline from './calc/UsTimeline';
 import UsFrise from './calc/UsFrise';
+import UsInterview from './calc/UsInterview';
 import US25 from '../data/questions/us-2025.json';
 import US08 from '../data/questions/us-2008.json';
 import { drawUs, practiceUs, type UsBankFile, type UsVersion } from '../lib/engine/us';
@@ -51,4 +52,5 @@ for (const [k, v] of Object.entries(props)) if (typeof v === 'number') numDefaul
 {kind === 'usfee' && <UsFee client:load lang={ul} idPrefix={idPrefix ?? 'f'} />}
 {kind === 'usfrise' && <UsFrise client:visible lang={ul} variant={(props.variant ?? 'processing') as 'processing' | 'timeline' | 'steps' | 'oath'} id={idPrefix ?? 'frise'} />}
 {kind === 'ustime' && <UsTimeline client:load lang={ul} mode={(props.mode ?? 'processing') as 'processing' | 'timeline' | 'oath'} idPrefix={idPrefix ?? 't'} />}
+{kind === 'usinterview' && <UsInterview client:load lang={ul} idPrefix={idPrefix ?? 'i'} />}
 {mini && <MiniSim client:load kind={mini} lang={lang} href={href} defaults={numDefaults} primary={primary} idPrefix={idPrefix ?? (primary ? 'p' : 'm')} />}

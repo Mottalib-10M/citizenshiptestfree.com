@@ -8,7 +8,7 @@ export default definePage({
   group: 'us',
   order: 118,
   tool: { kind: 'usfrise', props: { variant: 'oath' } },
-  related: ['us-steps', 'us-timeline', 'us-processing', 'us-test', 'us-n400', 'us-civics'],
+  related: ['us-steps', 'us-interview', 'us-timeline', 'us-dual', 'us-n565', 'us-n400'],
   sources: ['us_ceremonies', 'us_oath', 'us_pm_j3', 'us_pm_b4', 'us_fod', 'us_10steps'],
   en: {
     slug: 'oath-ceremony',
@@ -48,7 +48,7 @@ export default definePage({
 <li><strong>Passport.</strong> The welcome packet includes an application. Leave enough time before any trip abroad, because the passport takes time to arrive.</li>
 <li><strong>Voting.</strong> You receive a voter registration application after the oath, and you can also register at post offices, motor vehicle offices or election offices.</li>
 <li><strong>Social Security.</strong> Update your record with Form SS-5, by mail or in person, at least ${PT(h).ssaWaitDays} days after the ceremony.</li>
-<li><strong>Your certificate.</strong> Keep it safe; a lost certificate is replaced with Form N-565.</li>
+<li><strong>Your certificate.</strong> Keep it safe; a lost certificate is replaced with ${h.a('us-n565', 'Form N-565')}. Whether you also keep your first nationality is explained on the ${h.a('us-dual', 'dual citizenship page')}.</li>
 </ul>
 <p>Still before the interview? The ${h.a('us-test', 'mock civics interview')} uses the official questions, and the ${h.a('us-steps', 'N-400 process page')} shows what comes before the ceremony.</p>`,
   },
@@ -90,7 +90,7 @@ export default definePage({
 <li><strong>Pasaporte.</strong> El paquete de bienvenida incluye una solicitud. Deje tiempo suficiente antes de cualquier viaje al extranjero, porque el pasaporte tarda en llegar.</li>
 <li><strong>Voto.</strong> Recibe una solicitud de inscripción electoral después del juramento, y también puede inscribirse en oficinas de correos, de vehículos o electorales.</li>
 <li><strong>Seguro Social.</strong> Actualice su registro con el Formulario SS-5, por correo o en persona, al menos ${PT(h).ssaWaitDays} días después de la ceremonia.</li>
-<li><strong>Su certificado.</strong> Guárdelo bien; un certificado perdido se reemplaza con el Formulario N-565.</li>
+<li><strong>Su certificado.</strong> Guárdelo bien; un certificado perdido se reemplaza con el Formulario N-565. Si conserva además su primera nacionalidad lo explica la página de la ${h.a('us-dual', 'doble ciudadanía')}.</li>
 </ul>
 <p>¿Aún antes de la entrevista? La ${h.a('us-test', 'entrevista cívica de práctica')} usa las preguntas oficiales, y la página del ${h.a('us-steps', 'proceso del N-400')} muestra lo que viene antes de la ceremonia.</p>`,
   },

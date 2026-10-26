@@ -28,12 +28,12 @@ export default definePage({
     body: (h) => `
 <h2>The ten official steps</h2>
 <ol>
-<li><strong>Check you are not already a citizen.</strong> Some people born abroad acquired citizenship at birth or through a parent; they need a certificate, not naturalization.</li>
+<li><strong>Check you are not already a citizen.</strong> Some people born abroad acquired citizenship at birth or through a parent; they need a certificate (${h.a('us-n600', 'Form N-600')}), not naturalization.</li>
 <li><strong>Check you are eligible.</strong> Years as a permanent resident, physical presence, continuous residence, three months in your state, good moral character, English and civics. The ${h.a('us-n400', 'N-400 date calculator')} counts the dated conditions.</li>
 <li><strong>Prepare Form N-400</strong> and the documents it asks for. Online filing needs a free USCIS account.</li>
 <li><strong>File and pay.</strong> ${h.usd(h.P.us.fees.online)} online or ${h.usd(h.P.us.fees.paper)} on paper; see the ${h.a('us-fee', 'N-400 fee page')} for the reduced fee and the waiver. USCIS sends a receipt notice, which carries the date that decides your civics test version.</li>
 <li><strong>Biometrics,</strong> if USCIS needs them.</li>
-<li><strong>The interview,</strong> at your field office, with the English and civics tests.</li>
+<li><strong>The interview,</strong> at your field office, with the English and civics tests: the ${h.a('us-interview', 'citizenship interview page')} lets you practise its N-400 questions.</li>
 <li><strong>The decision</strong> on Form N-652: granted, continued or denied.</li>
 <li><strong>The oath notice:</strong> a same-day ceremony when available, otherwise Form N-445 by mail.</li>
 <li><strong>The Oath of Allegiance</strong> at the ceremony, where you hand in your green card and receive your certificate.</li>
@@ -76,7 +76,7 @@ ${h.us.svgVersions()}
 <li><strong>Preparar el Formulario N-400</strong> y los documentos que pide. Para presentarlo en línea hace falta una cuenta gratuita de USCIS.</li>
 <li><strong>Presentar y pagar.</strong> ${h.usd(h.P.us.fees.online)} en línea o ${h.usd(h.P.us.fees.paper)} en papel; vea la página de la ${h.a('us-fee', 'tarifa del N-400')} para la tarifa reducida y la exención. USCIS envía un aviso de recibo, cuya fecha decide la versión de su examen cívico.</li>
 <li><strong>Datos biométricos,</strong> si USCIS los necesita.</li>
-<li><strong>La entrevista,</strong> en su oficina local, con los exámenes de inglés y cívico.</li>
+<li><strong>La entrevista,</strong> en su oficina local, con los exámenes de inglés y cívico: la página de la ${h.a('us-interview', 'entrevista de ciudadanía')} permite practicar sus preguntas del N-400.</li>
 <li><strong>La decisión</strong> en el Formulario N-652: aprobada, continuada o denegada.</li>
 <li><strong>El aviso de juramento:</strong> una ceremonia el mismo día si la hay; si no, el Formulario N-445 por correo.</li>
 <li><strong>El Juramento de Lealtad</strong> en la ceremonia, donde entrega su tarjeta verde y recibe su certificado.</li>

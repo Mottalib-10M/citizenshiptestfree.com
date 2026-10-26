@@ -6,7 +6,7 @@ export default definePage({
   order: 90,
   tool: { kind: 'usdate', props: { route: '5' } },
   mini: { kind: 'mini:usfee' },
-  related: ['us-eligibility', 'us-fee', 'us-which', 'us-test', 'us-english', 'us-civics'],
+  related: ['us-eligibility', 'us-greencard', 'us-marriage', 'us-fee', 'us-interview', 'us-test'],
   sources: ['us_n400', 'us_lpr5', 'us_pm_d3', 'us_pm_d4', 'us_pm_g3', 'us_reduced'],
   en: {
     slug: 'n-400',
@@ -34,7 +34,7 @@ ${h.table(['Condition', '5-year route', '3-year route (spouse of a citizen)'], [
 <h2>What it costs</h2>
 <p>The N-400 fee is ${h.usd(h.P.us.fees.online)} when you file online and ${h.usd(h.P.us.fees.paper)} on paper, biometrics included. A household with an income below ${h.P.us.fees.reducedMaxPctFpg} percent of the federal poverty guidelines may pay the reduced fee of ${h.usd(h.P.us.fees.reduced)}, and at or below ${h.P.us.fees.waiverMaxPctFpg} percent may ask for a fee waiver; both require a paper application. The ${h.a('us-fee', 'fee page')} checks which one your household can ask for.</p>
 <h2>After you file</h2>
-<p>USCIS sends a receipt notice, then a biometrics appointment if needed, then the interview, where the officer reviews your answers under oath and gives the English and civics tests. The receipt date also decides your test version: every N-400 received since ${h.date(h.P.us.cutoff)} takes the ${h.a('us-civics', '2025 civics test')}. Start preparing while you wait, with the ${h.a('us-test', 'mock citizenship test')} and the ${h.a('us-english', 'English practice')}.</p>
+<p>USCIS sends a receipt notice, then a biometrics appointment if needed, then the ${h.a('us-interview', 'citizenship interview')}, where the officer reviews your answers under oath and gives the English and civics tests. The receipt date also decides your test version: every N-400 received since ${h.date(h.P.us.cutoff)} takes the ${h.a('us-civics', '2025 civics test')}. Start preparing while you wait, with the ${h.a('us-test', 'mock citizenship test')} and the ${h.a('us-english', 'English practice')}.</p>
 <p>Processing times vary by field office and change often. USCIS publishes them on its own processing times tool, which is the only reliable source for your office. The ${h.a('us-processing', 'N-400 processing time page')} gives the national median by year and dates your decision with the figure of your office.</p>`,
   },
   es: {
@@ -62,7 +62,7 @@ ${h.table(['Condición', 'Vía de 5 años', 'Vía de 3 años (cónyuge de ciudad
 <h2>Cuánto cuesta</h2>
 <p>La tarifa del N-400 es de ${h.usd(h.P.us.fees.online)} en línea y ${h.usd(h.P.us.fees.paper)} en papel, datos biométricos incluidos. Un hogar con ingresos inferiores al ${h.P.us.fees.reducedMaxPctFpg} % de las pautas federales de pobreza puede pagar la tarifa reducida de ${h.usd(h.P.us.fees.reduced)}, y con ingresos iguales o inferiores al ${h.P.us.fees.waiverMaxPctFpg} % puede pedir la exención; las dos exigen la solicitud en papel. La página de la ${h.a('us-fee', 'tarifa del N-400')} comprueba cuál puede pedir su hogar.</p>
 <h2>Después de presentar</h2>
-<p>USCIS envía un aviso de recibo, después una cita de datos biométricos si hace falta y luego la entrevista, donde el oficial revisa sus respuestas bajo juramento y hace los exámenes de inglés y de educación cívica. La fecha de recepción decide también la versión del examen: todo N-400 recibido desde el ${h.date(h.P.us.cutoff)} hace el ${h.a('us-civics', 'examen cívico de 2025')}. Empiece a prepararse mientras espera, con el ${h.a('us-test', 'examen de práctica')} y la ${h.a('us-english', 'práctica de inglés')}.</p>
+<p>USCIS envía un aviso de recibo, después una cita de datos biométricos si hace falta y luego la ${h.a('us-interview', 'entrevista de ciudadanía')}, donde el oficial revisa sus respuestas bajo juramento y hace los exámenes de inglés y de educación cívica. La fecha de recepción decide también la versión del examen: todo N-400 recibido desde el ${h.date(h.P.us.cutoff)} hace el ${h.a('us-civics', 'examen cívico de 2025')}. Empiece a prepararse mientras espera, con el ${h.a('us-test', 'examen de práctica')} y la ${h.a('us-english', 'práctica de inglés')}.</p>
 <p>Los tiempos de tramitación varían según la oficina y cambian a menudo. USCIS los publica en su propia herramienta de tiempos de tramitación, la única fuente fiable para su oficina. La página del ${h.a('us-processing', 'tiempo de trámite del N-400')} da la mediana nacional por año y fecha su decisión con la cifra de su oficina.</p>`,
   },
 });

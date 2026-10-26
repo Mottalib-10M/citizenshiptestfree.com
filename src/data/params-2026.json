@@ -258,6 +258,174 @@
         "es": "USCIS: Dirección de Operaciones de Campo (en inglés)",
         "fr": "USCIS: Field Operations Directorate"
       }
+    },
+    "us_g1055": {
+      "url": "https://www.uscis.gov/g-1055",
+      "label": {
+        "en": "USCIS: Fee Schedule, Form G-1055 (edition 10/16/26)",
+        "es": "USCIS: tabla de tarifas, Formulario G-1055 (edición 10/16/26, en inglés)",
+        "fr": "USCIS: Fee Schedule, Form G-1055 (edition 10/16/26)"
+      }
+    },
+    "us_n600": {
+      "url": "https://www.uscis.gov/n-600",
+      "label": {
+        "en": "USCIS: Form N-600, Application for Certificate of Citizenship",
+        "es": "USCIS: Formulario N-600, solicitud de Certificado de Ciudadanía (en inglés)",
+        "fr": "USCIS: Form N-600, Application for Certificate of Citizenship"
+      }
+    },
+    "us_n600_instr": {
+      "url": "https://www.uscis.gov/sites/default/files/document/forms/n-600instr.pdf",
+      "label": {
+        "en": "USCIS: Instructions for Form N-600 (edition 01/20/25, PDF)",
+        "es": "USCIS: instrucciones del Formulario N-600 (edición 01/20/25, PDF en inglés)",
+        "fr": "USCIS: Instructions for Form N-600 (edition 01/20/25, PDF)"
+      }
+    },
+    "us_pm_h4": {
+      "url": "https://www.uscis.gov/policy-manual/volume-12-part-h-chapter-4",
+      "label": {
+        "en": "USCIS Policy Manual, vol. 12, part H, chapter 4: automatic citizenship after birth (INA 320)",
+        "es": "Manual de Políticas de USCIS, vol. 12, parte H, cap. 4: ciudadanía automática después del nacimiento (en inglés)",
+        "fr": "USCIS Policy Manual, vol. 12, part H, chapter 4: automatic citizenship after birth (INA 320)"
+      }
+    },
+    "usc_1431": {
+      "url": "https://www.govinfo.gov/link/uscode/8/1431?link-type=html",
+      "label": {
+        "en": "8 U.S.C. 1431 (INA 320): children who automatically become citizens",
+        "es": "8 U.S.C. 1431 (INA 320): hijos que se hacen ciudadanos automáticamente (en inglés)",
+        "fr": "8 U.S.C. 1431 (INA 320): children who automatically become citizens"
+      }
+    },
+    "us_n565": {
+      "url": "https://www.uscis.gov/n-565",
+      "label": {
+        "en": "USCIS: Form N-565, Application for Replacement Naturalization/Citizenship Document",
+        "es": "USCIS: Formulario N-565, reemplazo del certificado de naturalización o ciudadanía (en inglés)",
+        "fr": "USCIS: Form N-565, Application for Replacement Naturalization/Citizenship Document"
+      }
+    },
+    "us_n565_instr": {
+      "url": "https://www.uscis.gov/sites/default/files/document/forms/n-565instr.pdf",
+      "label": {
+        "en": "USCIS: Instructions for Form N-565 (edition 02/27/25, PDF)",
+        "es": "USCIS: instrucciones del Formulario N-565 (edición 02/27/25, PDF en inglés)",
+        "fr": "USCIS: Instructions for Form N-565 (edition 02/27/25, PDF)"
+      }
+    },
+    "us_n648": {
+      "url": "https://www.uscis.gov/n-648",
+      "label": {
+        "en": "USCIS: Form N-648, Medical Certification for Disability Exceptions",
+        "es": "USCIS: Formulario N-648, Certificación Médica para Excepciones por Discapacidad (en inglés)",
+        "fr": "USCIS: Form N-648, Medical Certification for Disability Exceptions"
+      }
+    },
+    "us_pm_e3": {
+      "url": "https://www.uscis.gov/policy-manual/volume-12-part-e-chapter-3",
+      "label": {
+        "en": "USCIS Policy Manual, vol. 12, part E, chapter 3: medical disability exception (Form N-648)",
+        "es": "Manual de Políticas de USCIS, vol. 12, parte E, cap. 3: excepción por discapacidad médica (en inglés)",
+        "fr": "USCIS Policy Manual, vol. 12, part E, chapter 3: medical disability exception (Form N-648)"
+      }
+    },
+    "us_pm_b3": {
+      "url": "https://www.uscis.gov/policy-manual/volume-12-part-b-chapter-3",
+      "label": {
+        "en": "USCIS Policy Manual, vol. 12, part B, chapter 3: the naturalization interview",
+        "es": "Manual de Políticas de USCIS, vol. 12, parte B, cap. 3: la entrevista de naturalización (en inglés)",
+        "fr": "USCIS Policy Manual, vol. 12, part B, chapter 3: the naturalization interview"
+      }
+    },
+    "us_n400_pdf": {
+      "url": "https://www.uscis.gov/sites/default/files/document/forms/n-400.pdf",
+      "label": {
+        "en": "USCIS: Form N-400, edition 01/20/25 (PDF): Part 9 questions",
+        "es": "USCIS: Formulario N-400, edición 01/20/25 (PDF en inglés): preguntas de la Parte 9",
+        "fr": "USCIS: Form N-400, edition 01/20/25 (PDF): Part 9 questions"
+      }
+    },
+    "us_n400_instr": {
+      "url": "https://www.uscis.gov/sites/default/files/document/forms/n-400instr.pdf",
+      "label": {
+        "en": "USCIS: Instructions for Form N-400, edition 01/20/25 (PDF)",
+        "es": "USCIS: instrucciones del Formulario N-400, edición 01/20/25 (PDF en inglés)",
+        "fr": "USCIS: Instructions for Form N-400, edition 01/20/25 (PDF)"
+      }
+    },
+    "us_married": {
+      "url": "https://www.uscis.gov/citizenship/learn-about-citizenship/citizenship-and-naturalization/i-am-married-to-a-us-citizen",
+      "label": {
+        "en": "USCIS: I am married to a U.S. citizen (INA 319)",
+        "es": "USCIS: estoy casado con un ciudadano estadounidense (INA 319, en inglés)",
+        "fr": "USCIS: I am married to a U.S. citizen (INA 319)"
+      }
+    },
+    "usc_1430": {
+      "url": "https://www.govinfo.gov/link/uscode/8/1430?link-type=html",
+      "label": {
+        "en": "8 U.S.C. 1430 (INA 319): naturalization of spouses of U.S. citizens",
+        "es": "8 U.S.C. 1430 (INA 319): naturalización de cónyuges de ciudadanos (en inglés)",
+        "fr": "8 U.S.C. 1430 (INA 319): naturalization of spouses of U.S. citizens"
+      }
+    },
+    "fam_dual": {
+      "url": "https://fam.state.gov/fam/07fam/07fam0080.html",
+      "label": {
+        "en": "U.S. Department of State, Foreign Affairs Manual 7 FAM 080: Dual nationality",
+        "es": "Departamento de Estado, Foreign Affairs Manual 7 FAM 080: doble nacionalidad (en inglés)",
+        "fr": "U.S. Department of State, Foreign Affairs Manual 7 FAM 080: Dual nationality"
+      }
+    },
+    "usc_1481": {
+      "url": "https://www.govinfo.gov/link/uscode/8/1481?link-type=html",
+      "label": {
+        "en": "8 U.S.C. 1481 (INA 349): loss of nationality",
+        "es": "8 U.S.C. 1481 (INA 349): pérdida de la nacionalidad (en inglés)",
+        "fr": "8 U.S.C. 1481 (INA 349): loss of nationality"
+      }
+    },
+    "usc_1185": {
+      "url": "https://www.govinfo.gov/link/uscode/8/1185?link-type=html",
+      "label": {
+        "en": "8 U.S.C. 1185(b) (INA 215(b)): citizens enter and leave on a U.S. passport",
+        "es": "8 U.S.C. 1185(b) (INA 215(b)): los ciudadanos entran y salen con pasaporte estadounidense (en inglés)",
+        "fr": "8 U.S.C. 1185(b) (INA 215(b)): citizens enter and leave on a U.S. passport"
+      }
+    },
+    "cfr22_22_1": {
+      "url": "https://www.ecfr.gov/current/title-22/chapter-I/subchapter-C/part-22/section-22.1",
+      "label": {
+        "en": "22 CFR 22.1: Schedule of Fees for Consular Services (item 8, loss of nationality)",
+        "es": "22 CFR 22.1: tarifas de servicios consulares (punto 8, pérdida de la nacionalidad, en inglés)",
+        "fr": "22 CFR 22.1: Schedule of Fees for Consular Services (item 8, loss of nationality)"
+      }
+    },
+    "cfr8_337": {
+      "url": "https://www.ecfr.gov/current/title-8/chapter-I/subchapter-C/part-337/section-337.1",
+      "label": {
+        "en": "8 CFR 337.1: text of the Oath of Allegiance",
+        "es": "8 CFR 337.1: texto del Juramento de Lealtad (en inglés)",
+        "fr": "8 CFR 337.1: text of the Oath of Allegiance"
+      }
+    },
+    "us_pm_g5": {
+      "url": "https://www.uscis.gov/policy-manual/volume-12-part-g-chapter-5",
+      "label": {
+        "en": "USCIS Policy Manual, vol. 12, part G, chapter 5: conditional residents and naturalization",
+        "es": "Manual de Políticas de USCIS, vol. 12, parte G, cap. 5: residentes condicionales y naturalización (en inglés)",
+        "fr": "USCIS Policy Manual, vol. 12, part G, chapter 5: conditional residents and naturalization"
+      }
+    },
+    "us_pm_g2": {
+      "url": "https://www.uscis.gov/policy-manual/volume-12-part-g-chapter-2",
+      "label": {
+        "en": "USCIS Policy Manual, vol. 12, part G, chapter 2: marriage and marital union",
+        "es": "Manual de Políticas de USCIS, vol. 12, parte G, cap. 2: matrimonio y unión matrimonial (en inglés)",
+        "fr": "USCIS Policy Manual, vol. 12, part G, chapter 2: marriage and marital union"
+      }
     }
   },
   "us": {
@@ -467,6 +635,36 @@
       },
       "exemptShare": 11.6,
       "reviewed": "2023-10-05"
+    },
+    "forms": {
+      "_note": "USCIS fee schedule G-1055, edition 10/16/26 (page reviewed 2026-10-16), read on 2026-10-26. N-648: Policy Manual 12 E.3 (current as of 2026-10-23). INA 320: Policy Manual 12 H.4 and N-600 instructions (01/20/25). Renunciation: 22 CFR 22.1 item 8 (eCFR, current 2026-10).",
+      "g1055Edition": "2026-10-16",
+      "retrieved_at": "2026-10-26",
+      "n600": {
+        "paper": 1385,
+        "online": 1335,
+        "military": 0,
+        "adopted": 0
+      },
+      "n565": {
+        "paper": 555,
+        "online": 505,
+        "uscisError": 0
+      },
+      "n648": {
+        "fee": 0,
+        "maxDaysBeforeFiling": 180,
+        "minMonths": 12
+      },
+      "n336": {
+        "paper": 830,
+        "online": 780
+      },
+      "cca": {
+        "effective": "2001-02-27",
+        "childAgeUnder": 18
+      },
+      "renunciationFee": 450
     }
   }
 }
