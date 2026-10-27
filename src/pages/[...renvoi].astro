@@ -9,21 +9,20 @@ export function getStaticPaths() {
   return RENVOIS.map((r) => ({ params: { renvoi: r.from.replace(/^\/|\/$/g, '') }, props: { r } }));
 }
 const { r } = Astro.props as { r: Renvoi };
-const fr = r.lang === 'fr';
 const host = new URL(r.to).host;
 ---
 <!doctype html>
-<html lang={fr ? 'fr-CA' : 'en'}>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{fr ? `Page déplacée sur ${host}` : `Page moved to ${host}`}</title>
+    <title>{`Page moved to ${host}`}</title>
     <link rel="canonical" href={r.to} />
     <meta http-equiv="refresh" content={`0; url=${r.to}`} />
     <meta name="robots" content="noindex, follow" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   </head>
   <body style="font-family:system-ui,sans-serif;max-width:40rem;margin:3rem auto;padding:0 1rem;line-height:1.5">
-    <p>{fr ? 'Cette page a été déplacée sur ' : 'This page has moved to '}<a href={r.to}>{r.to}</a></p>
+    <p>This page has moved to <a href={r.to}>{r.to}</a></p>
   </body>
 </html>

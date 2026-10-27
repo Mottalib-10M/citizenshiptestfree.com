@@ -156,6 +156,44 @@ const SPECS: Record<string, (lang: L) => MiniSpec> = {
       },
     };
   },
+  // English-only pages (2026-10-27): the two specs below have no Spanish page, their labels are English.
+  uscert: () => {
+    const N6 = P.us.forms.n600, N5 = P.us.forms.n565;
+    const how = [{ value: '1', label: 'I naturalized (N-400 and the oath)' }, { value: '2', label: 'As a child, through a citizen parent' }, { value: '3', label: 'At birth abroad, to a U.S. citizen parent' }, { value: '4', label: 'I was born in the United States' }];
+    return {
+      title: 'Which citizenship document do I have, and what does it cost?', cta: 'Replace a lost certificate with Form N-565', ctaPage: 'us-n565',
+      inputs: [{ id: 'h', label: 'How you became a U.S. citizen', def: 1, options: how }, { id: 'l', label: 'Is the certificate lost, stolen or damaged?', def: 0, options: yn('en') }],
+      run: (v) => {
+        const h = clamp(v.h ?? 1, 1, 4), lost = !!v.l;
+        if (h === 4) return { head: ['Your proof of citizenship', 'Birth certificate or U.S. passport'], rows: [['USCIS certificate', 'none: you never need one'], ['Form to file', 'none at USCIS']], note: 'A person born in the United States is a citizen from birth (14th Amendment) and proves it with a birth certificate or a passport, not with a USCIS certificate.' };
+        const nat = h === 1;
+        const doc = nat ? 'Certificate of Naturalization' : 'Certificate of Citizenship';
+        const get = nat ? 'given at the oath ceremony (N-400 fee)' : `Form N-600, ${money(N6.online, 'USD', 'en')} online`;
+        return { head: ['Your USCIS document', doc], rows: [['How you get it', get], ['If lost or damaged', `Form N-565, ${money(N5.online, 'USD', 'en')} online, ${money(N5.paper, 'USD', 'en')} on paper`], ['Your situation', lost ? 'file Form N-565 for a replacement' : 'keep the original safe'], ...(h === 3 ? [['Other proof', 'Consular Report of Birth Abroad, U.S. passport'] as [string, string]] : [])], note: nat ? 'Naturalized citizens never file an N-600: the certificate comes with the oath. A passport also proves citizenship.' : 'You were already a citizen: the N-600 only documents it. A valid U.S. passport is also proof of citizenship.' };
+      },
+    };
+  },
+  usgmc: () => {
+    const kinds = [
+      { value: '1', label: 'Conviction for murder' }, { value: '2', label: 'Aggravated felony conviction (since 29 Nov 1990)' },
+      { value: '3', label: 'Conviction for a crime involving moral turpitude' }, { value: '4', label: 'Drug offense (other than one small marijuana possession)' },
+      { value: '5', label: 'False testimony to get an immigration benefit' }, { value: '6', label: '180 days or more in jail after a conviction' },
+      { value: '7', label: 'Did not support my dependents' }, { value: '8', label: 'Traffic ticket or other minor offense' },
+    ];
+    return {
+      title: 'Is this event inside my good moral character period?', cta: 'Prepare the N-400 interview questions', ctaPage: 'us-interview',
+      inputs: [
+        { id: 'r', label: 'Route', def: 5, options: [{ value: '5', label: '5 years as a permanent resident' }, { value: '3', label: '3 years, married to a U.S. citizen' }] },
+        { id: 'k', label: 'What happened', def: 8, options: kinds },
+        { id: 'm', label: 'Months between the event and your filing date', def: 30, max: 600, unit: 'months' },
+      ],
+      run: (v) => {
+        const yrs = v.r === 3 ? 3 : 5, k = clamp(v.k ?? 8, 1, 8), m = clamp(v.m ?? 0, 0, 600), inside = m < yrs * 12;
+        const head = k <= 2 ? 'Permanent bar' : k === 8 ? 'Case by case' : inside ? (k === 7 ? 'Bar unless extenuating circumstances' : 'Bar during the period') : 'Outside the period';
+        return { head: ['Good moral character', head], rows: [['Statutory period', `${yrs} years before filing, up to the oath`], ['Your event', inside ? `inside (${m} of ${yrs * 12} months)` : `before it (${m} months)`], ['Rule (8 CFR 316.10)', k <= 2 ? '(b)(1): at any time' : k === 7 ? '(b)(3)' : k === 8 ? 'officer’s discretion' : '(b)(2)']], note: 'Not legal advice. Conduct before the period can still count if it shows no reform; an arrest without conviction must still be disclosed. Ask an immigration attorney or accredited representative.' };
+      },
+    };
+  },
 };
 export function getSpec(kind: string, lang: L): MiniSpec {
   const f = SPECS[kind];

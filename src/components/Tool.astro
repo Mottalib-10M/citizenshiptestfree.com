@@ -15,6 +15,14 @@ import UsFee from './calc/UsFee';
 import UsTimeline from './calc/UsTimeline';
 import UsFrise from './calc/UsFrise';
 import UsInterview from './calc/UsInterview';
+import UsDrill from './calc/UsDrill';
+import UsSenators from './calc/UsSenators';
+import UsChecklist from './calc/UsChecklist';
+import UsEarly from './calc/UsEarly';
+import UsWordOrder from './calc/UsWordOrder';
+import { DRILLS, rng } from '../data/us-drills';
+import { STATES, SENATORS_READ } from '../data/us-states';
+import { CHECKLISTS } from '../data/us-checklists';
 import US25 from '../data/questions/us-2025.json';
 import US08 from '../data/questions/us-2008.json';
 import { drawUs, practiceUs, type UsBankFile, type UsVersion } from '../lib/engine/us';
@@ -22,6 +30,8 @@ import { route, hasRoute, type Locale } from '../i18n/routes';
 import { getSpec } from '../lib/mini-specs';
 import { seedOf } from '../lib/engine/exam';
 import type { ToolDef } from '../lib/guide-types';
+import P from '../data/params-2026.json';
+import { dateL } from '../lib/format-l';
 interface Props { tool: ToolDef; lang: Locale; primary?: boolean; idPrefix?: string; seedKey?: string }
 const { tool, lang, primary = false, idPrefix, seedKey = 'home' } = Astro.props;
 const props = (tool.props ?? {}) as Record<string, any>;
@@ -38,6 +48,12 @@ const usTheme: number | null = props.theme != null && props.theme !== 'star' ? N
 const usInitial = kind === 'usquiz' ? (usMode === 'practice' ? practiceUs(usB.questions, usTheme, seed, 10) : drawUs(usB.questions, usV, usMode === '6520' ? '6520' : 'full', seed)) : [];
 const usBankTheme: number | 'star' = props.theme === 'star' ? 'star' : Number(props.theme ?? 0);
 const usBankInitial = kind === 'usbank' ? usB.questions.filter((q) => (usBankTheme === 'star' ? q.star : q.theme === usBankTheme)) : [];
+// Drills: first set drawn at build time from the page seed (RECETTE §17.5).
+const drill = kind === 'usdrill' ? DRILLS[String(props.drill)] : null;
+if (kind === 'usdrill' && !drill) throw new Error(`Unknown drill: ${props.drill}`);
+const drillInitial = drill ? (() => { const r = rng(seed), a = drill.items.map((_, i) => i); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(r() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a.slice(0, drill.size); })() : [];
+const checklist = kind === 'uschecklist' ? CHECKLISTS[String(props.list)] : null;
+if (kind === 'uschecklist' && !checklist) throw new Error(`Unknown checklist: ${props.list}`);
 const mini = kind.startsWith('mini:') ? kind.slice(5) : null;
 const spec = mini ? getSpec(mini, lang) : null;
 const href = spec?.ctaPage && hasRoute(spec.ctaPage, lang) ? route(spec.ctaPage, lang) : undefined;
@@ -53,4 +69,9 @@ for (const [k, v] of Object.entries(props)) if (typeof v === 'number') numDefaul
 {kind === 'usfrise' && <UsFrise client:visible lang={ul} variant={(props.variant ?? 'processing') as 'processing' | 'timeline' | 'steps' | 'oath'} id={idPrefix ?? 'frise'} />}
 {kind === 'ustime' && <UsTimeline client:load lang={ul} mode={(props.mode ?? 'processing') as 'processing' | 'timeline' | 'oath'} idPrefix={idPrefix ?? 't'} />}
 {kind === 'usinterview' && <UsInterview client:load lang={ul} idPrefix={idPrefix ?? 'i'} />}
+{drill && <UsDrill client:load items={drill.items} initial={drillInitial} size={drill.size} title={drill.title} note={drill.note} idPrefix={idPrefix ?? 'd'} />}
+{kind === 'ussenators' && <UsSenators client:load states={STATES} read={dateL(SENATORS_READ, ul)} houseUrl={P.sources.house_find.url} idPrefix={idPrefix ?? 'sen'} />}
+{checklist && <UsChecklist client:load list={checklist} idPrefix={idPrefix ?? 'c'} />}
+{kind === 'usearly' && <UsEarly client:load idPrefix={idPrefix ?? 'ef'} />}
+{kind === 'uswordorder' && <UsWordOrder client:load idPrefix={idPrefix ?? 'wo'} />}
 {mini && <MiniSim client:load kind={mini} lang={lang} href={href} defaults={numDefaults} primary={primary} idPrefix={idPrefix ?? (primary ? 'p' : 'm')} />}

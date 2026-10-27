@@ -426,6 +426,134 @@
         "es": "Manual de Políticas de USCIS, vol. 12, parte G, cap. 2: matrimonio y unión matrimonial (en inglés)",
         "fr": "USCIS Policy Manual, vol. 12, part G, chapter 2: marriage and marital union"
       }
+    },
+    "nara_bor": {
+      "url": "https://www.archives.gov/founding-docs/bill-of-rights-transcript",
+      "label": {
+        "en": "National Archives: The Bill of Rights, transcription",
+        "es": "National Archives: The Bill of Rights, transcription (en inglés)",
+        "fr": "National Archives: The Bill of Rights, transcription"
+      }
+    },
+    "nara_const": {
+      "url": "https://www.archives.gov/founding-docs/constitution-transcript",
+      "label": {
+        "en": "National Archives: The Constitution of the United States, transcription",
+        "es": "National Archives: The Constitution of the United States, transcription (en inglés)",
+        "fr": "National Archives: The Constitution of the United States, transcription"
+      }
+    },
+    "nara_27": {
+      "url": "https://www.archives.gov/founding-docs/amendments-11-27",
+      "label": {
+        "en": "National Archives: Constitutional Amendments 11 to 27",
+        "es": "National Archives: Constitutional Amendments 11 to 27 (en inglés)",
+        "fr": "National Archives: Constitutional Amendments 11 to 27"
+      }
+    },
+    "usagov_branches": {
+      "url": "https://www.usa.gov/branches-of-government",
+      "label": {
+        "en": "USAGov: Branches of the U.S. government",
+        "es": "USAGov: Branches of the U.S. government (en inglés)",
+        "fr": "USAGov: Branches of the U.S. government"
+      }
+    },
+    "usagov_states": {
+      "url": "https://www.usa.gov/state-governments",
+      "label": {
+        "en": "USAGov: State governments (official websites of the 50 states)",
+        "es": "USAGov: State governments (official websites of the 50 states) (en inglés)",
+        "fr": "USAGov: State governments (official websites of the 50 states)"
+      }
+    },
+    "senate_list": {
+      "url": "https://www.senate.gov/senators/index.htm",
+      "label": {
+        "en": "U.S. Senate: Senators of the 119th Congress",
+        "es": "U.S. Senate: Senators of the 119th Congress (en inglés)",
+        "fr": "U.S. Senate: Senators of the 119th Congress"
+      }
+    },
+    "congress_members": {
+      "url": "https://www.congress.gov/members",
+      "label": {
+        "en": "Congress.gov (Library of Congress): current members of Congress, read 2026-10-27",
+        "es": "Congress.gov (Library of Congress): current members of Congress, read 2026-10-27 (en inglés)",
+        "fr": "Congress.gov (Library of Congress): current members of Congress, read 2026-10-27"
+      }
+    },
+    "house_find": {
+      "url": "https://www.house.gov/representatives/find-your-representative",
+      "label": {
+        "en": "U.S. House of Representatives: Find your representative by ZIP code",
+        "es": "U.S. House of Representatives: Find your representative by ZIP code (en inglés)",
+        "fr": "U.S. House of Representatives: Find your representative by ZIP code"
+      }
+    },
+    "usagov_presidents": {
+      "url": "https://www.usa.gov/presidents",
+      "label": {
+        "en": "USAGov: Presidents, vice presidents and first ladies",
+        "es": "USAGov: Presidents, vice presidents and first ladies (en inglés)",
+        "fr": "USAGov: Presidents, vice presidents and first ladies"
+      }
+    },
+    "loc_presidents": {
+      "url": "https://guides.loc.gov/presidents-portraits/chronological",
+      "label": {
+        "en": "Library of Congress: Presidents, chronological list with terms",
+        "es": "Library of Congress: Presidents, chronological list with terms (en inglés)",
+        "fr": "Library of Congress: Presidents, chronological list with terms"
+      }
+    },
+    "us_biometrics": {
+      "url": "https://www.uscis.gov/forms/filing-guidance/preparing-for-your-biometric-services-appointment",
+      "label": {
+        "en": "USCIS: Preparing for your biometric services appointment",
+        "es": "USCIS: Preparing for your biometric services appointment (en inglés)",
+        "fr": "USCIS: Preparing for your biometric services appointment"
+      }
+    },
+    "us_pm_f1": {
+      "url": "https://www.uscis.gov/policy-manual/volume-12-part-f-chapter-1",
+      "label": {
+        "en": "USCIS Policy Manual, vol. 12, part F, chapter 1: good moral character",
+        "es": "USCIS Policy Manual, vol. 12, part F, chapter 1: good moral character (en inglés)",
+        "fr": "USCIS Policy Manual, vol. 12, part F, chapter 1: good moral character"
+      }
+    },
+    "cfr8_316_10": {
+      "url": "https://www.ecfr.gov/current/title-8/chapter-I/subchapter-C/part-316/section-316.10",
+      "label": {
+        "en": "8 CFR 316.10: good moral character (eCFR)",
+        "es": "8 CFR 316.10: good moral character (eCFR) (en inglés)",
+        "fr": "8 CFR 316.10: good moral character (eCFR)"
+      }
+    },
+    "us_i90": {
+      "url": "https://www.uscis.gov/i-90",
+      "label": {
+        "en": "USCIS: Form I-90, Application to Replace Permanent Resident Card",
+        "es": "USCIS: Form I-90, Application to Replace Permanent Resident Card (en inglés)",
+        "fr": "USCIS: Form I-90, Application to Replace Permanent Resident Card"
+      }
+    },
+    "us_replace_gc": {
+      "url": "https://www.uscis.gov/green-card/after-we-grant-your-green-card/replace-your-green-card",
+      "label": {
+        "en": "USCIS: Replace your green card",
+        "es": "USCIS: Replace your green card (en inglés)",
+        "fr": "USCIS: Replace your green card"
+      }
+    },
+    "us_pm_k1": {
+      "url": "https://www.uscis.gov/policy-manual/volume-12-part-k-chapter-1",
+      "label": {
+        "en": "USCIS Policy Manual, vol. 12, part K, chapter 1: certificates of citizenship and naturalization",
+        "es": "USCIS Policy Manual, vol. 12, part K, chapter 1: certificates of citizenship and naturalization (en inglés)",
+        "fr": "USCIS Policy Manual, vol. 12, part K, chapter 1: certificates of citizenship and naturalization"
+      }
     }
   },
   "us": {

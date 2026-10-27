@@ -18,6 +18,9 @@ sitemap): never link to them, and never link from an indexable page to the new s
     `usenglish` (`{ mode: 'reading'|'writing' }`), `usdate` (`{ route: '5'|'3' }`, N-400 date with trips), `usfee` (household fee tier),
     `usfrise` (`{ variant: 'processing'|'timeline'|'steps'|'oath' }`, the trame's Frise, RECETTE §17.6, durations from `P.us.processing`),
     `ustime` (`{ mode: 'processing'|'timeline'|'oath' }`: decision date with the field office time, dated steps, oath text by form).
+  - `usdrill` (`{ drill: 'bill'|'amendments'|'branches'|'capitals'|'presidents' }`, `src/data/us-drills.ts`), `ussenators`
+    (senators by state, `src/data/us-states.ts`, dated), `uschecklist` (`{ list: 'biometrics'|'n400'|'n445' }`,
+    `src/data/us-checklists.ts`), `usearly` (90-day early filing date), `uswordorder` (writing test sentences).
   - Inline SVG: `${h.us.svgVersions()}` draws which civics test applies by filing date (`src/lib/us-svg.ts`).
   - `{ kind: 'mini:<spec>' }`, specs in `src/lib/mini-specs.ts`: `uspass`, `usexempt`, `uspresence`, `usfee`.
 - `mini`: a second tool under the citable block (optional, same kinds).

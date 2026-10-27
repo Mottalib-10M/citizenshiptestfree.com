@@ -10,15 +10,18 @@
  *
  * Chemins anciens et cibles : brief reports/BRIEF-CTF-RENVOIS-2026-10-25.md ; cibles vérifiées
  * dans le dist des nouveaux sites le 2026-10-25. Toujours avec la barre finale.
+ *
+ * 2026-10-27 (décision de l'éditeur) : les 14 renvois de l'ancien arbre français (/fr/… et
+ * /embed/examen-citoyennete/) sont retirés pour libérer le plafond de 100 pages (RECETTE §3) au profit
+ * de 13 pages anglaises. Ces adresses répondent désormais 404, ce qui est accepté.
  */
-export interface Renvoi { from: string; to: string; lang: 'en' | 'fr' }
+export interface Renvoi { from: string; to: string; lang: 'en' }
 
 const UK = 'https://lifeinukexam.co.uk';
 const AU = 'https://australiacitizenshipquiz.com';
 const CA = 'https://canadiancitizenshipquiz.com';
 
 const en = (from: string, base: string, to: string): Renvoi => ({ from, to: `${base}${to}`, lang: 'en' });
-const fr = (from: string, to = from): Renvoi => ({ from, to: `${CA}${to}`, lang: 'fr' });
 
 export const RENVOIS: Renvoi[] = [
   // Royaume-Uni → lifeinukexam.co.uk
@@ -50,21 +53,6 @@ export const RENVOIS: Renvoi[] = [
   en('/en/canadian-citizenship/fee/', CA, '/en/canadian-citizenship/fees/'),
   en('/en/canadian-citizenship/physical-presence-calculator/', CA, '/en/canadian-citizenship/days-calculator/'),
   en('/en/discover-canada/', CA, '/en/discover-canada-study-guide/'),
-  // Canada, français : tout l'ancien arbre /fr/
-  fr('/fr/'),
-  fr('/fr/calculateur-presence-physique/', '/fr/citoyennete-canadienne/calcul-des-jours/'),
-  fr('/fr/decouvrir-le-canada/', '/fr/guide-decouvrir-le-canada/'),
-  fr('/fr/examen-citoyennete-pratique/', '/fr/examen-citoyennete/entrainement/'),
-  fr('/fr/questions-examen-citoyennete/', '/fr/examen-citoyennete/questions-reponses/'),
-  fr('/fr/a-propos/'),
-  fr('/fr/confidentialite/'),
-  fr('/fr/contact/'),
-  fr('/fr/cookies/'),
-  fr('/fr/mentions-legales/'),
-  fr('/fr/methode/'),
-  fr('/fr/politique-editoriale/'),
-  fr('/fr/widget/'),
-  fr('/embed/examen-citoyennete/'),
 ];
 
 export const RENVOI_PATHS = RENVOIS.map((r) => r.from);

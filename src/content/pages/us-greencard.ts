@@ -7,7 +7,7 @@ export default definePage({
   tool: { kind: 'mini:usroute' },
   mini: { kind: 'mini:usfee' },
   related: ['us-n400', 'us-marriage', 'us-eligibility', 'us-timeline', 'us-fee', 'us-interview'],
-  sources: ['us_lpr5', 'us_married', 'us_n400', 'us_pm_d3', 'us_pm_d4', 'us_pm_g5'],
+  sources: ['us_lpr5', 'us_married', 'us_n400', 'us_pm_d3', 'us_pm_d4', 'us_pm_g5', 'us_i90', 'us_replace_gc'],
   en: {
     slug: 'green-card-to-citizenship',
     nav: 'Green card to citizenship',
@@ -20,6 +20,7 @@ export default definePage({
     faqs: (h) => [
       { q: 'Do I have to become a citizen if I have a green card?', a: 'No. Permanent residence has no end date that forces naturalization; the card itself is renewed every ten years with Form I-90. Citizenship adds the right to vote, a U.S. passport and protection from removal, and it allows you to petition for more relatives. Many residents wait years before filing, and some never do.' },
       { q: 'Does time on a conditional green card count?', a: 'Yes. The two years on a conditional card count as time as a permanent resident toward the five or three years. You must still have the conditions removed, with Form I-751 or I-829, before USCIS can approve the N-400. If the petition is still pending when you file, USCIS decides it before or together with the N-400, never after.' },
+      { q: 'Can I apply for citizenship with an expired green card?', a: 'You can file Form N-400: it asks for your A-Number and the date you became a permanent resident, both printed on the card whether it has expired or not. But USCIS also states that you must carry a valid, unexpired card at all times and that applying for naturalization does not change this. So renew a ten-year card with Form I-90 if it is expired or expires within six months.' },
       { q: 'Can my children become citizens when I naturalize?', a: `Children under ${h.P.us.forms.cca.childAgeUnder} who are permanent residents and live in the United States in your legal and physical custody become citizens automatically on the day you take the oath, under INA 320. They do not file an N-400. To get proof, you can request a Certificate of Citizenship with Form N-600 or apply for a U.S. passport for them.` },
     ],
     body: (h) => `
@@ -44,6 +45,11 @@ ${h.table(['', '5-year route (INA 316)', '3-year route (INA 319(a))'], [['Who', 
 <p>The ${h.a('us-timeline', 'naturalization timeline')} places these steps on a calendar from your green card date.</p>
 <h2>What stops a permanent resident from naturalizing</h2>
 <p>The dates are the easy part. The N-400 asks about voting, claims to citizenship, taxes, arrests and trips, and some answers can lead to a denial or, in serious cases, to removal proceedings. USCIS also checks that you did not obtain the green card itself by mistake or fraud. If anything in your past worries you, see an immigration attorney or a representative of an accredited organization before filing: the fee is not refunded if the application is denied.</p>
+<h2>Can I apply with an expired green card?</h2>
+<p>Yes for the filing itself, with one obligation on the side. The N-400 asks for your A-Number and the date you became a permanent resident, read from the card; the card’s own expiration date is not part of the eligibility conditions. The ${h.src('us_i90', 'USCIS Form I-90 page')} is just as clear on the other point: a permanent resident must have a valid, unexpired green card with them at all times, and applying for naturalization does not change that requirement. Under the ${h.src('us_replace_gc', 'USCIS replacement rules')}, you must renew a ten-year card that has expired or will expire within six months.</p>
+${h.table(['Your card', 'File the N-400?', 'What else to do'], [['Ten-year card, valid', 'yes, when the dates allow', 'nothing'], ['Ten-year card, expired or expiring within 6 months', 'yes', 'file Form I-90 to renew it'], ['Two-year conditional card, expired', 'only with conditions being removed', 'Form I-751 (marriage) or I-829 (investor) is due in the 90 days before expiry; in most cases USCIS must approve it before the N-400'], ['Card lost or stolen', 'yes', 'file Form I-90 to replace it']], 'USCIS: Form I-90 page, Replace your green card, and N-400 instructions (01/20/25), Conditional Permanent Residents.', ['l', 'l', 'l'])}
+<p>The conditional card is the real trap. A two-year card does not get renewed with an I-90: its conditions are removed with Form I-751 or I-829, and the N-400 instructions say that in most cases USCIS must approve that petition before it can approve the naturalization. The time spent on the conditional card still counts toward the five or three years.</p>
+<p>At the oath ceremony you hand back the card, expired or not. From then on, your Certificate of Naturalization or a U.S. passport is your proof of status.</p>
 <h2>How to count the months</h2>
 <p>The tool above works in months, which is enough to plan. For the exact first day, with each trip abroad and the presence days counted one by one, use the ${h.a('us-n400', 'N-400 date tool')}: it applies the same ${h.P.us.n400.earlyFilingDays}-day rule to your real dates and flags trips over six months.</p>`,
   },
